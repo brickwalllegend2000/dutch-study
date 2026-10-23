@@ -1,11 +1,12 @@
 ---
 id: GRAM-ecfb6ff4a2b7
 source_ids: ["401f89e5e0fc8154a044ecfb6ff4a2b7"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Joining sentences: want, en, maar and of
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc8154a044ecfb6ff4a2b7.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -27,6 +28,14 @@ Wij gaan verhuizen, **want** ons appartement **is** te klein.
 - Wij gaan verhuizen. Ons appartement is te klein. → Wij gaan verhuizen, want ons appartement is te klein.
 - We hebben een ruimere woonkamer en we hebben nu 3 slaapkamers.
 - Wij wonen ver van het werk, maar we hebben een auto.
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: *want*, *en*, *maar* and *of* are coordinating, so both clauses keep normal main-clause order (verb second). Correct.
+- Examples: all sentences come from the course archive (chapter 4). The rule text is in Dutch, as in the archive.
+- Limit: *want* gives a reason and keeps main-clause order, unlike *omdat* (see [Because: omdat](because-omdat-and-subordinate-clauses.md)). Subject ellipsis after *en* or *maar* is not covered.
 
 ## Sources and chapter links
 

@@ -1,11 +1,12 @@
 ---
 id: GRAM-f615a447293f
 source_ids: ["401f89e5e0fc81bbb2f1f615a447293f"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Modal verbs: can, must, may and want
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc81bbb2f1f615a447293f.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -49,6 +50,14 @@ review_status: needs-review
 | (niet) mogen | toelating | Het licht is groen, je mag oversteken. |
 | (niet) mogen | verbod | Je mag hier niet parkeren. |
 | willen | wens | Maria wil naar het buurtfeest gaan. |
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: modal plus infinitive at the end, and the present-tense forms in the table. The alternative forms *kan/kunt* and *wil/wilt* after *jij*, *je* and *u* are both in use. Correct.
+- Examples: every example sentence is from the course archive (chapter 3). The meaning labels (*vaardigheid*, *mogelijkheid*, *noodzaak*, *verplichting*, *toelating*, *verbod*) are the course's.
+- Limit: only the present tense is covered. With a modal, *niet* normally comes before the infinitive or its complement; see [Negation](negation-geen-and-niet.md). Regional note: in Flanders *je kan* and *je wil* are common in speech; *kunt* and *wilt* remain standard.
 
 ## Sources and chapter links
 

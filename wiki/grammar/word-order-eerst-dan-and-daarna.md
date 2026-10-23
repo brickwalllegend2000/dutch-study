@@ -1,11 +1,12 @@
 ---
 id: GRAM-ed0f2909da1c
 source_ids: ["401f89e5e0fc81c68ac9ed0f2909da1c"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Word order: eerst, dan and daarna
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc81c68ac9ed0f2909da1c.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -46,6 +47,14 @@ Answers
 1. **Daarna hebben we gewinkeld.**
 2. **Dan hebben we mosselen gegeten.**
 3. **Eerst zijn we naar het museum geweest.**
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: a main clause keeps the conjugated verb in second position, so after *Eerst*, *Dan* or *Daarna* the verb comes before the subject, and the participle stays at the end. Correct.
+- Examples: the three example sentences are from the archived exercise tips (chapter 2). The exercise and answers are added study aids.
+- Limit: *dan* also means *than* in comparisons; here it means *then*.
 
 ## Sources and chapter links
 

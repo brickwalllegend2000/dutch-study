@@ -1,11 +1,12 @@
 ---
 id: GRAM-e0f86f574a0b
 source_ids: ["401f89e5e0fc819ea03de0f86f574a0b"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Because: omdat and subordinate clauses
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc819ea03de0f86f574a0b.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -59,6 +60,14 @@ Answers
 
 1. **Ik kan niet naar de les komen, omdat ik hoofdpijn heb.**
 2. **Ik kan morgen niet komen, omdat ik moet werken.**
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: in an *omdat* clause the conjugated verb goes to the end, and a verb group (*moet werken*) stays together at the end. Both match standard Dutch.
+- Examples: every Dutch sentence is in the course archive (chapter 6). The English explanations, the *want*/*omdat* comparison and the two exercises are added study aids, as the note says.
+- Limit: only present-tense clauses are covered. Clauses with a perfect (*omdat ik hoofdpijn heb gehad*) are not in the course material, so they are not claimed here.
 
 ## Sources and chapter links
 
