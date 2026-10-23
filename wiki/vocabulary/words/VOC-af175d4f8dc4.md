@@ -2,7 +2,7 @@
 id: VOC-af175d4f8dc4
 title: "factuur"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # factuur
 

@@ -2,7 +2,7 @@
 id: VOC-051eddfc024b
 title: "drinken"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # drinken
 

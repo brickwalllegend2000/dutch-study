@@ -2,7 +2,7 @@
 id: VOC-dc2015ab66f9
 title: "appartement"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # appartement
 

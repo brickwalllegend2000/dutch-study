@@ -2,7 +2,7 @@
 id: VOC-fc9ae02338fc
 title: "klein – groot"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # klein – groot
 
@@ -15,6 +15,10 @@ small – big
 ## Chapters
 
 4;8
+
+## Notes
+
+Related entries VOC-40a2f583eaf6: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

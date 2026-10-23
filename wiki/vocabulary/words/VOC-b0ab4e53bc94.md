@@ -2,7 +2,7 @@
 id: VOC-b0ab4e53bc94
 title: "staan"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # staan
 
@@ -42,7 +42,7 @@ Irregular verbs;Positieverba (Staan / Zitten / Liggen / Hangen)
 
 ## Notes
 
-Voor verticale / op pootjes geplaatste voorwerpen; Oral evidence also has a “suits (of clothing/colour)” sense (Die kleur staat je heel goed!); keep distinct from physical standing — do not merge senses without a sense split.
+Voor verticale / op pootjes geplaatste voorwerpen; Oral evidence also has a “suits (of clothing/colour)” sense (Die kleur staat je heel goed!)
 
 ## Sources
 

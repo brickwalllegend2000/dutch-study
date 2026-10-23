@@ -2,7 +2,7 @@
 id: VOC-ce81fd23a635
 title: "reservering"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # reservering
 

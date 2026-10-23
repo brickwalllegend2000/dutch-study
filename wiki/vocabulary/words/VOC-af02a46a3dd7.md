@@ -2,11 +2,15 @@
 id: VOC-af02a46a3dd7
 title: "uitlenen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # uitlenen
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+to lend out
 
 ## Word Type
 
@@ -30,7 +34,7 @@ Verba (Gebruik & Kringwinkel)
 
 ## Notes
 
-Aan iemand meegeven (uit | lenen)
+Aan iemand meegeven (uit | lenen); English meaning taken from the course entry VOC-170735875f00 for the same expression; no new translation; Related entries VOC-170735875f00: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

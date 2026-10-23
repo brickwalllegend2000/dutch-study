@@ -2,11 +2,15 @@
 id: VOC-78da2da177e8
 title: "eruitzien"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # eruitzien
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+to look (like)
 
 ## Word Type
 
@@ -38,7 +42,7 @@ Irregular verbs;Verba rond Wonen
 
 ## Notes
 
-eruit | zien
+eruit | zien; English meaning taken from the course entry VOC-127f06b46988 for the same expression; no new translation; Related entries VOC-127f06b46988: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

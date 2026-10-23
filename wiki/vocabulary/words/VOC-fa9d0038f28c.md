@@ -2,7 +2,7 @@
 id: VOC-fa9d0038f28c
 title: "stoppen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # stoppen
 

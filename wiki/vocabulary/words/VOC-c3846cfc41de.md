@@ -2,7 +2,7 @@
 id: VOC-c3846cfc41de
 title: "kort – lang"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # kort – lang
 
@@ -15,6 +15,10 @@ short – long
 ## Chapters
 
 1;8
+
+## Notes
+
+Related entries VOC-ecfd81252556: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

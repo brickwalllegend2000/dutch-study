@@ -2,7 +2,7 @@
 id: VOC-7cab4f8b9828
 title: "ophalen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # ophalen
 

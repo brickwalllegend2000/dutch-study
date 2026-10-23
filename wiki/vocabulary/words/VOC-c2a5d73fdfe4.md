@@ -2,7 +2,7 @@
 id: VOC-c2a5d73fdfe4
 title: "muts"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # muts
 
@@ -38,7 +38,7 @@ Kleding (Accessoires)
 
 ## Notes
 
-Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+Example appended from oral occurrence
 
 ## Sources
 

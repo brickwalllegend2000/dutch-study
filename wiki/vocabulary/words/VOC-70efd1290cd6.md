@@ -2,7 +2,7 @@
 id: VOC-70efd1290cd6
 title: "lichtblauw lichtgroen lichtpaars"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # lichtblauw lichtgroen lichtpaars
 
@@ -19,6 +19,10 @@ licht- + kleur
 ## Chapters
 
 1
+
+## Notes
+
+Combined list; the single words are separate entries: VOC-cfeb320bf0b7, VOC-9c2bf7ea1d86, VOC-8a4b2d4e85be
 
 ## Sources
 

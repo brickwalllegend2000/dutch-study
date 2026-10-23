@@ -2,7 +2,7 @@
 id: VOC-1dafe2d752f2
 title: "effen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # effen
 
@@ -10,7 +10,7 @@ review_status: needs-review
 
 ## English
 
-plain / solid color
+plain
 
 ## Word Type
 
@@ -34,7 +34,7 @@ Patronen
 
 ## Notes
 
-effen patroon; English filled from oral occurrence; label as added translation pending textbook-image check.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+effen patroon; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation; English filled from oral occurrence; Example appended from oral occurrence
 
 ## Sources
 

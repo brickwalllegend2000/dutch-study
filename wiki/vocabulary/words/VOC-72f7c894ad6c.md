@@ -2,7 +2,7 @@
 id: VOC-72f7c894ad6c
 title: "plastic"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # plastic
 
@@ -34,7 +34,7 @@ Materialen
 
 ## Notes
 
-Materiaaltype (Kunststof); Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+Materiaaltype (Kunststof); Example appended from oral occurrence
 
 ## Sources
 

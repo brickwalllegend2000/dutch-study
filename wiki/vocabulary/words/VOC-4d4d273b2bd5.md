@@ -2,7 +2,7 @@
 id: VOC-4d4d273b2bd5
 title: "gestreept"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # gestreept
 
@@ -34,7 +34,7 @@ Patronen
 
 ## Notes
 
-met strepen; English filled from oral occurrence; label as added translation pending textbook-image check.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+met strepen; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation; English filled from oral occurrence; Example appended from oral occurrence
 
 ## Sources
 

@@ -2,11 +2,15 @@
 id: VOC-021faf959c3a
 title: "nieuw ↔ oud"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # nieuw ↔ oud
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+new – old
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Adjectieven (Staat & Kwaliteit);Adjectieven (Woning & Omgeving);Tegengestelde Ad
 
 ## Notes
 
-Nieuwheid / Leeftijd ⟐ Tegengestelden (Ouderdom)
+Nieuwheid / Leeftijd ⟐ Tegengestelden (Ouderdom); English meaning taken from the course entry VOC-6164ff0b90f1 for the same expression; no new translation; Related entries VOC-6164ff0b90f1: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

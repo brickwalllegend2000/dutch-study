@@ -2,7 +2,7 @@
 id: VOC-2e69f7b3bf7b
 title: "sporttas"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # sporttas
 

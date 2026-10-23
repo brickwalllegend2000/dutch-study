@@ -2,11 +2,15 @@
 id: VOC-267b9ca47ade
 title: "Waarom schrijf je?"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # Waarom schrijf je?
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+Why are you writing?
 
 ## Word Type
 
@@ -30,7 +34,7 @@ Schrijfvaardigheid & Communicatie
 
 ## Notes
 
-Stappenplan schrijven
+Stappenplan schrijven; English wording taken from the course writing-steps snapshot (Stappenplan schrijven)
 
 ## Sources
 

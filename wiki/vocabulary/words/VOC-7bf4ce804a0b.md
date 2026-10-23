@@ -2,7 +2,7 @@
 id: VOC-7bf4ce804a0b
 title: "spelen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # spelen
 

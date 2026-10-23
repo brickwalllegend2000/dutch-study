@@ -2,11 +2,15 @@
 id: VOC-cfeb320bf0b7
 title: "lichtblauw"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # lichtblauw
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+light blue
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Kleuren
 
 ## Notes
 
-Basis- & nuancekleur
+Basis- & nuancekleur; English meaning taken from the course entry VOC-70efd1290cd6 for the same expression; no new translation
 
 ## Sources
 

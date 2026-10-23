@@ -2,7 +2,7 @@
 id: VOC-c62d45fa684b
 title: "gaan"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # gaan
 

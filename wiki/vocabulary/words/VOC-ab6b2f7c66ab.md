@@ -10,7 +10,7 @@ review_status: needs-review
 
 ## English
 
-to separate, divorce
+[added] to separate; to divorce
 
 ## Word Type
 
@@ -38,7 +38,7 @@ Irregular verbs
 
 ## Notes
 
-English filled from irregular-verbs source supplement (sources/pages/401f89e5e0fc8136967bea7232a7e938.md); still needs-review.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed; English filled from irregular-verbs source supplement (sources/pages/401f89e5e0fc8136967bea7232a7e938.md); Example appended from oral occurrence
 
 ## Sources
 

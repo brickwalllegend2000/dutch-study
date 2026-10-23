@@ -2,7 +2,7 @@
 id: VOC-3fac02c5de24
 title: "herinneren"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # herinneren
 

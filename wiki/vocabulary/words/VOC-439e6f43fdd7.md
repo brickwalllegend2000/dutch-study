@@ -2,7 +2,7 @@
 id: VOC-439e6f43fdd7
 title: "begrijpen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # begrijpen
 

@@ -8,6 +8,10 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+[added] to want (to)
+
 ## Word Type
 
 Verbum (Modaliteit: wens/wil)
@@ -30,7 +34,7 @@ Modale Hulpverba
 
 ## Notes
 
-Hulpverbum + infinitief
+Hulpverbum + infinitief; English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed
 
 ## Sources
 

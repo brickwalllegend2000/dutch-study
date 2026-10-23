@@ -2,7 +2,7 @@
 id: VOC-2ac849eb33c0
 title: "telefoneren"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # telefoneren
 

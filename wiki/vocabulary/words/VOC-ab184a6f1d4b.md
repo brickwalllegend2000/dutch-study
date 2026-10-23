@@ -2,7 +2,7 @@
 id: VOC-ab184a6f1d4b
 title: "stoel"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # stoel
 

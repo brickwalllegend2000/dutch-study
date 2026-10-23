@@ -2,7 +2,7 @@
 id: VOC-f947a1585dda
 title: "weggooien (separabel)"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # weggooien (separabel)
 
@@ -19,6 +19,10 @@ ik gooi weg
 ## Chapters
 
 5
+
+## Notes
+
+Related entries VOC-70ab904a36fa: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

@@ -2,7 +2,7 @@
 id: VOC-8fac290b1d90
 title: "stoffen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # stoffen
 
@@ -34,7 +34,7 @@ Materialen
 
 ## Notes
 
-Materiaaltype (Textiel); Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+Materiaaltype (Textiel); Example appended from oral occurrence
 
 ## Sources
 

@@ -2,7 +2,7 @@
 id: VOC-cc9fe95f1e37
 title: "wandelen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # wandelen
 

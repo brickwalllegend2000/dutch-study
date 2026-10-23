@@ -2,7 +2,7 @@
 id: VOC-75e6d0fc3c87
 title: "wollen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # wollen
 

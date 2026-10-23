@@ -2,7 +2,7 @@
 id: VOC-a58bfdca2d66
 title: "laag – hoog"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # laag – hoog
 
@@ -15,6 +15,10 @@ low – high
 ## Chapters
 
 8
+
+## Notes
+
+Related entries VOC-eb399efd9030: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

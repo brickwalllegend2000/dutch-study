@@ -2,11 +2,15 @@
 id: VOC-5a31c39eb69e
 title: "gebloemd"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # gebloemd
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+flowery
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Patronen
 
 ## Notes
 
-met bloemen
+met bloemen; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation
 
 ## Sources
 

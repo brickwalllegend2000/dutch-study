@@ -2,11 +2,15 @@
 id: VOC-df5d3b9b589e
 title: "weggeven"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # weggeven
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+to give away
 
 ## Word Type
 
@@ -38,7 +42,7 @@ Irregular verbs;Verba (Gebruik & Kringwinkel)
 
 ## Notes
 
-weg | geven
+weg | geven; English meaning taken from the course entry VOC-8959c5080879 for the same expression; no new translation; Related entries VOC-8959c5080879: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

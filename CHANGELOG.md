@@ -2,6 +2,12 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Vocabulary review onto post-remediation main (`task/2-vocabulary-review`, PR #17)
+
+- Merged #17 after #18/#19: filled previously blank English meanings, resolved auxiliary variants, marked checked records reviewed (AI review notes; not teacher-certified).
+- Preserved PR #18 oral-enrichment provenance notes and example/forms appends on overlapping rows.
+- Regenerated vocabulary views. 19 rows remain needs-review where English is labeled `[added]`.
+
 ## 2026-10-23 — Review remediation: trust, public safety, study route (`cursor/review-trust-and-workflow-2c41`)
 
 - Confirmed repository visibility is **public**; corrected docs that called it private.

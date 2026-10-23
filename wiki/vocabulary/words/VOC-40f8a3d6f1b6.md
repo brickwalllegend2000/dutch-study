@@ -2,7 +2,7 @@
 id: VOC-40f8a3d6f1b6
 title: "Moet ik de leerkracht een e-mail sturen?"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # Moet ik de leerkracht een e-mail sturen?
 

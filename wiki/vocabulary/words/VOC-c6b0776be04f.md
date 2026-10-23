@@ -2,7 +2,7 @@
 id: VOC-c6b0776be04f
 title: "huurprijs"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # huurprijs
 

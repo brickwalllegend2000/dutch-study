@@ -2,7 +2,7 @@
 id: VOC-6cbca4eb7c11
 title: "handtekening"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # handtekening
 

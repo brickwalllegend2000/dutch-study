@@ -2,7 +2,7 @@
 id: VOC-4a9b776b3dd5
 title: "dragen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # dragen
 
@@ -42,7 +42,7 @@ Grammatica & Verba;Irregular verbs;Perfectum study list
 
 ## Notes
 
-Auxiliary is source-specific; see the source notes for active/passive and movement distinctions. ⟐ presens: draag, draagt, dragen
+Auxiliary is source-specific; see the source notes for active/passive and movement distinctions. ⟐ presens: draag, draagt, dragen; Two senses: to wear (clothing, chapter 1 and vocabulary table) and to carry (perfectum example Ik heb de dozen naar binnen gedragen). A split would need the perfectum occurrence OCC-9dc9a13b71ef2cfa in both records, so it is proposed but not made
 
 ## Sources
 

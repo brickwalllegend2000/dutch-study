@@ -2,7 +2,7 @@
 id: VOC-ac4b2ffa27e6
 title: "een ingerichte keuken"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # een ingerichte keuken
 
@@ -15,6 +15,10 @@ a fitted kitchen ⟐ a furnished kitchen
 ## Chapters
 
 4
+
+## Notes
+
+Related entries VOC-6f69ec671e02: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

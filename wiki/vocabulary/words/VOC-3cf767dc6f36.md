@@ -2,7 +2,7 @@
 id: VOC-3cf767dc6f36
 title: "eerst … → daarna / dan … → dan / daarna …"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # eerst … → daarna / dan … → dan / daarna …
 
@@ -15,6 +15,10 @@ first … → then / afterwards … → then / afterwards …
 ## Chapters
 
 2
+
+## Notes
+
+Related entries VOC-ef4691b2f664: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

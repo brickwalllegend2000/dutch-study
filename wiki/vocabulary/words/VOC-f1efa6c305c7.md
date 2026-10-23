@@ -2,7 +2,7 @@
 id: VOC-f1efa6c305c7
 title: "zetten"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # zetten
 
@@ -38,7 +38,7 @@ Perfectum study list
 
 ## Notes
 
-Auxiliary is source-specific; see the source notes for active/passive and movement distinctions.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
+Auxiliary is source-specific; see the source notes for active/passive and movement distinctions.; Example appended from oral occurrence
 
 ## Sources
 

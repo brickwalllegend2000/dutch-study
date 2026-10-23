@@ -2,11 +2,15 @@
 id: VOC-eb399efd9030
 title: "laag ↔ hoog"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # laag ↔ hoog
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+low – high
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Tegengestelde Adjectieven (Antoniemen)
 
 ## Notes
 
-Hoogte
+Hoogte; English meaning taken from the course entry VOC-a58bfdca2d66 for the same expression; no new translation; Related entries VOC-a58bfdca2d66, VOC-2c9187229174: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

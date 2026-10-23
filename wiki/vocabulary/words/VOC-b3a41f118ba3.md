@@ -2,7 +2,7 @@
 id: VOC-b3a41f118ba3
 title: "wonen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # wonen
 

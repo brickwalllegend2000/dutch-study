@@ -2,7 +2,7 @@
 id: VOC-4daa77b60f08
 title: "rechthoekig"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # rechthoekig
 

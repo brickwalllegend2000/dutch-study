@@ -2,7 +2,7 @@
 id: VOC-45d6e1ec8e0a
 title: "op een scherm typen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # op een scherm typen
 
