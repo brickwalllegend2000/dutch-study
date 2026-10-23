@@ -1,0 +1,50 @@
+---
+id: VOC-26d2c3ee0bba
+title: "liedje"
+generated: true
+review_status: needs-review
+---
+# liedje
+
+> Generated reading view. Edit the matching row in [vocabulary.csv](../../vocabulary.csv).
+
+## English
+
+song
+
+## Article
+
+het
+
+## Word Type
+
+Substantief
+
+## Forms
+
+de liedjes
+
+## Examples
+
+« De kinderen zingen liedjes in de klas. »
+
+## Chapters
+
+7
+
+## Categories
+
+Substantieven (Context)
+
+## Notes
+
+Muziek
+
+## Sources
+
+- [401f89e5e0fc813ba013ca7c14321902](../../sources/pages/401f89e5e0fc813ba013ca7c14321902.md)
+- [401f89e5e0fc81ecaa69c24bbe4cfc39](../../sources/pages/401f89e5e0fc81ecaa69c24bbe4cfc39.md)
+
+Original source occurrences: [provenance ledger](../../sources/vocabulary-occurrences.json).
+
+[All vocabulary](../VOCABULARY.md) · [Home](../../README.md)

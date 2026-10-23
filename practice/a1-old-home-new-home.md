@@ -1,0 +1,44 @@
+---
+id: PRACTICE-e27e38feccad
+source_ids: ["401f89e5e0fc812aa932e27e38feccad"]
+review_status: needs-review
+---
+# 💬 A1 Old home, new home
+
+> Imported course material; linguistic review pending.
+
+[Source snapshot](../sources/pages/401f89e5e0fc812aa932e27e38feccad.md) · [Home](../README.md)
+
+**Goal:** Compare your old and new home in a message to a friend.
+**Time:** 15 minutes · **Output:** at least six sentences
+
+## 1. Your task
+
+Je bent verhuisd! Schrijf een whatsappbericht naar een vriend of vriendin. Vergelijk je oude en je nieuwe woning. Schrijf minimum zes zinnen.
+
+### Words to use
+
+| Nederlands | English |
+| --- | --- |
+| ruim – klein | spacious – small |
+| licht – donker | light – dark |
+| rustig – druk | quiet – busy |
+| goedkoop – duur | cheap – expensive |
+| de huurprijs | the rent |
+| de verdieping | the floor |
+| de buurt | the neighbourhood |
+| dicht bij / niet ver van | close to / not far from |
+| de berging, het balkon | storage room, balcony |
+
+### Grammar checklist
+
+- [ ] At least one *Er is* or *Er zijn* sentence
+- [ ] At least one sentence with *geen* or *niet*
+- [ ] One comparison with *even … als*
+- [ ] One comparison with *-er … dan*
+- [ ] *want* once and *maar* once
+- [ ] Adjective endings checked
+
+## 2. Plan
+
+Use the [before you write. - [ ] Who are you writing to? A friend, so use informal jij/je. - [ ] What kind of text? A WhatsApp message. - [ ] Why are you writing? To tell a story and describe your new home. - [ ] Start with a greeting and end with a closing. ## 3. Write Write your message in the box below. Then check it in step 4. Dag \_\_\_\_, … Groetjes, ## 4. Check your draft - [ ] Every sentence starts with a capital letter. - [ ] Every sentence ends with a full stop, question mark or exclamation mark. - [ ] Every sentence has a subject and a verb. - [ ] The verb forms are correct. - [ ] Adjective endings are correct (de-words and het-words). - [ ] You checked the spelling of difficult words. ## 5. Compare with a model Model message (open after you have written yours) Dag Sam! Ik heb een nieuw appartement gevonden, want mijn oude appartement is te klein. Het nieuwe appartement is ruimer dan het oude. Er zijn twee slaapkamers en er is een balkon. Er is geen lift, maar ik woon op de tweede verdieping. Het nieuwe appartement is even duur als het oude. Het ligt dicht bij het station. Groetjes, Mia --- Back to Project A: We've moved](../grammar/writing-checklist.md)

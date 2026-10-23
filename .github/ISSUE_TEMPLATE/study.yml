@@ -1,0 +1,19 @@
+name: Study task
+description: Plan a focused practice session or review.
+title: "Study: "
+labels: ["type:study", "status:backlog"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Learning goal
+      description: Chapter, vocabulary IDs or grammar topic, and what you want to practise.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: Describe an observable outcome, such as a checked 100-word email.
+    validations:
+      required: true

@@ -1,0 +1,28 @@
+name: Import material
+description: Add course material while retaining its sources.
+title: "Import: "
+labels: ["type:import", "status:backlog"]
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: Source files and location
+      description: Repository path or accessible source URL, chapter, and page or sheet numbers.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome and coverage
+      description: What needs transcribing or updating? List anything excluded or uncertain.
+    validations:
+      required: true
+  - type: checkboxes
+    id: completion
+    attributes:
+      label: Completion checks
+      options:
+        - label: Preserve original evidence and readable transcription.
+        - label: Check for existing records and retain source occurrences.
+        - label: Mark unreviewed or uncertain content explicitly.
+        - label: Regenerate views and pass library validation.

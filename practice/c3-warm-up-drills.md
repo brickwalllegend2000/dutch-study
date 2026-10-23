@@ -1,0 +1,19 @@
+---
+id: PRACTICE-cd65a5b4071f
+source_ids: ["401f89e5e0fc8123aa00cd65a5b4071f"]
+review_status: needs-review
+---
+# 🏋️ C3 Warm-up drills
+
+> Imported course material; linguistic review pending.
+
+[Source snapshot](../sources/pages/401f89e5e0fc8123aa00cd65a5b4071f.md) · [Home](../README.md)
+
+**Goal:** Practise the grammar for Project C in short drills.
+**Time:** 10 minutes · **Score:** 12 points
+
+Do each part, then open the answers.
+
+## Part 1: rules and signs (4 points)
+
+Guide: [Write a sentence with Je moet …, Je mag … or Je mag … niet. 1. Zwembad: eerst douchen. 2. Klaslokaal: eten en drinken verboden. 3. Park: picknicken toegelaten. 4. Fietser: helm dragen verplicht. Answers 1. Je moet eerst douchen. 2. Je mag hier niet eten en drinken. 3. Je mag hier picknicken. 4. Je moet een helm dragen. ## Part 2: join with omdat (3 points) Guide: 1. Ik kom niet. Ik ben ziek. 2. Wij blijven thuis. Het regent. 3. Zij annuleert de reservering. Zij moet werken. Answers 1. Ik kom niet, omdat ik ziek ben. 2. Wij blijven thuis, omdat het regent. 3. Zij annuleert de reservering, omdat zij moet werken. ## Part 3: polite questions (2 points) Turn the order into a question with kunnen. 1. Verzet de afspraak. (wij) 2. Zeg dit aan Mark. (jij) Answers 1. Kunnen we de afspraak verzetten? 2. Kan jij dit aan Mark zeggen? ## Part 4: reply with zal (3 points) Guide: 1. Kan jij dit bericht doorgeven? 2. Wil je de factuur betalen? 3. Wil je de bevestiging ondertekenen? Answers 1. Dat zal ik doen! 2. Ja, ik zal de factuur betalen. 3. Ja, ik zal de bevestiging ondertekenen. ## Your score \_\_\_ / 12. Below 8? Reread the guides linked above, then redo the parts you missed. --- Back to Project C: Booking a weekend at the coast](../grammar/modal-verbs-can-must-may-and-want.md)

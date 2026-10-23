@@ -1,0 +1,46 @@
+# Data schema and editing rules
+
+## Vocabulary
+
+`vocabulary.csv` is UTF-8, comma-delimited, with a header. Use a CSV library to edit it; quoted cells may contain commas or newlines.
+
+| Column | Meaning |
+| --- | --- |
+| id | Stable `VOC-` plus 12 lowercase hexadecimal characters |
+| dutch | Word or expression; preserve a complete phrase when it is the study unit |
+| english | English meanings, empty when not established by a source |
+| article | Article from the source, where applicable |
+| word_type | Source's grammatical category |
+| forms | Plurals, present-tense forms or other supplied forms |
+| auxiliary | Auxiliary and source-specific usage notes |
+| participle | Past participle |
+| examples | Course examples and explicitly labeled added examples |
+| chapters | Semicolon-separated chapter numbers 1–8; may be empty |
+| categories | Semicolon-separated study categories |
+| notes | Usage notes, conflicts and editorial context |
+| source_ids | Semicolon-separated source IDs registered in the manifest |
+| occurrence_ids | Semicolon-separated occurrence IDs in the provenance ledger |
+| review_status | `needs-review` or `reviewed` |
+| reviewed_on | YYYY-MM-DD when reviewed, otherwise empty |
+
+The initial import groups exact terms after Unicode NFC normalization, whitespace normalization and case folding. It does not infer that similar phrases or antonym pairs are the same word. It does not distinguish senses automatically. ` ⟐ ` separates differing values from contributing sources; it is not a claim that those values are interchangeable. Follow the occurrence ledger to recover which value came from which source.
+
+For a new term, `scripts.library.record_id(term)` produces an ID from the normalized term's SHA-256 hash. Keep an existing ID when correcting its spelling. For a deliberately separate sense, use `record_id(term + ' | ' + sense_label)` and record the distinction in notes. Validation rejects ID collisions. IDs do not encode chapter membership.
+
+## Provenance ledger
+
+`sources/vocabulary-occurrences.json` is an array. Each item includes `occurrence_id`, `record_id`, `source_id`, `locator`, `dutch` and the source's fields. Imported occurrences are evidence and remain unchanged. Append a new occurrence for new evidence or a sourced editorial correction. Preserve the original source's wording; place the corrected maintained value in the CSV.
+
+Use stable IDs such as `OCC-` plus 16 hexadecimal characters. A locator should identify a page, sheet, table row or exercise. All occurrence IDs listed by a vocabulary record must exist in the ledger, and their sources must be in that record's source_ids.
+
+## Source manifest
+
+`sources/manifest.json` contains `pages` and `attachments` arrays. A page/source record requires `id`, `title`, `url`, `raw_path`, and `snapshot_path`; both local paths must exist. For new local originals, use a local path for url or document the external source URL. Use a stable ID such as `SRC-20261024-01`. Raw evidence may be a PDF, image, text file or exact retrieval payload. A snapshot is a readable Markdown transcription with page locators and uncertainty markings.
+
+When a binary original is actually added, record `local_path`, `sha256`, and `status: archived` on its attachment entry. Keep original filenames or document any renaming. `reference-only` means no local binary was retrieved. A source URL is a reference, not a backup.
+
+## Grammar and study notes
+
+Grammar topics use YAML Properties: `id`, `source_ids`, `review_status`, and `reviewed_on` when reviewed. Explain scope and exceptions in the note body. Cite source snapshots using relative links.
+
+Personal answers belong in study notes, separate from canonical rules. Study templates can reference vocabulary IDs and grammar paths. Exercises in practice/ retain imported course material and must keep their review status visible.

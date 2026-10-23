@@ -1,0 +1,15 @@
+# Local application state and recoverable files
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/graph.json
+.trash/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.superpowers/

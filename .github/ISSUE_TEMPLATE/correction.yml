@@ -1,0 +1,24 @@
+name: Correct study content
+description: Report an error, conflict or uncertain transcription.
+title: "Correction: "
+labels: ["type:correction", "status:backlog"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Vocabulary ID or grammar file
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Current value and proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and context
+      description: Cite the course source, page or a reliable external reference. Explain uncertainty.
+    validations:
+      required: true
