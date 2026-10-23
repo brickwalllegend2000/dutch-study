@@ -2,7 +2,7 @@
 id: VOC-6191fbd66df1
 title: "donderdag"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # donderdag
 

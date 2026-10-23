@@ -2,7 +2,7 @@
 id: VOC-23f91cabb981
 title: "typen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # typen
 

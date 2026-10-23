@@ -2,7 +2,7 @@
 id: VOC-52cafe6fe6d0
 title: "ovaal"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # ovaal
 

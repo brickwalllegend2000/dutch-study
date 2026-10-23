@@ -2,7 +2,7 @@
 id: VOC-00a96b2ffad7
 title: "winkelen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # winkelen
 

@@ -2,7 +2,7 @@
 id: VOC-3a5daad9f896
 title: "sjaal"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # sjaal
 

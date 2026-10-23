@@ -2,11 +2,15 @@
 id: VOC-408c2ba4ac46
 title: "thuisblijven"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # thuisblijven
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+to stay at home
 
 ## Word Type
 
@@ -38,7 +42,7 @@ Irregular verbs;Verba rond Wonen
 
 ## Notes
 
-thuis | blijven
+thuis | blijven; English meaning taken from the course entry VOC-139121c1367f for the same expression; no new translation; Related entries VOC-139121c1367f: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

@@ -2,7 +2,7 @@
 id: VOC-8a9ca876cd01
 title: "lenen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # lenen
 
@@ -34,7 +34,7 @@ Verba (Gebruik & Kringwinkel)
 
 ## Notes
 
-Van iemand ontvangen
+Van iemand ontvangen; Source gloss gives both to lend and to borrow; the only course example is to borrow (van de buurman). The course pairs it with uitlenen (aan vrienden) for lending out. Proposed split not made
 
 ## Sources
 

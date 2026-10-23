@@ -8,6 +8,10 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+[added] to take (e.g. medicine); to take up
+
 ## Word Type
 
 Verbum
@@ -23,6 +27,10 @@ ingenomen
 ## Categories
 
 Irregular verbs
+
+## Notes
+
+English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed
 
 ## Sources
 

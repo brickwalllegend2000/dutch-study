@@ -2,7 +2,7 @@
 id: VOC-6eeb034ab535
 title: "zetel"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # zetel
 

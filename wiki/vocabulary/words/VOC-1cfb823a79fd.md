@@ -2,7 +2,7 @@
 id: VOC-1cfb823a79fd
 title: "water, elektriciteit en gas inbegrepen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # water, elektriciteit en gas inbegrepen
 

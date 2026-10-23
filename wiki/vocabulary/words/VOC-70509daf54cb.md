@@ -2,7 +2,7 @@
 id: VOC-70509daf54cb
 title: "boodschappentas"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # boodschappentas
 

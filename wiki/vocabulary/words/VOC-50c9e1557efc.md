@@ -2,7 +2,7 @@
 id: VOC-50c9e1557efc
 title: "Kan jij dit bericht doorgeven?"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # Kan jij dit bericht doorgeven?
 

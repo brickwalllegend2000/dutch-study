@@ -2,7 +2,7 @@
 id: VOC-bbba57318f71
 title: "pet"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # pet
 

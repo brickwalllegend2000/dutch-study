@@ -2,7 +2,7 @@
 id: VOC-ba5076a3ff37
 title: "lezen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # lezen
 

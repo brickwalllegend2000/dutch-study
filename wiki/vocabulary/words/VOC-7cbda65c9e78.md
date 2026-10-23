@@ -2,7 +2,7 @@
 id: VOC-7cbda65c9e78
 title: "gordijn"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # gordijn
 

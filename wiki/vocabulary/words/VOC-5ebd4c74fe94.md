@@ -2,11 +2,15 @@
 id: VOC-5ebd4c74fe94
 title: "rustig ↔ druk"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # rustig ↔ druk
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+quiet – busy
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Adjectieven (Woning & Omgeving)
 
 ## Notes
 
-Tegengestelden (Omgeving)
+Tegengestelden (Omgeving); English meaning taken from the course entry VOC-aeaed965988b for the same expression; no new translation; Related entries VOC-aeaed965988b: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

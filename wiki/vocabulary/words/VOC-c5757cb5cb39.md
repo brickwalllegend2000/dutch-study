@@ -2,7 +2,7 @@
 id: VOC-c5757cb5cb39
 title: "vragen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # vragen
 

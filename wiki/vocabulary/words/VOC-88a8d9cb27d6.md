@@ -2,7 +2,7 @@
 id: VOC-88a8d9cb27d6
 title: "handvat"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # handvat
 

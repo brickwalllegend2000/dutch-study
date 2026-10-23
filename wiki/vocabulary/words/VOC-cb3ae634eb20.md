@@ -2,7 +2,7 @@
 id: VOC-cb3ae634eb20
 title: "spiegel"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # spiegel
 

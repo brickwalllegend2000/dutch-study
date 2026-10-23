@@ -2,7 +2,7 @@
 id: VOC-b8eedf4dec6b
 title: "balkon"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # balkon
 

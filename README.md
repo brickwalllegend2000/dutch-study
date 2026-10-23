@@ -39,7 +39,7 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 Files in `wiki/vocabulary/` are generated from the CSV. Edit the CSV and regenerate; edits to generated notes will be replaced. Source snapshots preserve imported material and may contain older or conflicting versions. Use the canonical files for maintained facts and snapshots to check evidence.
 
-Imported material is marked **needs-review**. Migration checks establish extraction and provenance, not that every Dutch sentence is correct. Original photos remain reference-only until their bytes are added to `sources/originals/`. See the [migration report](docs/MIGRATION.md).
+Imported material is marked **needs-review** until checked. A first AI review pass is recorded in [verification](docs/VERIFICATION.md); it is not a teacher or native-speaker review. Migration checks establish extraction and provenance, not that every Dutch sentence is correct. Original photos remain reference-only until their bytes are added to `sources/originals/`. See the [migration report](docs/MIGRATION.md).
 
 ## Use an agent
 

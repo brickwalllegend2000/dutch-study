@@ -2,7 +2,7 @@
 id: VOC-9c7d3cc1bee7
 title: "wc"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # wc
 

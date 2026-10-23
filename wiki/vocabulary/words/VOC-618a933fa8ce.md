@@ -2,7 +2,7 @@
 id: VOC-618a933fa8ce
 title: "ladekast"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # ladekast
 

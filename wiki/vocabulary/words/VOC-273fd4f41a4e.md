@@ -2,7 +2,7 @@
 id: VOC-273fd4f41a4e
 title: "naast"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # naast
 

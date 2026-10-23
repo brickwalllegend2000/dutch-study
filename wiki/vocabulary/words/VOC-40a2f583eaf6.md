@@ -2,11 +2,15 @@
 id: VOC-40a2f583eaf6
 title: "klein ↔ groot"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # klein ↔ groot
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+small – big
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Adjectieven (Woning & Omgeving);Tegengestelde Adjectieven (Antoniemen)
 
 ## Notes
 
-Grootte / Formaat ⟐ Tegengestelden (Formaat)
+Grootte / Formaat ⟐ Tegengestelden (Formaat); English meaning taken from the course entry VOC-fc9ae02338fc for the same expression; no new translation; Related entries VOC-fc9ae02338fc: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

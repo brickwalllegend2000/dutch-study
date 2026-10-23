@@ -2,7 +2,7 @@
 id: VOC-3b400952ffde
 title: "kapot"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # kapot
 

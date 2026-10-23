@@ -2,7 +2,7 @@
 id: VOC-f1efa6c305c7
 title: "zetten"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # zetten
 

@@ -2,7 +2,7 @@
 id: VOC-69a7f33cad7f
 title: "op een link klikken"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # op een link klikken
 

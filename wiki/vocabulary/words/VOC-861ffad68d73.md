@@ -2,7 +2,7 @@
 id: VOC-861ffad68d73
 title: "Ardennen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # Ardennen
 

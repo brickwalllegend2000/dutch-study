@@ -2,7 +2,7 @@
 id: VOC-980aeb553adf
 title: "effen gebloemd geruit gestreept met bolletjes"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # effen gebloemd geruit gestreept met bolletjes
 
@@ -19,6 +19,10 @@ adjectieven
 ## Chapters
 
 1
+
+## Notes
+
+Combined list; the single words are separate entries: VOC-1dafe2d752f2, VOC-5a31c39eb69e, VOC-319421e686c3, VOC-4d4d273b2bd5, VOC-63483b5ab092
 
 ## Sources
 

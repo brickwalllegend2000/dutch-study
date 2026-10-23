@@ -2,7 +2,7 @@
 id: VOC-b0ab4e53bc94
 title: "staan"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # staan
 

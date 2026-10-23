@@ -2,7 +2,7 @@
 id: VOC-8b1efaa0cce2
 title: "rits"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # rits
 

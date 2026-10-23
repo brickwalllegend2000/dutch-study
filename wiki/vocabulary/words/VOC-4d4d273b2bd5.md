@@ -2,11 +2,15 @@
 id: VOC-4d4d273b2bd5
 title: "gestreept"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # gestreept
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+striped
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Patronen
 
 ## Notes
 
-met strepen
+met strepen; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation
 
 ## Sources
 

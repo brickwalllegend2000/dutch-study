@@ -2,7 +2,7 @@
 id: VOC-ef08be6de716
 title: "een T-shirt met lange mouwen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # een T-shirt met lange mouwen
 

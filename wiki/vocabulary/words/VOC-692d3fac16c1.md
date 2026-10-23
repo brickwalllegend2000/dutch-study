@@ -2,7 +2,7 @@
 id: VOC-692d3fac16c1
 title: "vergeten"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # vergeten
 
@@ -22,7 +22,7 @@ ik vergeet ⟐ ik vergeet, vergeten; vergeten
 
 ## Auxiliary
 
-hebben ⟐ hebben / zijn
+hebben / zijn
 
 ## Participle
 
@@ -42,7 +42,7 @@ Irregular verbs;Perfectum study list;Verba
 
 ## Notes
 
-Auxiliary is source-specific; see the source notes for active/passive and movement distinctions. ⟐ perfectum met hebben/zijn
+Auxiliary is source-specific; see the source notes for active/passive and movement distinctions. ⟐ perfectum met hebben/zijn; Sources differ: irregular-verb table gives hebben only, perfectum sheet gives hebben / zijn (Ik heb/ben mijn lunch vergeten). Both occur; hebben is the form in the chapter 7 example
 
 ## Sources
 

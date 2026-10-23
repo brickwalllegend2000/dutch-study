@@ -2,11 +2,15 @@
 id: VOC-1dafe2d752f2
 title: "effen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # effen
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+plain
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Patronen
 
 ## Notes
 
-effen patroon
+effen patroon; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation
 
 ## Sources
 

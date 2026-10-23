@@ -2,7 +2,7 @@
 id: VOC-448e39e5b9ea
 title: "Hoe laat begint de les?"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # Hoe laat begint de les?
 

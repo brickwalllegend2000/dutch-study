@@ -2,11 +2,15 @@
 id: VOC-b78174aff16f
 title: "donkerblauw"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # donkerblauw
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+dark blue
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Kleuren
 
 ## Notes
 
-Basis- & nuancekleur
+Basis- & nuancekleur; English meaning taken from the course entry VOC-166b0448a6ce for the same expression; no new translation
 
 ## Sources
 

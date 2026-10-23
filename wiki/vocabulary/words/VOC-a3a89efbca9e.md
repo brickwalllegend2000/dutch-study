@@ -2,7 +2,7 @@
 id: VOC-a3a89efbca9e
 title: "sweater"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # sweater
 

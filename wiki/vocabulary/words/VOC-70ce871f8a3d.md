@@ -2,7 +2,7 @@
 id: VOC-70ce871f8a3d
 title: "record"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # record
 

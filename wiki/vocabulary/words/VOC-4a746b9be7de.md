@@ -2,7 +2,7 @@
 id: VOC-4a746b9be7de
 title: "een T-shirt met korte mouwen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # een T-shirt met korte mouwen
 

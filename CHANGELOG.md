@@ -2,6 +2,14 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Grammar and vocabulary review pass (`task/2-vocabulary-review`, issues #2 and #3)
+
+- Reviewed the 10 remaining imported grammar notes in `wiki/grammar/` (review note added to each; status reviewed). No rule text changed.
+- Reviewed all 412 needs-review vocabulary records: 393 now reviewed; 19 stay needs-review because their English meaning is an AI-added, labeled gloss.
+- Filled all 54 missing English meanings (35 from the course's own entries, 19 labeled `[added]`).
+- Merged four auxiliary variants (lopen, rijden, zwemmen, vergeten); corrected one ungrammatical example (*met bolletjes*); cross-referenced near-duplicate and antonym-pair entries without merging; documented proposed sense splits for *dragen* and *lenen*.
+- Regenerated `wiki/vocabulary/`. Review details are in `docs/VERIFICATION.md`.
+
 ## 2026-10-23 — Oral track curriculum and wiki integration (`oral-track-and-wiki-integration`, PR #14)
 
 - Added `course/oral/README.md`: dedicated oral track hub with curriculum overview, speaking practice guidance, and a detailed *Schriftelijk (S)* vs. *Mondeling (M)* curriculum alignment matrix.

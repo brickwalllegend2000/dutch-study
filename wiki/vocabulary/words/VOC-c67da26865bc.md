@@ -2,7 +2,7 @@
 id: VOC-c67da26865bc
 title: "smal – breed"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # smal – breed
 
@@ -15,6 +15,10 @@ narrow – wide
 ## Chapters
 
 1
+
+## Notes
+
+Related entries VOC-eb98cc401169: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

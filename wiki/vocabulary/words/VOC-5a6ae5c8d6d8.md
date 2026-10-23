@@ -2,7 +2,7 @@
 id: VOC-5a6ae5c8d6d8
 title: "T-shirt"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # T-shirt
 

@@ -2,7 +2,7 @@
 id: VOC-1e61ed1346ae
 title: "luchter"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # luchter
 

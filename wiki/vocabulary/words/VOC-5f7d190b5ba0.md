@@ -2,7 +2,7 @@
 id: VOC-5f7d190b5ba0
 title: "geven"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # geven
 

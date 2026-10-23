@@ -2,11 +2,15 @@
 id: VOC-00cfe6b9d700
 title: "licht ↔ donker"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # licht ↔ donker
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+bright – dark
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Adjectieven (Woning & Omgeving)
 
 ## Notes
 
-Tegengestelden (Lichtinval)
+Tegengestelden (Lichtinval); English meaning taken from the course entry VOC-d9043d410a7f for the same expression; no new translation; Related entries VOC-d9043d410a7f: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

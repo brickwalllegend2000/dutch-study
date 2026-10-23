@@ -2,7 +2,7 @@
 id: VOC-4509beb0ab40
 title: "boot"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # boot
 

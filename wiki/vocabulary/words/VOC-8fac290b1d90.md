@@ -2,7 +2,7 @@
 id: VOC-8fac290b1d90
 title: "stoffen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # stoffen
 

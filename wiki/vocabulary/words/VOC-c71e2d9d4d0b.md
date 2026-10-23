@@ -2,7 +2,7 @@
 id: VOC-c71e2d9d4d0b
 title: "strand"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # strand
 

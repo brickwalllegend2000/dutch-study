@@ -2,7 +2,7 @@
 id: VOC-c928aebc1635
 title: "rok"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # rok
 

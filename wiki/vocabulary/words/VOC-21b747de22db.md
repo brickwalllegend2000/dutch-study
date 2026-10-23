@@ -2,7 +2,7 @@
 id: VOC-21b747de22db
 title: "garage"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # garage
 

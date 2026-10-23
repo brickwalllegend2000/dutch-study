@@ -2,7 +2,7 @@
 id: VOC-27fab01eec30
 title: "strijken"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # strijken
 

@@ -2,7 +2,7 @@
 id: VOC-fd8ecd2d4d81
 title: "diner"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # diner
 

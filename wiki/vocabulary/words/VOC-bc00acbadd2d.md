@@ -8,6 +8,10 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+[added] can, to be able to
+
 ## Word Type
 
 Verbum ⟐ Verbum (Modaliteit: bekwaamheid/mogelijkheid)
@@ -38,7 +42,7 @@ Irregular verbs;Modale Hulpverba
 
 ## Notes
 
-Hulpverbum + infinitief
+Hulpverbum + infinitief; English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed
 
 ## Sources
 

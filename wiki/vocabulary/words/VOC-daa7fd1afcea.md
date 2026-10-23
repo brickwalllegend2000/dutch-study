@@ -2,7 +2,7 @@
 id: VOC-daa7fd1afcea
 title: "bevestigen"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # bevestigen
 

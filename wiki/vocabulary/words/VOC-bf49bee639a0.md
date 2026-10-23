@@ -2,7 +2,7 @@
 id: VOC-bf49bee639a0
 title: "kijken"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # kijken
 

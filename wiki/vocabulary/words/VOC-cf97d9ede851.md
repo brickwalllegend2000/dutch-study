@@ -2,7 +2,7 @@
 id: VOC-cf97d9ede851
 title: "Kunnen we onze afspraak verzetten?"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # Kunnen we onze afspraak verzetten?
 

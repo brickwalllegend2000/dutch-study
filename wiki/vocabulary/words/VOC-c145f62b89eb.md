@@ -2,11 +2,15 @@
 id: VOC-c145f62b89eb
 title: "dicht bij (+ subst.)"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # dicht bij (+ subst.)
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+close to
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Vaste Uitdrukkingen & Voorzieningen
 
 ## Notes
 
-Prepositieconstructie (Nabijheid)
+Prepositieconstructie (Nabijheid); English meaning taken from the course entry VOC-96b76f9254e5 for the same expression; no new translation; Related entries VOC-96b76f9254e5: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

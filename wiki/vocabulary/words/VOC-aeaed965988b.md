@@ -2,7 +2,7 @@
 id: VOC-aeaed965988b
 title: "rustig – druk"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # rustig – druk
 
@@ -15,6 +15,10 @@ quiet – busy
 ## Chapters
 
 4
+
+## Notes
+
+Related entries VOC-5ebd4c74fe94: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

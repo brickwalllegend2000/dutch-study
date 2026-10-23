@@ -2,7 +2,7 @@
 id: VOC-65711adccfd1
 title: "rond"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # rond
 

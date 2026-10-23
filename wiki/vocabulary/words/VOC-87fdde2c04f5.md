@@ -2,7 +2,7 @@
 id: VOC-87fdde2c04f5
 title: "stad"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # stad
 

@@ -2,11 +2,15 @@
 id: VOC-7feae0eb049f
 title: "niet ver van (+ subst.)"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # niet ver van (+ subst.)
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+
+## English
+
+not far from
 
 ## Word Type
 
@@ -26,7 +30,7 @@ Vaste Uitdrukkingen & Voorzieningen
 
 ## Notes
 
-Prepositieconstructie (Afstand)
+Prepositieconstructie (Afstand); English meaning taken from the course entry VOC-8c06207428c0 for the same expression; no new translation; Related entries VOC-8c06207428c0: same expression or pair recorded from another source page or in reverse order; kept separate to preserve source mappings
 
 ## Sources
 

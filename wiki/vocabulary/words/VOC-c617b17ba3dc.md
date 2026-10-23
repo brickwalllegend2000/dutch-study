@@ -2,7 +2,7 @@
 id: VOC-c617b17ba3dc
 title: "lederen / leren"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # lederen / leren
 

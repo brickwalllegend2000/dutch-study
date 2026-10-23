@@ -2,7 +2,7 @@
 id: VOC-662d27aff9bc
 title: "sluiten"
 generated: true
-review_status: needs-review
+review_status: reviewed
 ---
 # sluiten
 
