@@ -1,6 +1,6 @@
 # Exercises
 
-[Home](../../README.md) · [Chapters](../README.md) · [Practice tests](../exams/README.md)
+[Home](../../README.md) · [Chapters](../README.md) · [Worked examples](../examples/README.md) · [Practice tests](../exams/README.md)
 
 Exercises, tasks and writing instructions for the written chapters, extracted from the Notion chapter pages (preserved in `sources/`). Each page keeps the Dutch workbook wording, marks practice that was written for the study page rather than taken from the workbook, and lists what is missing. Nothing here has been reviewed yet.
 
