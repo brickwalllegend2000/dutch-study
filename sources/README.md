@@ -10,18 +10,13 @@ These are preserved snapshots, not maintained canonical explanations. Their raw 
 | Dutch study | [Read](pages/401f89e5e0fc8054b148fa2fdaf07675.md) | [JSON](notion/401f89e5e0fc8054b148fa2fdaf07675.json) |
 | Tier 3 — Full restructure | [Read](pages/401f89e5e0fc80daae13f56c66ab0444.md) | [JSON](notion/401f89e5e0fc80daae13f56c66ab0444.json) |
 | Add perfectum list to vocab  | [Read](pages/401f89e5e0fc80f29352c76d2b8204b7.md) | [JSON](notion/401f89e5e0fc80f29352c76d2b8204b7.json) |
-| 🏠 Project A: We've moved | [Read](pages/401f89e5e0fc810195f4e54a6b6f25a8.md) | [JSON](notion/401f89e5e0fc810195f4e54a6b6f25a8.json) |
 | 📘 Inhoudstafel Zo gezegd 1.2 | [Read](pages/401f89e5e0fc8109a7fce9d6ce0656e9.md) | [JSON](notion/401f89e5e0fc8109a7fce9d6ce0656e9.json) |
 | Master grammar reference | [Read](pages/401f89e5e0fc810ba4aff82d2143b580.md) | [JSON](notion/401f89e5e0fc810ba4aff82d2143b580.json) |
-| 🏋️ A3 Warm-up drills | [Read](pages/401f89e5e0fc8113ad84e834e7ab0a07.md) | [JSON](notion/401f89e5e0fc8113ad84e834e7ab0a07.json) |
 | 2. Did you have a good city trip? | [Read](pages/401f89e5e0fc8113b4facf9a197eabed.md) | [JSON](notion/401f89e5e0fc8113b4facf9a197eabed.json) |
 | Dutch · Chapter 4: recover original workbook exercises | [Read](pages/401f89e5e0fc8119b4f6c527400c6fc7.md) | [JSON](notion/401f89e5e0fc8119b4f6c527400c6fc7.json) |
-| ✉️ C1 Email the hotel | [Read](pages/401f89e5e0fc811d9a94e9efcb970c2e.md) | [JSON](notion/401f89e5e0fc811d9a94e9efcb970c2e.json) |
 | Dutch · Chapter 8: recover original workbook exercises | [Read](pages/401f89e5e0fc811d9f65fbcc9f44e243.md) | [JSON](notion/401f89e5e0fc811d9f65fbcc9f44e243.json) |
 | 6. Have you read my message? | [Read](pages/401f89e5e0fc8123a771c4658330b3eb.md) | [JSON](notion/401f89e5e0fc8123a771c4658330b3eb.json) |
-| 🏋️ C3 Warm-up drills | [Read](pages/401f89e5e0fc8123aa00cd65a5b4071f.md) | [JSON](notion/401f89e5e0fc8123aa00cd65a5b4071f.json) |
 | Writing checklist | [Read](pages/401f89e5e0fc812a9f40e476f71d211b.md) | [JSON](notion/401f89e5e0fc812a9f40e476f71d211b.json) |
-| 💬 A1 Old home, new home | [Read](pages/401f89e5e0fc812aa932e27e38feccad.md) | [JSON](notion/401f89e5e0fc812aa932e27e38feccad.json) |
 | Irregular verbs | [Read](pages/401f89e5e0fc8136967bea7232a7e938.md) | [JSON](notion/401f89e5e0fc8136967bea7232a7e938.json) |
 | Master vocabulary table | [Read](pages/401f89e5e0fc813ba013ca7c14321902.md) | [JSON](notion/401f89e5e0fc813ba013ca7c14321902.json) |
 | Grammar template | [Read](pages/401f89e5e0fc813dbbdcc651ca22456e.md) | [JSON](notion/401f89e5e0fc813dbbdcc651ca22456e.json) |
@@ -29,7 +24,6 @@ These are preserved snapshots, not maintained canonical explanations. Their raw 
 | Dutch · Chapter 6: add omdat and zal explanations | [Read](pages/401f89e5e0fc8151972bec49f3a12e7d.md) | [JSON](notion/401f89e5e0fc8151972bec49f3a12e7d.json) |
 | Joining sentences: want, en, maar and of | [Read](pages/401f89e5e0fc8154a044ecfb6ff4a2b7.md) | [JSON](notion/401f89e5e0fc8154a044ecfb6ff4a2b7.json) |
 | Original study notes (archive) | [Read](pages/401f89e5e0fc8154aee9df0d5f933c33.md) | [JSON](notion/401f89e5e0fc8154aee9df0d5f933c33.json) |
-| 📅 C2 Change the reservation | [Read](pages/401f89e5e0fc8157973cf0738338694d.md) | [JSON](notion/401f89e5e0fc8157973cf0738338694d.json) |
 | 3. What should I do? | [Read](pages/401f89e5e0fc815880d4fe91f60dbdfc.md) | [JSON](notion/401f89e5e0fc815880d4fe91f60dbdfc.json) |
 | Future plans: gaan + infinitive | [Read](pages/401f89e5e0fc815bb7a8cd2d3d522186.md) | [JSON](notion/401f89e5e0fc815bb7a8cd2d3d522186.json) |
 | 4. What is the apartment like? | [Read](pages/401f89e5e0fc8161a272c77ca72ea0ae.md) | [JSON](notion/401f89e5e0fc8161a272c77ca72ea0ae.json) |
@@ -38,19 +32,13 @@ These are preserved snapshots, not maintained canonical explanations. Their raw 
 | Dutch · Chapter 7: recover exercise 12 and form photos | [Read](pages/401f89e5e0fc817a8fbdc2bce9aed6b2.md) | [JSON](notion/401f89e5e0fc817a8fbdc2bce9aed6b2.json) |
 | Comparisons: equal, comparative and superlative | [Read](pages/401f89e5e0fc8186be4bdbd5125e5d7e.md) | [JSON](notion/401f89e5e0fc8186be4bdbd5125e5d7e.json) |
 | Negation: geen and niet | [Read](pages/401f89e5e0fc8187919ec0ded3bbae0e.md) | [JSON](notion/401f89e5e0fc8187919ec0ded3bbae0e.json) |
-| 🧥 Project B: A day out that went wrong | [Read](pages/401f89e5e0fc819d9f43f84c051d7a39.md) | [JSON](notion/401f89e5e0fc819d9f43f84c051d7a39.json) |
 | Grammar guide | [Read](pages/401f89e5e0fc819da383d5825749b371.md) | [JSON](notion/401f89e5e0fc819da383d5825749b371.json) |
 | Because: omdat and subordinate clauses | [Read](pages/401f89e5e0fc819ea03de0f86f574a0b.md) | [JSON](notion/401f89e5e0fc819ea03de0f86f574a0b.json) |
 | Dutch · Chapter 2: recover missing Oostende photo ending | [Read](pages/401f89e5e0fc81a098ceec42afa460af.md) | [JSON](notion/401f89e5e0fc81a098ceec42afa460af.json) |
-| 🏖️ Project C: Booking a weekend at the coast | [Read](pages/401f89e5e0fc81a2b528da662c1d2632.md) | [JSON](notion/401f89e5e0fc81a2b528da662c1d2632.json) |
-| 🏋️ B3 Warm-up drills | [Read](pages/401f89e5e0fc81a4b9e1d36c77874e87.md) | [JSON](notion/401f89e5e0fc81a4b9e1d36c77874e87.json) |
-| 🧾 B2 Lost property form | [Read](pages/401f89e5e0fc81a68f04fe468b0ed51a.md) | [JSON](notion/401f89e5e0fc81a68f04fe468b0ed51a.json) |
-| 📱 B1 City trip message | [Read](pages/401f89e5e0fc81a9beacd5badf897ea3.md) | [JSON](notion/401f89e5e0fc81a9beacd5badf897ea3.json) |
 | 5. My favourite room | [Read](pages/401f89e5e0fc81b1a557e81e5e3f1e64.md) | [JSON](notion/401f89e5e0fc81b1a557e81e5e3f1e64.json) |
 | Database views | [Read](pages/401f89e5e0fc81bbabdccd6816483f61.md) | [JSON](notion/401f89e5e0fc81bbabdccd6816483f61.json) |
 | Modal verbs: can, must, may and want | [Read](pages/401f89e5e0fc81bbb2f1f615a447293f.md) | [JSON](notion/401f89e5e0fc81bbb2f1f615a447293f.json) |
 | Word order: eerst, dan and daarna | [Read](pages/401f89e5e0fc81c68ac9ed0f2909da1c.md) | [JSON](notion/401f89e5e0fc81c68ac9ed0f2909da1c.json) |
-| 🛋️ A2 My favourite room | [Read](pages/401f89e5e0fc81cfbc00c7b871d6adce.md) | [JSON](notion/401f89e5e0fc81cfbc00c7b871d6adce.json) |
 | Adjective endings: with or without -e | [Read](pages/401f89e5e0fc81d3bb4ac35f44245e4f.md) | [JSON](notion/401f89e5e0fc81d3bb4ac35f44245e4f.json) |
 | Using zal | [Read](pages/401f89e5e0fc81ebabb5f108d18fde5e.md) | [JSON](notion/401f89e5e0fc81ebabb5f108d18fde5e.json) |
 | 7. I’ve forgotten my umbrella! | [Read](pages/401f89e5e0fc81ecaa69c24bbe4cfc39.md) | [JSON](notion/401f89e5e0fc81ecaa69c24bbe4cfc39.json) |
