@@ -1,8 +1,8 @@
 # Publish the prepared vault
 
-## Current limitation
+## Current status
 
-On 2026-10-23 the connected GitHub account was authenticated, but GitHub rejected repository creation with:
+The repository now exists and holds the vault, and the five starter issues were created through the connected GitHub tools. Milestones and the Project board were not, because those tools cannot create them; the script below can add them. Historical note: on 2026-10-23 the connected GitHub account was authenticated, but GitHub rejected repository creation with:
 
 > brickwalllegend2000 does not have the correct permissions to execute CreateRepository
 

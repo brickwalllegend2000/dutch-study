@@ -1,6 +1,6 @@
 # Set up GitHub and Obsidian
 
-The vault files are prepared. GitHub publication is pending because the connected account lacks repository-creation permission. You can open the extracted folder in Obsidian immediately. For GitHub synchronization, complete [publishing](PUBLISH.md) first, then follow the steps below. These desktop steps run on your computer, outside the cloud workspace.
+The vault files are prepared. The vault is published to the private repository `brickwalllegend2000/dutch-study`. Clone it (or open your extracted folder) in Obsidian, then follow the steps below. See [publishing](PUBLISH.md) for the status of milestones and the Project board. These desktop steps run on your computer, outside the cloud workspace.
 
 ## Recommended: GitHub Desktop on Windows or macOS
 

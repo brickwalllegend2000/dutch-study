@@ -4,7 +4,7 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 ## Start here
 
-**Hosted on GitHub:** this vault now lives in the private repository `brickwalllegend2000/dutch-study`. Clone it and open the folder in Obsidian. Milestones, labels and starter tasks are not created yet; see [publishing instructions](docs/PUBLISH.md) to add them.
+**Hosted on GitHub:** this vault now lives in the private repository `brickwalllegend2000/dutch-study`. Clone it and open the folder in Obsidian. Starter tasks and labels exist as GitHub Issues; milestones and the optional Project board are not created yet, see [publishing instructions](docs/PUBLISH.md).
 
 - [First-time setup](docs/SETUP.md) — GitHub Desktop, Obsidian and synchronization.
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.

@@ -1,10 +1,10 @@
 # Project work
 
-Tasks are preconfigured in `.github/bootstrap.json`; the publishing script creates them as GitHub Issues. Until publication succeeds, the list below is the prepared backlog rather than live GitHub work.
+Tasks are preconfigured in `.github/bootstrap.json` and now exist as GitHub Issues (milestones are not created yet, so the milestone column is the intended grouping).
 
 | Task | Milestone |
 | --- | --- |
-| Archive the 21 referenced original filenames | Source archive and migration review |
+| Archive the 24 referenced original filenames | Source archive and migration review |
 | Review vocabulary variants, senses and 54 missing English meanings | Verified study library |
 | Review the 12 maintained grammar topics | Verified study library |
 | Open Obsidian and verify a complete sync cycle | Daily study workflow |

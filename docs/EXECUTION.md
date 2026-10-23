@@ -10,7 +10,7 @@ Plan: docs/superpowers/plans/2026-10-23-dutch-study-setup.md
 
 ## Results
 
-- Task 1: complete — 53 Notion page responses and readable snapshots preserved; 38 image references and 21 filenames recorded; no original binary files retrieved.
+- Task 1: complete — 53 Notion page responses and readable snapshots preserved; 41 image references and 24 filenames (counts updated after removal of combined projects) recorded; no original binary files retrieved.
 - Task 2: complete — 768 vocabulary occurrences consolidated into 412 records; 12 grammar notes, 8 chapter guides, writing projects and practice test imported; 425 generated reading views.
 - Task 3: complete locally — Obsidian core settings, templates, workflow and agent instructions, GitHub issue forms and Actions workflow prepared; five starter tasks and three milestones defined.
 - Task 4: blocked remotely — authenticated GitHub account lacks CreateRepository permission. No remote repository, issue, milestone, board or Actions run has been created. A local publishing script and instructions provide a resumable path.
