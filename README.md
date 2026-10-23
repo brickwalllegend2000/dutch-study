@@ -9,7 +9,7 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 - [First-time setup](docs/SETUP.md) — GitHub Desktop, Obsidian and synchronization.
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.
 - [Vocabulary](views/VOCABULARY.md) · [Perfectum study list](views/PERFECTUM-STUDY-LIST.md) · [All perfectum verbs](views/PERFECTUM.md) · [Irregular verbs](views/IRREGULAR-VERBS.md) · [Needs review](views/NEEDS-REVIEW.md).
-- [Grammar](grammar/README.md) · [Chapters](chapters/README.md) · [Practice projects and test](practice/README.md).
+- [Grammar](grammar/README.md) · [Chapters](chapters/README.md) · [Practice tests](practice/README.md).
 - [Study journal](study/README.md) · [Inbox](inbox/README.md).
 - [Prepared project backlog](docs/TASKS.md) · [Publish to GitHub](docs/PUBLISH.md).
 
@@ -20,7 +20,7 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 | Words, meanings, forms and source references | [vocabulary.csv](vocabulary.csv) |
 | Grammar explanations | Markdown files in [grammar](grammar/README.md) |
 | Study order and chapter navigation | [chapters](chapters/README.md) |
-| Writing projects and mock exam | [practice](practice/README.md) |
+| Practice tests and mock exam | [practice](practice/README.md) |
 | Original import evidence | [source inventory](sources/README.md) |
 | Outstanding work and corrections | GitHub Issues |
 

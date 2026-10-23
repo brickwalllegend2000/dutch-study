@@ -20,8 +20,8 @@ The script publishes the vault, creates three milestones and five tasks, install
 
 ## What was imported
 
-412 vocabulary records with provenance, all 80 perfectum-list verbs, eight chapter guides, 12 grammar topics, writing projects and a practice test. All 53 fetched Notion pages are preserved as source snapshots. Imported material still needs linguistic review.
+412 vocabulary records with provenance, all 80 perfectum-list verbs, eight chapter guides, 12 grammar topics, seven oral (Modeling) chapter guides, a mock exam and a practice tests page. 41 fetched Notion pages are preserved as source snapshots (the user-authored Projects A–C and exercises A1–C3 were removed on 2026-10-23). Imported material still needs linguistic review.
 
-21 original filenames are referenced but the actual image files could not be retrieved. The manifest records that limitation; source text is available where transcribed in Notion.
+24 original filenames are referenced but the actual image files could not be retrieved. The manifest records that limitation; source text is available where transcribed in Notion.
 
 [Open the library](README.md) · [Daily workflow](WORKFLOW.md) · [Desktop setup](docs/SETUP.md) · [Prepared tasks](docs/TASKS.md)

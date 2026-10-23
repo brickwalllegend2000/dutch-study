@@ -2,6 +2,12 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Remove combined projects (`remove-combined-projects`)
+
+- Removed the user-authored Combined projects page, Projects A–C and exercises A1–C3 from `practice/` (13 pages), together with their 13 source snapshots in `sources/pages/` and payloads in `sources/notion/` (39 files), because they are not reference sources.
+- Removed their entries from `sources/manifest.json`, `sources/README.md` and `practice/README.md`; replaced the link in the "Dutch study" source snapshot with a "page removed" note so no link dangles.
+- Updated wording that described the removed projects: README practice link and table row, and the import summary and counts in `START-HERE.md` (41 source snapshots, 24 unretrieved image filenames).
+
 ## 2026-10-23 — Practice tests page (`add-practice-tests`)
 
 - Added `practice/practice-tests.md` (extra exercises, CVO writing test, Schrijven A2 material) and linked it from `practice/README.md`.

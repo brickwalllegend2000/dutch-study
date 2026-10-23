@@ -58,16 +58,6 @@
       "linguistic_review": "not-performed"
     },
     {
-      "id": "401f89e5e0fc810195f4e54a6b6f25a8",
-      "title": "🏠 Project A: We've moved",
-      "url": "https://app.notion.com/p/401f89e5e0fc810195f4e54a6b6f25a8?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc810195f4e54a6b6f25a8.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc810195f4e54a6b6f25a8.md",
-      "last_edited_at": "2026-10-22T05:39:59.368Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
       "id": "401f89e5e0fc8109a7fce9d6ce0656e9",
       "title": "📘 Inhoudstafel Zo gezegd 1.2",
       "url": "https://app.notion.com/p/401f89e5e0fc8109a7fce9d6ce0656e9?pvs=204",
@@ -84,16 +74,6 @@
       "raw_path": "sources/notion/401f89e5e0fc810ba4aff82d2143b580.json",
       "snapshot_path": "sources/pages/401f89e5e0fc810ba4aff82d2143b580.md",
       "last_edited_at": "2026-10-22T06:07:24.650Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc8113ad84e834e7ab0a07",
-      "title": "🏋️ A3 Warm-up drills",
-      "url": "https://app.notion.com/p/401f89e5e0fc8113ad84e834e7ab0a07?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc8113ad84e834e7ab0a07.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc8113ad84e834e7ab0a07.md",
-      "last_edited_at": "2026-10-22T05:27:48.811Z",
       "retrieval_status": "fetched",
       "linguistic_review": "not-performed"
     },
@@ -118,16 +98,6 @@
       "linguistic_review": "not-performed"
     },
     {
-      "id": "401f89e5e0fc811d9a94e9efcb970c2e",
-      "title": "✉️ C1 Email the hotel",
-      "url": "https://app.notion.com/p/401f89e5e0fc811d9a94e9efcb970c2e?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc811d9a94e9efcb970c2e.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc811d9a94e9efcb970c2e.md",
-      "last_edited_at": "2026-10-22T05:28:59.389Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
       "id": "401f89e5e0fc811d9f65fbcc9f44e243",
       "title": "Dutch · Chapter 8: recover original workbook exercises",
       "url": "https://app.notion.com/p/401f89e5e0fc811d9f65fbcc9f44e243?pvs=204",
@@ -148,32 +118,12 @@
       "linguistic_review": "not-performed"
     },
     {
-      "id": "401f89e5e0fc8123aa00cd65a5b4071f",
-      "title": "🏋️ C3 Warm-up drills",
-      "url": "https://app.notion.com/p/401f89e5e0fc8123aa00cd65a5b4071f?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc8123aa00cd65a5b4071f.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc8123aa00cd65a5b4071f.md",
-      "last_edited_at": "2026-10-22T05:28:59.389Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
       "id": "401f89e5e0fc812a9f40e476f71d211b",
       "title": "Writing checklist",
       "url": "https://app.notion.com/p/401f89e5e0fc812a9f40e476f71d211b?pvs=204",
       "raw_path": "sources/notion/401f89e5e0fc812a9f40e476f71d211b.json",
       "snapshot_path": "sources/pages/401f89e5e0fc812a9f40e476f71d211b.md",
       "last_edited_at": "2026-10-22T22:40:58.472Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc812aa932e27e38feccad",
-      "title": "💬 A1 Old home, new home",
-      "url": "https://app.notion.com/p/401f89e5e0fc812aa932e27e38feccad?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc812aa932e27e38feccad.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc812aa932e27e38feccad.md",
-      "last_edited_at": "2026-10-22T05:27:48.811Z",
       "retrieval_status": "fetched",
       "linguistic_review": "not-performed"
     },
@@ -244,16 +194,6 @@
       "raw_path": "sources/notion/401f89e5e0fc8154aee9df0d5f933c33.json",
       "snapshot_path": "sources/pages/401f89e5e0fc8154aee9df0d5f933c33.md",
       "last_edited_at": "2026-10-22T05:12:58.137Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc8157973cf0738338694d",
-      "title": "📅 C2 Change the reservation",
-      "url": "https://app.notion.com/p/401f89e5e0fc8157973cf0738338694d?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc8157973cf0738338694d.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc8157973cf0738338694d.md",
-      "last_edited_at": "2026-10-22T05:28:59.389Z",
       "retrieval_status": "fetched",
       "linguistic_review": "not-performed"
     },
@@ -338,16 +278,6 @@
       "linguistic_review": "not-performed"
     },
     {
-      "id": "401f89e5e0fc819d9f43f84c051d7a39",
-      "title": "🧥 Project B: A day out that went wrong",
-      "url": "https://app.notion.com/p/401f89e5e0fc819d9f43f84c051d7a39?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc819d9f43f84c051d7a39.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc819d9f43f84c051d7a39.md",
-      "last_edited_at": "2026-10-22T05:40:00.914Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
       "id": "401f89e5e0fc819da383d5825749b371",
       "title": "Grammar guide",
       "url": "https://app.notion.com/p/401f89e5e0fc819da383d5825749b371?pvs=204",
@@ -374,46 +304,6 @@
       "raw_path": "sources/notion/401f89e5e0fc81a098ceec42afa460af.json",
       "snapshot_path": "sources/pages/401f89e5e0fc81a098ceec42afa460af.md",
       "last_edited_at": "2026-10-22T07:08:20.871Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc81a2b528da662c1d2632",
-      "title": "🏖️ Project C: Booking a weekend at the coast",
-      "url": "https://app.notion.com/p/401f89e5e0fc81a2b528da662c1d2632?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc81a2b528da662c1d2632.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc81a2b528da662c1d2632.md",
-      "last_edited_at": "2026-10-22T05:40:02.444Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc81a4b9e1d36c77874e87",
-      "title": "🏋️ B3 Warm-up drills",
-      "url": "https://app.notion.com/p/401f89e5e0fc81a4b9e1d36c77874e87?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc81a4b9e1d36c77874e87.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc81a4b9e1d36c77874e87.md",
-      "last_edited_at": "2026-10-22T05:28:22.019Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc81a68f04fe468b0ed51a",
-      "title": "🧾 B2 Lost property form",
-      "url": "https://app.notion.com/p/401f89e5e0fc81a68f04fe468b0ed51a?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc81a68f04fe468b0ed51a.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc81a68f04fe468b0ed51a.md",
-      "last_edited_at": "2026-10-22T05:28:22.019Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc81a9beacd5badf897ea3",
-      "title": "📱 B1 City trip message",
-      "url": "https://app.notion.com/p/401f89e5e0fc81a9beacd5badf897ea3?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc81a9beacd5badf897ea3.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc81a9beacd5badf897ea3.md",
-      "last_edited_at": "2026-10-22T05:28:22.019Z",
       "retrieval_status": "fetched",
       "linguistic_review": "not-performed"
     },
@@ -454,26 +344,6 @@
       "raw_path": "sources/notion/401f89e5e0fc81c68ac9ed0f2909da1c.json",
       "snapshot_path": "sources/pages/401f89e5e0fc81c68ac9ed0f2909da1c.md",
       "last_edited_at": "2026-10-22T22:50:33.466Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc81c787f4cf27dc5cb151",
-      "title": "🧩 Combined projects",
-      "url": "https://app.notion.com/p/401f89e5e0fc81c787f4cf27dc5cb151?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc81c787f4cf27dc5cb151.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc81c787f4cf27dc5cb151.md",
-      "last_edited_at": "2026-10-22T06:07:44.174Z",
-      "retrieval_status": "fetched",
-      "linguistic_review": "not-performed"
-    },
-    {
-      "id": "401f89e5e0fc81cfbc00c7b871d6adce",
-      "title": "🛋️ A2 My favourite room",
-      "url": "https://app.notion.com/p/401f89e5e0fc81cfbc00c7b871d6adce?pvs=204",
-      "raw_path": "sources/notion/401f89e5e0fc81cfbc00c7b871d6adce.json",
-      "snapshot_path": "sources/pages/401f89e5e0fc81cfbc00c7b871d6adce.md",
-      "last_edited_at": "2026-10-22T05:27:48.811Z",
       "retrieval_status": "fetched",
       "linguistic_review": "not-performed"
     },
