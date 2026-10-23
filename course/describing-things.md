@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md)
 
-Course-wide overview drawn from chapters 3–5 and 7, Modeling 5, and the maintained grammar notes. All source material is **needs-review**.
+Course-wide overview drawn from chapters 3–5, 7 and 8, Modeling 5, and the maintained grammar notes. All source material is **needs-review**.
 
 ## Where this lives in the course
 
@@ -45,13 +45,48 @@ Full rules: [Adjective endings](../wiki/grammar/adjective-endings-with-or-withou
 
 ### Comparisons
 
-- Equal: **even … als** — *Ons appartement is even duur als jouw appartement.*
-- Comparative: **…-er dan** (or irregular) — *Mijn appartement is duurder dan jouw appartement.*
-- Superlative: **de/het …-ste** — *de ruimste woonkamer*
+From [Chapter 4](chapter-04.md) (comparative) and [Chapter 8](chapter-08.md) (superlative). Canonical note: [Comparisons](../wiki/grammar/comparisons-equal-comparative-and-superlative.md).
 
-Irregular: goed → beter → het best; veel → meer → het meest; graag → liever → het liefst; weinig → minder → het minst.
+**Patterns**
 
-Full table: [Comparisons](../wiki/grammar/comparisons-equal-comparative-and-superlative.md).
+- Equal: **even + adjective + als**
+- Comparative: **adjective + -er + dan** (add *-d-* if the adjective ends in *-r*)
+- Superlative: **de/het + adjective + -ste**
+
+**Regular**
+
+| Adjective | Equal | Comparative | Superlative |
+| --- | --- | --- | --- |
+| oud | even oud als | ouder (dan) | de oudste cursist / het oudste kind |
+| duur | even duur als | duurder (dan) | de duurste tunnel |
+| zwaar | even zwaar als | zwaarder (dan) | de zwaarste pompoen |
+| ruim | even ruim als | ruimer (dan) | de ruimste woonkamer |
+| groot | even groot als | groter (dan) | de grootste |
+| ver | even ver als | verder (dan) | de verste |
+| klein | even klein als | kleiner (dan) | de kleinste |
+| lang | even lang als | langer (dan) | de langste |
+
+**Irregular**
+
+| Adjective | Equal | Comparative | Superlative |
+| --- | --- | --- | --- |
+| veel | even veel als | meer (dan) | het meest |
+| goed | even goed als | beter (dan) | het best |
+| graag | even graag als | liever (dan) | het liefst |
+| weinig | even weinig als | minder (dan) | het minst |
+
+**Examples**
+
+- Ons appartement is even duur als jouw appartement.
+- Mijn appartement is duurder dan jouw appartement.
+- Het nieuwe appartement is beter dan het oude.
+- Dit is de ruimste woonkamer.
+
+**Watch out**
+
+- ✗ duurder als → ✓ duurder dan; ✓ even duur als
+- ✗ goeder / graager → ✓ beter / liever
+- Superlative takes *de* or *het* to match the noun: *de oudste cursist* / *het oudste kind*
 
 ## 3. Locations of things
 
@@ -109,7 +144,7 @@ Er staat een ronde tafel in de woonkamer. Leg een groen tapijt onder de tafel. H
 ## Practice
 
 1. Describe your favourite room in five sentences. Use *er is/zijn*, one position verb, one preposition and one correct adjective ending. (Chapter 5 opdracht 13)
-2. Compare two apartments: one *even … als*, one *…-er dan*. (Chapter 4)
+2. Compare two apartments: one *even … als*, one *…-er dan*, and one superlative. (Chapters 4 and 8)
 3. Give three instructions for placing furniture, using *moeten*, *mogen* and the imperative. (Chapter 3 + Modeling 5)
 4. Describe a lost object: colour, size, material, where it was. (Chapter 7)
 
@@ -117,6 +152,8 @@ Er staat een ronde tafel in de woonkamer. Leg een groen tapijt onder de tafel. H
 
 - Adjective after *zijn* has no *-e*; before a de-word or plural it has *-e*; before a het-word with *een* it has no *-e*.
 - Materials and *-en* adjectives do not take *-e*.
+- Equal uses *als*; comparative uses *dan*.
+- *-r* adjectives add *-d-* in the comparative (*duurder*, *zwaarder*).
 - *Er is* for singular non-specific; *Er zijn* for plural.
 - Position verb matches the object (staan / liggen / hangen).
 - Modal conjugated, infinitive at the end; imperative has no subject.
