@@ -2,6 +2,11 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Chapter exercises (`claude/project-thread-35p9h9`)
+
+- Added `course/exercises/` with one page per written chapter (1–8) and an index. Exercise wording, writing tips, adapted practice and answers come from the Notion chapter pages, read from the retrieval payloads in `sources/notion/` because the Markdown snapshots fold the Practice sections into a link label. Each page separates workbook wording from practice written for the study page and lists missing material; all content is unreviewed.
+- Chapter guides link their exercises page next to the preserved chapter text, and the study-session step points to it. `course/README.md` links the exercises index. `sources/` is unchanged.
+
 ## 2026-10-23 — Search everything (`claude/project-thread-nasid3`)
 
 - `python scripts/library.py search --all TERM` searches vocabulary plus the Markdown in `wiki/grammar/`, `course/`, `journal/` and `sources/pages/`, printing matching lines grouped by file. Plain `search` is unchanged (vocabulary only).
