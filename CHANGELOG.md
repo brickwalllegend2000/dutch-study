@@ -2,6 +2,12 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Course and wiki layout (`claude/project-thread-c3lipk`)
+
+- Moved `chapters/` to `course/` (oral guides in `course/oral/`), `practice/` to `course/exams/`, `grammar/` and `views/` to `wiki/grammar/` and `wiki/vocabulary/`, and `study/` to `journal/`, with `git mv` so history follows. Added `wiki/README.md` and a layout table in the README.
+- `scripts/library.py` now generates views into `wiki/vocabulary/`; relative links across the repo were rewritten (including link targets inside `sources/pages/` snapshots; snapshot text is otherwise unchanged). `scripts/import_notion.py` is a frozen one-time utility and still names the old paths.
+- `vocabulary.csv`, word IDs and `sources/` paths are unchanged. Chapters remain one file each.
+
 ## 2026-10-23 — Remove combined projects (`remove-combined-projects`)
 
 - Removed the user-authored Combined projects page, Projects A–C and exercises A1–C3 from `practice/` (13 pages), together with their 13 source snapshots in `sources/pages/` and payloads in `sources/notion/` (39 files), because they are not reference sources.

@@ -43,4 +43,4 @@ When a binary original is actually added, record `local_path`, `sha256`, and `st
 
 Grammar topics use YAML Properties: `id`, `source_ids`, `review_status`, and `reviewed_on` when reviewed. Explain scope and exceptions in the note body. Cite source snapshots using relative links.
 
-Personal answers belong in study notes, separate from canonical rules. Study templates can reference vocabulary IDs and grammar paths. Exercises in practice/ retain imported course material and must keep their review status visible.
+Personal answers belong in study notes, separate from canonical rules. Study templates can reference vocabulary IDs and grammar paths. Exercises in course/exams/ retain imported course material and must keep their review status visible.

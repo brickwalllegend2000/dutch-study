@@ -6,7 +6,7 @@ The process lives here. GitHub Issues hold tasks and their status. The local clo
 
 1. In GitHub Desktop, fetch and pull before editing. Resolve any uncommitted changes before pulling.
 2. Open README in Obsidian; choose a chapter, vocabulary list or practice task.
-3. Make a study note in `study/` using the Study Session template. Keep your answers and personal mistakes here rather than changing course facts.
+3. Make a study note in `journal/` using the Study Session template. Keep your answers and personal mistakes here rather than changing course facts.
 4. Capture uncertain facts as a GitHub correction issue. Link the relevant word ID or grammar file.
 5. When finished, review changed files in GitHub Desktop, commit with a meaningful summary and push. Wait for a green Library checks run when changing canonical content.
 
@@ -40,4 +40,4 @@ Triage the inbox, review open corrections, verify that changes have been pushed,
 
 ## Conflict recovery
 
-If GitHub Desktop reports a conflict, open the conflicting files and compare both versions. Keep valid changes from both sides; ask an agent for help with CSV conflicts. Regenerate `views/` after resolving canonical files. Validate before committing the resolution. Do not discard changes or force-push to make a conflict disappear.
+If GitHub Desktop reports a conflict, open the conflicting files and compare both versions. Keep valid changes from both sides; ask an agent for help with CSV conflicts. Regenerate `wiki/vocabulary/` after resolving canonical files. Validate before committing the resolution. Do not discard changes or force-push to make a conflict disappear.

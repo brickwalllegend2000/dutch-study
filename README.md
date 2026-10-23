@@ -8,23 +8,33 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 - [First-time setup](docs/SETUP.md) — GitHub Desktop, Obsidian and synchronization.
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.
-- [Vocabulary](views/VOCABULARY.md) · [Perfectum study list](views/PERFECTUM-STUDY-LIST.md) · [All perfectum verbs](views/PERFECTUM.md) · [Irregular verbs](views/IRREGULAR-VERBS.md) · [Needs review](views/NEEDS-REVIEW.md).
-- [Grammar](grammar/README.md) · [Chapters](chapters/README.md) · [Practice tests](practice/README.md).
-- [Study journal](study/README.md) · [Inbox](inbox/README.md).
+- [Vocabulary](wiki/vocabulary/VOCABULARY.md) · [Perfectum study list](wiki/vocabulary/PERFECTUM-STUDY-LIST.md) · [All perfectum verbs](wiki/vocabulary/PERFECTUM.md) · [Irregular verbs](wiki/vocabulary/IRREGULAR-VERBS.md) · [Needs review](wiki/vocabulary/NEEDS-REVIEW.md).
+- [Grammar](wiki/grammar/README.md) · [Chapters](course/README.md) · [Practice tests](course/exams/README.md).
+- [Study journal](journal/README.md) · [Inbox](inbox/README.md).
 - [Prepared project backlog](docs/TASKS.md) · [Publish to GitHub](docs/PUBLISH.md).
+
+## Layout
+
+| Folder | Purpose |
+| --- | --- |
+| [course](course/README.md) | The course: written chapters 1-8, oral guides in `course/oral/`, practice tests and exams in `course/exams/`. |
+| [wiki](wiki/README.md) | Reference you look things up in: grammar topics and vocabulary lists (generated from the CSV). |
+| [journal](journal/README.md) | Your own study notes. |
+| [inbox](inbox/README.md) | New material waiting to be processed. |
+| [sources](sources/README.md) | Preserved import evidence. Never reorganized. |
 
 ## What is authoritative?
 
 | Material | Maintained location |
 | --- | --- |
 | Words, meanings, forms and source references | [vocabulary.csv](vocabulary.csv) |
-| Grammar explanations | Markdown files in [grammar](grammar/README.md) |
-| Study order and chapter navigation | [chapters](chapters/README.md) |
-| Practice tests and mock exam | [practice](practice/README.md) |
+| Grammar explanations | Markdown files in [wiki/grammar](wiki/grammar/README.md) |
+| Study order and chapter navigation | [course](course/README.md) |
+| Practice tests and mock exam | [course/exams](course/exams/README.md) |
 | Original import evidence | [source inventory](sources/README.md) |
 | Outstanding work and corrections | GitHub Issues |
 
-Files in `views/` are generated from the CSV. Edit the CSV and regenerate; edits to generated notes will be replaced. Source snapshots preserve imported material and may contain older or conflicting versions. Use the canonical files for maintained facts and snapshots to check evidence.
+Files in `wiki/vocabulary/` are generated from the CSV. Edit the CSV and regenerate; edits to generated notes will be replaced. Source snapshots preserve imported material and may contain older or conflicting versions. Use the canonical files for maintained facts and snapshots to check evidence.
 
 Imported material is marked **needs-review**. Migration checks establish extraction and provenance, not that every Dutch sentence is correct. Original photos remain reference-only until their bytes are added to `sources/originals/`. See the [migration report](docs/MIGRATION.md).
 

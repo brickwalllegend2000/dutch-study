@@ -20,7 +20,7 @@ Recover original exercise 12 and the Kinepolis/NMBS form photos.
 
 ## Chapters
 
-[7. I’ve forgotten my umbrella!](../../chapters/chapter-07.md)
+[7. I’ve forgotten my umbrella!](../../course/chapter-07.md)
 
 Original task description
 
@@ -34,4 +34,4 @@ The original material is added with its source, the related chapter and grammar 
 
 ## Chapters
 
-[7. I’ve forgotten my umbrella!](../../chapters/chapter-07.md)
+[7. I’ve forgotten my umbrella!](../../course/chapter-07.md)
