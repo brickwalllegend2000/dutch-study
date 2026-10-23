@@ -14,3 +14,10 @@
 - [Using zal](using-zal.md) — chapter 6; Modeling 3
 - [Word order: eerst, dan and daarna](word-order-eerst-dan-and-daarna.md) — chapter 2
 - [Writing checklist](writing-checklist.md) — chapters 1, 2, 5, 6
+
+## Practice & revision resources
+
+- [Exam preparation](../../course/exams/exam-preparation.md) — compact 5 writing prompts, self-correction checklist, and exam schedule.
+- [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) — official lesson calendar, textbook page references, and schedule.
+- [Practice tests](../../course/exams/README.md) — [Zo gezegd 1.2 practice test](../../course/exams/zo-gezegd-1-2-practice-test.md) and [extra practice tests](../../course/exams/practice-tests.md).
+- [Chapter exercises](../../course/exercises/README.md) — workbook assignments and practice tasks per chapter.

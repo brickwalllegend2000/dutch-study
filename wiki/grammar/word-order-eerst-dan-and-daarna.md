@@ -13,7 +13,7 @@ review_status: needs-review
 
 **Cheat sheet:** [Word order](../cheat-sheets/word-order.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
 
-**Practice:** [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md)
+**Exercises & practice:** [Chapter 2 exercises (inversie)](../../course/exercises/chapter-02.md) · [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md) · [Exam preparation (checklist & prompt 4)](../../course/exams/exam-preparation.md#3-self-correction-checklist)
 
 *Inversie: eerst, dan, daarna*
 

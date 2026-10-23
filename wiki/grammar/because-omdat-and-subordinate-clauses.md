@@ -13,6 +13,8 @@ review_status: needs-review
 
 **Cheat sheet:** [Word order](../cheat-sheets/word-order.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
 
+**Exercises & practice:** [Chapter 6 exercises (e-mails with want/omdat)](../../course/exercises/chapter-06.md) · [Exam preparation (Prompt 3: personal message)](../../course/exams/exam-preparation.md#3-write-a-personal-message-or-email-persoonlijk-berichtje)
+
 *Omdat / bijzin*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

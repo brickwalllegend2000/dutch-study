@@ -13,6 +13,8 @@ review_status: needs-review
 
 **Cheat sheet:** [Negation and er](../cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md)
 
+**Exercises & practice:** [Chapter 4 exercises (appartement)](../../course/exercises/chapter-04.md) · [Chapter 5 exercises (favoriete kamer)](../../course/exercises/chapter-05.md) · [Cheat sheet: descriptions & room layout](../cheat-sheets/descriptions.md) · [Exam preparation (Prompt 2: woning)](../../course/exams/exam-preparation.md#2-describe-a-home-or-room-woning--favoriete-kamer)
+
 *Er als voorlopig subject*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

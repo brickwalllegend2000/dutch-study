@@ -13,7 +13,7 @@ review_status: needs-review
 
 **Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 6](../../course/review/chapter-06.md)
 
-**Practice:** [Giving instructions (Chapter 3)](../../course/instructies-geven.md)
+**Exercises & practice:** [Chapter 3 exercises (pictogrammen & regels)](../../course/exercises/chapter-03.md) · [Giving instructions (Chapter 3)](../../course/instructies-geven.md) · [Chapter 6 exercises (persoonlijke berichten)](../../course/exercises/chapter-06.md) · [Exam preparation (Prompt 3 & checklist)](../../course/exams/exam-preparation.md)
 
 *Modale verba + infinitief*
 
