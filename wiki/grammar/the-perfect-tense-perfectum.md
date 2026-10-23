@@ -1,11 +1,12 @@
 ---
 id: GRAM-cdcd78b148ff
 source_ids: ["401f89e5e0fc814c8008cdcd78b148ff"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # The perfect tense (perfectum)
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc814c8008cdcd78b148ff.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -58,6 +59,14 @@ Answers
 ## Verb forms
 
 [Irregular verbs](../vocabulary/IRREGULAR-VERBS.md)
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: *hebben* or *zijn* in second position and the participle at the end. The pairs *eten* → *hebben gegeten*, *gaan* → *zijn gegaan*, *vinden* → *hebben gevonden*, and the participle *teruggevonden* (separable *terugvinden*) are correct. *Zwemmen* with *hebben* or *zijn* depending on the meaning is correct.
+- Examples: all sentences are from the course archive (chapters 2 and 7). The exercise and answers are added study aids.
+- Limit: auxiliary choice is learned per verb; see [Irregular verbs](../vocabulary/IRREGULAR-VERBS.md) for each verb's auxiliary and participle as the course gives them.
 
 ## Sources and chapter links
 

@@ -1,11 +1,12 @@
 ---
 id: GRAM-dbd5125e5d7e
 source_ids: ["401f89e5e0fc8186be4bdbd5125e5d7e"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Comparisons: equal, comparative and superlative
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc8186be4bdbd5125e5d7e.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -44,6 +45,14 @@ review_status: needs-review
 **adjectief:** zwaar → **comparatief:** zwaarder (dan) → **superlatief:** de zwaarste pompoen
 
 Illustraties: klein – kleiner – kleinst (hond, muis, vlieg); lang – langer – langst (haar).
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: *even … als* (equal), *-er (dan)* (comparative) and *-st* (superlative). The *-r* adjectives (*duur*, *zwaar*, *ver*) take *-der* (*duurder*, *zwaarder*, *verder*), which is correct. The irregular forms *meer/meest*, *beter/best*, *liever/liefst* and *minder/minst* are correct.
+- Examples: all table rows are course material (chapter 8). The *klein/lang* illustrations are also from the course.
+- Limit: the superlative is written with *de*/*het* and *het best*/*het meest* in predicate or adverb use. Before a noun the forms take *-e* (*de beste*), which the table does not show.
 
 ## Sources and chapter links
 

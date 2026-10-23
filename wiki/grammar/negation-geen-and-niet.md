@@ -1,11 +1,12 @@
 ---
 id: GRAM-c0ded3bbae0e
 source_ids: ["401f89e5e0fc8187919ec0ded3bbae0e"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Negation: geen and niet
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc8187919ec0ded3bbae0e.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -28,6 +29,14 @@ review_status: needs-review
 
 - vóór *elke dag*, *graag* → niet: Ik neem elke dag de bus. → Ik neem niet elke dag de bus. / Ik woon graag in het centrum. → Ik woon niet graag in het centrum.
 - vóór een prepositie → niet: Ik woon op de derde verdieping. → Ik woon niet op de derde verdieping.
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: *een* or no article plus a noun becomes *geen*; *niet* goes before *elke dag*, *graag* and a preposition phrase. All examples are correct Dutch.
+- Examples: all from the course archive (chapter 4).
+- Limit: this is a partial rule, not the full rule for *niet*. *Niet* is also used with definite nouns (*Ik heb de sleutel niet*) and with verbs and adjectives, which the course does not cover here, and the position of *niet* varies. Treat it as the chapter 4 patterns only.
 
 ## Sources and chapter links
 

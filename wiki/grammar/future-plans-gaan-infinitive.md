@@ -1,11 +1,12 @@
 ---
 id: GRAM-cd2d3d522186
 source_ids: ["401f89e5e0fc815bb7a8cd2d3d522186"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Future plans: gaan + infinitive
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc815bb7a8cd2d3d522186.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -50,6 +51,14 @@ Answers
 1. Wij **gaan** morgen **winkelen**.
 2. **Morgen gaan wij winkelen.**
 3. **Ga je winkelen?**
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: *gaan* plus an infinitive for a plan; the verb comes second, so *Morgen gaan we …*; the infinitive stays last; *-t* drops after *je* in a question (*Ga je …?*). All correct.
+- Examples: *Ik ga winkelen*, *Wij gaan winkelen* and *Morgen gaan we winkelen* come from the archive. The exercise and answers are added study aids.
+- Limit: the unfinished Mercator prompt in the archive stays unfinished; no answer is supplied. *Zal/zullen* is a separate note ([Using zal](using-zal.md)).
 
 ## Sources and chapter links
 
