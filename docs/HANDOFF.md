@@ -18,6 +18,7 @@ Read first: [OVERVIEW.md](OVERVIEW.md) · [AGENTS.md](../AGENTS.md) · [WORKFLOW
 5. Inbox class notes **deferred** (do not process unless asked).
 6. Orientation docs expanded: this handoff + [OVERVIEW.md](OVERVIEW.md) (architecture, data flow, wiki vs course, setup).
 7. **Obsidian removed** from the repository (`.obsidian/` deleted; docs are GitHub-first). A future export vault may be added later; do not restore Obsidian config unless asked.
+8. **Soft layer split** — canonical facts live under `data/` (`vocabulary.csv`, `grammar/`); `course/` stays authored study; `wiki/vocabulary/` remains generated. Optional later rename of generated views and any Obsidian *export* vault stay deferred.
 
 ---
 
@@ -38,10 +39,10 @@ Read first: [OVERVIEW.md](OVERVIEW.md) · [AGENTS.md](../AGENTS.md) · [WORKFLOW
 
 Only if the user asks — otherwise study as-is.
 
-1. **Layering / export vault** — optional later: `data/` + generated `vault/` for Obsidian; not active now.
-2. **Process deferred inbox** — when ready: Import material Issue → source record → reconcile with CSV (learner notes contain errors; do not promote mistakes as course facts).
-3. **Faithful oral re-transcription** — reconcile `sources/pages/zo-gezegd-1-2-mondeling.md` theme-by-theme against `sources/originals/mondeling-1-2/*.png`; demote unreliable `reviewed` claims.
-4. **Teacher pass on 19 `[added]` glosses** — confirm or replace; then mark reviewed with a human note.
+1. **Process deferred inbox** — when ready: Import material Issue → source record → reconcile with `data/vocabulary.csv` (learner notes contain errors; do not promote mistakes as course facts).
+2. **Faithful oral re-transcription** — reconcile `sources/pages/zo-gezegd-1-2-mondeling.md` theme-by-theme against `sources/originals/mondeling-1-2/*.png`; demote unreliable `reviewed` claims.
+3. **Teacher pass on 19 `[added]` glosses** — confirm or replace; then mark reviewed with a human note.
+4. **Optional later polish** — rename `wiki/vocabulary/` → `views/vocabulary/` once the data-layer move is stable; optional Obsidian *export* vault packaging (not whole-repo Obsidian).
 5. **Visibility / history** — consider private repo + history purge if agenda credentials in old commits matter.
 6. **Delete closed Issues** — only with a GitHub admin account (UI or GraphQL `deleteIssue`).
 
@@ -82,7 +83,8 @@ After content changes: build, validate, tests; open a PR.
 | [wiki/README.md](../wiki/README.md) | Reference layer index |
 | [docs/DATA-SCHEMA.md](DATA-SCHEMA.md) | Column and ID rules |
 | [journal/my-study-view.md](../journal/my-study-view.md) | Learner entry |
-| [vocabulary.csv](../data/vocabulary.csv) | Lexicon |
+| [data/vocabulary.csv](../data/vocabulary.csv) | Lexicon (facts layer) |
+| [data/grammar/](../data/grammar/README.md) | Canonical grammar notes |
 | [sources/pages/zo-gezegd-1-2-mondeling.md](../sources/pages/zo-gezegd-1-2-mondeling.md) | Oral evidence (enriched) |
 | [inbox/README.md](../inbox/README.md) | Deferred captures |
 | [docs/INVENTORY.md](INVENTORY.md) | Refresh counts |

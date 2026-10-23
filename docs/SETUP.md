@@ -10,8 +10,9 @@ Obsidian is **removed for now**. Do not expect a `.obsidian/` config in this clo
 
 | Piece | Meaning |
 | --- | --- |
-| Git clone root | The library root (`course/`, `wiki/`, `vocabulary.csv`, `sources/`, …) |
-| `wiki/` folder | Reference notes inside the repo — **not** GitHub Wiki |
+| Git clone root | The library root (`data/`, `course/`, `wiki/`, `sources/`, …) |
+| `data/` | Canonical facts — `vocabulary.csv` and `grammar/` |
+| `wiki/` folder | Generated vocab views + cheat sheets inside the repo — **not** GitHub Wiki; grammar facts are under `data/grammar/` |
 | Sync | Git pull / push only |
 | Study | Markdown + generated vocab notes — **no Python** |
 | Maintenance | Python 3.11+ only to `build` / `validate` / `search` after CSV edits |
@@ -20,7 +21,7 @@ Obsidian is **removed for now**. Do not expect a `.obsidian/` config in this clo
 
 1. Install [GitHub Desktop](https://desktop.github.com/). Sign in with the account that owns or can access the repository.
 2. **File → Clone repository → URL** → `https://github.com/brickwalllegend2000/dutch-study`. Choose a normal local folder such as `Documents/dutch-study`.
-3. Open [journal/my-study-view.md](../journal/my-study-view.md) or `README.md` on GitHub or in your editor. Course chapters live under `course/`; grammar and word lists under `wiki/` (generated vocab in `wiki/vocabulary/`).
+3. Open [journal/my-study-view.md](../journal/my-study-view.md) or `README.md` on GitHub or in your editor. Course chapters live under `course/`; grammar under `data/grammar/`; generated word lists under `wiki/vocabulary/`.
 4. For a study log, copy [templates/Study-Session.md](../templates/Study-Session.md) into `journal/` and fill it in.
 5. In GitHub Desktop, review changes, commit (e.g. `study: practise chapter 2`), then **Push origin**. Do not hand-edit `wiki/vocabulary/`.
 

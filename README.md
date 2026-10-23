@@ -30,8 +30,9 @@ Canonical Dutch study library on GitHub. Study and maintain it here first (brows
 
 | Folder | Purpose |
 | --- | --- |
-| [course](course/README.md) | Chapters 1–8, oral guides, exercises, review sheets, exams |
-| [wiki](wiki/README.md) | Grammar, cheat sheets, generated vocabulary lists |
+| [data](data/grammar/README.md) | **Facts** — [vocabulary.csv](data/vocabulary.csv) and [grammar notes](data/grammar/README.md) |
+| [course](course/README.md) | **Authored study** — chapters 1–8, oral guides, exercises, review sheets, exams |
+| [wiki](wiki/README.md) | Generated vocabulary views + authored cheat sheets (grammar facts live under `data/`) |
 | [journal](journal/README.md) | Personal study notes and study home |
 | [inbox](inbox/README.md) | Captures waiting or **deferred** |
 | [sources](sources/README.md) | Import evidence — never reorganized to match corrections |
@@ -40,13 +41,13 @@ Canonical Dutch study library on GitHub. Study and maintain it here first (brows
 
 | Material | Maintained location |
 | --- | --- |
-| Words, meanings, forms, provenance | [vocabulary.csv](data/vocabulary.csv) |
+| Words, meanings, forms, provenance | [data/vocabulary.csv](data/vocabulary.csv) |
 | Grammar explanations | [data/grammar](data/grammar/README.md) |
 | Study order | [course](course/README.md) |
 | Evidence | [sources](sources/README.md) |
 | Outstanding work | [GitHub Issues](https://github.com/brickwalllegend2000/dutch-study/issues) (currently none open) |
 
-`wiki/vocabulary/` is **generated** from the CSV. Edit the CSV and run `build`. Source snapshots may conflict with maintained facts — keep conflicts visible.
+`wiki/vocabulary/` is **generated** from the CSV. Edit `data/vocabulary.csv` and run `build`. Cheat sheets and review sheets summarize facts; they add no new ones. Source snapshots may conflict with maintained facts — keep conflicts visible.
 
 Status snapshot: **520** vocabulary rows (**501** reviewed, **19** needs-review); **14** grammar topics reviewed; inbox class notes **deferred**. Details in [OVERVIEW.md](docs/OVERVIEW.md).
 

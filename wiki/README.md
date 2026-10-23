@@ -2,17 +2,17 @@
 
 [Home](../README.md) · [Course](../course/README.md) · [Overview (wiki vs library)](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-library) · [Setup](../docs/SETUP.md)
 
-Reference material to look things up in while you work through the [course](../course/README.md).
+Lookup and summary material while you work through the [course](../course/README.md). Canonical **facts** (lexicon + grammar notes) live under [`data/`](../data/grammar/README.md); this folder holds generated vocabulary views and authored cheat sheets.
 
-This folder is **part of the Git repository**, not GitHub’s separate Wiki product. The course is the study path; this wiki is the lookup layer. See [wiki versus the rest of the library](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-library).
+This folder is **part of the Git repository**, not GitHub’s separate Wiki product. See [wiki versus the rest of the library](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-library).
 
 ## What’s here
 
-| Subfolder | Kind | Edit |
+| Path | Kind | Edit |
 | --- | --- | --- |
-| [grammar/](../data/grammar/README.md) | Maintained explanations (14 topics + writing checklist) | Yes — canonical grammar |
-| [vocabulary/](vocabulary/VOCABULARY.md) | Generated lists and per-word notes from [vocabulary.csv](../data/vocabulary.csv) | No — edit CSV, then `python scripts/library.py build` |
-| [cheat-sheets/](cheat-sheets/README.md) | Hand-written summaries of CSV/grammar | Yes, carefully — no new facts; † for constructed examples |
+| [data/grammar/](../data/grammar/README.md) | Maintained explanations (14 topics + writing checklist) | Yes — canonical grammar (facts layer) |
+| [vocabulary/](vocabulary/VOCABULARY.md) | Generated lists and per-word notes from [data/vocabulary.csv](../data/vocabulary.csv) | No — edit CSV, then `python scripts/library.py build` |
+| [cheat-sheets/](cheat-sheets/README.md) | Hand-written summaries of CSV/grammar | Yes, carefully — stay here; no new facts; † for constructed examples |
 
 ## Indexes
 

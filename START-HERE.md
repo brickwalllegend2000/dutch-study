@@ -21,7 +21,8 @@ No Python is required just to read the course. Python 3.11+ is for `build` / `va
 | [docs/INVENTORY.md](docs/INVENTORY.md) | Refreshable counts |
 | [WORKFLOW.md](WORKFLOW.md) | Capture → process → review → push |
 | [docs/SETUP.md](docs/SETUP.md) | Clone and Git sync |
-| [wiki/README.md](wiki/README.md) | Grammar / vocab / cheat sheets (not GitHub Wiki) |
+| [wiki/README.md](wiki/README.md) | Generated vocab + cheat sheets (grammar facts under `data/grammar/`) |
+| [data/grammar/README.md](data/grammar/README.md) | Canonical grammar notes |
 
 ## GitHub
 

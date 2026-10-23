@@ -1,5 +1,7 @@
 # Grammar
 
+Canonical grammar notes in the **facts** layer (`data/`). Cheat sheets and review sheets summarize these notes; they do not replace them.
+
 [Home](../../README.md) · [Wiki](../../wiki/README.md) · [Chapters](../../course/README.md) · [Cheat sheets](../../wiki/cheat-sheets/README.md) · [Review sheets](../../course/review/README.md)
 
 - [Adjective endings: with or without -e](adjective-endings-with-or-without-e.md) — chapters 1, 4, 5, 7; Modeling 3, 5

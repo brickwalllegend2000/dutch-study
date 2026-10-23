@@ -4,6 +4,8 @@
 
 The course has two tracks. Work through both for each topic: the written track trains reading and writing, the oral track trains listening and speaking. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
+This folder is the **authored study** layer (path, practice, review sheets). Lexicon and grammar **facts** live under [`data/`](../data/grammar/README.md); generated word lists under [`wiki/vocabulary/`](../wiki/vocabulary/VOCABULARY.md).
+
 ## Overview
 
 - [Course and wiki view](view.md) — single page of chapters, oral guides, wiki links and practice.

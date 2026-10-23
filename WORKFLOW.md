@@ -17,7 +17,7 @@ Saving a file locally is not a GitHub push. Fetch/pull on the next device before
 1. Put the original file into `inbox/`. Create an Import material issue describing the chapter and desired outcome.
 2. An agent or you creates a source record in `sources/manifest.json`, preserves the original in `sources/originals/`, and writes a readable transcription in `sources/pages/`. Use a stable source ID, filename and page/sheet locators. Follow the [data schema](docs/DATA-SCHEMA.md).
 3. Check existing vocabulary and grammar before adding records. Update an existing record when the term and sense match; retain separate records for distinct senses when needed. Document any proposed split rather than silently merging senses.
-4. Add source occurrences to `sources/vocabulary-occurrences.json`; update `vocabulary.csv` or the maintained grammar file. Preserve variants and label any added interpretation.
+4. Add source occurrences to `sources/vocabulary-occurrences.json`; update `data/vocabulary.csv` or a file under `data/grammar/`. Preserve variants and label any added interpretation.
 5. Run `python scripts/library.py build`, `python scripts/library.py validate`, and `python -m unittest discover -s tests -v`.
 6. Submit substantial imports and corrections through a branch and pull request. Include coverage counts, source locations and unresolved questions. After review, merge and close the issue.
 7. Move processed inbox material to its permanent source location. Do not remove source evidence.
