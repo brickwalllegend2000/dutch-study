@@ -27,6 +27,7 @@ Irregular verbs
 ## Sources
 
 - [401f89e5e0fc8136967bea7232a7e938](../../../sources/pages/401f89e5e0fc8136967bea7232a7e938.md)
+- [SRC-ZG12M-20261023](../../../sources/pages/SRC-ZG12M-20261023.md)
 
 Original source occurrences: [provenance ledger](../../../sources/vocabulary-occurrences.json).
 

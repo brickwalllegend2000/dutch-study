@@ -416,6 +416,16 @@
       "last_edited_at": "2026-10-23T00:04:31.564Z",
       "retrieval_status": "fetched",
       "linguistic_review": "not-performed"
+    },
+    {
+      "id": "SRC-ZG12M-20261023",
+      "title": "Zo gezegd 1.2 — Mondeling (Thema 1–7 Kennis & Dit kan ik)",
+      "url": "sources/pages/zo-gezegd-1-2-mondeling.md",
+      "raw_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-24.png",
+      "snapshot_path": "sources/pages/zo-gezegd-1-2-mondeling.md",
+      "last_edited_at": "2026-10-23T07:50:45.000Z",
+      "retrieval_status": "captured",
+      "linguistic_review": "reviewed"
     }
   ],
   "attachments": [
@@ -705,6 +715,188 @@
       "reference": "notion-file-block://401f89e5-e0fc-804d-aab4-c8dcdcd97c24/056a2b0e-1d46-4eb4-91f4-4da432a418f3?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-20.png",
       "status": "reference-only",
       "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-24.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-24.png",
+      "sha256": "d2d77fda862eea12627f29df05c0c3eb40043141b3ae08952172f4ebf6a5344e",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-26.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-26.png",
+      "sha256": "5676e1315093c976002d310bcf51f8932152376c9d76302b184fc039658fbb02",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-28.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-28.png",
+      "sha256": "cfa4c790c47a07e5f49fb8b10192d605b397327a477aba451eb9465a9c1a35d9",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-30.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-30.png",
+      "sha256": "d9be5a7af45af2df2a49808563934803949fe12cda4846640c207c9ddaddb96d",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-36.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-36.png",
+      "sha256": "53f975f894eee2824f1a21d9d487ba3a9b717225f7ed29495bcb81673df33185",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-46.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-46.png",
+      "sha256": "52703d0539c9c5c8da63bdc6e1668ef185d1d8cce2197b3e316be1420573d64e",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-51.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-51.png",
+      "sha256": "086269f09e65b91c90576eebb005bc176343764f7a42abf5a25270efbbef3475",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-54.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-54.png",
+      "sha256": "03153b025878b2542ee47fee94a57c65ab0fb5ba7edfacb51e4ba7beb76f793e",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-56.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-56.png",
+      "sha256": "44c914d115d4a7f177e8ea967b9c1974529ead0cb536310530a3e2a49837f5ce",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-48-59.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-48-59.png",
+      "sha256": "949aee0f70d73c59d96f185c92405402acf8d19c941b1ca58bc8d046954a009d",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-14.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-14.png",
+      "sha256": "0f2ba7e6238817a2046eb9a99c0ee4ba67d79feae872fcf2aec6bfcecca2d0c3",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-20.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-20.png",
+      "sha256": "37240b58ae1b8e383dc4fa6a2b386b86c8e4b47745c02322a5c9d9e627ac4067",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-27.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-27.png",
+      "sha256": "49a8606a8cbf21cecb1501cf802ff92311163c04528f4909158bca4d86497329",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-33.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-33.png",
+      "sha256": "953f8c726ff44fcb2b116da5e97401dd535d8905cb52d9ef14c93e9f22f22b65",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-35.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-35.png",
+      "sha256": "a9ed9e284079f020a2197d29277789802529fb27dc5478b5709e4041054b509c",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-40.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-40.png",
+      "sha256": "759161e14ab840589f04392fabd42a544821ea330ad4d7e22e32f8f7cde44ace",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-55.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-55.png",
+      "sha256": "35bceb564456a2aa7488b03da32aa4412e3cece52adbb1bda4a96bcb77edd8ea",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-49-56.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-49-56.png",
+      "sha256": "d053c8e282cc594bf70ba9c5cf03a5527e75b02dfde11b30eac02f4644caab0f",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-02.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-02.png",
+      "sha256": "7af7e59bf1d2e343be9cac749aabb0ba15f0bf8edea27cdda44a13bcc4118568",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-13.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-13.png",
+      "sha256": "85f0a4d517cb5558c10431f85ad85ebc428d1f635c799c892b182b989a9e5588",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-20.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-20.png",
+      "sha256": "4f354aac4ec57bb51dacf29858b7c01dd19222aaee9cd6009f59081afe4a0c77",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-22.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-22.png",
+      "sha256": "49ab947d0da1089a1d04a77a6bbc442adc2e2642fc48d1b7025027d59413f7c8",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-30.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-30.png",
+      "sha256": "595898d29d8682e6c955c066ff9545d969066480958c3fab2c09b3530091bc87",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-38.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-38.png",
+      "sha256": "0c30af3a40dc30b952c196368fd46111991f4491ea4431850363b55c4d35ee68",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-40.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-40.png",
+      "sha256": "b1f1144ee475cfedd9e3951e0ca51ae08d9c2881bbaf3e574cc809afdcf8ca54",
+      "status": "archived"
+    },
+    {
+      "source_id": "SRC-ZG12M-20261023",
+      "name": "BetterShot_2026-10-23-07-50-45.png",
+      "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-45.png",
+      "sha256": "f1bb729240876483cf60a5970baf9ed47e8a8b672a3c974d03a6f406a5a8f572",
+      "status": "archived"
     }
   ]
 }

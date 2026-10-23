@@ -50,6 +50,7 @@ Auxiliary is source-specific; see the source notes for active/passive and moveme
 - [401f89e5e0fc8136967bea7232a7e938](../../../sources/pages/401f89e5e0fc8136967bea7232a7e938.md)
 - [401f89e5e0fc813ba013ca7c14321902](../../../sources/pages/401f89e5e0fc813ba013ca7c14321902.md)
 - [401f89e5e0fc81ecaa69c24bbe4cfc39](../../../sources/pages/401f89e5e0fc81ecaa69c24bbe4cfc39.md)
+- [SRC-ZG12M-20261023](../../../sources/pages/SRC-ZG12M-20261023.md)
 
 Original source occurrences: [provenance ledger](../../../sources/vocabulary-occurrences.json).
 

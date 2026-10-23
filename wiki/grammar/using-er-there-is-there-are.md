@@ -1,13 +1,14 @@
 ---
 id: GRAM-fde890611e5e
-source_ids: ["401f89e5e0fc816d805cfde890611e5e"]
-review_status: needs-review
+source_ids: ["401f89e5e0fc816d805cfde890611e5e", "SRC-ZG12M-20261023"]
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Using er: there is / there are
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Enriched with oral position verbs from *Zo gezegd 1.2 — Mondeling* (Thema 5, p. 142).
 
-[Source snapshot](../../sources/pages/401f89e5e0fc816d805cfde890611e5e.md) · [Home](../../README.md) · [Grammar](README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc816d805cfde890611e5e.md) · [Oral source snapshot](../../sources/pages/zo-gezegd-1-2-mondeling.md#1-er-als-voorlopig-subject-met-positieverba-p-142) · [Home](../../README.md) · [Grammar](README.md)
 
 **Written chapters:** [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) — **Oral:** [Modeling 5](../../course/oral/modeling-05.md)
 
@@ -30,6 +31,18 @@ review_status: needs-review
 - Er is geen berging.
 - Er is centrale verwarming.
 - Er zijn twee slaapkamers.
+
+### Er with position verbs (staan, liggen, hangen)
+
+In oral descriptions (Modeling 5), *er* is frequently paired with verbs of physical position rather than just *is / zijn*:
+
+$$\mathbf{Er} + \mathbf{staat / ligt / hangt} + \text{onbepaald subject} + \text{locatie}$$
+
+- **Er staat** een houten tafel in het midden van de living.
+- **Er ligt** een mooi tapijt onder de salontafel.
+- **Er hangt** een ronde spiegel boven de lavabo.
+- **Er liggen** boeken op het nachtkastje.
+- **Wat staat er** in de hoek? — **Er staat** een vloerlamp.
 
 ## Sources and chapter links
 

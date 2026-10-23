@@ -47,6 +47,7 @@ These are preserved snapshots, not maintained canonical explanations. Their raw 
 | 1. Who is who? | [Read](pages/401f89e5e0fc81f595c3f15218f426c8.md) | [JSON](notion/401f89e5e0fc81f595c3f15218f426c8.json) |
 | Files & maintenance | [Read](pages/401f89e5e0fc81fbbff9f7ba94a66347.md) | [JSON](notion/401f89e5e0fc81fbbff9f7ba94a66347.json) |
 | 📝 Zo gezegd 1.2 — Practice Test | [Read](pages/402f89e5e0fc812fa23defd30b9274b0.md) | [JSON](notion/402f89e5e0fc812fa23defd30b9274b0.json) |
+| 🗣️ Zo gezegd 1.2 — Mondeling (Thema 1–7) | [Read](pages/zo-gezegd-1-2-mondeling.md) | [Images](originals/mondeling-1-2/) |
 
 ## Original scans
 
