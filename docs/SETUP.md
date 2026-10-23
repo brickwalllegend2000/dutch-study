@@ -21,9 +21,9 @@ Obsidian is **removed for now**. Do not expect a `.obsidian/` config in this clo
 
 1. Install [GitHub Desktop](https://desktop.github.com/). Sign in with the account that owns or can access the repository.
 2. **File → Clone repository → URL** → `https://github.com/brickwalllegend2000/dutch-study`. Choose a normal local folder such as `Documents/dutch-study`.
-3. Open [journal/my-study-view.md](../journal/my-study-view.md) or `README.md` on GitHub or in your editor. Course chapters live under `course/`; grammar under `data/grammar/`; generated word lists under `wiki/vocabulary/`.
+3. Open [journal/my-study-view.md](../journal/my-study-view.md) or `README.md` on GitHub or in your editor. Course chapters live under `course/`; grammar under `data/grammar/`; generated word lists under `views/vocabulary/`.
 4. For a study log, copy [templates/Study-Session.md](../templates/Study-Session.md) into `journal/` and fill it in.
-5. In GitHub Desktop, review changes, commit (e.g. `study: practise chapter 2`), then **Push origin**. Do not hand-edit `wiki/vocabulary/`.
+5. In GitHub Desktop, review changes, commit (e.g. `study: practise chapter 2`), then **Push origin**. Do not hand-edit `views/vocabulary/`.
 
 On your next session, Fetch and Pull before editing. On a second computer, clone again. Prefer one editing session at a time for the same files.
 
@@ -54,7 +54,7 @@ If Git reports local changes before pulling, commit the intended changes first. 
 
 ## Editing vocabulary
 
-Browse `wiki/vocabulary/VOCABULARY.md` and per-word notes on GitHub or in an editor. For updates, open a GitHub correction issue and ask an agent to update the CSV, regenerate notes and open a pull request. Alternatively edit UTF-8 CSV in a CSV-capable editor, keeping the exact header and delimiter.
+Browse `views/vocabulary/VOCABULARY.md` and per-word notes on GitHub or in an editor. For updates, open a GitHub correction issue and ask an agent to update the CSV, regenerate notes and open a pull request. Alternatively edit UTF-8 CSV in a CSV-capable editor, keeping the exact header and delimiter.
 
 Python 3.11+ is needed only to regenerate and check the library. No pip packages are needed. Use `python3` where `python` is not defined, or `py` on Windows.
 

@@ -2,14 +2,14 @@
 
 [Home](../../README.md) · [Review sheets](README.md) · [Chapter 3 guide](../chapter-03.md) · [← Chapter 2 review](chapter-02.md) · [Chapter 4 review →](chapter-04.md)
 
-> Review sheet compiled on 2026-10-23 from the [chapter guide](../chapter-03.md), the [chapter vocabulary](../../wiki/vocabulary/CHAPTER-03.md), the maintained grammar notes and the [chapter exercises](../exercises/chapter-03.md). It adds no new facts and, like its sources, is **needs-review**. Examples marked † were written for this sheet to show a rule or a slip; they are not from the course and are unverified.
+> Review sheet compiled on 2026-10-23 from the [chapter guide](../chapter-03.md), the [chapter vocabulary](../../views/vocabulary/CHAPTER-03.md), the maintained grammar notes and the [chapter exercises](../exercises/chapter-03.md). It adds no new facts and, like its sources, is **needs-review**. Examples marked † were written for this sheet to show a rule or a slip; they are not from the course and are unverified.
 
 ## Key vocabulary
 
-- **Schrijfvaardigheid & Communicatie:** [Voor wie schrijf je?](../../wiki/vocabulary/words/VOC-021d05bb3156.md) · [Waarom schrijf je?](../../wiki/vocabulary/words/VOC-267b9ca47ade.md) · [Wat voor tekst?](../../wiki/vocabulary/words/VOC-69f865ac406e.md)
-- **Verba:** [kunnen](../../wiki/vocabulary/words/VOC-bc00acbadd2d.md) — *hebben gekund* · [moeten](../../wiki/vocabulary/words/VOC-bf501c6cc825.md) — *hebben gemoeten* · [mogen](../../wiki/vocabulary/words/VOC-c7d1c537c580.md) — *hebben gemogen* · [willen](../../wiki/vocabulary/words/VOC-eb6cefc89957.md)
+- **Schrijfvaardigheid & Communicatie:** [Voor wie schrijf je?](../../views/vocabulary/words/VOC-021d05bb3156.md) · [Waarom schrijf je?](../../views/vocabulary/words/VOC-267b9ca47ade.md) · [Wat voor tekst?](../../views/vocabulary/words/VOC-69f865ac406e.md)
+- **Verba:** [kunnen](../../views/vocabulary/words/VOC-bc00acbadd2d.md) — *hebben gekund* · [moeten](../../views/vocabulary/words/VOC-bf501c6cc825.md) — *hebben gemoeten* · [mogen](../../views/vocabulary/words/VOC-c7d1c537c580.md) — *hebben gemogen* · [willen](../../views/vocabulary/words/VOC-eb6cefc89957.md)
 
-The chapter has only seven vocabulary entries; the sign words in [exercise 1](../exercises/chapter-03.md) (*verboden, verplicht, toegelaten*) are not in `vocabulary.csv`. Full list: [chapter 3 vocabulary](../../wiki/vocabulary/CHAPTER-03.md).
+The chapter has only seven vocabulary entries; the sign words in [exercise 1](../exercises/chapter-03.md) (*verboden, verplicht, toegelaten*) are not in `vocabulary.csv`. Full list: [chapter 3 vocabulary](../../views/vocabulary/CHAPTER-03.md).
 
 ## Grammar to know
 

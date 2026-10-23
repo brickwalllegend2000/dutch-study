@@ -26,7 +26,7 @@ Practise 10 verbs from the perfectum study list: one original sentence each; che
 
 ## Material used
 
-- [Perfectum study list](../wiki/vocabulary/PERFECTUM-STUDY-LIST.md)
+- [Perfectum study list](../views/vocabulary/PERFECTUM-STUDY-LIST.md)
 - [The perfect tense](../data/grammar/the-perfect-tense-perfectum.md)
 - Vocabulary IDs in frontmatter
 
