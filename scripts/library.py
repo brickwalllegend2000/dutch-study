@@ -172,10 +172,11 @@ def listing(selected, columns=('dutch','english','review_status')):
 
 
 def rendered(root=ROOT):
-    rows=read_rows(root); pages={}; index=['# Vocabulary','', f'> Generated from [vocabulary.csv](../../{DATA_CSV}). Edit the CSV, then run `python scripts/library.py build`.','']
+    rows=read_rows(root); csv_name=Path(DATA_CSV).name
+    pages={}; index=['# Vocabulary','', f'> Generated from [{csv_name}](../../{DATA_CSV}). Edit the CSV, then run `python scripts/library.py build`.','']
     verb_cols=('dutch','english','auxiliary','participle','review_status')
     for r in rows:
-        lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', f'> Generated reading view. Edit the matching row in [vocabulary.csv](../../../{DATA_CSV}).','']
+        lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', f'> Generated reading view. Edit the matching row in [{csv_name}](../../../{DATA_CSV}).','']
         for field in FIELDS[2:12]:
             if r[field]: lines += ['## '+field.replace('_',' ').title(),'',r[field],'']
         lines+=['## Sources','']+[f'- [{sid}](../../../sources/pages/{sid}.md)' for sid in r['source_ids'].split(';')]
@@ -337,7 +338,8 @@ def main():
     parser.add_argument('query',nargs='?',default='')
     parser.add_argument('--all',action='store_true',help='search: also search grammar, cheat sheets, course, journal and inbox (maintained/personal)')
     parser.add_argument('--sources',action='store_true',help='search: also search source snapshots (implies --all folders plus sources/pages)')
-    args=parser.parse_args()
+    # Allow `search --all term` as well as `search term --all` (docs and agents use both).
+    args=parser.parse_intermixed_args()
     if args.command=='build': print(f'Generated {build()} reading views')
     elif args.command=='validate':
         errors=validate()
