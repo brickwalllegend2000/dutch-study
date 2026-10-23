@@ -42,7 +42,7 @@ Irregular verbs;Modale Hulpverba
 
 ## Notes
 
-Hulpverbum + infinitief; English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed
+Hulpverbum + infinitief; English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed; English filled from irregular-verbs source supplement (sources/pages/401f89e5e0fc8136967bea7232a7e938.md)
 
 ## Sources
 

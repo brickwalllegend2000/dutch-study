@@ -10,6 +10,8 @@ No GitHub repository, issues, milestones, Project board or Actions run were crea
 
 If an empty private repository is created and the agent's GitHub connection is granted access, the agent can finish publication. Alternatively use the prepared publishing script with your own authenticated GitHub CLI on your computer.
 
+**Live status (2026-10-23):** `brickwalllegend2000/dutch-study` is already published and is currently **public**. The publishing script still refuses to *create* or upload into a public empty destination; it does not change visibility of an existing repo. Prefer private visibility if the vault may again hold course login material. Do not re-commit the agenda PDF or other credential-bearing originals.
+
 ## Automated publication on your computer
 
 1. Extract the vault ZIP to a normal local folder, outside another synchronization service. Install Git, [GitHub CLI](https://cli.github.com/), Python 3.11+ and Obsidian.

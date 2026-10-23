@@ -16,9 +16,13 @@ striped
 
 Adjectief / Vaste verbinding
 
+## Forms
+
+gestreepte
+
 ## Examples
 
-« Hij draagt een gestreept hemd. »
+« Hij draagt een gestreept hemd. » ⟐ Een blauw-wit gestreept T-shirt.
 
 ## Chapters
 
@@ -30,7 +34,7 @@ Patronen
 
 ## Notes
 
-met strepen; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation
+met strepen; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation; English filled from oral occurrence; Example appended from oral occurrence
 
 ## Sources
 

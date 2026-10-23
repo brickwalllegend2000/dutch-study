@@ -24,6 +24,10 @@ Substantief
 
 de mutsen
 
+## Examples
+
+Zet je muts op tegen de koude wind.
+
 ## Chapters
 
 1
@@ -31,6 +35,10 @@ de mutsen
 ## Categories
 
 Kleding (Accessoires)
+
+## Notes
+
+Example appended from oral occurrence
 
 ## Sources
 

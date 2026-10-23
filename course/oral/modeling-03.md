@@ -123,4 +123,4 @@
   - [Comparisons: equal, comparative and superlative](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md) (*een maat groter / kleiner*).
   - [Modal verbs: can, must, may and want](../../wiki/grammar/modal-verbs-can-must-may-and-want.md).
 - **Exam practice:** [Exam preparation — Prompt 1: Describe a person](../exams/exam-preparation.md#1-describe-a-person-persoonsbeschrijving) & [Prompt 5: Describe a lost object](../exams/exam-preparation.md#5-describe-a-lost-object-verloren-voorwerp).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

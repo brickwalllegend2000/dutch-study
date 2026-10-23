@@ -75,7 +75,7 @@ This follows workbook opdracht 10 and exercise 1 of [chapter 2](../exercises/cha
 
 - **Comparisons**: comparative + *dan* (*kleiner dan*, *hoger*, *duurder dan*), equal comparison with *even … als* (*even snel als*), superlative (*de mooiste stad*). See [comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md). Note *hoog → hoger* and *duur → duurder* (an extra *d* after *r*).
 - **Perfectum** again: *zijn … geweest*, *heeft … gespeeld*, *heeft … gewonnen*, and *komen* with *zijn*: *Er zijn veel mensen … gekomen.*
-- **Gaan + infinitive**: *Morgen gaan we terug naar België* (here *gaan* is the main verb: we are going back).
+- **Gaan (main verb, not gaan + infinitive):** *Morgen gaan we terug naar België* — *gaan* is the main verb (we are going back); there is no second infinitive. For the future construction see [gaan + infinitive](../../wiki/grammar/future-plans-gaan-infinitive.md).
 - The match and score are invented. *Zwitserland is kleiner dan Oostenrijk* and *de bergen zijn hoger* are true; the price comparison is a generalisation.
 - Words not in the course list: *de voetbalwedstrijd*, *de wedstrijd*, *de berg*, *het eten*, *de trein*, *tegen* (against, in a match).
 

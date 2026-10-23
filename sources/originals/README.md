@@ -4,6 +4,6 @@ Preserve actual photos, PDFs and other course files here. The initial migration 
 
 ## Course documents
 
-- [Course agenda PDF (sept–okt 2026)](agenda-sept-okt-26.pdf) — Waystage 1.2 class agenda (*CVO Groeipunt, Gent, Fanny Saverys*).
+- [Course agenda (study-safe transcription)](../pages/agenda-sept-okt-26.md) — Waystage 1.2 class agenda (*CVO Groeipunt*). Original PDF withheld from the public tree (embedded course login instructions); see [notice](agenda-sept-okt-26.notice.txt).
 
 [Source inventory](../README.md)

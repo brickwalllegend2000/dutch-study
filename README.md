@@ -4,9 +4,13 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 ## Start here
 
-**Hosted on GitHub:** this vault now lives in the private repository `brickwalllegend2000/dutch-study`. Clone it and open the folder in Obsidian. Starter tasks and labels exist as GitHub Issues; milestones and the optional Project board are not created yet, see [publishing instructions](docs/PUBLISH.md).
+**Open study home:** [journal/my-study-view.md](journal/my-study-view.md) — one place to continue, practise writing or speaking, look things up, or log mistakes.
 
-- [Course and wiki view](course/view.md) — single page of course chapters and wiki links (viewable on GitHub).
+**Hosted on GitHub:** `brickwalllegend2000/dutch-study` is currently a **public** repository (visibility checked 2026-10-23). Docs that previously called it private were wrong; treat anything committed here as public. Course Moodle credentials must not be stored in this tree (the agenda PDF was removed for that reason). Clone it and open the folder in Obsidian. Starter tasks exist as GitHub Issues; milestones and the optional Project board may still need [publishing setup](docs/PUBLISH.md).
+
+- [Study home](journal/my-study-view.md) — short-session entry point.
+- [Current inventory](docs/INVENTORY.md) — live counts (prefer this over historical migration figures).
+- [Course and wiki view](course/view.md) — chapter and wiki link map.
 - [What was imported](START-HERE.md) — first-run notes and import summary.
 - [First-time setup](docs/SETUP.md) — GitHub Desktop, Obsidian and synchronization.
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.
@@ -60,11 +64,12 @@ Python 3.11 or later; no packages to install. Run from this folder:
 ```bash
 python scripts/library.py search vergeten
 python scripts/library.py search --all vergeten
+python scripts/library.py search --sources vergeten
 python scripts/library.py build
 python scripts/library.py validate
 python -m unittest discover -s tests -v
 ```
 
-`search` looks up words in vocabulary.csv. `search --all` also searches the grammar notes and cheat sheets, course chapters, oral guides, exams, your journal and the imported source pages, and lists each matching line under its file. Searches ignore upper and lower case.
+`search` looks up words in vocabulary.csv. `search --all` also searches maintained study folders (grammar, cheat sheets, course, journal, inbox). `search --sources` adds imported source snapshots. Searches ignore upper and lower case.
 
 On Windows, use `py` if `python` is unavailable. Reading and studying in Obsidian requires no Python installation.

@@ -13,3 +13,8 @@ __pycache__/
 .env.*
 !.env.example
 .superpowers/
+
+# Course agenda PDF embeds Moodle login instructions — keep out of the public tree.
+# Study-safe transcription: sources/pages/agenda-sept-okt-26.md
+sources/originals/AGENDA*.pdf
+sources/originals/agenda-sept-okt-26.pdf

@@ -16,9 +16,13 @@ iron, metal
 
 Stoffelijk Adjectief
 
+## Forms
+
+ijzeren
+
 ## Examples
 
-« Een ijzeren hek / tafel. »
+« Een ijzeren hek / tafel. » ⟐ Een stevig ijzeren bedframe.
 
 ## Chapters
 
@@ -30,7 +34,7 @@ Materialen
 
 ## Notes
 
-Materiaaltype (Metaal)
+Materiaaltype (Metaal); Example appended from oral occurrence
 
 ## Sources
 

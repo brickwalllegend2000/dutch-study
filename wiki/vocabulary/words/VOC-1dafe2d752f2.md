@@ -16,9 +16,13 @@ plain
 
 Adjectief / Vaste verbinding
 
+## Forms
+
+effen
+
 ## Examples
 
-« Hij draagt een effen hemd. »
+« Hij draagt een effen hemd. » ⟐ Een effen wit hemd zonder motief.
 
 ## Chapters
 
@@ -30,7 +34,7 @@ Patronen
 
 ## Notes
 
-effen patroon; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation
+effen patroon; English meaning taken from the course entry VOC-980aeb553adf for the same expression; no new translation; English filled from oral occurrence; Example appended from oral occurrence
 
 ## Sources
 

@@ -106,4 +106,4 @@
   - [Modal verbs: can, must, may and want](../../wiki/grammar/modal-verbs-can-must-may-and-want.md) · [Verb + infinitive cheat sheet](../../wiki/cheat-sheets/verb-plus-infinitive.md).
   - [Joining sentences: want, en, maar and of](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md) · [Because: omdat](../../wiki/grammar/because-omdat-and-subordinate-clauses.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
 - **Exam practice:** [Exam preparation — Prompt 3: Write a personal message or email](../exams/exam-preparation.md#3-write-a-personal-message-or-email-persoonlijk-berichtje) (Situatie B: afspraak verzetten).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

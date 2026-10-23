@@ -127,4 +127,4 @@
   - [The perfect tense (perfectum)](../../wiki/grammar/the-perfect-tense-perfectum.md) · [Perfectum cheat sheet](../../wiki/cheat-sheets/perfectum.md) · [80 core verbs list](../../wiki/vocabulary/PERFECTUM-STUDY-LIST.md).
   - [Word order: eerst, dan, daarna](../../wiki/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
 - **Exam practice:** [Exam preparation — Prompt 4: Write about a trip or vacation](../exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip-vakantiekaartje) (restaurant experiences, leisure activities) & [Prompt 5: Describe a lost object](../exams/exam-preparation.md#5-describe-a-lost-object-verloren-voorwerp).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

@@ -16,6 +16,10 @@ review_status: needs-review
 
 Verbum
 
+## Forms
+
+scheidt, scheidde
+
 ## Auxiliary
 
 zijn
@@ -24,13 +28,17 @@ zijn
 
 gescheiden
 
+## Examples
+
+Zijn ouders zijn gescheiden.
+
 ## Categories
 
 Irregular verbs
 
 ## Notes
 
-English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed
+English meaning added 2026-10-23 by an AI reviewer; not in the course sources, so it stays needs-review until confirmed; English filled from irregular-verbs source supplement (sources/pages/401f89e5e0fc8136967bea7232a7e938.md); Example appended from oral occurrence
 
 ## Sources
 

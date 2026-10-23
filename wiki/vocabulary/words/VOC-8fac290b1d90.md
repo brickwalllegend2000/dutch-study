@@ -16,9 +16,13 @@ fabric, upholstered
 
 Stoffelijk Adjectief
 
+## Forms
+
+stoffen
+
 ## Examples
 
-« Een stoffen zetel. »
+« Een stoffen zetel. » ⟐ Een stoffen zetel in de woonkamer.
 
 ## Chapters
 
@@ -30,7 +34,7 @@ Materialen
 
 ## Notes
 
-Materiaaltype (Textiel)
+Materiaaltype (Textiel); Example appended from oral occurrence
 
 ## Sources
 

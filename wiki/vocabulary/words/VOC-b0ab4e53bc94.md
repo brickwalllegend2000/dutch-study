@@ -30,7 +30,7 @@ gestaan
 
 ## Examples
 
-« Er staat een kast tegen de muur. »
+« Er staat een kast tegen de muur. » ⟐ Die kleur staat je heel goed! [oral: clothing “suits” sense]
 
 ## Chapters
 
@@ -42,7 +42,7 @@ Irregular verbs;Positieverba (Staan / Zitten / Liggen / Hangen)
 
 ## Notes
 
-Voor verticale / op pootjes geplaatste voorwerpen
+Voor verticale / op pootjes geplaatste voorwerpen; Oral evidence also has a “suits (of clothing/colour)” sense (Die kleur staat je heel goed!)
 
 ## Sources
 
