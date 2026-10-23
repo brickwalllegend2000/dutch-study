@@ -24,6 +24,7 @@ review_status: needs-review
 
 ## Use it with
 
+- [Exam preparation: 5 core writing prompts & checklist](../../course/exams/exam-preparation.md)
 - [1. Who is who?](../../course/chapter-01.md)
 - [2. Did you have a good city trip?](../../course/chapter-02.md)
 - [5. My favourite room](../../course/chapter-05.md)

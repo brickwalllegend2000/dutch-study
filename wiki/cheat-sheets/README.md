@@ -11,7 +11,8 @@ One page per main grammar topic, for quick lookup while writing. Each sheet cond
 | [Word order](word-order.md) | [eerst, dan, daarna](../grammar/word-order-eerst-dan-and-daarna.md) · [want, en, maar, of](../grammar/joining-sentences-want-en-maar-and-of.md) · [omdat](../grammar/because-omdat-and-subordinate-clauses.md) | 2, 4, 6 |
 | [Adjectives and comparisons](adjectives.md) | [Adjective endings](../grammar/adjective-endings-with-or-without-e.md) · [Comparisons](../grammar/comparisons-equal-comparative-and-superlative.md) | 1, 4, 5, 7, 8 |
 | [Negation and er](negation-and-er.md) | [geen and niet](../grammar/negation-geen-and-niet.md) · [Using er](../grammar/using-er-there-is-there-are.md) | 4, 5 |
+| [Descriptions, positions and room layout](descriptions.md) | [Adjective endings](../grammar/adjective-endings-with-or-without-e.md) · [Using er](../grammar/using-er-there-is-there-are.md) · [Checklist](../grammar/writing-checklist.md) | 1, 4, 5, 7 |
 
-For writing tasks, use the [writing checklist](../grammar/writing-checklist.md); it is already a one-page checklist, so it has no separate cheat sheet.
+For writing tasks, use the [writing checklist](../grammar/writing-checklist.md); it is already a one-page checklist, so it has no separate cheat sheet. For complete revision, see [Exam preparation](../../course/exams/exam-preparation.md) and the [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf).
 
 Course grammar with no maintained note, and so no cheat sheet: *artikel*, *presens* (including separable verbs and *staan, liggen, hangen, zitten*), *pluralis*, *om te + infinitief* and the spelling rules.

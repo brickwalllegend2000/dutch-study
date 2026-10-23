@@ -13,7 +13,7 @@ review_status: needs-review
 
 **Cheat sheet:** [Perfectum](../cheat-sheets/perfectum.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 6](../../course/review/chapter-06.md) · [Chapter 7](../../course/review/chapter-07.md) · [Chapter 8](../../course/review/chapter-08.md)
 
-**Practice:** [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md)
+**Exercises & practice:** [Chapter 2 exercises (citytrip & perfectum)](../../course/exercises/chapter-02.md) · [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md) · [Chapter 7 exercises (lost items & perfectum)](../../course/exercises/chapter-07.md) · [Exam preparation (citytrip prompt)](../../course/exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip--vakantiekaartje) · [80-verb study list](../vocabulary/PERFECTUM-STUDY-LIST.md)
 
 *Perfectum*
 

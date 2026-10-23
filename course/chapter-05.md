@@ -45,7 +45,7 @@ Maintained grammar notes:
 - [Using er: there is / there are](../wiki/grammar/using-er-there-is-there-are.md)
 - [Writing checklist](../wiki/grammar/writing-checklist.md)
 
-Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) · [Descriptions, positions & room layout](../wiki/cheat-sheets/descriptions.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

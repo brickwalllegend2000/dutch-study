@@ -46,7 +46,7 @@ Maintained grammar notes:
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
 - [Writing checklist](../wiki/grammar/writing-checklist.md)
 
-Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Descriptions, positions & room layout](../wiki/cheat-sheets/descriptions.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

@@ -13,6 +13,8 @@ review_status: needs-review
 
 **Cheat sheet:** [Adjectives and comparisons](../cheat-sheets/adjectives.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 7](../../course/review/chapter-07.md)
 
+**Exercises & practice:** [Chapter 1 exercises (kleren & adjectieven)](../../course/exercises/chapter-01.md) · [Chapter 5 exercises (materialen & meubels)](../../course/exercises/chapter-05.md) · [Cheat sheet: descriptions](../cheat-sheets/descriptions.md) · [Exam preparation (prompts 1, 2, 5)](../../course/exams/exam-preparation.md)
+
 *Adjectief: met of zonder -e*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

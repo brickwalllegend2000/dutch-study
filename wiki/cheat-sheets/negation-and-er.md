@@ -38,6 +38,17 @@ Start with *er* when the real subject is not specific (with *een*, *geen*, a num
 
 With a plural subject, use the plural verb: *Er hangen gebloemde gordijnen. In de zetel liggen oranje kussens.*
 
+### Action verbs vs. position verbs (zetten / leggen / hangen)
+
+Action verbs describe placing something (*waarheen?* + direct object); position verbs describe location or state (*waar?*, no direct object).
+
+| Action (actieverbum) | Position (positieverbum) | Example pair |
+| --- | --- | --- |
+| **zetten** (*heeft gezet*) | **staan** (*heeft gestaan*) | Zet de lamp op tafel.† → De lamp **staat** op tafel. |
+| **leggen** (*heeft gelegd*) | **liggen** (*heeft gelegen*) | Leg het boek in de kast.† → Het boek **ligt** in de kast. |
+| **hangen** (*heeft gehangen*) | **hangen** (*heeft gehangen*) | Hang de jas aan de kapstok.† → De jas **hangt** aan de kapstok. |
+| **stoppen / steken** | **zitten** (*heeft gezeten*) | Steek de sleutel in je zak.† → De sleutel **zit** in je zak. |
+
 ## Watch out
 
 - ✗ Er is niet een lift.† → ✓ Er is geen lift.
