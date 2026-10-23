@@ -49,7 +49,7 @@ Can-do goals (*Dit kan ik!*, coursebook p. 66):
 - [ ] Ik kan zeggen wat ik gedaan heb.
 - [ ] Ik kan zeggen wat ik ga doen.
 
-Practise with [the Oostende messages, opdracht 10 and the trip message](../exercises/chapter-02.md).
+Practise with [the Oostende messages, opdracht 10 and the trip message](../exercises/chapter-02.md) or the [daily routines practice](../wat-doe-jij-elke-dag.md).
 
 ## Not in the library yet
 
