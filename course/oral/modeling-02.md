@@ -121,4 +121,4 @@
   - [Modal verbs: can, must, may and want](../../wiki/grammar/modal-verbs-can-must-may-and-want.md) (*mag het wat meer zijn*).
   - [Negation: geen and niet](../../wiki/grammar/negation-geen-and-niet.md) · [Negation cheat sheet](../../wiki/cheat-sheets/negation-and-er.md).
 - **Exam practice:** [Exam preparation — Prompt 4: Write about a trip or vacation](../exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip-vakantiekaartje) (ordering, buying food, daily activities).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

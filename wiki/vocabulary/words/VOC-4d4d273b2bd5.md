@@ -8,13 +8,21 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+striped
+
 ## Word Type
 
 Adjectief / Vaste verbinding
 
+## Forms
+
+gestreepte
+
 ## Examples
 
-« Hij draagt een gestreept hemd. »
+« Hij draagt een gestreept hemd. » ⟐ Een blauw-wit gestreept T-shirt.
 
 ## Chapters
 
@@ -26,7 +34,7 @@ Patronen
 
 ## Notes
 
-met strepen
+met strepen; English filled from oral occurrence; label as added translation pending textbook-image check.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
 
 ## Sources
 

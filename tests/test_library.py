@@ -129,3 +129,48 @@ class TextSearchTests(unittest.TestCase):
             (root/'course'/'notes.txt').write_text('vergeten\n',encoding='utf-8')
             hits=list(search_text('vergeten',root,['course','missing']))
         self.assertEqual(hits,[('course/chapter-01.md',2,'Ik ben VERGETEN.')])
+
+
+class ValidationGapTests(CorpusFixture):
+    def test_extra_generated_word_note_is_rejected(self):
+        from library import validate
+        extra=self.root/'wiki/vocabulary/words/VOC-deadbeefdead.md'
+        extra.write_text('# orphan generated note\n',encoding='utf-8')
+        self.assertTrue(any('unexpected generated file' in e for e in validate(self.root)))
+
+    def test_csv_row_with_extra_cell_is_rejected(self):
+        from library import validate, FIELDS
+        path=self.root/'vocabulary.csv'
+        path.write_text(path.read_text(encoding='utf-8').rstrip('\n')+',extra\n',encoding='utf-8')
+        self.assertTrue(any('expected %d cells' % len(FIELDS) in e for e in validate(self.root)))
+
+    def test_archived_pdf_must_look_like_pdf(self):
+        from library import validate
+        originals=self.root/'sources/originals'; originals.mkdir(parents=True)
+        fake=originals/'agenda.pdf'; fake.write_text('not a pdf alias\n',encoding='utf-8')
+        digest=__import__('hashlib').sha256(fake.read_bytes()).hexdigest()
+        self.manifest['attachments']=[{'name':'agenda.pdf','status':'archived','local_path':'sources/originals/agenda.pdf','sha256':digest}]
+        self.write_manifest()
+        self.assertTrue(any('unexpected format' in e for e in validate(self.root)))
+
+    def test_verb_listing_includes_auxiliary_and_participle(self):
+        from library import listing
+        row={**self.row,'english':'to eat','auxiliary':'hebben','participle':'gegeten','review_status':'needs-review'}
+        table=listing([row],('dutch','english','auxiliary','participle','review_status'))
+        self.assertIn('| Auxiliary | Participle |',table)
+        self.assertIn('hebben',table)
+        self.assertIn('gegeten',table)
+
+
+class PublishHelperTests(unittest.TestCase):
+    def test_credential_helper_unset_all_is_idempotent(self):
+        import tempfile, subprocess
+        from publish_github import command
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            subprocess.run(['git','init'],cwd=root,check=True,capture_output=True)
+            # Simulate two publish runs: unset-all then add, twice.
+            for _ in range(2):
+                subprocess.run(['git','config','--local','--unset-all','credential.https://github.com.helper'],cwd=root,capture_output=True)
+                r=subprocess.run(['git','config','--local','--add','credential.https://github.com.helper','!gh auth git-credential'],cwd=root,capture_output=True)
+                self.assertEqual(r.returncode,0)

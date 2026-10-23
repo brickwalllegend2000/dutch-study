@@ -109,4 +109,4 @@
   - [Because: omdat and subordinate clauses](../../wiki/grammar/because-omdat-and-subordinate-clauses.md) (verb-final subordinate order).
   - [Comparisons: equal, comparative and superlative](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md) (*sneller, duurder, het handigst*).
 - **Exam practice:** [Exam preparation — Prompt 3: Write a personal message](../exams/exam-preparation.md#3-write-a-personal-message-or-email-persoonlijk-berichtje) (delay / absence notices) & [Prompt 4: Write about a trip](../exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip-vakantiekaartje).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

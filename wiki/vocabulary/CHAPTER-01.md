@@ -18,12 +18,12 @@
 | [een T-shirt met korte mouwen](words/VOC-4a746b9be7de.md) | a short-sleeved T-shirt | needs-review |
 | [een T-shirt met lange mouwen](words/VOC-ef08be6de716.md) | a long-sleeved T-shirt | needs-review |
 | [een T-shirt zonder mouwen](words/VOC-4b19938b340d.md) | a sleeveless T-shirt | needs-review |
-| [effen](words/VOC-1dafe2d752f2.md) |  | needs-review |
+| [effen](words/VOC-1dafe2d752f2.md) | plain / solid color | needs-review |
 | [effen gebloemd geruit gestreept met bolletjes](words/VOC-980aeb553adf.md) | plain flowery checked striped polka-dotted | needs-review |
 | [gebloemd](words/VOC-5a31c39eb69e.md) |  | needs-review |
 | [geel](words/VOC-733f4f22a285.md) | yellow | needs-review |
-| [geruit](words/VOC-319421e686c3.md) |  | needs-review |
-| [gestreept](words/VOC-4d4d273b2bd5.md) |  | needs-review |
+| [geruit](words/VOC-319421e686c3.md) | checked / plaid | needs-review |
+| [gestreept](words/VOC-4d4d273b2bd5.md) | striped | needs-review |
 | [grijs](words/VOC-521c1528cf2f.md) | grey | needs-review |
 | [groen](words/VOC-f09a953a3ccf.md) | green | needs-review |
 | [handschoen](words/VOC-719410377c9d.md) | glove | needs-review |

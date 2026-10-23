@@ -1,7 +1,12 @@
 # Zo gezegd 1.2 — Mondeling (Thema 1–7)
 
-> Preserved source transcription, 2026-10-23. Captured from course textbook screenshots: *Zo gezegd 1.2 — Mondeling* (2.1 richtgraad 1, CVO Groeipunt).
-> Original image binaries archived in `sources/originals/mondeling-1-2/`.
+> **Import snapshot (2026-10-23), not a certified page-faithful transcription.**
+> Captured from course textbook screenshots: *Zo gezegd 1.2 — Mondeling* (2.1 richtgraad 1, CVO Groeipunt).
+> Original image binaries are archived in `sources/originals/mondeling-1-2/` (26 PNGs; hashes recorded in the manifest).
+>
+> **Evidence boundary:** parts of this file are enriched reconstructions (extra vocabulary, examples, or wording) that do not match the cited textbook pages. Where a conflict with an archived screenshot is known, it is marked below. Do not treat `reviewed` vocabulary or grammar that cite only this snapshot as proof that an item appears on the cited printed page until a faithful page-level transcription exists.
+>
+> Editorial additions should be read as teaching aids, not as preserved page text.
 
 [Source inventory](../README.md) · [Manifest](../manifest.json) · [Oral course modules](../../course/oral/modeling-01.md)
 
@@ -288,46 +293,49 @@
 
 ### Ondersteunende kennis: woordenschat (pp. 90–91)
 
-#### Kledingstukken en accessoires (p. 90)
-- **het T-shirt** / de T-shirts
-- **het hemd** / de hemden
-- **de trui** / de truien
-- **het topje** / de topjes
-- **de broek** / de broeken
-- **de jeans** (de jeansbroek)
-- **het kleedje** / de kleedjes (de jurk / de jurken)
-- **de rok** / de rokken
-- **de jas** / de jassen (de mantel)
-- **de schoen** / de schoenen
-- **de bot** / de botten (de laars / de laarzen)
-- **de sok** / de sokken
-- **de sjaal** / de sjaals
-- **de muts** / de mutsen
-- **de handschoen** / de handschoenen
-- **de zwembroek** / de zwembroeken
-- **het badpak** / de badpakken
+#### Kledingstukken en accessoires (attributed to p. 90)
 
-#### Kleuren en patronen (p. 90)
-- **Kleuren**: donkerblauw, lichtblauw, felrood, beige, grijs, zwart, wit.
-- **Patronen**: *effen* (zonder motief), *gestreept*, *geruit*, *met bollen / gestipt*, *met bloemen / gebloemd*.
+> **Screenshot check (BetterShot_2026-10-23-07-49-14.png, printed pp. 90–91):** the archived spread includes *regenjas*, *rits*, and *knoop*, and a different shopping-noun set (*klerenwinkel*, *tweedehandswinkel*, *paskamer*, *spiegel*, *maat*, *probleem*, *mouw*). The textbook return example concerns a broken iron. The list below is an **enriched reconstruction** for study: it omits some printed items and adds others (*topje*, *handschoen*, *zwembroek*, *badpak*, *kassa*, *kasticket*, *solden*, *korting*, receipt-based return). Keep the images as authority for page fidelity.
 
-#### Winkeltermen en maten (p. 91)
-- **de maat** / de maten (kleine maat, grote maat, maat S/M/L, maat 38/40/42)
-- **het pashokje** / de pashokjes
-- **de spiegel** / de spiegels
-- **de kassa** / de kassa's
-- **het kasticket** / het kassaticket
-- **de solden** (de koopjes / in de solden)
-- **de korting** / de kortingen
+- **het T-shirt** / de T-shirts †
+- **het hemd** / de hemden †
+- **de trui** / de truien †
+- **het topje** / de topjes † (not verified on the cited spread)
+- **de broek** / de broeken †
+- **de jeans** (de jeansbroek) †
+- **het kleedje** / de kleedjes (de jurk / de jurken) †
+- **de rok** / de rokken †
+- **de jas** / de jassen (de mantel) †
+- **de schoen** / de schoenen †
+- **de bot** / de botten (de laars / de laarzen) †
+- **de sok** / de sokken †
+- **de sjaal** / de sjaals †
+- **de muts** / de mutsen †
+- **de handschoen** / de handschoenen † (not verified on the cited spread)
+- **de zwembroek** / de zwembroeken † (not verified on the cited spread)
+- **het badpak** / de badpakken † (not verified on the cited spread)
 
-#### Verba bij kleding (p. 91)
-- **passen**: "Mag ik dit hemd even passen?"
-- **dragen**: "Welke maat draag je?"
-- **staan**: "Die kleur staat je heel goed!"
-- **ruilen**: "Kan ik deze broek binnen 14 dagen ruilen?"
-- **terugbrengen**: "Mag ik dit terugbrengen met het kasticket?"
-- **aandoen / aantrekken**: "Trek een warme trui aan." *(separabel)*
-- **uitdoen / uittrekken**: "Doe je jas uit." *(separabel)*
+#### Kleuren en patronen (attributed to p. 90)
+- **Kleuren**: donkerblauw, lichtblauw, felrood, beige, grijs, zwart, wit. †
+- **Patronen**: *effen* (zonder motief), *gestreept*, *geruit*, *met bollen / gestipt*, *met bloemen / gebloemd*. †
+
+#### Winkeltermen en maten (attributed to p. 91)
+- **de maat** / de maten (kleine maat, grote maat, maat S/M/L, maat 38/40/42) †
+- **het pashokje** / de pashokjes †
+- **de spiegel** / de spiegels †
+- **de kassa** / de kassa's † (enriched; not the full printed shopping set)
+- **het kasticket** / het kassaticket † (enriched)
+- **de solden** (de koopjes / in de solden) † (enriched)
+- **de korting** / de kortingen † (enriched)
+
+#### Verba bij kleding (attributed to p. 91)
+- **passen**: "Mag ik dit hemd even passen?" †
+- **dragen**: "Welke maat draag je?" †
+- **staan**: "Die kleur staat je heel goed!" † (sense: suits; distinct from physical standing)
+- **ruilen**: "Kan ik deze broek binnen 14 dagen ruilen?" †
+- **terugbrengen**: "Mag ik dit terugbrengen met het kasticket?" † (enriched; textbook example on the checked spread concerns returning a broken iron)
+- **aandoen / aantrekken**: "Trek een warme trui aan." *(separabel)* †
+- **uitdoen / uittrekken**: "Doe je jas uit." *(separabel)* †
 
 ### Communicatieve functies & Grammatica (pp. 92–93)
 

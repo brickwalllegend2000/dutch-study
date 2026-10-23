@@ -8,13 +8,21 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+plain / solid color
+
 ## Word Type
 
 Adjectief / Vaste verbinding
 
+## Forms
+
+effen
+
 ## Examples
 
-« Hij draagt een effen hemd. »
+« Hij draagt een effen hemd. » ⟐ Een effen wit hemd zonder motief.
 
 ## Chapters
 
@@ -26,7 +34,7 @@ Patronen
 
 ## Notes
 
-effen patroon
+effen patroon; English filled from oral occurrence; label as added translation pending textbook-image check.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
 
 ## Sources
 

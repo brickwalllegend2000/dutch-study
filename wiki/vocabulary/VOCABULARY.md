@@ -6,14 +6,14 @@
 | [(staande) lamp](words/VOC-ac283c97687c.md) | (floor) lamp ⟐ (standard) lamp | needs-review |
 | [aan](words/VOC-82dcc8e2b25f.md) | on, at | needs-review |
 | [aandoen](words/VOC-a344d9a6110b.md) | to put on (clothes) | needs-review |
-| [aankomen](words/VOC-cc1e412680a0.md) |  | needs-review |
+| [aankomen](words/VOC-cc1e412680a0.md) | to arrive | needs-review |
 | [aardbei](words/VOC-0f5b6c3a98ed.md) | strawberry | reviewed |
 | [abonnement](words/VOC-9f1f102dd083.md) | season ticket / subscription | reviewed |
 | [activiteit](words/VOC-47069dadee3f.md) | activity | needs-review |
 | [afrekenen](words/VOC-a4d799a174d2.md) | to settle the bill / pay | reviewed |
 | [afspraak](words/VOC-13c4af431a05.md) | appointment | reviewed |
-| [afspreken](words/VOC-7f373ccd5c4d.md) |  | needs-review |
-| [afwassen](words/VOC-c89050d69e03.md) |  | needs-review |
+| [afspreken](words/VOC-7f373ccd5c4d.md) | to arrange, agree | needs-review |
+| [afwassen](words/VOC-c89050d69e03.md) | to wash up | needs-review |
 | [agenda](words/VOC-df71fb0bd94c.md) | diary / planner | reviewed |
 | [alleenstaand](words/VOC-16044c0e995c.md) | single / lone parent | reviewed |
 | [annuleren](words/VOC-3e81c0991b7b.md) | to cancel | needs-review |
@@ -38,7 +38,7 @@
 | [beschrijving](words/VOC-63167e34096f.md) | description | needs-review |
 | [bestellen](words/VOC-45e9aaa8f28a.md) | to order | reviewed |
 | [betalen](words/VOC-68706276c621.md) | to pay | needs-review |
-| [bevallen](words/VOC-ca53eeaed1ff.md) |  | needs-review |
+| [bevallen](words/VOC-ca53eeaed1ff.md) | to please, appeal to; to give birth | needs-review |
 | [bevestigen](words/VOC-daa7fd1afcea.md) | to confirm | needs-review |
 | [bevestiging](words/VOC-646c741f58d6.md) | confirmation | needs-review |
 | [bezoeken](words/VOC-550d940b7173.md) | to visit | needs-review |
@@ -111,7 +111,7 @@
 | [eerst … → daarna / dan …](words/VOC-ef4691b2f664.md) |  | needs-review |
 | [eerst … → daarna / dan … → dan / daarna …](words/VOC-3cf767dc6f36.md) | first … → then / afterwards … → then / afterwards … | needs-review |
 | [eetkamer](words/VOC-37f3cca499d0.md) | dining room | needs-review |
-| [effen](words/VOC-1dafe2d752f2.md) |  | needs-review |
+| [effen](words/VOC-1dafe2d752f2.md) | plain / solid color | needs-review |
 | [effen gebloemd geruit gestreept met bolletjes](words/VOC-980aeb553adf.md) | plain flowery checked striped polka-dotted | needs-review |
 | [ei](words/VOC-39d633dc9cf0.md) | egg | reviewed |
 | [enig kind](words/VOC-7a451bb10d1a.md) | only child | reviewed |
@@ -138,9 +138,9 @@
 | [gehakt](words/VOC-ecea84ec9200.md) | minced meat | reviewed |
 | [gelijkvloers](words/VOC-fe04b7ea4a88.md) | ground floor | needs-review |
 | [genieten](words/VOC-2b4906716b5b.md) | to enjoy | needs-review |
-| [geruit](words/VOC-319421e686c3.md) |  | needs-review |
+| [geruit](words/VOC-319421e686c3.md) | checked / plaid | needs-review |
 | [gescheurd](words/VOC-9af94cb49ef9.md) | torn | needs-review |
-| [gestreept](words/VOC-4d4d273b2bd5.md) |  | needs-review |
+| [gestreept](words/VOC-4d4d273b2bd5.md) | striped | needs-review |
 | [geven](words/VOC-5f7d190b5ba0.md) | to give | needs-review |
 | [gezellig](words/VOC-d78ca4d64477.md) | cosy, pleasant | needs-review |
 | [gezin](words/VOC-414251860bc9.md) | immediate family / household | reviewed |
@@ -188,7 +188,7 @@
 | [In welk lokaal is de les?](words/VOC-9f739b552b3a.md) | In which classroom is the lesson? ⟐ In which room is the class? | needs-review |
 | [ingerichte keuken](words/VOC-6f69ec671e02.md) |  | needs-review |
 | [inhalen](words/VOC-4c53da7baf3a.md) | to catch up / make up for | reviewed |
-| [innemen](words/VOC-cffde73a76a3.md) |  | needs-review |
+| [innemen](words/VOC-cffde73a76a3.md) | to take (medicine); to occupy | needs-review |
 | [invullen](words/VOC-893f24a8beda.md) | to fill in | needs-review |
 | [jas](words/VOC-094fbbc94920.md) | coat, jacket | needs-review |
 | [jeans(broek)](words/VOC-18960d86a12a.md) | jeans | needs-review |
@@ -216,7 +216,7 @@
 | [klein – groot](words/VOC-fc9ae02338fc.md) | small – big | needs-review |
 | [klein ↔ groot](words/VOC-40a2f583eaf6.md) |  | needs-review |
 | [klikken](words/VOC-2ef74e7b5b3f.md) | to click | needs-review |
-| [klimmen](words/VOC-971d114742a0.md) |  | needs-review |
+| [klimmen](words/VOC-971d114742a0.md) | to climb | needs-review |
 | [knoop](words/VOC-0aa642b911b8.md) | button | needs-review |
 | [knuffel](words/VOC-741d867e2d17.md) | cuddly toy | needs-review |
 | [koken](words/VOC-1cf4bf2be94a.md) | to cook | needs-review |
@@ -227,7 +227,7 @@
 | [kost](words/VOC-74ecf6608576.md) | cost | needs-review |
 | [kostuum](words/VOC-b061645f2095.md) | suit | needs-review |
 | [krijgen](words/VOC-2ca400910431.md) | to get / receive | needs-review |
-| [kunnen](words/VOC-bc00acbadd2d.md) |  | needs-review |
+| [kunnen](words/VOC-bc00acbadd2d.md) | can, to be able to | needs-review |
 | [Kunnen we onze afspraak verzetten?](words/VOC-cf97d9ede851.md) | Can we move our appointment? ⟐ Can we reschedule our appointment? | needs-review |
 | [kussen](words/VOC-1b3949e532ca.md) | cushion, pillow | needs-review |
 | [kust](words/VOC-f532e756a244.md) | coast | needs-review |
@@ -264,9 +264,9 @@
 | [maandag](words/VOC-a61a19d1f7b2.md) | Monday | needs-review |
 | [maken](words/VOC-bf0bdca561fa.md) | to make / do | needs-review |
 | [materiaal](words/VOC-df0d03131856.md) | material | needs-review |
-| [meebrengen](words/VOC-ee2d8d257512.md) |  | needs-review |
-| [meegaan](words/VOC-79be3326f5ca.md) |  | needs-review |
-| [meenemen](words/VOC-030bb2940385.md) |  | needs-review |
+| [meebrengen](words/VOC-ee2d8d257512.md) | to bring along | needs-review |
+| [meegaan](words/VOC-79be3326f5ca.md) | to go along | needs-review |
+| [meenemen](words/VOC-030bb2940385.md) | to take along | needs-review |
 | [melk](words/VOC-6c7360f5351a.md) | milk | reviewed |
 | [menukaart](words/VOC-83279a25b9ea.md) | menu | reviewed |
 | [met](words/VOC-6efcbfb1f9f1.md) | with | needs-review |
@@ -277,8 +277,8 @@
 | [modern](words/VOC-774cdf08f6a8.md) | modern | needs-review |
 | [moeder](words/VOC-c1ff7eebbc39.md) | mother | reviewed |
 | [Moet ik de leerkracht een e-mail sturen?](words/VOC-40f8a3d6f1b6.md) | Do I have to send the teacher an email? | needs-review |
-| [moeten](words/VOC-bf501c6cc825.md) |  | needs-review |
-| [mogen](words/VOC-c7d1c537c580.md) |  | needs-review |
+| [moeten](words/VOC-bf501c6cc825.md) | must, to have to | needs-review |
+| [mogen](words/VOC-c7d1c537c580.md) | may, to be allowed to | needs-review |
 | [mooi](words/VOC-05b09763f03a.md) | beautiful, nice | needs-review |
 | [morgen](words/VOC-eb26d4fa531a.md) | tomorrow | needs-review |
 | [mossel](words/VOC-89382383ee71.md) | mussel | needs-review |
@@ -367,7 +367,7 @@
 | [salade](words/VOC-363ab4c828cf.md) | salad | reviewed |
 | [salontafel](words/VOC-38f539292f16.md) | coffee table | needs-review |
 | [sandaal](words/VOC-90f5fd079374.md) | sandal | needs-review |
-| [scheiden](words/VOC-ab6b2f7c66ab.md) |  | needs-review |
+| [scheiden](words/VOC-ab6b2f7c66ab.md) | to separate, divorce | needs-review |
 | [scherm](words/VOC-77a20d992135.md) | screen | needs-review |
 | [schikken](words/VOC-55cc82591797.md) | to suit / be convenient | reviewed |
 | [schilderij](words/VOC-2d70a89adfba.md) | painting | needs-review |
@@ -440,10 +440,10 @@
 | [tussen](words/VOC-bf3a26c04bc6.md) | between | needs-review |
 | [tweepersoonsbed](words/VOC-e094ffa00ad4.md) | double bed | needs-review |
 | [typen](words/VOC-23f91cabb981.md) | to type | needs-review |
-| [uitdoen](words/VOC-5977f4208c66.md) |  | needs-review |
+| [uitdoen](words/VOC-5977f4208c66.md) | to switch off, take off | needs-review |
 | [uitlenen](words/VOC-af02a46a3dd7.md) |  | needs-review |
 | [uitlenen (separabel)](words/VOC-170735875f00.md) | to lend out | needs-review |
-| [uitlezen](words/VOC-c41fe5f7d41d.md) |  | needs-review |
+| [uitlezen](words/VOC-c41fe5f7d41d.md) | to finish reading | needs-review |
 | [vader](words/VOC-6196fd3ecdea.md) | father | reviewed |
 | [vallen](words/VOC-e950378824fc.md) | to fall | needs-review |
 | [vandaag](words/VOC-d4241b86330a.md) | today | needs-review |
@@ -452,7 +452,7 @@
 | [vergeten](words/VOC-692d3fac16c1.md) | to forget | needs-review |
 | [verhaal](words/VOC-e59cb77a1e06.md) | story | needs-review |
 | [verhuizen](words/VOC-87cdaf5010f7.md) | to move (house) ⟐ to move house | needs-review |
-| [verkopen](words/VOC-a07d5a9bd360.md) |  | needs-review |
+| [verkopen](words/VOC-a07d5a9bd360.md) | to sell | needs-review |
 | [verliezen](words/VOC-0b14b7d36736.md) | to lose | needs-review |
 | [verloren voorwerpen](words/VOC-e0cb35e6df6a.md) | lost property | needs-review |
 | [vertraging](words/VOC-b2e460feafca.md) | delay | reviewed |

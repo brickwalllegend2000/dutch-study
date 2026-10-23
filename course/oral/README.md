@@ -1,6 +1,6 @@
 # Mondeling — Luisteren en Spreken (Modeling 1–7)
 
-[Home](../../README.md) · [Course chapters](../README.md) · [Exam preparation](../exams/exam-preparation.md) · [Cheat sheets](../../wiki/cheat-sheets/README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf)
+[Home](../../README.md) · [Course chapters](../README.md) · [Exam preparation](../exams/exam-preparation.md) · [Cheat sheets](../../wiki/cheat-sheets/README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md)
 
 > Guide to the oral track (*Mondeling: luisteren en spreken*) of **Waystage 1.2** (*Zo Gezegd 1.2*). It covers the 7 thematic units, transcribes the essential knowledge base (*Kennis* and *Dit kan ik!* checklists), maps direct overlaps with the written track (*Schriftelijk*), and highlights the core linguistic priorities needed for both the written exam (23 October 2026), the oral evaluations (26–27 October 2026), and the NT2 computer test (29 October 2026).
 
@@ -74,6 +74,6 @@ Whether sitting the written test or taking the oral interview, keep these four o
   - [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) (for Modeling 1, 3, 5, 6).
   - [Adjectives and comparisons](../../wiki/cheat-sheets/adjectives.md) (for Modeling 1, 3, 4).
   - [Negation and er](../../wiki/cheat-sheets/negation-and-er.md) (for Modeling 2, 5).
-- [Course agenda PDF](../../sources/originals/agenda-sept-okt-26.pdf) — preserved official calendar (*CVO Groeipunt*).
+- [Course agenda](../../sources/pages/agenda-sept-okt-26.md) — official calendar (study-safe transcription) (*CVO Groeipunt*).
 - [Written course chapters](../README.md) — Chapters 1–8.
 - [Original oral source snapshot](../../sources/pages/zo-gezegd-1-2-mondeling.md) — full transcription of the oral knowledge and checklist sections.

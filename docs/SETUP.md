@@ -1,10 +1,10 @@
 # Set up GitHub and Obsidian
 
-The vault files are prepared. The vault is published to the private repository `brickwalllegend2000/dutch-study`. Clone it (or open your extracted folder) in Obsidian, then follow the steps below. See [publishing](PUBLISH.md) for the status of milestones and the Project board. These desktop steps run on your computer, outside the cloud workspace.
+The vault files are prepared. The vault is published at `brickwalllegend2000/dutch-study` (**public** repository as of 2026-10-23). Clone it (or open your extracted folder) in Obsidian, then follow the steps below. See [publishing](PUBLISH.md) for the status of milestones and the Project board. These desktop steps run on your computer, outside the cloud workspace.
 
 ## Recommended: GitHub Desktop on Windows or macOS
 
-1. Install [GitHub Desktop](https://desktop.github.com/) and [Obsidian](https://obsidian.md/download). Sign into GitHub Desktop with the account that owns or can access the private repository.
+1. Install [GitHub Desktop](https://desktop.github.com/) and [Obsidian](https://obsidian.md/download). Sign into GitHub Desktop with the account that owns or can access the repository.
 2. In GitHub Desktop, choose **File → Clone repository → URL** and enter `https://github.com/brickwalllegend2000/dutch-study`. Choose a normal local folder such as `Documents/dutch-study`, outside folders managed by another synchronization service.
 3. In Obsidian's vault switcher, choose **Open folder as vault**, then select that exact `dutch-study` folder. Keep restricted mode enabled; community plugins are not required.
 4. Open `README.md`. Use **Ctrl+Shift+F** on Windows or **Cmd+Shift+F** on macOS to search all notes; **Ctrl/Cmd+O** opens the Quick Switcher. CSV records have readable generated notes in `wiki/vocabulary/words/`.
@@ -46,7 +46,7 @@ Python 3.11+ is needed only to regenerate and check the library. No pip packages
 
 ## For agents
 
-Provide the private repository to your agent's GitHub connection, or open a local clone in its workspace. Start with: “Read AGENTS.md and WORKFLOW.md.” A private URL alone does not grant access. Local search works without a hosted search index.
+Provide the repository to your agent's GitHub connection, or open a local clone in its workspace. Start with: “Read AGENTS.md and WORKFLOW.md.” A URL alone does not grant write access. Local search works without a hosted search index.
 
 ## Synchronization choice
 

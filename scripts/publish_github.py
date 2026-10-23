@@ -68,7 +68,8 @@ def prepare_git(repo):
     push_urls=command(['git','remote','get-url','--push','--all','origin']).stdout.splitlines()
     check_remote_urls(repo,fetch_url,push_urls)
     # Scope credential helper to this clone, leaving global user settings unchanged.
-    command(['git','config','--local','credential.https://github.com.helper',''])
+    # Unset-all first so a second publish run does not fail on a multivalued setting.
+    command(['git','config','--local','--unset-all','credential.https://github.com.helper'],check=False)
     command(['git','config','--local','--add','credential.https://github.com.helper','!gh auth git-credential'])
     if command(['git','var','GIT_AUTHOR_IDENT'],check=False).returncode:
         profile=gh_json(['api','user'])

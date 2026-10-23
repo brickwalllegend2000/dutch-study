@@ -2,43 +2,45 @@
 type: personal-view
 date: 2026-10-23
 ---
-# My study view
+# Study home
 
-[Home](../README.md) · [Journal](README.md) · [Chapters](../course/README.md)
+[Repository overview](../README.md) · [Journal](README.md) · [Inbox](../inbox/README.md)
 
-Personal dashboard. Your notes here do not override the canonical course or wiki.
+Start here for a short session. Canonical course facts live in `course/` and `wiki/`; this page only routes you.
 
-## Active pages
+## Choose one
 
-- [Exam preparation](../course/exams/exam-preparation.md) — compact revision priorities: 5 writing prompts, 4-step checklist, and exam schedule.
-- [Mondeling track overview](../course/oral/README.md) — spoken themes (Modeling 1–7) and oral-written curriculum overlap analysis.
-- [Descriptions, positions and room layout](../wiki/cheat-sheets/descriptions.md) — master cheat sheet for personal appearance, clothing, objects, and spatial room layouts.
-- [Course agenda PDF](../sources/originals/agenda-sept-okt-26.pdf) — preserved class calendar and lesson breakdown.
-- [Describing things, adjectives, locations and instructions](../course/describing-things.md)
-- [What do you do every day? — Chapter 2 practice](../course/wat-doe-jij-elke-dag.md)
-- [Giving instructions — Chapter 3 practice](../course/instructies-geven.md)
-- [Chapter 2](../course/chapter-02.md) · [Chapter 3](../course/chapter-03.md) · [Chapter 4](../course/chapter-04.md) · [Chapter 5](../course/chapter-05.md)
+| Goal | Open | Then |
+| --- | --- | --- |
+| Continue a written chapter | [Chapters](../course/README.md) | One chapter guide → its [exercises](../course/exercises/README.md) → [review sheet](../course/review/README.md) |
+| Speaking / listening | [Oral track](../course/oral/README.md) | One Modeling unit; check answers against the unit and [oral source snapshot](../sources/pages/zo-gezegd-1-2-mondeling.md) (see enrichment warning there) |
+| Look something up | [Vocabulary](../wiki/vocabulary/VOCABULARY.md) · [Grammar](../wiki/grammar/README.md) · [Cheat sheets](../wiki/cheat-sheets/README.md) | Prefer generated lists and grammar notes over copied summaries |
+| Exam / revision | [Exam preparation](../course/exams/exam-preparation.md) | Then [practice tests](../course/exams/README.md) |
+| Mistakes / next review | Practice log below · [Study Session template](../templates/Study-Session.md) | Keep personal errors here; open a GitHub Issue only when a shared course fact is wrong |
 
-## My notes
+## Session loop (about 20–40 minutes)
 
-### Daily routines
+1. Pick one concrete task and a time limit.
+2. Attempt it without reading the model answer.
+3. Check against the linked source or answer section.
+4. Log the attempt and one or two mistakes below.
+5. Write one next-review action under **Next**.
 
+## Quick links
 
-### Instructions
-
-
-### Describing things / comparisons
-
+- [Course agenda (study-safe)](../sources/pages/agenda-sept-okt-26.md) — calendar transcription; Moodle credentials omitted
+- [Perfectum study list](../wiki/vocabulary/PERFECTUM-STUDY-LIST.md) — Dutch, meaning, auxiliary, participle
+- [Needs review vocabulary](../wiki/vocabulary/NEEDS-REVIEW.md)
+- [Current inventory](../docs/INVENTORY.md)
 
 ## Practice log
 
-| Date | Page | What I practised | Mistakes |
+| Date | Page | What I practised | Mistakes / corrections |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-## Questions
-
-
 ## Next
 
-Use the [Study Session template](../templates/Study-Session.md) for each session. Save the note in this folder.
+
+## Questions
+

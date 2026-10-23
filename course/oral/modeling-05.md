@@ -123,4 +123,4 @@
   - [Action vs. Position verbs](../../wiki/grammar/using-er-there-is-there-are.md#action-vs-position-verbs) (*zetten, leggen, hangen, stoppen* vs. *staan, liggen, hangen, zitten*).
 - **Exam practice:** [Exam preparation — Prompt 2: Describe a home or room](../exams/exam-preparation.md#2-describe-a-home-or-room-woning--favoriete-kamer).
 - **Model text:** [Worked example 1: Where I live](../examples/example-1-where-i-live.md).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

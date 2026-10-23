@@ -8,9 +8,17 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+to separate, divorce
+
 ## Word Type
 
 Verbum
+
+## Forms
+
+scheidt, scheidde
 
 ## Auxiliary
 
@@ -20,9 +28,17 @@ zijn
 
 gescheiden
 
+## Examples
+
+Zijn ouders zijn gescheiden.
+
 ## Categories
 
 Irregular verbs
+
+## Notes
+
+English filled from irregular-verbs source supplement (sources/pages/401f89e5e0fc8136967bea7232a7e938.md); still needs-review.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
 
 ## Sources
 

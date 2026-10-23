@@ -1,0 +1,11 @@
+Course agenda PDF (sept–okt 2026) — not archived in this public tree.
+
+Reason: the original PDF embeds course Moodle class-code and password instructions.
+Study-safe transcription: sources/pages/agenda-sept-okt-26.md
+If you hold a private copy of the original, keep it outside this repository and do not commit it.
+
+Previously tracked as:
+- sources/originals/AGENDA 26-27-Kw1-VM 1.2 M-S NEDNER102WAMSxxxCF4Vm01GE - ZG 1.2 M-S NIEUW - sept-okt 26.pdf
+- sources/originals/agenda-sept-okt-26.pdf (symlink alias; broken on Windows when core.symlinks=false)
+
+SHA-256 of the withheld binary (for private archival): f874ef0cc300411ca1f1890c05e6d9f972180c186f1508529f2cbab58b117351

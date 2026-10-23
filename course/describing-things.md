@@ -112,7 +112,7 @@ Canonical note: [Using er](../wiki/grammar/using-er-there-is-there-are.md).
 | staan | upright / standing | Er staat een hoge kast naast de zetel. |
 | liggen | flat / lying | Er ligt een rond groen tapijt onder de tafel. |
 | hangen | hanging | Er hangt een groot schilderij aan de muur. |
-| zitten | sitting / placed in | In de zetel ligt een kussen. |
+| zitten | sitting / placed in | In de zetel zit een kussen. |
 
 ### Prepositions
 
