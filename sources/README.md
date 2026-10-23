@@ -8,6 +8,7 @@ These are preserved snapshots, not maintained canonical explanations. Their raw 
 | --- | --- | --- |
 | Add modeling themas  | [Read](pages/401f89e5e0fc801684b3e967243c3785.md) | [JSON](notion/401f89e5e0fc801684b3e967243c3785.json) |
 | Dutch study | [Read](pages/401f89e5e0fc8054b148fa2fdaf07675.md) | [JSON](notion/401f89e5e0fc8054b148fa2fdaf07675.json) |
+| Practice tests | [Read](pages/401f89e5e0fc80d68f96f8ba4fa251d8.md) | [JSON](notion/401f89e5e0fc80d68f96f8ba4fa251d8.json) |
 | Tier 3 — Full restructure | [Read](pages/401f89e5e0fc80daae13f56c66ab0444.md) | [JSON](notion/401f89e5e0fc80daae13f56c66ab0444.json) |
 | Add perfectum list to vocab  | [Read](pages/401f89e5e0fc80f29352c76d2b8204b7.md) | [JSON](notion/401f89e5e0fc80f29352c76d2b8204b7.json) |
 | 🏠 Project A: We've moved | [Read](pages/401f89e5e0fc810195f4e54a6b6f25a8.md) | [JSON](notion/401f89e5e0fc810195f4e54a6b6f25a8.json) |
@@ -85,3 +86,6 @@ The following filenames are referenced but their binary files were not retrieved
 - IMG_1280.jpeg
 - IMG_524C65CB-D2F7-437A-85E8-12C901727869.jpeg
 - IMG_A1AE6AA3-BC8A-4DB2-936E-13D56B700D6F.jpeg
+- BetterShot_2026-10-23-00-14-15.png
+- BetterShot_2026-10-23-00-14-18.png
+- BetterShot_2026-10-23-00-14-20.png

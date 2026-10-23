@@ -23,6 +23,21 @@
       "linguistic_review": "not-performed"
     },
     {
+      "id": "401f89e5e0fc80d68f96f8ba4fa251d8",
+      "title": "Practice tests",
+      "url": "https://app.notion.com/p/401f89e5e0fc80d68f96f8ba4fa251d8?pvs=204",
+      "raw_path": "sources/notion/401f89e5e0fc80d68f96f8ba4fa251d8.json",
+      "snapshot_path": "sources/pages/401f89e5e0fc80d68f96f8ba4fa251d8.md",
+      "last_edited_at": "2026-10-23T00:22:41.435Z",
+      "retrieval_status": "fetched",
+      "linguistic_review": "not-performed",
+      "truncated": true,
+      "unknown_block_count": 1,
+      "unknown_block_ids": [
+        "401f89e5-e0fc-8073-9d62-fe28e61adf2e"
+      ]
+    },
+    {
       "id": "401f89e5e0fc80daae13f56c66ab0444",
       "title": "Tier 3 — Full restructure",
       "url": "https://app.notion.com/p/401f89e5e0fc80daae13f56c66ab0444?pvs=204",
@@ -799,6 +814,27 @@
       "reference": "Cited in perfectum source record",
       "status": "reference-only",
       "reason": "Original photo bytes are not attached to the fetched task page."
+    },
+    {
+      "source_id": "401f89e5e0fc80d68f96f8ba4fa251d8",
+      "name": "BetterShot_2026-10-23-00-14-15.png",
+      "reference": "notion-file-block://401f89e5-e0fc-8017-b622-f794aff93e33/75bacd11-63b4-413d-bae0-77fcca367e33?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-15.png",
+      "status": "reference-only",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+    },
+    {
+      "source_id": "401f89e5e0fc80d68f96f8ba4fa251d8",
+      "name": "BetterShot_2026-10-23-00-14-18.png",
+      "reference": "notion-file-block://401f89e5-e0fc-8058-960d-eb140a57fa2b/7bf8f188-7607-4f73-9d4c-91b8cce0560e?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-18.png",
+      "status": "reference-only",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+    },
+    {
+      "source_id": "401f89e5e0fc80d68f96f8ba4fa251d8",
+      "name": "BetterShot_2026-10-23-00-14-20.png",
+      "reference": "notion-file-block://401f89e5-e0fc-804d-aab4-c8dcdcd97c24/056a2b0e-1d46-4eb4-91f4-4da432a418f3?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-20.png",
+      "status": "reference-only",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
     }
   ]
 }
