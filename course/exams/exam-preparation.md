@@ -11,6 +11,7 @@ This page brings together the core revision priorities extracted from the offici
 ## Course resources
 
 - [Course agenda PDF (sept–okt 2026)](../../sources/originals/agenda-sept-okt-26.pdf) — Complete 32-lesson calendar and homework schedule (*CVO Groeipunt, Gent*).
+- [Mondeling track overview](../oral/README.md) — Comprehensive guide to Modeling 1–7, conversational dialogue blueprints, and written-oral overlap analysis.
 - **Textbook distinction:** *Zo Gezegd 1.2* uses two companion coursebooks with overlapping theme numbers:
   - **Schriftelijk (S)**: reading and writing track (*Thema 1–8*).
   - **Mondeling (M)**: listening and speaking track (*Thema 1–7*).
@@ -160,18 +161,18 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 
 ## Source & textbook mapping
 
-To look up exercises or transcripts, use this mapping between the written and oral coursebooks:
+To look up exercises or transcripts, use this mapping between the written and oral coursebooks (see also the [Mondeling track overview](../oral/README.md#2-schriftelijk-s--mondeling-m-overlaps-what-you-must-know) for full linguistic analysis):
 
 | Theme | Schriftelijk (S) — Lezen & Schrijven | Mondeling (M) — Luisteren & Spreken | Core syllabus grammar |
 | --- | --- | --- | --- |
-| **Thema 1** | *Wie is wie?* (pp. 11–40) | *Heb jij een grote familie?* (pp. 11–44) | Adjectief met/zonder -e, presens, familie & kleren |
-| **Thema 2** | *Heb je een leuke citytrip gehad?* (pp. 41–66) | *Mag het wat meer zijn?* (pp. 45–78) | Perfectum, inversie (*eerst, dan, daarna*), gaan + inf |
-| **Thema 3** | *Wat moet ik doen?* (pp. 67–88) | *Hebt u een maat groter?* (pp. 79–99) | Modale verba (*kunnen, moeten, mogen, willen*), klerenwinkel |
-| **Thema 4** | *Hoe ziet het appartement eruit?* (pp. 89–114) | *Mijn favoriete transportmiddel* (pp. 101–124) | *Er is / er zijn*, comparatief, transportmiddelen & want/omdat |
-| **Thema 5** | *Mijn favoriete kamer* (pp. 115–138) | *Waar moet ik de lamp zetten?* (pp. 125–154) | Positieverba (*staan, liggen, hangen, zitten*) & actieverba (*zetten, leggen, hangen*), meubels |
-| **Thema 6** | *Heb je mijn bericht al gelezen?* (pp. 139–172) | *Kan ik de afspraak verzetten?* (pp. 155–179) | Nevenschikking (*want*) vs. onderschikking (*omdat*), om te + inf |
-| **Thema 7** | *Ik heb mijn paraplu vergeten* (pp. 173–196) | *Mijn soep is koud!* (pp. 181–204) | Verloren voorwerpen, restaurantformules, perfectum herhaling |
-| **Thema 8** | *Wie is de kampioen?* (pp. 197–218) | — | Comparatief & superlatief, sport & vrije tijd |
+| **Thema 1** | [Wie is wie?](../chapter-01.md) (pp. 11–40) | [Heb jij een grote familie?](../oral/modeling-01.md) (pp. 11–44) | Adjectief met/zonder -e, presens, familie & kleren |
+| **Thema 2** | [Heb je een leuke citytrip gehad?](../chapter-02.md) (pp. 41–66) | [Mag het wat meer zijn?](../oral/modeling-02.md) (pp. 45–78) | Perfectum, inversie (*eerst, dan, daarna*), gaan + inf |
+| **Thema 3** | [Wat moet ik doen?](../chapter-03.md) (pp. 67–88) | [Hebt u een maat groter?](../oral/modeling-03.md) (pp. 79–99) | Modale verba (*kunnen, moeten, mogen, willen*), klerenwinkel |
+| **Thema 4** | [Hoe ziet het appartement eruit?](../chapter-04.md) (pp. 89–114) | [Mijn favoriete transportmiddel](../oral/modeling-04.md) (pp. 101–124) | *Er is / er zijn*, comparatief, transportmiddelen & want/omdat |
+| **Thema 5** | [Mijn favoriete kamer](../chapter-05.md) (pp. 115–138) | [Waar moet ik de lamp zetten?](../oral/modeling-05.md) (pp. 125–154) | Positieverba (*staan, liggen, hangen, zitten*) & actieverba (*zetten, leggen, hangen*), meubels |
+| **Thema 6** | [Heb je mijn bericht al gelezen?](../chapter-06.md) (pp. 139–172) | [Kan ik de afspraak verzetten?](../oral/modeling-06.md) (pp. 155–179) | Nevenschikking (*want*) vs. onderschikking (*omdat*), om te + inf |
+| **Thema 7** | [Ik heb mijn paraplu vergeten](../chapter-07.md) (pp. 173–196) | [Mijn soep is koud!](../oral/modeling-07.md) (pp. 181–204) | Verloren voorwerpen, restaurantformules, perfectum herhaling |
+| **Thema 8** | [Wie is de kampioen?](../chapter-08.md) (pp. 197–218) | — | Comparatief & superlatief, sport & vrije tijd |
 
 ---
 

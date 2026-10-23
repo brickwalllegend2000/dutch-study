@@ -1,10 +1,10 @@
 # Cheat sheet: negation and er
 
-[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md)
+[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md) · [Descriptions cheat sheet](descriptions.md)
 
 > One-page summary of [Negation: geen and niet](../grammar/negation-geen-and-niet.md), [Using er: there is / there are](../grammar/using-er-there-is-there-are.md), the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md) and the chapter 5 vocabulary notes, compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
 
-**Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md)
+**Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · **Oral modules:** [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 5](../../course/oral/modeling-05.md)
 
 ## geen or niet?
 

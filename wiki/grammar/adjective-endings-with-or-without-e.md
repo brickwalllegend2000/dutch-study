@@ -1,13 +1,14 @@
 ---
 id: GRAM-c35f44245e4f
-source_ids: ["401f89e5e0fc81d3bb4ac35f44245e4f"]
-review_status: needs-review
+source_ids: ["401f89e5e0fc81d3bb4ac35f44245e4f", "SRC-ZG12M-20261023"]
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Adjective endings: with or without -e
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Enriched with material adjective rules from *Zo gezegd 1.2 — Mondeling* (Thema 5, p. 141).
 
-[Source snapshot](../../sources/pages/401f89e5e0fc81d3bb4ac35f44245e4f.md) · [Home](../../README.md) · [Grammar](README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc81d3bb4ac35f44245e4f.md) · [Oral source snapshot](../../sources/pages/zo-gezegd-1-2-mondeling.md#grammatica-van-stoffelijke-adjectieven-p-141) · [Home](../../README.md) · [Grammar](README.md)
 
 **Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 7](../../course/chapter-07.md) — **Oral:** [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 5](../../course/oral/modeling-05.md)
 

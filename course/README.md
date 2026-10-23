@@ -21,6 +21,8 @@ The course has two tracks. Work through both for each topic: the written track t
 
 ## Mondeling — luisteren en spreken (Modeling 1–7)
 
+[Oral modules overview](oral/README.md) · Master guides based on *Zo gezegd 1.2 — Mondeling*:
+
 - [Modeling 1: Heb jij een grote familie?](oral/modeling-01.md)
 - [Modeling 2: Mag het wat meer zijn?](oral/modeling-02.md)
 - [Modeling 3: Hebt u een maat groter?](oral/modeling-03.md)
@@ -44,17 +46,19 @@ The course has two tracks. Work through both for each topic: the written track t
 - [Zo gezegd 1.2 practice test](exams/zo-gezegd-1-2-practice-test.md): mock exam covering reading, writing, listening, speaking, vocabulary and grammar.
 - [Practice tests](exams/practice-tests.md): extra exercises, the CVO writing test and Schrijven A2 material.
 
-## Pairing by topic
+## Pairing by topic and curriculum overlap
 
-| Written chapter | Oral theme |
-| --- | --- |
-| Chapter 1 | Modeling 1, Modeling 3 |
-| Chapter 2 | Modeling 2 |
-| Chapter 3 | — |
-| Chapter 4 | Modeling 4 |
-| Chapter 5 | Modeling 5 |
-| Chapter 6 | Modeling 6 |
-| Chapter 7 | — |
-| Chapter 8 | — |
+For a detailed analysis of overlapping structures, communicative goals, and exam takeaways, see the [Mondeling track overview](oral/README.md#2-schriftelijk-s--mondeling-m-overlaps-what-you-must-know).
 
-Oral-track vocabulary is not yet imported into `vocabulary.csv`; the oral guides list topics only. Pairings are suggested by overlapping topics and grammar; the course does not state them. Modeling 7 has no close written counterpart.
+| Written chapter | Oral theme | Shared focus & structures |
+| --- | --- | --- |
+| Chapter 1 | Modeling 1, Modeling 3 | Personal identity, family, clothing, physical appearance, adjective endings |
+| Chapter 2 | Modeling 2, Modeling 4 | Daily life, grocery shopping, market, transport habits, inversion (*eerst, dan, daarna*) |
+| Chapter 3 | Modeling 6 | Instructions, scheduling, modal verbs (*kunnen, moeten, mogen, willen*) |
+| Chapter 4 | Modeling 5 | Dwellings, rooms, spatial prepositions, *er is / er zijn* |
+| Chapter 5 | Modeling 5 | Furniture, interior layout, action vs. position verbs (*zetten/leggen/hangen* vs. *staan/liggen/hangen*) |
+| Chapter 6 | Modeling 6 | Written messages, phone calls, rescheduling appointments, *om te + infinitief*, *want* vs. *omdat* |
+| Chapter 7 | Modeling 3, Modeling 7 | Lost items, restaurant complaints, descriptions of materials/colors, *perfectum* |
+| Chapter 8 | Modeling 4 | Comparisons, superlatives, transport choices, leisure preferences |
+
+Oral-track vocabulary and knowledge summaries are fully integrated into the library, with terms cataloged in [vocabulary.csv](../vocabulary.csv) and cross-referenced in [wiki/vocabulary](../wiki/vocabulary/VOCABULARY.md). Pairings reflect shared communicative tasks and grammar in *Zo Gezegd 1.2*.
