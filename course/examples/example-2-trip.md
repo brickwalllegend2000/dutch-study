@@ -35,31 +35,31 @@ This follows workbook opdracht 10 and exercise 1 of [chapter 2](../exercises/cha
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| de citytrip | city trip | 2 | [VOC-640c7057a626](../../wiki/vocabulary/words/VOC-640c7057a626.md) |
-| de hoofdstad | capital city | 2 | [VOC-64581288f982](../../wiki/vocabulary/words/VOC-64581288f982.md) |
-| Het waait (hard). | It is (very) windy. | 2 | [VOC-b9a5953ab45e](../../wiki/vocabulary/words/VOC-b9a5953ab45e.md) |
-| mooi | beautiful, nice | 2 | [VOC-05b09763f03a](../../wiki/vocabulary/words/VOC-05b09763f03a.md) |
-| aankomen | — | verb list | [VOC-cc1e412680a0](../../wiki/vocabulary/words/VOC-cc1e412680a0.md) |
-| gaan | to go | verb list | [VOC-c62d45fa684b](../../wiki/vocabulary/words/VOC-c62d45fa684b.md) |
-| bezoeken | to visit | verb list | [VOC-550d940b7173](../../wiki/vocabulary/words/VOC-550d940b7173.md) |
-| eten | to eat | verb list | [VOC-1f9d638c5690](../../wiki/vocabulary/words/VOC-1f9d638c5690.md) |
-| drinken | to drink | verb list | [VOC-051eddfc024b](../../wiki/vocabulary/words/VOC-051eddfc024b.md) |
-| zijn | to be | verb list | [VOC-bb07d1178131](../../wiki/vocabulary/words/VOC-bb07d1178131.md) |
-| prachtig | magnificent, beautiful | 2 | [VOC-dd07362491b3](../../wiki/vocabulary/words/VOC-dd07362491b3.md) |
-| het gebouw | building | 2 | [VOC-a58e57057614](../../wiki/vocabulary/words/VOC-a58e57057614.md) |
-| gezellig | cosy, pleasant | 2 | [VOC-d78ca4d64477](../../wiki/vocabulary/words/VOC-d78ca4d64477.md) |
-| het centrum | centre | 2 | [VOC-d27c2fbf8703](../../wiki/vocabulary/words/VOC-d27c2fbf8703.md) |
-| het concert | concert | 2 | [VOC-5359565a1aca](../../wiki/vocabulary/words/VOC-5359565a1aca.md) |
-| de winkelstraat | shopping street | 2 | [VOC-761505c1c33b](../../wiki/vocabulary/words/VOC-761505c1c33b.md) |
-| winkelen | to shop | verb list | [VOC-00a96b2ffad7](../../wiki/vocabulary/words/VOC-00a96b2ffad7.md) |
-| de rivier | river | 2 | [VOC-117ee308d8d2](../../wiki/vocabulary/words/VOC-117ee308d8d2.md) |
-| wandelen | to walk | verb list | [VOC-cc9fe95f1e37](../../wiki/vocabulary/words/VOC-cc9fe95f1e37.md) |
-| het bos | forest, wood | 2 | [VOC-4d2d1dfcb8d0](../../wiki/vocabulary/words/VOC-4d2d1dfcb8d0.md) |
-| gisteren | yesterday | 2 | [VOC-09756db53d70](../../wiki/vocabulary/words/VOC-09756db53d70.md) |
-| morgen | tomorrow | 2 | [VOC-eb26d4fa531a](../../wiki/vocabulary/words/VOC-eb26d4fa531a.md) |
-| overmorgen | the day after tomorrow | 2 | [VOC-5ab3072cf27d](../../wiki/vocabulary/words/VOC-5ab3072cf27d.md) |
-| de avond | evening | 2 | [VOC-2b6f13bc32db](../../wiki/vocabulary/words/VOC-2b6f13bc32db.md) |
-| eerst … → daarna / dan … → dan / daarna … | first … → then / afterwards … → then / afterwards … | 2 | [VOC-3cf767dc6f36](../../wiki/vocabulary/words/VOC-3cf767dc6f36.md) |
+| de citytrip | city trip | 2 | [VOC-640c7057a626](../../views/vocabulary/words/VOC-640c7057a626.md) |
+| de hoofdstad | capital city | 2 | [VOC-64581288f982](../../views/vocabulary/words/VOC-64581288f982.md) |
+| Het waait (hard). | It is (very) windy. | 2 | [VOC-b9a5953ab45e](../../views/vocabulary/words/VOC-b9a5953ab45e.md) |
+| mooi | beautiful, nice | 2 | [VOC-05b09763f03a](../../views/vocabulary/words/VOC-05b09763f03a.md) |
+| aankomen | — | verb list | [VOC-cc1e412680a0](../../views/vocabulary/words/VOC-cc1e412680a0.md) |
+| gaan | to go | verb list | [VOC-c62d45fa684b](../../views/vocabulary/words/VOC-c62d45fa684b.md) |
+| bezoeken | to visit | verb list | [VOC-550d940b7173](../../views/vocabulary/words/VOC-550d940b7173.md) |
+| eten | to eat | verb list | [VOC-1f9d638c5690](../../views/vocabulary/words/VOC-1f9d638c5690.md) |
+| drinken | to drink | verb list | [VOC-051eddfc024b](../../views/vocabulary/words/VOC-051eddfc024b.md) |
+| zijn | to be | verb list | [VOC-bb07d1178131](../../views/vocabulary/words/VOC-bb07d1178131.md) |
+| prachtig | magnificent, beautiful | 2 | [VOC-dd07362491b3](../../views/vocabulary/words/VOC-dd07362491b3.md) |
+| het gebouw | building | 2 | [VOC-a58e57057614](../../views/vocabulary/words/VOC-a58e57057614.md) |
+| gezellig | cosy, pleasant | 2 | [VOC-d78ca4d64477](../../views/vocabulary/words/VOC-d78ca4d64477.md) |
+| het centrum | centre | 2 | [VOC-d27c2fbf8703](../../views/vocabulary/words/VOC-d27c2fbf8703.md) |
+| het concert | concert | 2 | [VOC-5359565a1aca](../../views/vocabulary/words/VOC-5359565a1aca.md) |
+| de winkelstraat | shopping street | 2 | [VOC-761505c1c33b](../../views/vocabulary/words/VOC-761505c1c33b.md) |
+| winkelen | to shop | verb list | [VOC-00a96b2ffad7](../../views/vocabulary/words/VOC-00a96b2ffad7.md) |
+| de rivier | river | 2 | [VOC-117ee308d8d2](../../views/vocabulary/words/VOC-117ee308d8d2.md) |
+| wandelen | to walk | verb list | [VOC-cc9fe95f1e37](../../views/vocabulary/words/VOC-cc9fe95f1e37.md) |
+| het bos | forest, wood | 2 | [VOC-4d2d1dfcb8d0](../../views/vocabulary/words/VOC-4d2d1dfcb8d0.md) |
+| gisteren | yesterday | 2 | [VOC-09756db53d70](../../views/vocabulary/words/VOC-09756db53d70.md) |
+| morgen | tomorrow | 2 | [VOC-eb26d4fa531a](../../views/vocabulary/words/VOC-eb26d4fa531a.md) |
+| overmorgen | the day after tomorrow | 2 | [VOC-5ab3072cf27d](../../views/vocabulary/words/VOC-5ab3072cf27d.md) |
+| de avond | evening | 2 | [VOC-2b6f13bc32db](../../views/vocabulary/words/VOC-2b6f13bc32db.md) |
+| eerst … → daarna / dan … → dan / daarna … | first … → then / afterwards … → then / afterwards … | 2 | [VOC-3cf767dc6f36](../../views/vocabulary/words/VOC-3cf767dc6f36.md) |
 
 ## Part 2 — Voetbal in Zwitserland (chapters 2 and 8)
 
@@ -83,17 +83,17 @@ This follows workbook opdracht 10 and exercise 1 of [chapter 2](../exercises/cha
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| voetballen | to play football | verb list | [VOC-1fe354c38436](../../wiki/vocabulary/words/VOC-1fe354c38436.md) |
-| spelen | to play | verb list | [VOC-7bf4ce804a0b](../../wiki/vocabulary/words/VOC-7bf4ce804a0b.md) |
-| winnen | to win | 8 | [VOC-2471850a1a4d](../../wiki/vocabulary/words/VOC-2471850a1a4d.md) |
-| de kampioen | champion | 8 | [VOC-cf7205f02fe8](../../wiki/vocabulary/words/VOC-cf7205f02fe8.md) |
-| klein – groot | small – big | 4, 8 | [VOC-fc9ae02338fc](../../wiki/vocabulary/words/VOC-fc9ae02338fc.md) |
-| laag – hoog | low – high | 8 | [VOC-a58bfdca2d66](../../wiki/vocabulary/words/VOC-a58bfdca2d66.md) |
-| goedkoop – duur | cheap – expensive | 4, 8 | [VOC-43f35ef16646](../../wiki/vocabulary/words/VOC-43f35ef16646.md) |
-| snel | fast | 8 | [VOC-6438e74fe497](../../wiki/vocabulary/words/VOC-6438e74fe497.md) |
-| mooi | beautiful, nice | 2 | [VOC-05b09763f03a](../../wiki/vocabulary/words/VOC-05b09763f03a.md) |
-| de stad | city | 2 | [VOC-87fdde2c04f5](../../wiki/vocabulary/words/VOC-87fdde2c04f5.md) |
-| de reis | trip, journey | 2 | [VOC-9f0686a5bcd7](../../wiki/vocabulary/words/VOC-9f0686a5bcd7.md) |
+| voetballen | to play football | verb list | [VOC-1fe354c38436](../../views/vocabulary/words/VOC-1fe354c38436.md) |
+| spelen | to play | verb list | [VOC-7bf4ce804a0b](../../views/vocabulary/words/VOC-7bf4ce804a0b.md) |
+| winnen | to win | 8 | [VOC-2471850a1a4d](../../views/vocabulary/words/VOC-2471850a1a4d.md) |
+| de kampioen | champion | 8 | [VOC-cf7205f02fe8](../../views/vocabulary/words/VOC-cf7205f02fe8.md) |
+| klein – groot | small – big | 4, 8 | [VOC-fc9ae02338fc](../../views/vocabulary/words/VOC-fc9ae02338fc.md) |
+| laag – hoog | low – high | 8 | [VOC-a58bfdca2d66](../../views/vocabulary/words/VOC-a58bfdca2d66.md) |
+| goedkoop – duur | cheap – expensive | 4, 8 | [VOC-43f35ef16646](../../views/vocabulary/words/VOC-43f35ef16646.md) |
+| snel | fast | 8 | [VOC-6438e74fe497](../../views/vocabulary/words/VOC-6438e74fe497.md) |
+| mooi | beautiful, nice | 2 | [VOC-05b09763f03a](../../views/vocabulary/words/VOC-05b09763f03a.md) |
+| de stad | city | 2 | [VOC-87fdde2c04f5](../../views/vocabulary/words/VOC-87fdde2c04f5.md) |
+| de reis | trip, journey | 2 | [VOC-9f0686a5bcd7](../../views/vocabulary/words/VOC-9f0686a5bcd7.md) |
 
 ## Part 3 — Berichten over de reis (chapter 6)
 
@@ -140,20 +140,20 @@ This follows exercises 4 and 5 of [chapter 6](../exercises/chapter-06.md).
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| de e-mail | email | 6 | [VOC-39e0749da40f](../../wiki/vocabulary/words/VOC-39e0749da40f.md) |
-| de bijlage | attachment | 6 | [VOC-20bab4baa97a](../../wiki/vocabulary/words/VOC-20bab4baa97a.md) |
-| sturen | to send | verb list | [VOC-2bd816eae894](../../wiki/vocabulary/words/VOC-2bd816eae894.md) |
-| de reservering | reservation | 6 | [VOC-ce81fd23a635](../../wiki/vocabulary/words/VOC-ce81fd23a635.md) |
-| bevestigen | to confirm | 6 | [VOC-daa7fd1afcea](../../wiki/vocabulary/words/VOC-daa7fd1afcea.md) |
-| de bevestiging | confirmation | 6 | [VOC-646c741f58d6](../../wiki/vocabulary/words/VOC-646c741f58d6.md) |
-| de factuur | invoice, bill | 6 | [VOC-af175d4f8dc4](../../wiki/vocabulary/words/VOC-af175d4f8dc4.md) |
-| betalen | to pay | verb list | [VOC-68706276c621](../../wiki/vocabulary/words/VOC-68706276c621.md) |
-| vertrekken | to leave / depart | verb list | [VOC-bb8f30237626](../../wiki/vocabulary/words/VOC-bb8f30237626.md) |
-| Ik zal wat later zijn, want/omdat … | I will be a bit late, because … | 6 | [VOC-9f7aaa8cd0db](../../wiki/vocabulary/words/VOC-9f7aaa8cd0db.md) |
-| Wat moet ik doen? | What do I have to do? | 6 | [VOC-b1bb5539fe91](../../wiki/vocabulary/words/VOC-b1bb5539fe91.md) |
-| Dat zal ik doen! | I will do that! | 6 | [VOC-65ac3473ca21](../../wiki/vocabulary/words/VOC-65ac3473ca21.md) |
-| de nacht | night | 2 | [VOC-efef2d6570fe](../../wiki/vocabulary/words/VOC-efef2d6570fe.md) |
-| maandag | Monday | 2 | [VOC-a61a19d1f7b2](../../wiki/vocabulary/words/VOC-a61a19d1f7b2.md) |
+| de e-mail | email | 6 | [VOC-39e0749da40f](../../views/vocabulary/words/VOC-39e0749da40f.md) |
+| de bijlage | attachment | 6 | [VOC-20bab4baa97a](../../views/vocabulary/words/VOC-20bab4baa97a.md) |
+| sturen | to send | verb list | [VOC-2bd816eae894](../../views/vocabulary/words/VOC-2bd816eae894.md) |
+| de reservering | reservation | 6 | [VOC-ce81fd23a635](../../views/vocabulary/words/VOC-ce81fd23a635.md) |
+| bevestigen | to confirm | 6 | [VOC-daa7fd1afcea](../../views/vocabulary/words/VOC-daa7fd1afcea.md) |
+| de bevestiging | confirmation | 6 | [VOC-646c741f58d6](../../views/vocabulary/words/VOC-646c741f58d6.md) |
+| de factuur | invoice, bill | 6 | [VOC-af175d4f8dc4](../../views/vocabulary/words/VOC-af175d4f8dc4.md) |
+| betalen | to pay | verb list | [VOC-68706276c621](../../views/vocabulary/words/VOC-68706276c621.md) |
+| vertrekken | to leave / depart | verb list | [VOC-bb8f30237626](../../views/vocabulary/words/VOC-bb8f30237626.md) |
+| Ik zal wat later zijn, want/omdat … | I will be a bit late, because … | 6 | [VOC-9f7aaa8cd0db](../../views/vocabulary/words/VOC-9f7aaa8cd0db.md) |
+| Wat moet ik doen? | What do I have to do? | 6 | [VOC-b1bb5539fe91](../../views/vocabulary/words/VOC-b1bb5539fe91.md) |
+| Dat zal ik doen! | I will do that! | 6 | [VOC-65ac3473ca21](../../views/vocabulary/words/VOC-65ac3473ca21.md) |
+| de nacht | night | 2 | [VOC-efef2d6570fe](../../views/vocabulary/words/VOC-efef2d6570fe.md) |
+| maandag | Monday | 2 | [VOC-a61a19d1f7b2](../../views/vocabulary/words/VOC-a61a19d1f7b2.md) |
 
 ## Part 4 — Mijn sporttas vergeten op de trein (chapter 7)
 
@@ -192,26 +192,26 @@ This follows exercises 10 and 11 of [chapter 7](../exercises/chapter-07.md).
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| de sporttas | sports bag | 7 | [VOC-2e69f7b3bf7b](../../wiki/vocabulary/words/VOC-2e69f7b3bf7b.md) |
-| de streep | stripe | 7 | [VOC-10b6b1f152aa](../../wiki/vocabulary/words/VOC-10b6b1f152aa.md) |
-| het handvat | handle | 7 | [VOC-88a8d9cb27d6](../../wiki/vocabulary/words/VOC-88a8d9cb27d6.md) |
-| de rits | zip | 7 | [VOC-8b1efaa0cce2](../../wiki/vocabulary/words/VOC-8b1efaa0cce2.md) |
-| de handdoek | towel | 7 | [VOC-4e12322d0a37](../../wiki/vocabulary/words/VOC-4e12322d0a37.md) |
-| de drinkfles | drinks bottle | 7 | [VOC-e0cb8420b917](../../wiki/vocabulary/words/VOC-e0cb8420b917.md) |
-| de portemonnee | wallet, purse | 7 | [VOC-8443d357e43e](../../wiki/vocabulary/words/VOC-8443d357e43e.md) |
-| verloren voorwerpen | lost property | 7 | [VOC-e0cb35e6df6a](../../wiki/vocabulary/words/VOC-e0cb35e6df6a.md) |
-| vergeten | to forget | 7 | [VOC-692d3fac16c1](../../wiki/vocabulary/words/VOC-692d3fac16c1.md) |
-| terugvinden | to find again | 7 | [VOC-14d34ee82ba1](../../wiki/vocabulary/words/VOC-14d34ee82ba1.md) |
-| ophalen | to pick up / collect | 7 | [VOC-7cab4f8b9828](../../wiki/vocabulary/words/VOC-7cab4f8b9828.md) |
-| terugkrijgen | to get back | 7 | [VOC-02d465e84988](../../wiki/vocabulary/words/VOC-02d465e84988.md) |
-| meebrengen | — | verb list | [VOC-ee2d8d257512](../../wiki/vocabulary/words/VOC-ee2d8d257512.md) |
-| zitten | to sit | 5 | [VOC-0c0d982f36f5](../../wiki/vocabulary/words/VOC-0c0d982f36f5.md) |
-| donkerblauw | — | 1 | [VOC-b78174aff16f](../../wiki/vocabulary/words/VOC-b78174aff16f.md) |
-| grijs | grey | 1 | [VOC-521c1528cf2f](../../wiki/vocabulary/words/VOC-521c1528cf2f.md) |
-| rood | red | 1 | [VOC-49976dba11d3](../../wiki/vocabulary/words/VOC-49976dba11d3.md) |
-| wit | white | 1 | [VOC-939df4a72606](../../wiki/vocabulary/words/VOC-939df4a72606.md) |
-| de sneaker | sneaker | 1 | [VOC-07d31623714b](../../wiki/vocabulary/words/VOC-07d31623714b.md) |
-| het T-shirt | T-shirt | 1 | [VOC-5a6ae5c8d6d8](../../wiki/vocabulary/words/VOC-5a6ae5c8d6d8.md) |
+| de sporttas | sports bag | 7 | [VOC-2e69f7b3bf7b](../../views/vocabulary/words/VOC-2e69f7b3bf7b.md) |
+| de streep | stripe | 7 | [VOC-10b6b1f152aa](../../views/vocabulary/words/VOC-10b6b1f152aa.md) |
+| het handvat | handle | 7 | [VOC-88a8d9cb27d6](../../views/vocabulary/words/VOC-88a8d9cb27d6.md) |
+| de rits | zip | 7 | [VOC-8b1efaa0cce2](../../views/vocabulary/words/VOC-8b1efaa0cce2.md) |
+| de handdoek | towel | 7 | [VOC-4e12322d0a37](../../views/vocabulary/words/VOC-4e12322d0a37.md) |
+| de drinkfles | drinks bottle | 7 | [VOC-e0cb8420b917](../../views/vocabulary/words/VOC-e0cb8420b917.md) |
+| de portemonnee | wallet, purse | 7 | [VOC-8443d357e43e](../../views/vocabulary/words/VOC-8443d357e43e.md) |
+| verloren voorwerpen | lost property | 7 | [VOC-e0cb35e6df6a](../../views/vocabulary/words/VOC-e0cb35e6df6a.md) |
+| vergeten | to forget | 7 | [VOC-692d3fac16c1](../../views/vocabulary/words/VOC-692d3fac16c1.md) |
+| terugvinden | to find again | 7 | [VOC-14d34ee82ba1](../../views/vocabulary/words/VOC-14d34ee82ba1.md) |
+| ophalen | to pick up / collect | 7 | [VOC-7cab4f8b9828](../../views/vocabulary/words/VOC-7cab4f8b9828.md) |
+| terugkrijgen | to get back | 7 | [VOC-02d465e84988](../../views/vocabulary/words/VOC-02d465e84988.md) |
+| meebrengen | — | verb list | [VOC-ee2d8d257512](../../views/vocabulary/words/VOC-ee2d8d257512.md) |
+| zitten | to sit | 5 | [VOC-0c0d982f36f5](../../views/vocabulary/words/VOC-0c0d982f36f5.md) |
+| donkerblauw | — | 1 | [VOC-b78174aff16f](../../views/vocabulary/words/VOC-b78174aff16f.md) |
+| grijs | grey | 1 | [VOC-521c1528cf2f](../../views/vocabulary/words/VOC-521c1528cf2f.md) |
+| rood | red | 1 | [VOC-49976dba11d3](../../views/vocabulary/words/VOC-49976dba11d3.md) |
+| wit | white | 1 | [VOC-939df4a72606](../../views/vocabulary/words/VOC-939df4a72606.md) |
+| de sneaker | sneaker | 1 | [VOC-07d31623714b](../../views/vocabulary/words/VOC-07d31623714b.md) |
+| het T-shirt | T-shirt | 1 | [VOC-5a6ae5c8d6d8](../../views/vocabulary/words/VOC-5a6ae5c8d6d8.md) |
 
 ## Check your own version
 

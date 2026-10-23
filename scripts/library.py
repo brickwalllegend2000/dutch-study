@@ -16,7 +16,7 @@ from urllib.parse import unquote
 ROOT = Path(__file__).resolve().parents[1]
 DATA_CSV = 'data/vocabulary.csv'
 GRAMMAR_DIR = 'data/grammar'
-VIEWS = 'wiki/vocabulary'
+VIEWS = 'views/vocabulary'
 FIELDS = ['id','dutch','english','article','word_type','forms','auxiliary','participle','examples','chapters','categories','notes','source_ids','occurrence_ids','review_status','reviewed_on']
 
 

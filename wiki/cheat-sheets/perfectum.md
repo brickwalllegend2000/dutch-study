@@ -33,27 +33,27 @@
 
 | Verb | English | Auxiliary | Participle | Chapter |
 | --- | --- | --- | --- | --- |
-| [dragen](../vocabulary/words/VOC-4a9b776b3dd5.md) | to carry / wear | hebben | gedragen | 1 |
-| [eruitzien](../vocabulary/words/VOC-78da2da177e8.md) | to look (like) | hebben | eruitgezien | 4 |
-| [liggen](../vocabulary/words/VOC-a1831692053f.md) | to lie | hebben | gelegen | 4, 5 |
-| [thuisblijven](../vocabulary/words/VOC-408c2ba4ac46.md) | to stay at home | zijn | thuisgebleven | 4 |
-| [verhuizen](../vocabulary/words/VOC-87cdaf5010f7.md) | to move (house) | zijn | verhuisd | 4 |
-| [hangen](../vocabulary/words/VOC-305636ba03ff.md) | to hang | hebben | gehangen | 5 |
-| [staan](../vocabulary/words/VOC-b0ab4e53bc94.md) | to stand | hebben | gestaan | 5 |
-| [weggeven](../vocabulary/words/VOC-df5d3b9b589e.md) | to give away | hebben | weggegeven | 5 |
-| [zitten](../vocabulary/words/VOC-0c0d982f36f5.md) | to sit | hebben | gezeten | 5 |
-| [begrijpen](../vocabulary/words/VOC-439e6f43fdd7.md) | to understand | hebben | begrepen | 6 |
-| [onthouden](../vocabulary/words/VOC-e58b19a5aa7d.md) | to remember | hebben | onthouden | 6 |
-| [ophalen](../vocabulary/words/VOC-7cab4f8b9828.md) | to pick up / collect | hebben | opgehaald | 7 |
-| [teruggeven](../vocabulary/words/VOC-bd26199a9139.md) | to give back, to return | hebben | teruggegeven | 7 |
-| [terugkrijgen](../vocabulary/words/VOC-02d465e84988.md) | to get back | hebben | teruggekregen | 7 |
-| [terugvinden](../vocabulary/words/VOC-14d34ee82ba1.md) | to find again | hebben | teruggevonden | 7 |
-| [vergeten](../vocabulary/words/VOC-692d3fac16c1.md) | to forget | hebben / zijn | vergeten | 7 |
-| [vinden](../vocabulary/words/VOC-5124fa29fbc9.md) | to find | hebben | gevonden | 7 |
-| [zingen](../vocabulary/words/VOC-056b693309a9.md) | to sing | hebben | gezongen | 7 |
-| [winnen](../vocabulary/words/VOC-2471850a1a4d.md) | to win | hebben | gewonnen | 8 |
+| [dragen](../../views/vocabulary/words/VOC-4a9b776b3dd5.md) | to carry / wear | hebben | gedragen | 1 |
+| [eruitzien](../../views/vocabulary/words/VOC-78da2da177e8.md) | to look (like) | hebben | eruitgezien | 4 |
+| [liggen](../../views/vocabulary/words/VOC-a1831692053f.md) | to lie | hebben | gelegen | 4, 5 |
+| [thuisblijven](../../views/vocabulary/words/VOC-408c2ba4ac46.md) | to stay at home | zijn | thuisgebleven | 4 |
+| [verhuizen](../../views/vocabulary/words/VOC-87cdaf5010f7.md) | to move (house) | zijn | verhuisd | 4 |
+| [hangen](../../views/vocabulary/words/VOC-305636ba03ff.md) | to hang | hebben | gehangen | 5 |
+| [staan](../../views/vocabulary/words/VOC-b0ab4e53bc94.md) | to stand | hebben | gestaan | 5 |
+| [weggeven](../../views/vocabulary/words/VOC-df5d3b9b589e.md) | to give away | hebben | weggegeven | 5 |
+| [zitten](../../views/vocabulary/words/VOC-0c0d982f36f5.md) | to sit | hebben | gezeten | 5 |
+| [begrijpen](../../views/vocabulary/words/VOC-439e6f43fdd7.md) | to understand | hebben | begrepen | 6 |
+| [onthouden](../../views/vocabulary/words/VOC-e58b19a5aa7d.md) | to remember | hebben | onthouden | 6 |
+| [ophalen](../../views/vocabulary/words/VOC-7cab4f8b9828.md) | to pick up / collect | hebben | opgehaald | 7 |
+| [teruggeven](../../views/vocabulary/words/VOC-bd26199a9139.md) | to give back, to return | hebben | teruggegeven | 7 |
+| [terugkrijgen](../../views/vocabulary/words/VOC-02d465e84988.md) | to get back | hebben | teruggekregen | 7 |
+| [terugvinden](../../views/vocabulary/words/VOC-14d34ee82ba1.md) | to find again | hebben | teruggevonden | 7 |
+| [vergeten](../../views/vocabulary/words/VOC-692d3fac16c1.md) | to forget | hebben / zijn | vergeten | 7 |
+| [vinden](../../views/vocabulary/words/VOC-5124fa29fbc9.md) | to find | hebben | gevonden | 7 |
+| [zingen](../../views/vocabulary/words/VOC-056b693309a9.md) | to sing | hebben | gezongen | 7 |
+| [winnen](../../views/vocabulary/words/VOC-2471850a1a4d.md) | to win | hebben | gewonnen | 8 |
 
-Auxiliaries are as recorded in `vocabulary.csv`, which notes that they are source-specific. More verbs: [perfectum study list](../vocabulary/PERFECTUM-STUDY-LIST.md) · [all perfectum verbs](../vocabulary/PERFECTUM.md) · [irregular verbs](../vocabulary/IRREGULAR-VERBS.md).
+Auxiliaries are as recorded in `vocabulary.csv`, which notes that they are source-specific. More verbs: [perfectum study list](../../views/vocabulary/PERFECTUM-STUDY-LIST.md) · [all perfectum verbs](../../views/vocabulary/PERFECTUM.md) · [irregular verbs](../../views/vocabulary/IRREGULAR-VERBS.md).
 
 ## Watch out
 

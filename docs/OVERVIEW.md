@@ -24,7 +24,7 @@ How this library is structured, what is authoritative, and the live status as of
 | --- | --- | --- |
 | **Facts** | `data/` (`vocabulary.csv`, `grammar/*.md`) | Only place to change lexicon or grammar facts |
 | **Authored study** | `course/` | Chapters, oral, exercises, exams, review sheets — narrative/practice, not the fact store |
-| **Generated views** | `wiki/vocabulary/**` | Build-only via `python scripts/library.py build` |
+| **Generated views** | `views/vocabulary/**` | Build-only via `python scripts/library.py build` |
 | **Authored summaries** | `wiki/cheat-sheets/`, `course/review/` | Stay put; summarize data-layer facts; no new facts; † for constructed examples |
 
 The repository is **public**. Do not commit course passwords or private drafts. The agenda PDF was withheld for that reason; use the [study-safe agenda](../sources/pages/agenda-sept-okt-26.md).
@@ -43,7 +43,7 @@ flowchart TB
     COURSE["chapters · oral · exercises · exams · review"]
   end
   subgraph views_layer["generated — build only"]
-    WV["wiki/vocabulary/**"]
+    WV["views/vocabulary/**"]
   end
   subgraph summaries["authored summaries — no new facts"]
     CS["wiki/cheat-sheets/"]
@@ -114,7 +114,7 @@ erDiagram
 | **Attachment** | `manifest.json` → `attachments` | filename + status | Import / archival |
 | **Occurrence** | `sources/vocabulary-occurrences.json` | `OCC-` + 16 hex | Import; append-only for new evidence |
 | **Vocabulary record** | `data/vocabulary.csv` | `VOC-` + 12 hex (hash of normalized Dutch) | Curator / controlled reconciliation |
-| **Generated word/list view** | `wiki/vocabulary/**` | derived from `VOC-` | `library.py build` only |
+| **Generated word/list view** | `views/vocabulary/**` | derived from `VOC-` | `library.py build` only |
 | **Grammar note** | `data/grammar/*.md` | `GRAM-…` in YAML | Curator |
 | **Course / summary pages** | `course/**`, cheat sheets, review sheets | path | Curator (summaries must not invent facts) |
 
@@ -132,7 +132,7 @@ flowchart TB
     OCC --> CSV["Update or create VOC row in data/vocabulary.csv"]
     SNAP --> GRAM["Update data/grammar note if needed"]
     CSV --> BUILD["library.py build"]
-    BUILD --> GEN["wiki/vocabulary views"]
+    BUILD --> GEN["views/vocabulary views"]
     CSV --> VAL["library.py validate + tests"]
     GRAM --> VAL
     GEN --> VAL
@@ -153,7 +153,7 @@ flowchart TB
 | Direction | Allowed | Forbidden |
 | --- | --- | --- |
 | Evidence → maintained | Consolidate into CSV/grammar with notes | Silently drop conflicting source values |
-| Maintained → generated | `build` regenerates views | Hand-edit `wiki/vocabulary/` |
+| Maintained → generated | `build` regenerates views | Hand-edit `views/vocabulary/` |
 | Maintained → summaries | Update cheat/review sheets after CSV/grammar change | Invent facts only in a summary |
 | Maintained → evidence | Never | Rewrite snapshots/images so they “match” a correction |
 
@@ -190,7 +190,7 @@ flowchart LR
 
 ## Wiki versus the rest of the library
 
-`wiki/` is a **folder inside this Git repository**. It is **not** the GitHub Wiki feature (that remote wiki is unused / disabled). Canonical grammar lives under `data/grammar/`; `wiki/` holds generated vocabulary views and authored cheat sheets. There is no Obsidian `vault/` layout in this tree.
+`wiki/` is a **folder inside this Git repository**. It is **not** the GitHub Wiki feature (that remote wiki is unused / disabled). Canonical grammar lives under `data/grammar/`; generated vocabulary views live under `views/vocabulary/`; `wiki/` holds authored cheat sheets. There is no Obsidian `vault/` layout in this tree.
 
 ### What each top-level area is for
 
@@ -206,7 +206,7 @@ flowchart LR
     GRAM["grammar/"]
   end
   subgraph views["Derived / summary"]
-    WV["wiki/vocabulary/ generated"]
+    WV["views/vocabulary/ generated"]
     CS["wiki/cheat-sheets/"]
     RV["course/review/"]
   end
@@ -232,7 +232,7 @@ flowchart LR
 | --- | --- | --- |
 | **`data/vocabulary.csv`** | Canonical **lexicon** | Edit here; then `build` |
 | **`data/grammar/`** | Canonical **explanations** (maintained Markdown) | Edit here; cite sources in frontmatter |
-| **`wiki/vocabulary/`** | **Reading views** of the lexicon | Never hand-edit — change CSV, run `build` |
+| **`views/vocabulary/`** | **Reading views** of the lexicon | Never hand-edit — change CSV, run `build` |
 | **`wiki/cheat-sheets/`** | Compact **summaries** of grammar/CSV | Stay under `wiki/`; no new facts; † for constructed examples |
 | **`course/`** | **Study order**, exercises, oral guides, exams, chapter review sheets | Narrative + practice; links into data/wiki for lookup |
 | **`sources/`** | **Evidence** behind facts | Append / preserve; do not rewrite snapshots to match CSV |
@@ -246,7 +246,7 @@ flowchart LR
 | --- | --- |
 | “What do I study next?” / exercises / oral dialogues | [course/](../course/README.md) |
 | “How does perfectum / word order / *er* work?” | [data/grammar/](../data/grammar/README.md) |
-| “What does this word mean / which chapter?” | [wiki/vocabulary/](../wiki/vocabulary/VOCABULARY.md) (or search CSV) |
+| “What does this word mean / which chapter?” | [views/vocabulary/](../views/vocabulary/VOCABULARY.md) (or search CSV) |
 | “Quick exam checklist” | [cheat sheets](../wiki/cheat-sheets/README.md) + [exam prep](../course/exams/exam-preparation.md) |
 | “What did the textbook / Notion page actually say?” | [sources/pages/](../sources/README.md) |
 
@@ -260,7 +260,7 @@ flowchart LR
 | `data/grammar/*.md` | Maintained | The note itself |
 | `wiki/cheat-sheets/*.md` | Hand-written summary | Must track CSV + grammar |
 | `course/review/*.md` | Hand-written summary | Must track CSV + grammar |
-| `wiki/vocabulary/**` | Generated | `data/vocabulary.csv` via `library.py build` |
+| `views/vocabulary/**` | Generated | `data/vocabulary.csv` via `library.py build` |
 | `wiki/README.md` | Index | Points at vocab views, cheat sheets, and `data/grammar/` |
 
 Regenerated vocabulary lists (all words, by chapter, perfectum, irregular, needs-review, per-word notes) are committed so GitHub shows them without running Python. After any CSV change, commit the regenerated tree with the CSV edit.
@@ -309,7 +309,7 @@ flowchart TD
 1. `git pull` (or GitHub Desktop Fetch + Pull), or just browse on GitHub.
 2. Open [journal/my-study-view.md](../journal/my-study-view.md).
 3. Use wiki links from the course when you need a definition or grammar note.
-4. Commit journal changes; leave `wiki/vocabulary/` alone unless you ran `build` after a CSV edit.
+4. Commit journal changes; leave `views/vocabulary/` alone unless you ran `build` after a CSV edit.
 
 ---
 
@@ -377,7 +377,7 @@ Chapter 3’s short list is expected: it reuses verbs/phrases from other chapter
 | `data/vocabulary.csv` | Yes | Canonical lexicon |
 | `data/grammar/` | Yes | Canonical explanations |
 | `course/` | Yes | Study order, exercises, oral, exams, review sheets |
-| `wiki/vocabulary/` | No — regenerate | Reading views from CSV |
+| `views/vocabulary/` | No — regenerate | Reading views from CSV |
 | `wiki/cheat-sheets/` | Yes, carefully | Summaries of CSV/grammar only (stay under `wiki/`) |
 | `sources/` | Append evidence; never “fix” snapshots to match CSV | Provenance |
 | `journal/` | Yes | Personal attempts |

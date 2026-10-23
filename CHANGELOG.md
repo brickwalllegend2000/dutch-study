@@ -2,6 +2,13 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Reorganize generated vocabulary views to views/ (`task/refactor-views-layer-split`)
+
+- Moved `wiki/vocabulary/` → `views/vocabulary/` with `git mv` so `wiki/` contains only authored summaries and cheat sheets.
+- Updated `scripts/library.py` with `VIEWS = 'views/vocabulary'` and regenerated reading views.
+- Updated inbound links across `course/`, `data/grammar/`, `wiki/`, `journal/`, and orientation docs (`README.md`, `START-HERE.md`, `WORKFLOW.md`, `AGENTS.md`, `docs/OVERVIEW.md`, `docs/HANDOFF.md`).
+- Validation (520 vocabulary records) and all 30 tests pass cleanly.
+
 ## 2026-10-23 — Remove Obsidian; GitHub-first library (`cursor/remove-obsidian-30a6`)
 
 - Deleted `.obsidian/` config; repository is no longer an Obsidian vault.

@@ -15,7 +15,7 @@ Canonical Dutch study library on GitHub. Study and maintain it here first (brows
 
 - [Study home](journal/my-study-view.md)
 - [Course and wiki view](course/view.md)
-- [Vocabulary](wiki/vocabulary/VOCABULARY.md) · [Perfectum study list](wiki/vocabulary/PERFECTUM-STUDY-LIST.md) · [Needs review](wiki/vocabulary/NEEDS-REVIEW.md)
+- [Vocabulary](views/vocabulary/VOCABULARY.md) · [Perfectum study list](views/vocabulary/PERFECTUM-STUDY-LIST.md) · [Needs review](views/vocabulary/NEEDS-REVIEW.md)
 - [Grammar](data/grammar/README.md) · [Chapters](course/README.md) · [Oral track](course/oral/README.md)
 - [Exam preparation](course/exams/exam-preparation.md) · [Practice tests](course/exams/README.md)
 - [Review sheets](course/review/README.md) · [Cheat sheets](wiki/cheat-sheets/README.md)
@@ -47,7 +47,7 @@ Canonical Dutch study library on GitHub. Study and maintain it here first (brows
 | Evidence | [sources](sources/README.md) |
 | Outstanding work | [GitHub Issues](https://github.com/brickwalllegend2000/dutch-study/issues) (currently none open) |
 
-`wiki/vocabulary/` is **generated** from the CSV. Edit `data/vocabulary.csv` and run `build`. Cheat sheets and review sheets summarize facts; they add no new ones. Source snapshots may conflict with maintained facts — keep conflicts visible.
+`views/vocabulary/` is **generated** from the CSV. Edit `data/vocabulary.csv` and run `build`. Cheat sheets and review sheets summarize facts; they add no new ones. Source snapshots may conflict with maintained facts — keep conflicts visible.
 
 Status snapshot: **520** vocabulary rows (**501** reviewed, **19** needs-review); **14** grammar topics reviewed; inbox class notes **deferred**. Details in [OVERVIEW.md](docs/OVERVIEW.md).
 

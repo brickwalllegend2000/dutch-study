@@ -12,7 +12,7 @@ Grammar: [modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md) 
 
 ### Exercise 4
 
-Schrijf een e-mail of een bericht om informatie te geven of te vragen. (Zie de zinnen onder "Informatie vragen", "Informatie geven", "Kan jij …?" en "Reageren op een bericht" in de [woordenschat](../../wiki/vocabulary/CHAPTER-06.md).)
+Schrijf een e-mail of een bericht om informatie te geven of te vragen. (Zie de zinnen onder "Informatie vragen", "Informatie geven", "Kan jij …?" en "Reageren op een bericht" in de [woordenschat](../../views/vocabulary/CHAPTER-06.md).)
 
 ### Exercise 5
 

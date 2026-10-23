@@ -4,7 +4,7 @@
 
 The course has two tracks. Work through both for each topic: the written track trains reading and writing, the oral track trains listening and speaking. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
-This folder is the **authored study** layer (path, practice, review sheets). Lexicon and grammar **facts** live under [`data/`](../data/grammar/README.md); generated word lists under [`wiki/vocabulary/`](../wiki/vocabulary/VOCABULARY.md).
+This folder is the **authored study** layer (path, practice, review sheets). Lexicon and grammar **facts** live under [`data/`](../data/grammar/README.md); generated word lists under [`views/vocabulary/`](../views/vocabulary/VOCABULARY.md).
 
 ## Overview
 
@@ -64,4 +64,4 @@ For a detailed analysis of overlapping structures, communicative goals, and exam
 | Chapter 7 | Modeling 3, Modeling 7 | Lost items, restaurant complaints, descriptions of materials/colors, *perfectum* |
 | Chapter 8 | Modeling 4 | Comparisons, superlatives, transport choices, leisure preferences |
 
-Oral-track vocabulary and knowledge summaries are fully integrated into the library, with terms cataloged in [vocabulary.csv](../data/vocabulary.csv) and cross-referenced in [wiki/vocabulary](../wiki/vocabulary/VOCABULARY.md). Pairings reflect shared communicative tasks and grammar in *Zo Gezegd 1.2*.
+Oral-track vocabulary and knowledge summaries are fully integrated into the library, with terms cataloged in [vocabulary.csv](../data/vocabulary.csv) and cross-referenced in [views/vocabulary](../views/vocabulary/VOCABULARY.md). Pairings reflect shared communicative tasks and grammar in *Zo Gezegd 1.2*.

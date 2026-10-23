@@ -62,7 +62,7 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 ### 1. Describe a person (Persoonsbeschrijving)
 
 - **Source references:** *Schriftelijk (S)* Thema 1 (pp. 20–23, Schrijftaak 2 p. 23) · *Mondeling (M)* Thema 1 & Thema 3 (kleding, pp. 79–85).
-- **Core grammar & vocabulary:** [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md) · [Cheat sheet: descriptions & people](../../wiki/cheat-sheets/descriptions.md) · [Chapter 1 vocabulary](../../wiki/vocabulary/CHAPTER-01.md) (kleren, kleuren) · [Chapter 1 guide](../chapter-01.md).
+- **Core grammar & vocabulary:** [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md) · [Cheat sheet: descriptions & people](../../wiki/cheat-sheets/descriptions.md) · [Chapter 1 vocabulary](../../views/vocabulary/CHAPTER-01.md) (kleren, kleuren) · [Chapter 1 guide](../chapter-01.md).
 - **Exercise link:** [Chapter 1 exercises — task 3](../exercises/chapter-01.md).
 
 > **Opdracht:** Beschrijf een persoon (bijv. een klasgenoot, collega, familielid of vriend) in **minimum 6 zinnen**.
@@ -78,7 +78,7 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 ### 2. Describe a home or room (Woning / Favoriete kamer)
 
 - **Source references:** *Schriftelijk (S)* Thema 4 (pp. 98–101, Schrijftaak pp. 100–101) & *Schriftelijk (S)* Thema 5 (pp. 115–125, Oef 13 p. 125) · *Mondeling (M)* Thema 5 (pp. 125–143).
-- **Core grammar & vocabulary:** [Using er: there is / there are](../../data/grammar/using-er-there-is-there-are.md) · [Descriptions, positions & room layout (cheat sheet)](../../wiki/cheat-sheets/descriptions.md) · [Position & action verbs (cheat sheet)](../../wiki/cheat-sheets/negation-and-er.md) · [Chapter 4 vocabulary](../../wiki/vocabulary/CHAPTER-04.md) · [Chapter 5 vocabulary](../../wiki/vocabulary/CHAPTER-05.md).
+- **Core grammar & vocabulary:** [Using er: there is / there are](../../data/grammar/using-er-there-is-there-are.md) · [Descriptions, positions & room layout (cheat sheet)](../../wiki/cheat-sheets/descriptions.md) · [Position & action verbs (cheat sheet)](../../wiki/cheat-sheets/negation-and-er.md) · [Chapter 4 vocabulary](../../views/vocabulary/CHAPTER-04.md) · [Chapter 5 vocabulary](../../views/vocabulary/CHAPTER-05.md).
 - **Model text:** [Worked example 1: Waar ik woon](../examples/example-1-where-i-live.md).
 - **Exercise link:** [Chapter 5 exercises — task 13 (favoriete kamer)](../exercises/chapter-05.md) · [Chapter 4 exercises (appartement)](../exercises/chapter-04.md).
 
@@ -95,7 +95,7 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 ### 3. Write a personal message or email (Persoonlijk berichtje)
 
 - **Source references:** *Schriftelijk (S)* Thema 6 (pp. 140–146, Oef pp. 145–146) · *Mondeling (M)* Thema 6 (pp. 155–178).
-- **Core grammar & vocabulary:** [Joining sentences: want, en, maar, of](../../data/grammar/joining-sentences-want-en-maar-and-of.md) · [Because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md) · [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md) · [Chapter 6 vocabulary](../../wiki/vocabulary/CHAPTER-06.md).
+- **Core grammar & vocabulary:** [Joining sentences: want, en, maar, of](../../data/grammar/joining-sentences-want-en-maar-and-of.md) · [Because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md) · [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md) · [Chapter 6 vocabulary](../../views/vocabulary/CHAPTER-06.md).
 - **Exercise link:** [Chapter 6 exercises — personal messages](../exercises/chapter-06.md).
 
 > **Opdracht:** Schrijf een persoonlijk berichtje of een korte e-mail (aan je docent, werkgever of afspraakpartner) in **minstens 6–8 zinnen**.
@@ -117,7 +117,7 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 ### 4. Write about a trip or vacation (Citytrip / vakantiekaartje)
 
 - **Source references:** *Schriftelijk (S)* Thema 2 (pp. 41–54, Schrijfopdracht pp. 51–54) · *Mondeling (M)* Thema 2 & Thema 4 (transportmiddelen, pp. 101–112).
-- **Core grammar & vocabulary:** [The perfect tense (perfectum)](../../data/grammar/the-perfect-tense-perfectum.md) · [80 core verbs list](../../wiki/vocabulary/PERFECTUM-STUDY-LIST.md) · [Word order: eerst, dan, daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md) · [Future plans: gaan + infinitief](../../data/grammar/future-plans-gaan-infinitive.md) · [Chapter 2 vocabulary](../../wiki/vocabulary/CHAPTER-02.md).
+- **Core grammar & vocabulary:** [The perfect tense (perfectum)](../../data/grammar/the-perfect-tense-perfectum.md) · [80 core verbs list](../../views/vocabulary/PERFECTUM-STUDY-LIST.md) · [Word order: eerst, dan, daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md) · [Future plans: gaan + infinitief](../../data/grammar/future-plans-gaan-infinitive.md) · [Chapter 2 vocabulary](../../views/vocabulary/CHAPTER-02.md).
 - **Model text:** [Worked example 2: Reis naar Oostenrijk](../examples/example-2-trip.md).
 - **Exercise link:** [Chapter 2 exercises — task 10 (citytrip Oostende)](../exercises/chapter-02.md).
 
@@ -134,7 +134,7 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 ### 5. Describe a lost object (Verloren voorwerp)
 
 - **Source references:** *Schriftelijk (S)* Thema 7 (pp. 173–182, Oef 11–12 pp. 181–182).
-- **Core grammar & vocabulary:** [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md) · [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md) · [Descriptions & lost objects (cheat sheet)](../../wiki/cheat-sheets/descriptions.md) · [Position verbs in cheat sheet](../../wiki/cheat-sheets/negation-and-er.md) · [Chapter 7 vocabulary](../../wiki/vocabulary/CHAPTER-07.md).
+- **Core grammar & vocabulary:** [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md) · [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md) · [Descriptions & lost objects (cheat sheet)](../../wiki/cheat-sheets/descriptions.md) · [Position verbs in cheat sheet](../../wiki/cheat-sheets/negation-and-er.md) · [Chapter 7 vocabulary](../../views/vocabulary/CHAPTER-07.md).
 - **Exercise link:** [Chapter 7 exercises](../exercises/chapter-07.md).
 
 > **Opdracht:** Je bent een belangrijk voorwerp verloren (op de trein, op school of in de winkel). Schrijf een e-mail of bericht naar de dienst verloren voorwerpen in **minimum 6 zinnen**.
@@ -151,7 +151,7 @@ These five writing prompts reflect the recurring homework and evaluation tasks a
 
 | Topic | Key rule & structure | What to watch out for | Guide link |
 | --- | --- | --- | --- |
-| **Perfectum** | Regular: `ge-` + stem + `-t` (*'t kofschip*) of `-d`.<br>Verbs with prefix (*be-, ge-, her-, ont-, ver-*) get **no** `ge-`.<br>Auxiliary: *zijn* for motion with direction or state transition (*gaan, komen, vertrekken, verhuizen, blijven*); *hebben* for all others. | Irregular participles require memorization: *gegeten, gedronken, geholpen, gelezen, vergeten*.<br>Separable verbs put `-ge-` between prefix and stem: *opgebeld, schoongemaakt*. | [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)<br>[Cheat sheet: perfectum](../../wiki/cheat-sheets/perfectum.md)<br>[80 core verbs](../../wiki/vocabulary/PERFECTUM-STUDY-LIST.md)<br>[Perfectum exercises](../exercises/chapter-02.md) |
+| **Perfectum** | Regular: `ge-` + stem + `-t` (*'t kofschip*) of `-d`.<br>Verbs with prefix (*be-, ge-, her-, ont-, ver-*) get **no** `ge-`.<br>Auxiliary: *zijn* for motion with direction or state transition (*gaan, komen, vertrekken, verhuizen, blijven*); *hebben* for all others. | Irregular participles require memorization: *gegeten, gedronken, geholpen, gelezen, vergeten*.<br>Separable verbs put `-ge-` between prefix and stem: *opgebeld, schoongemaakt*. | [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)<br>[Cheat sheet: perfectum](../../wiki/cheat-sheets/perfectum.md)<br>[80 core verbs](../../views/vocabulary/PERFECTUM-STUDY-LIST.md)<br>[Perfectum exercises](../exercises/chapter-02.md) |
 | **Word order & Inversion** | SVO in normal sentence: *We hebben gewinkeld.*<br>Time/place word first triggers inversion: *Daarna **hebben** we gewinkeld.* (*not* *Daarna we hebben*). | After *en, maar, want, of*, normal main clause order remains: *..., want het **is** koud.*<br>After *omdat*, all verbs move to the clause end: *..., omdat het koud **is**.* | [Word order: eerst/dan/daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md)<br>[Joining sentences: want/maar](../../data/grammar/joining-sentences-want-en-maar-and-of.md)<br>[Because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md)<br>[Cheat sheet: word order](../../wiki/cheat-sheets/word-order.md)<br>[Inversion exercises](../exercises/chapter-02.md) |
 | **Adjective endings** | Default: add `-e` (*een grote kamer, de rode trui, mooie foto's*).<br>**NO -e** only with: *een / geen / geen lidwoord* + **het-woord** singular (*een mooi huis, een groen hemd*).<br>Predicative adjectives (after *is/zijn*) take **no -e** (*Het hemd is groen*). | Material adjectives end in `-en`: *houten, glazen, wollen, gouden, zilveren* (or *van leer, van katoen*). | [Adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md)<br>[Cheat sheet: adjectives](../../wiki/cheat-sheets/adjectives.md)<br>[Adjective exercises](../exercises/chapter-01.md) |
 | **Action vs. Position verbs** | **Action (Actieverba — direction/action):** *zetten, leggen, hangen, stoppen/steken* (+ direct object). Perfectum with *hebben* (*gezet, gelegd*; *gehangen* is irregular — see the irregular/position tables, not a regular *-t/-d* pattern).<br>**Position (Positieverba — state/location):** *staan, liggen, hangen, zitten* (no direct object). Irregular perfectum with *hebben* (*gestaan, gelegen, gehangen, gezeten*). | Action: *Ik **zet** de stoel bij het raam.* (perf: *Ik heb de stoel bij het raam gezet.*)<br>Position: *De stoel **staat** bij het raam.* (perf: *De stoel heeft bij het raam gestaan.*)<br>Never use position verbs with a direct object. | [Using er](../../data/grammar/using-er-there-is-there-are.md)<br>[Cheat sheet: descriptions & room layout](../../wiki/cheat-sheets/descriptions.md)<br>[Cheat sheet: negation and er](../../wiki/cheat-sheets/negation-and-er.md)<br>[Room exercises](../exercises/chapter-05.md) |

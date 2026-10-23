@@ -31,31 +31,31 @@ Each part below has a task in the style of the workbook, a completed model text,
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| het appartement | apartment, flat | 4 | [VOC-dc2015ab66f9](../../wiki/vocabulary/words/VOC-dc2015ab66f9.md) |
-| de verdieping | floor, storey | 4 | [VOC-20c8da3c08ee](../../wiki/vocabulary/words/VOC-20c8da3c08ee.md) |
-| de lift | lift, elevator | 4 | [VOC-5364b92e50b1](../../wiki/vocabulary/words/VOC-5364b92e50b1.md) |
-| de trap | stairs | 4 | [VOC-11ba65852271](../../wiki/vocabulary/words/VOC-11ba65852271.md) |
-| de slaapkamer | bedroom | 4 | [VOC-2bef11b58253](../../wiki/vocabulary/words/VOC-2bef11b58253.md) |
-| de woonkamer | living room | 4 | [VOC-f14a36f6a0d7](../../wiki/vocabulary/words/VOC-f14a36f6a0d7.md) |
-| de keuken | kitchen | 4 | [VOC-42f3222f3df3](../../wiki/vocabulary/words/VOC-42f3222f3df3.md) |
-| de badkamer | bathroom | 4 | [VOC-a766d9f996b2](../../wiki/vocabulary/words/VOC-a766d9f996b2.md) |
-| de douche | shower | 4 | [VOC-2b3240970c71](../../wiki/vocabulary/words/VOC-2b3240970c71.md) |
-| een ingerichte keuken | a fitted kitchen | 4 | [VOC-ac4b2ffa27e6](../../wiki/vocabulary/words/VOC-ac4b2ffa27e6.md) |
-| de tuin | garden | 4 | [VOC-93efb69dadb1](../../wiki/vocabulary/words/VOC-93efb69dadb1.md) |
-| het balkon | balcony | 4 | [VOC-b8eedf4dec6b](../../wiki/vocabulary/words/VOC-b8eedf4dec6b.md) |
-| licht | light, bright | 4 | [VOC-51e51941a252](../../wiki/vocabulary/words/VOC-51e51941a252.md) |
-| ruim | spacious | 4 | [VOC-9b4e601776d0](../../wiki/vocabulary/words/VOC-9b4e601776d0.md) |
-| in goede staat | in good condition | 4 | [VOC-d7ba9ae0de93](../../wiki/vocabulary/words/VOC-d7ba9ae0de93.md) |
-| de buurt | neighbourhood | 4 | [VOC-845981a90f55](../../wiki/vocabulary/words/VOC-845981a90f55.md) |
-| rustig – druk | quiet – busy | 4 | [VOC-aeaed965988b](../../wiki/vocabulary/words/VOC-aeaed965988b.md) |
-| dicht bij + substantief | close to | 4 | [VOC-96b76f9254e5](../../wiki/vocabulary/words/VOC-96b76f9254e5.md) |
-| niet ver van + substantief | not far from | 4 | [VOC-8c06207428c0](../../wiki/vocabulary/words/VOC-8c06207428c0.md) |
-| het centrum | centre | 2 | [VOC-d27c2fbf8703](../../wiki/vocabulary/words/VOC-d27c2fbf8703.md) |
-| de bushalte | bus stop | 7 | [VOC-24a07b9718ea](../../wiki/vocabulary/words/VOC-24a07b9718ea.md) |
-| de huurprijs | rent (price) | 4 | [VOC-c6b0776be04f](../../wiki/vocabulary/words/VOC-c6b0776be04f.md) |
-| water, elektriciteit en gas inbegrepen | water, electricity and gas included | 4 | [VOC-1cfb823a79fd](../../wiki/vocabulary/words/VOC-1cfb823a79fd.md) |
-| goedkoop – duur | cheap – expensive | 4, 8 | [VOC-43f35ef16646](../../wiki/vocabulary/words/VOC-43f35ef16646.md) |
-| gezellig | cosy, pleasant | 2 | [VOC-d78ca4d64477](../../wiki/vocabulary/words/VOC-d78ca4d64477.md) |
+| het appartement | apartment, flat | 4 | [VOC-dc2015ab66f9](../../views/vocabulary/words/VOC-dc2015ab66f9.md) |
+| de verdieping | floor, storey | 4 | [VOC-20c8da3c08ee](../../views/vocabulary/words/VOC-20c8da3c08ee.md) |
+| de lift | lift, elevator | 4 | [VOC-5364b92e50b1](../../views/vocabulary/words/VOC-5364b92e50b1.md) |
+| de trap | stairs | 4 | [VOC-11ba65852271](../../views/vocabulary/words/VOC-11ba65852271.md) |
+| de slaapkamer | bedroom | 4 | [VOC-2bef11b58253](../../views/vocabulary/words/VOC-2bef11b58253.md) |
+| de woonkamer | living room | 4 | [VOC-f14a36f6a0d7](../../views/vocabulary/words/VOC-f14a36f6a0d7.md) |
+| de keuken | kitchen | 4 | [VOC-42f3222f3df3](../../views/vocabulary/words/VOC-42f3222f3df3.md) |
+| de badkamer | bathroom | 4 | [VOC-a766d9f996b2](../../views/vocabulary/words/VOC-a766d9f996b2.md) |
+| de douche | shower | 4 | [VOC-2b3240970c71](../../views/vocabulary/words/VOC-2b3240970c71.md) |
+| een ingerichte keuken | a fitted kitchen | 4 | [VOC-ac4b2ffa27e6](../../views/vocabulary/words/VOC-ac4b2ffa27e6.md) |
+| de tuin | garden | 4 | [VOC-93efb69dadb1](../../views/vocabulary/words/VOC-93efb69dadb1.md) |
+| het balkon | balcony | 4 | [VOC-b8eedf4dec6b](../../views/vocabulary/words/VOC-b8eedf4dec6b.md) |
+| licht | light, bright | 4 | [VOC-51e51941a252](../../views/vocabulary/words/VOC-51e51941a252.md) |
+| ruim | spacious | 4 | [VOC-9b4e601776d0](../../views/vocabulary/words/VOC-9b4e601776d0.md) |
+| in goede staat | in good condition | 4 | [VOC-d7ba9ae0de93](../../views/vocabulary/words/VOC-d7ba9ae0de93.md) |
+| de buurt | neighbourhood | 4 | [VOC-845981a90f55](../../views/vocabulary/words/VOC-845981a90f55.md) |
+| rustig – druk | quiet – busy | 4 | [VOC-aeaed965988b](../../views/vocabulary/words/VOC-aeaed965988b.md) |
+| dicht bij + substantief | close to | 4 | [VOC-96b76f9254e5](../../views/vocabulary/words/VOC-96b76f9254e5.md) |
+| niet ver van + substantief | not far from | 4 | [VOC-8c06207428c0](../../views/vocabulary/words/VOC-8c06207428c0.md) |
+| het centrum | centre | 2 | [VOC-d27c2fbf8703](../../views/vocabulary/words/VOC-d27c2fbf8703.md) |
+| de bushalte | bus stop | 7 | [VOC-24a07b9718ea](../../views/vocabulary/words/VOC-24a07b9718ea.md) |
+| de huurprijs | rent (price) | 4 | [VOC-c6b0776be04f](../../views/vocabulary/words/VOC-c6b0776be04f.md) |
+| water, elektriciteit en gas inbegrepen | water, electricity and gas included | 4 | [VOC-1cfb823a79fd](../../views/vocabulary/words/VOC-1cfb823a79fd.md) |
+| goedkoop – duur | cheap – expensive | 4, 8 | [VOC-43f35ef16646](../../views/vocabulary/words/VOC-43f35ef16646.md) |
+| gezellig | cosy, pleasant | 2 | [VOC-d78ca4d64477](../../views/vocabulary/words/VOC-d78ca4d64477.md) |
 
 ## Part 2 — Mijn kamers (chapter 5)
 
@@ -90,44 +90,44 @@ This follows workbook opdracht 13 of [chapter 5](../exercises/chapter-05.md), wi
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| favoriet | favourite | 5 | [VOC-000144f5c970](../../wiki/vocabulary/words/VOC-000144f5c970.md) |
-| de driezit / de sofa | three-seater / sofa | 5 | [VOC-7ba0d1455096](../../wiki/vocabulary/words/VOC-7ba0d1455096.md) |
-| de zetel | armchair, sofa | 5 | [VOC-6eeb034ab535](../../wiki/vocabulary/words/VOC-6eeb034ab535.md) |
-| het kussen | cushion, pillow | 5 | [VOC-1b3949e532ca](../../wiki/vocabulary/words/VOC-1b3949e532ca.md) |
-| de salontafel | coffee table | 5 | [VOC-38f539292f16](../../wiki/vocabulary/words/VOC-38f539292f16.md) |
-| het tapijt | carpet, rug | 5 | [VOC-a315b5139e80](../../wiki/vocabulary/words/VOC-a315b5139e80.md) |
-| het schilderij | painting | 5 | [VOC-2d70a89adfba](../../wiki/vocabulary/words/VOC-2d70a89adfba.md) |
-| de staande lamp | — | 5 | [VOC-e5fc9091383c](../../wiki/vocabulary/words/VOC-e5fc9091383c.md) |
-| het gordijn | curtain | 5 | [VOC-7cbda65c9e78](../../wiki/vocabulary/words/VOC-7cbda65c9e78.md) |
-| gebloemd | — | 1 | [VOC-5a31c39eb69e](../../wiki/vocabulary/words/VOC-5a31c39eb69e.md) |
-| het tweepersoonsbed | double bed | 5 | [VOC-e094ffa00ad4](../../wiki/vocabulary/words/VOC-e094ffa00ad4.md) |
-| het nachtkastje | bedside table | 5 | [VOC-a68ee0379f48](../../wiki/vocabulary/words/VOC-a68ee0379f48.md) |
-| de kleerkast | wardrobe | 5 | [VOC-b5b3ee6da748](../../wiki/vocabulary/words/VOC-b5b3ee6da748.md) |
-| de spiegel | mirror | 5 | [VOC-cb3ae634eb20](../../wiki/vocabulary/words/VOC-cb3ae634eb20.md) |
-| de tafel | table | 5 | [VOC-0b157b10ae22](../../wiki/vocabulary/words/VOC-0b157b10ae22.md) |
-| de stoel | chair | 5 | [VOC-ab184a6f1d4b](../../wiki/vocabulary/words/VOC-ab184a6f1d4b.md) |
-| de plant | plant | 5 | [VOC-96044d9734b6](../../wiki/vocabulary/words/VOC-96044d9734b6.md) |
-| het bad | bath | 4 | [VOC-2f05d4b689d2](../../wiki/vocabulary/words/VOC-2f05d4b689d2.md) |
-| de handdoek | towel | 7 | [VOC-4e12322d0a37](../../wiki/vocabulary/words/VOC-4e12322d0a37.md) |
-| houten | wooden | 5 | [VOC-60e548a14d83](../../wiki/vocabulary/words/VOC-60e548a14d83.md) |
-| ijzeren | iron, metal | 5 | [VOC-1f06c9f5b55a](../../wiki/vocabulary/words/VOC-1f06c9f5b55a.md) |
-| wollen | woollen | 7 | [VOC-75e6d0fc3c87](../../wiki/vocabulary/words/VOC-75e6d0fc3c87.md) |
-| plastic | plastic | 5 | [VOC-72f7c894ad6c](../../wiki/vocabulary/words/VOC-72f7c894ad6c.md) |
-| rond | round | 5 | [VOC-65711adccfd1](../../wiki/vocabulary/words/VOC-65711adccfd1.md) |
-| vierkant | square | 5 | [VOC-ea711ae62d54](../../wiki/vocabulary/words/VOC-ea711ae62d54.md) |
-| rechthoekig | rectangular | 5 | [VOC-4daa77b60f08](../../wiki/vocabulary/words/VOC-4daa77b60f08.md) |
-| dik | thick | 5 | [VOC-025da59d5112](../../wiki/vocabulary/words/VOC-025da59d5112.md) |
-| hoog | high, tall | 5, 8 | [VOC-5b78db4de3fc](../../wiki/vocabulary/words/VOC-5b78db4de3fc.md) |
-| staan | to stand | 5 | [VOC-b0ab4e53bc94](../../wiki/vocabulary/words/VOC-b0ab4e53bc94.md) |
-| liggen | to lie | 4, 5 | [VOC-a1831692053f](../../wiki/vocabulary/words/VOC-a1831692053f.md) |
-| hangen | to hang | 5 | [VOC-305636ba03ff](../../wiki/vocabulary/words/VOC-305636ba03ff.md) |
-| tegen | against | 5 | [VOC-03642e8f71e7](../../wiki/vocabulary/words/VOC-03642e8f71e7.md) |
-| op | on | 5 | [VOC-037aeaeaf4bb](../../wiki/vocabulary/words/VOC-037aeaeaf4bb.md) |
-| voor | in front of | 5 | [VOC-a6f105e2b990](../../wiki/vocabulary/words/VOC-a6f105e2b990.md) |
-| onder | under | 5 | [VOC-48fa221b8181](../../wiki/vocabulary/words/VOC-48fa221b8181.md) |
-| boven | above | 5 | [VOC-b1db53898ebe](../../wiki/vocabulary/words/VOC-b1db53898ebe.md) |
-| naast | next to | 5 | [VOC-273fd4f41a4e](../../wiki/vocabulary/words/VOC-273fd4f41a4e.md) |
-| aan | on, at | 5 | [VOC-82dcc8e2b25f](../../wiki/vocabulary/words/VOC-82dcc8e2b25f.md) |
+| favoriet | favourite | 5 | [VOC-000144f5c970](../../views/vocabulary/words/VOC-000144f5c970.md) |
+| de driezit / de sofa | three-seater / sofa | 5 | [VOC-7ba0d1455096](../../views/vocabulary/words/VOC-7ba0d1455096.md) |
+| de zetel | armchair, sofa | 5 | [VOC-6eeb034ab535](../../views/vocabulary/words/VOC-6eeb034ab535.md) |
+| het kussen | cushion, pillow | 5 | [VOC-1b3949e532ca](../../views/vocabulary/words/VOC-1b3949e532ca.md) |
+| de salontafel | coffee table | 5 | [VOC-38f539292f16](../../views/vocabulary/words/VOC-38f539292f16.md) |
+| het tapijt | carpet, rug | 5 | [VOC-a315b5139e80](../../views/vocabulary/words/VOC-a315b5139e80.md) |
+| het schilderij | painting | 5 | [VOC-2d70a89adfba](../../views/vocabulary/words/VOC-2d70a89adfba.md) |
+| de staande lamp | — | 5 | [VOC-e5fc9091383c](../../views/vocabulary/words/VOC-e5fc9091383c.md) |
+| het gordijn | curtain | 5 | [VOC-7cbda65c9e78](../../views/vocabulary/words/VOC-7cbda65c9e78.md) |
+| gebloemd | — | 1 | [VOC-5a31c39eb69e](../../views/vocabulary/words/VOC-5a31c39eb69e.md) |
+| het tweepersoonsbed | double bed | 5 | [VOC-e094ffa00ad4](../../views/vocabulary/words/VOC-e094ffa00ad4.md) |
+| het nachtkastje | bedside table | 5 | [VOC-a68ee0379f48](../../views/vocabulary/words/VOC-a68ee0379f48.md) |
+| de kleerkast | wardrobe | 5 | [VOC-b5b3ee6da748](../../views/vocabulary/words/VOC-b5b3ee6da748.md) |
+| de spiegel | mirror | 5 | [VOC-cb3ae634eb20](../../views/vocabulary/words/VOC-cb3ae634eb20.md) |
+| de tafel | table | 5 | [VOC-0b157b10ae22](../../views/vocabulary/words/VOC-0b157b10ae22.md) |
+| de stoel | chair | 5 | [VOC-ab184a6f1d4b](../../views/vocabulary/words/VOC-ab184a6f1d4b.md) |
+| de plant | plant | 5 | [VOC-96044d9734b6](../../views/vocabulary/words/VOC-96044d9734b6.md) |
+| het bad | bath | 4 | [VOC-2f05d4b689d2](../../views/vocabulary/words/VOC-2f05d4b689d2.md) |
+| de handdoek | towel | 7 | [VOC-4e12322d0a37](../../views/vocabulary/words/VOC-4e12322d0a37.md) |
+| houten | wooden | 5 | [VOC-60e548a14d83](../../views/vocabulary/words/VOC-60e548a14d83.md) |
+| ijzeren | iron, metal | 5 | [VOC-1f06c9f5b55a](../../views/vocabulary/words/VOC-1f06c9f5b55a.md) |
+| wollen | woollen | 7 | [VOC-75e6d0fc3c87](../../views/vocabulary/words/VOC-75e6d0fc3c87.md) |
+| plastic | plastic | 5 | [VOC-72f7c894ad6c](../../views/vocabulary/words/VOC-72f7c894ad6c.md) |
+| rond | round | 5 | [VOC-65711adccfd1](../../views/vocabulary/words/VOC-65711adccfd1.md) |
+| vierkant | square | 5 | [VOC-ea711ae62d54](../../views/vocabulary/words/VOC-ea711ae62d54.md) |
+| rechthoekig | rectangular | 5 | [VOC-4daa77b60f08](../../views/vocabulary/words/VOC-4daa77b60f08.md) |
+| dik | thick | 5 | [VOC-025da59d5112](../../views/vocabulary/words/VOC-025da59d5112.md) |
+| hoog | high, tall | 5, 8 | [VOC-5b78db4de3fc](../../views/vocabulary/words/VOC-5b78db4de3fc.md) |
+| staan | to stand | 5 | [VOC-b0ab4e53bc94](../../views/vocabulary/words/VOC-b0ab4e53bc94.md) |
+| liggen | to lie | 4, 5 | [VOC-a1831692053f](../../views/vocabulary/words/VOC-a1831692053f.md) |
+| hangen | to hang | 5 | [VOC-305636ba03ff](../../views/vocabulary/words/VOC-305636ba03ff.md) |
+| tegen | against | 5 | [VOC-03642e8f71e7](../../views/vocabulary/words/VOC-03642e8f71e7.md) |
+| op | on | 5 | [VOC-037aeaeaf4bb](../../views/vocabulary/words/VOC-037aeaeaf4bb.md) |
+| voor | in front of | 5 | [VOC-a6f105e2b990](../../views/vocabulary/words/VOC-a6f105e2b990.md) |
+| onder | under | 5 | [VOC-48fa221b8181](../../views/vocabulary/words/VOC-48fa221b8181.md) |
+| boven | above | 5 | [VOC-b1db53898ebe](../../views/vocabulary/words/VOC-b1db53898ebe.md) |
+| naast | next to | 5 | [VOC-273fd4f41a4e](../../views/vocabulary/words/VOC-273fd4f41a4e.md) |
+| aan | on, at | 5 | [VOC-82dcc8e2b25f](../../views/vocabulary/words/VOC-82dcc8e2b25f.md) |
 
 ## Part 3 — Huisregels (chapter 3)
 
@@ -164,17 +164,17 @@ This follows workbook opdracht 13 of [chapter 5](../exercises/chapter-05.md), wi
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| moeten | — | 3 | [VOC-bf501c6cc825](../../wiki/vocabulary/words/VOC-bf501c6cc825.md) |
-| mogen | — | 3 | [VOC-c7d1c537c580](../../wiki/vocabulary/words/VOC-c7d1c537c580.md) |
-| kunnen | — | 3 | [VOC-bc00acbadd2d](../../wiki/vocabulary/words/VOC-bc00acbadd2d.md) |
-| willen | — | 3 | [VOC-eb6cefc89957](../../wiki/vocabulary/words/VOC-eb6cefc89957.md) |
-| de berging | storage room | 4 | [VOC-21f1b188d459](../../wiki/vocabulary/words/VOC-21f1b188d459.md) |
-| de kelder | cellar | 4 | [VOC-a9a5b11277d8](../../wiki/vocabulary/words/VOC-a9a5b11277d8.md) |
-| het terras | terrace | 4 | [VOC-4983009cbece](../../wiki/vocabulary/words/VOC-4983009cbece.md) |
-| de lift | lift, elevator | 4 | [VOC-5364b92e50b1](../../wiki/vocabulary/words/VOC-5364b92e50b1.md) |
-| verhuizen | to move (house) | 4 | [VOC-87cdaf5010f7](../../wiki/vocabulary/words/VOC-87cdaf5010f7.md) |
-| de garage | garage | 4 | [VOC-21b747de22db](../../wiki/vocabulary/words/VOC-21b747de22db.md) |
-| zetten | to put / set upright | verb list | [VOC-f1efa6c305c7](../../wiki/vocabulary/words/VOC-f1efa6c305c7.md) |
+| moeten | — | 3 | [VOC-bf501c6cc825](../../views/vocabulary/words/VOC-bf501c6cc825.md) |
+| mogen | — | 3 | [VOC-c7d1c537c580](../../views/vocabulary/words/VOC-c7d1c537c580.md) |
+| kunnen | — | 3 | [VOC-bc00acbadd2d](../../views/vocabulary/words/VOC-bc00acbadd2d.md) |
+| willen | — | 3 | [VOC-eb6cefc89957](../../views/vocabulary/words/VOC-eb6cefc89957.md) |
+| de berging | storage room | 4 | [VOC-21f1b188d459](../../views/vocabulary/words/VOC-21f1b188d459.md) |
+| de kelder | cellar | 4 | [VOC-a9a5b11277d8](../../views/vocabulary/words/VOC-a9a5b11277d8.md) |
+| het terras | terrace | 4 | [VOC-4983009cbece](../../views/vocabulary/words/VOC-4983009cbece.md) |
+| de lift | lift, elevator | 4 | [VOC-5364b92e50b1](../../views/vocabulary/words/VOC-5364b92e50b1.md) |
+| verhuizen | to move (house) | 4 | [VOC-87cdaf5010f7](../../views/vocabulary/words/VOC-87cdaf5010f7.md) |
+| de garage | garage | 4 | [VOC-21b747de22db](../../views/vocabulary/words/VOC-21b747de22db.md) |
+| zetten | to put / set upright | verb list | [VOC-f1efa6c305c7](../../views/vocabulary/words/VOC-f1efa6c305c7.md) |
 
 ## Part 4 — Mijn kleerkast (chapter 1)
 
@@ -199,33 +199,33 @@ This follows workbook opdracht 13 of [chapter 5](../exercises/chapter-05.md), wi
 
 | Dutch | English | Chapter | Record |
 | --- | --- | --- | --- |
-| de kleerkast | wardrobe | 5 | [VOC-b5b3ee6da748](../../wiki/vocabulary/words/VOC-b5b3ee6da748.md) |
-| de ladekast | chest of drawers | 5 | [VOC-618a933fa8ce](../../wiki/vocabulary/words/VOC-618a933fa8ce.md) |
-| de jas | coat, jacket | 1 | [VOC-094fbbc94920](../../wiki/vocabulary/words/VOC-094fbbc94920.md) |
-| het hemd | shirt | 1 | [VOC-2f9ac7a83457](../../wiki/vocabulary/words/VOC-2f9ac7a83457.md) |
-| de jurk | dress | 1 | [VOC-af03ef0c8c28](../../wiki/vocabulary/words/VOC-af03ef0c8c28.md) |
-| het T-shirt | T-shirt | 1 | [VOC-5a6ae5c8d6d8](../../wiki/vocabulary/words/VOC-5a6ae5c8d6d8.md) |
-| een T-shirt met korte mouwen | a short-sleeved T-shirt | 1 | [VOC-4a746b9be7de](../../wiki/vocabulary/words/VOC-4a746b9be7de.md) |
-| de trui | jumper | 1 | [VOC-6221c4211f69](../../wiki/vocabulary/words/VOC-6221c4211f69.md) |
-| de sweater | sweater | 1 | [VOC-a3a89efbca9e](../../wiki/vocabulary/words/VOC-a3a89efbca9e.md) |
-| de jeans(broek) | jeans | 1 | [VOC-18960d86a12a](../../wiki/vocabulary/words/VOC-18960d86a12a.md) |
-| de schoen | shoe | 1 | [VOC-3c340d59dbbb](../../wiki/vocabulary/words/VOC-3c340d59dbbb.md) |
-| de sneaker | sneaker | 1 | [VOC-07d31623714b](../../wiki/vocabulary/words/VOC-07d31623714b.md) |
-| de laars | boot | 1 | [VOC-e96cabd86d40](../../wiki/vocabulary/words/VOC-e96cabd86d40.md) |
-| de sandaal | sandal | 1 | [VOC-90f5fd079374](../../wiki/vocabulary/words/VOC-90f5fd079374.md) |
-| de muts | woolly hat, beanie | 1 | [VOC-c2a5d73fdfe4](../../wiki/vocabulary/words/VOC-c2a5d73fdfe4.md) |
-| de sjaal | scarf | 1 | [VOC-3a5daad9f896](../../wiki/vocabulary/words/VOC-3a5daad9f896.md) |
-| de handschoen | glove | 1 | [VOC-719410377c9d](../../wiki/vocabulary/words/VOC-719410377c9d.md) |
-| gestreept | — | 1 | [VOC-4d4d273b2bd5](../../wiki/vocabulary/words/VOC-4d4d273b2bd5.md) |
-| gebloemd | — | 1 | [VOC-5a31c39eb69e](../../wiki/vocabulary/words/VOC-5a31c39eb69e.md) |
-| donkergroen | — | 1 | [VOC-d54da9e808da](../../wiki/vocabulary/words/VOC-d54da9e808da.md) |
-| zwart | black | 1 | [VOC-1bb7117ae7ea](../../wiki/vocabulary/words/VOC-1bb7117ae7ea.md) |
-| wit | white | 1 | [VOC-939df4a72606](../../wiki/vocabulary/words/VOC-939df4a72606.md) |
-| blauw | blue | 1 | [VOC-59b79e5deed0](../../wiki/vocabulary/words/VOC-59b79e5deed0.md) |
-| bruin | brown | 1 | [VOC-773e0b61af35](../../wiki/vocabulary/words/VOC-773e0b61af35.md) |
-| grijs | grey | 1 | [VOC-521c1528cf2f](../../wiki/vocabulary/words/VOC-521c1528cf2f.md) |
-| kort – lang | short – long | 1, 8 | [VOC-c3846cfc41de](../../wiki/vocabulary/words/VOC-c3846cfc41de.md) |
-| dragen | to carry / wear | 1 | [VOC-4a9b776b3dd5](../../wiki/vocabulary/words/VOC-4a9b776b3dd5.md) |
+| de kleerkast | wardrobe | 5 | [VOC-b5b3ee6da748](../../views/vocabulary/words/VOC-b5b3ee6da748.md) |
+| de ladekast | chest of drawers | 5 | [VOC-618a933fa8ce](../../views/vocabulary/words/VOC-618a933fa8ce.md) |
+| de jas | coat, jacket | 1 | [VOC-094fbbc94920](../../views/vocabulary/words/VOC-094fbbc94920.md) |
+| het hemd | shirt | 1 | [VOC-2f9ac7a83457](../../views/vocabulary/words/VOC-2f9ac7a83457.md) |
+| de jurk | dress | 1 | [VOC-af03ef0c8c28](../../views/vocabulary/words/VOC-af03ef0c8c28.md) |
+| het T-shirt | T-shirt | 1 | [VOC-5a6ae5c8d6d8](../../views/vocabulary/words/VOC-5a6ae5c8d6d8.md) |
+| een T-shirt met korte mouwen | a short-sleeved T-shirt | 1 | [VOC-4a746b9be7de](../../views/vocabulary/words/VOC-4a746b9be7de.md) |
+| de trui | jumper | 1 | [VOC-6221c4211f69](../../views/vocabulary/words/VOC-6221c4211f69.md) |
+| de sweater | sweater | 1 | [VOC-a3a89efbca9e](../../views/vocabulary/words/VOC-a3a89efbca9e.md) |
+| de jeans(broek) | jeans | 1 | [VOC-18960d86a12a](../../views/vocabulary/words/VOC-18960d86a12a.md) |
+| de schoen | shoe | 1 | [VOC-3c340d59dbbb](../../views/vocabulary/words/VOC-3c340d59dbbb.md) |
+| de sneaker | sneaker | 1 | [VOC-07d31623714b](../../views/vocabulary/words/VOC-07d31623714b.md) |
+| de laars | boot | 1 | [VOC-e96cabd86d40](../../views/vocabulary/words/VOC-e96cabd86d40.md) |
+| de sandaal | sandal | 1 | [VOC-90f5fd079374](../../views/vocabulary/words/VOC-90f5fd079374.md) |
+| de muts | woolly hat, beanie | 1 | [VOC-c2a5d73fdfe4](../../views/vocabulary/words/VOC-c2a5d73fdfe4.md) |
+| de sjaal | scarf | 1 | [VOC-3a5daad9f896](../../views/vocabulary/words/VOC-3a5daad9f896.md) |
+| de handschoen | glove | 1 | [VOC-719410377c9d](../../views/vocabulary/words/VOC-719410377c9d.md) |
+| gestreept | — | 1 | [VOC-4d4d273b2bd5](../../views/vocabulary/words/VOC-4d4d273b2bd5.md) |
+| gebloemd | — | 1 | [VOC-5a31c39eb69e](../../views/vocabulary/words/VOC-5a31c39eb69e.md) |
+| donkergroen | — | 1 | [VOC-d54da9e808da](../../views/vocabulary/words/VOC-d54da9e808da.md) |
+| zwart | black | 1 | [VOC-1bb7117ae7ea](../../views/vocabulary/words/VOC-1bb7117ae7ea.md) |
+| wit | white | 1 | [VOC-939df4a72606](../../views/vocabulary/words/VOC-939df4a72606.md) |
+| blauw | blue | 1 | [VOC-59b79e5deed0](../../views/vocabulary/words/VOC-59b79e5deed0.md) |
+| bruin | brown | 1 | [VOC-773e0b61af35](../../views/vocabulary/words/VOC-773e0b61af35.md) |
+| grijs | grey | 1 | [VOC-521c1528cf2f](../../views/vocabulary/words/VOC-521c1528cf2f.md) |
+| kort – lang | short – long | 1, 8 | [VOC-c3846cfc41de](../../views/vocabulary/words/VOC-c3846cfc41de.md) |
+| dragen | to carry / wear | 1 | [VOC-4a9b776b3dd5](../../views/vocabulary/words/VOC-4a9b776b3dd5.md) |
 
 ## Check your own version
 

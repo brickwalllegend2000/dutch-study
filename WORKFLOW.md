@@ -40,4 +40,4 @@ Triage the inbox, review open corrections, verify that changes have been pushed,
 
 ## Conflict recovery
 
-If GitHub Desktop reports a conflict, open the conflicting files and compare both versions. Keep valid changes from both sides; ask an agent for help with CSV conflicts. Regenerate `wiki/vocabulary/` after resolving canonical files. Validate before committing the resolution. Do not discard changes or force-push to make a conflict disappear.
+If GitHub Desktop reports a conflict, open the conflicting files and compare both versions. Keep valid changes from both sides; ask an agent for help with CSV conflicts. Regenerate `views/vocabulary/` after resolving canonical files. Validate before committing the resolution. Do not discard changes or force-push to make a conflict disappear.

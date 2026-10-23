@@ -29,7 +29,7 @@ Single page for the course and reference material. Open this file on GitHub to b
 
 - [Grammar topics](../data/grammar/README.md)
 - [Cheat sheets](../wiki/cheat-sheets/README.md)
-- [Vocabulary](../wiki/vocabulary/VOCABULARY.md)
+- [Vocabulary](../views/vocabulary/VOCABULARY.md)
 - [Adjective endings](../data/grammar/adjective-endings-with-or-without-e.md)
 - [Comparisons](../data/grammar/comparisons-equal-comparative-and-superlative.md)
 - [Modal verbs](../data/grammar/modal-verbs-can-must-may-and-want.md)

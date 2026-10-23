@@ -18,7 +18,7 @@ Read first: [OVERVIEW.md](OVERVIEW.md) · [AGENTS.md](../AGENTS.md) · [WORKFLOW
 5. Inbox class notes **deferred** (do not process unless asked).
 6. Orientation docs expanded: this handoff + [OVERVIEW.md](OVERVIEW.md) (architecture, data flow, wiki vs course, setup).
 7. **Obsidian removed** from the repository (`.obsidian/` deleted; docs are GitHub-first). A future export vault may be added later; do not restore Obsidian config unless asked.
-8. **Soft layer split** — canonical facts live under `data/` (`vocabulary.csv`, `grammar/`); `course/` stays authored study; `wiki/vocabulary/` remains generated. Optional later rename of generated views and any Obsidian *export* vault stay deferred.
+8. **Soft layer split complete** — canonical facts live under `data/` (`vocabulary.csv`, `grammar/`); `course/` stays authored study; `views/vocabulary/` is the build-only generated layer; `wiki/` holds authored reference cheat sheets. Optional Obsidian *export* vault packaging remains deferred.
 
 ---
 
@@ -42,7 +42,7 @@ Only if the user asks — otherwise study as-is.
 1. **Process deferred inbox** — when ready: Import material Issue → source record → reconcile with `data/vocabulary.csv` (learner notes contain errors; do not promote mistakes as course facts).
 2. **Faithful oral re-transcription** — reconcile `sources/pages/zo-gezegd-1-2-mondeling.md` theme-by-theme against `sources/originals/mondeling-1-2/*.png`; demote unreliable `reviewed` claims.
 3. **Teacher pass on 19 `[added]` glosses** — confirm or replace; then mark reviewed with a human note.
-4. **Optional later polish** — rename `wiki/vocabulary/` → `views/vocabulary/` once the data-layer move is stable; optional Obsidian *export* vault packaging (not whole-repo Obsidian).
+4. **Optional later polish** — optional Obsidian *export* vault packaging (not whole-repo Obsidian).
 5. **Visibility / history** — consider private repo + history purge if agenda credentials in old commits matter.
 6. **Delete closed Issues** — only with a GitHub admin account (UI or GraphQL `deleteIssue`).
 
@@ -51,7 +51,7 @@ Only if the user asks — otherwise study as-is.
 ## Do not
 
 - Rerun `scripts/import_notion.py` against this library (refuses to overwrite CSV; one-time tool).
-- Edit `wiki/vocabulary/` by hand — edit CSV, then `build`.
+- Edit `views/vocabulary/` by hand — edit CSV, then `build`.
 - Rewrite source snapshots to match CSV corrections.
 - Re-commit agenda PDF or Moodle passwords.
 - Treat `reviewed` as native-speaker certification.
