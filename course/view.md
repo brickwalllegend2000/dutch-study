@@ -41,3 +41,4 @@ Single page for the course and reference material. Open this file on GitHub to b
 - [Review sheets](review/README.md)
 - [Chapter exercises](exercises/README.md)
 - [Practice tests](exams/README.md)
+- [Exam preparation](exams/exam-preparation.md)
