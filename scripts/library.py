@@ -14,6 +14,7 @@ import unicodedata
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
+VIEWS = 'wiki/vocabulary'
 FIELDS = ['id','dutch','english','article','word_type','forms','auxiliary','participle','examples','chapters','categories','notes','source_ids','occurrence_ids','review_status','reviewed_on']
 
 
@@ -150,7 +151,7 @@ def validate_rows(rows, source_ids):
 
 
 def rendered(root=ROOT):
-    rows=read_rows(root); pages={}; index=['# Vocabulary','', '> Generated from [vocabulary.csv](../vocabulary.csv). Edit the CSV, then run `python scripts/library.py build`.','']
+    rows=read_rows(root); pages={}; index=['# Vocabulary','', '> Generated from [vocabulary.csv](../../vocabulary.csv). Edit the CSV, then run `python scripts/library.py build`.','']
     def listing(selected):
         result=['| Dutch | English | Review |','| --- | --- | --- |']
         for r in selected:
@@ -158,19 +159,19 @@ def rendered(root=ROOT):
             result.append(f"| [{dutch}](words/{r['id']}.md) | {english} | {r['review_status']} |")
         return '\n'.join(result)+'\n'
     for r in rows:
-        lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', '> Generated reading view. Edit the matching row in [vocabulary.csv](../../vocabulary.csv).','']
+        lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', '> Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).','']
         for field in FIELDS[2:12]:
             if r[field]: lines += ['## '+field.replace('_',' ').title(),'',r[field],'']
-        lines+=['## Sources','']+[f'- [{sid}](../../sources/pages/{sid}.md)' for sid in r['source_ids'].split(';')]
-        lines+=['', 'Original source occurrences: [provenance ledger](../../sources/vocabulary-occurrences.json).', '', '[All vocabulary](../VOCABULARY.md) · [Home](../../README.md)','']
-        pages[f"views/words/{r['id']}.md"]='\n'.join(lines)
-    pages['views/VOCABULARY.md']='\n'.join(index)+listing(rows)
-    pages['views/PERFECTUM.md']='# Perfectum verbs\n\n> Generated; auxiliary variants retain source context. Review the source occurrences before generalizing.\n\n'+listing([r for r in rows if r['participle']])
-    pages['views/IRREGULAR-VERBS.md']='# Irregular verbs\n\n'+listing([r for r in rows if 'Irregular verbs' in r['categories'].split(';')])
-    pages['views/PERFECTUM-STUDY-LIST.md']='# Perfectum study list — 80 verbs\n\n[Source transcription and usage notes](../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md)\n\n'+listing([r for r in rows if 'Perfectum study list' in r['categories'].split(';')])
-    pages['views/NEEDS-REVIEW.md']='# Vocabulary needing review\n\n'+listing([r for r in rows if r['review_status']=='needs-review'])
+        lines+=['## Sources','']+[f'- [{sid}](../../../sources/pages/{sid}.md)' for sid in r['source_ids'].split(';')]
+        lines+=['', 'Original source occurrences: [provenance ledger](../../../sources/vocabulary-occurrences.json).', '', '[All vocabulary](../VOCABULARY.md) · [Home](../../../README.md)','']
+        pages[f"{VIEWS}/words/{r['id']}.md"]='\n'.join(lines)
+    pages[f'{VIEWS}/VOCABULARY.md']='\n'.join(index)+listing(rows)
+    pages[f'{VIEWS}/PERFECTUM.md']='# Perfectum verbs\n\n> Generated; auxiliary variants retain source context. Review the source occurrences before generalizing.\n\n'+listing([r for r in rows if r['participle']])
+    pages[f'{VIEWS}/IRREGULAR-VERBS.md']='# Irregular verbs\n\n'+listing([r for r in rows if 'Irregular verbs' in r['categories'].split(';')])
+    pages[f'{VIEWS}/PERFECTUM-STUDY-LIST.md']='# Perfectum study list — 80 verbs\n\n[Source transcription and usage notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md)\n\n'+listing([r for r in rows if 'Perfectum study list' in r['categories'].split(';')])
+    pages[f'{VIEWS}/NEEDS-REVIEW.md']='# Vocabulary needing review\n\n'+listing([r for r in rows if r['review_status']=='needs-review'])
     for n in range(1,9):
-        pages[f'views/CHAPTER-{n:02}.md']=f'# Chapter {n} vocabulary\n\n'+listing([r for r in rows if str(n) in r['chapters'].split(';')])
+        pages[f'{VIEWS}/CHAPTER-{n:02}.md']=f'# Chapter {n} vocabulary\n\n'+listing([r for r in rows if str(n) in r['chapters'].split(';')])
     return pages
 
 
@@ -179,7 +180,7 @@ def build(root=ROOT):
     for name,body in expected.items():
         path=root/name; path.parent.mkdir(parents=True,exist_ok=True); path.write_text(body,encoding='utf-8')
     # Remove obsolete generated word views only, never user-authored notes.
-    for p in (root/'views/words').glob('VOC-*.md'):
+    for p in (root/VIEWS/'words').glob('VOC-*.md'):
         if p.relative_to(root).as_posix() not in expected: p.unlink()
     return len(expected)
 
@@ -247,7 +248,7 @@ def main():
         if not needle: parser.error('search requires a query')
         for row in read_rows():
             if needle in normalized(' '.join(row.values())):
-                print(f"{row['id']}\t{row['dutch']}\t{row['english']}\tviews/words/{row['id']}.md")
+                print(f"{row['id']}\t{row['dutch']}\t{row['english']}\t{VIEWS}/words/{row['id']}.md")
     return 0
 
 if __name__=='__main__': sys.exit(main())

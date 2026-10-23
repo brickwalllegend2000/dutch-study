@@ -103,4 +103,4 @@ class CompleteProvenanceTests(CorpusFixture):
         self.row['english']='to eat,\nconsume'
         with (self.root/'vocabulary.csv').open('w',newline='') as f:
             w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerow(self.row)
-        self.assertIn('to eat,<br>consume', rendered(self.root)['views/VOCABULARY.md'])
+        self.assertIn('to eat,<br>consume', rendered(self.root)['wiki/vocabulary/VOCABULARY.md'])
