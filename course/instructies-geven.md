@@ -1,8 +1,8 @@
-# Giving instructions — A1/A2 study notes
+# Giving instructions — Chapter 3 practice
 
-[Home](../README.md) · [Chapters](README.md)
+[Home](../README.md) · [Chapters](README.md) · [Chapter 3](chapter-03.md) · [Chapter 3 exercises](exercises/chapter-03.md)
 
-Start here: learn the difference between **moeten**, **mogen** and **kunnen**, then practise giving four clear instructions.
+Practice for Chapter 3 grammar: modal verbs and direct instructions. Learn the difference between **moeten**, **mogen** and **kunnen**, then practise giving four clear instructions.
 
 ## Choose the right meaning
 
@@ -126,4 +126,4 @@ You can talk calmly with him. You should listen carefully to him. You must not c
 
 **Two-minute practice:** write three classroom rules using “Je moet”, “Je mag” and “Je mag niet”.
 
-Related: [Wat doe jij elke dag](wat-doe-jij-elke-dag.md)
+See also [Chapter 2: What do you do every day?](wat-doe-jij-elke-dag.md).
