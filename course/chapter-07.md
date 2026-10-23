@@ -40,7 +40,7 @@ Maintained grammar notes:
 - [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
 
-Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Descriptions, positions & room layout](../wiki/cheat-sheets/descriptions.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

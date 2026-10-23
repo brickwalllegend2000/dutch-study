@@ -40,6 +40,7 @@ The course has two tracks. Work through both for each topic: the written track t
 
 ## Practice tests and exams
 
+- [Exam preparation](exams/exam-preparation.md): compact revision priorities from the course agenda (5 writing prompts, grammar checklist and exam dates).
 - [Zo gezegd 1.2 practice test](exams/zo-gezegd-1-2-practice-test.md): mock exam covering reading, writing, listening, speaking, vocabulary and grammar.
 - [Practice tests](exams/practice-tests.md): extra exercises, the CVO writing test and Schrijven A2 material.
 

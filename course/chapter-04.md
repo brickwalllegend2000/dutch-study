@@ -48,7 +48,7 @@ Maintained grammar notes:
 - [Negation: geen and niet](../wiki/grammar/negation-geen-and-niet.md)
 - [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
 
-Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) · [Word order](../wiki/cheat-sheets/word-order.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) · [Descriptions, positions & room layout](../wiki/cheat-sheets/descriptions.md) · [Word order](../wiki/cheat-sheets/word-order.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 
