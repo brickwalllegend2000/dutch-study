@@ -16,6 +16,10 @@ to put / set upright
 
 Verbum
 
+## Forms
+
+zet, zette
+
 ## Auxiliary
 
 hebben
@@ -26,7 +30,7 @@ gezet
 
 ## Examples
 
-Ik heb de tassen op tafel gezet.
+Ik heb de tassen op tafel gezet. ⟐ Ik zet de stoel bij het raam.
 
 ## Categories
 
@@ -34,7 +38,7 @@ Perfectum study list
 
 ## Notes
 
-Auxiliary is source-specific; see the source notes for active/passive and movement distinctions.
+Auxiliary is source-specific; see the source notes for active/passive and movement distinctions.; Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
 
 ## Sources
 

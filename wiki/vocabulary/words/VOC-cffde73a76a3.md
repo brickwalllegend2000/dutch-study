@@ -8,6 +8,10 @@ review_status: needs-review
 
 > Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
 
+## English
+
+to take (medicine); to occupy
+
 ## Word Type
 
 Verbum
@@ -23,6 +27,10 @@ ingenomen
 ## Categories
 
 Irregular verbs
+
+## Notes
+
+English filled from irregular-verbs source supplement (sources/pages/401f89e5e0fc8136967bea7232a7e938.md); still needs-review.
 
 ## Sources
 

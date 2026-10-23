@@ -169,7 +169,7 @@ In Dutch, adjectives indicating material typically end in **-en** and **never ta
 ### B. Clothing & Footwear (Kleding & schoenen)
 | Category | Terms (with article & plural) |
 | --- | --- |
-| **Bovenkleding (Tops)** | het [hemd](../vocabulary/words/VOC-2f9ac7a83457.md) (de hemden), de [trui](../vocabulary/words/VOC-6221c4211f69.md) (de truien), de [sweater](../vocabulary/words/VOC-a3a89efbca9e.md) (de sweaters), het [T-shirt](../vocabulary/words/VOC-4a746b9be7de.md) (de T-shirts), de [bloes](../vocabulary/words/VOC-0cfabbbf1d94.md) (de bloezen) |
+| **Bovenkleding (Tops)** | het [hemd](../vocabulary/words/VOC-2f9ac7a83457.md) (de hemden), de [trui](../vocabulary/words/VOC-6221c4211f69.md) (de truien), de [sweater](../vocabulary/words/VOC-a3a89efbca9e.md) (de sweaters), het [T-shirt](../vocabulary/words/VOC-5a6ae5c8d6d8.md) (de T-shirts), de [bloes](../vocabulary/words/VOC-0cfabbbf1d94.md) (de bloezen) |
 | **Onderkleding (Bottoms)** | de [broek](../vocabulary/words/VOC-1beb68fbd75e.md) (de broeken), de [jeans(broek)](../vocabulary/words/VOC-18960d86a12a.md), de [rok](../vocabulary/words/VOC-c928aebc1635.md) (de rokken), de [short](../vocabulary/words/VOC-f9b0078b5df5.md) (de shorts) |
 | **Eendelig (Dresses/Suits)** | de [jurk](../vocabulary/words/VOC-af03ef0c8c28.md) (de jurken) / het kleedje, het [kostuum](../vocabulary/words/VOC-b061645f2095.md) (de kostuums) |
 | **Jassen (Outerwear)** | de [jas](../vocabulary/words/VOC-094fbbc94920.md) (de jassen), het [vest](../vocabulary/words/VOC-72dd029baa65.md) (de vesten), de regenjas |

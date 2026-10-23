@@ -16,9 +16,13 @@ plastic
 
 Stoffelijk Adjectief
 
+## Forms
+
+plastic
+
 ## Examples
 
-« Een plastic doos. »
+« Een plastic doos. » ⟐ Een plastic stoel voor op het terras.
 
 ## Chapters
 
@@ -30,7 +34,7 @@ Materialen
 
 ## Notes
 
-Materiaaltype (Kunststof)
+Materiaaltype (Kunststof); Example appended from oral occurrence; verify against archived screenshot before treating as page transcription.
 
 ## Sources
 
