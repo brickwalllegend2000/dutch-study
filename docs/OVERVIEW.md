@@ -69,6 +69,108 @@ flowchart LR
 
 ---
 
+## Data architecture and information flow
+
+Column-level rules live in [DATA-SCHEMA.md](DATA-SCHEMA.md). This section is the **system model**: entities, who writes them, and how data moves.
+
+### Entities
+
+```mermaid
+erDiagram
+  SOURCE ||--o{ ATTACHMENT : has
+  SOURCE ||--o{ OCCURRENCE : cites
+  SOURCE ||--|| SNAPSHOT : transcribed_as
+  SOURCE ||--o| RAW : preserves
+  VOC_RECORD ||--o{ OCCURRENCE : consolidates
+  VOC_RECORD ||--o{ SOURCE : via_source_ids
+  GRAMMAR_NOTE ||--o{ SOURCE : via_frontmatter
+  VOC_RECORD ||--o| GENERATED_NOTE : renders_to
+  COURSE_PAGE }o--o{ VOC_RECORD : links_chapters
+  COURSE_PAGE }o--o{ GRAMMAR_NOTE : links
+```
+
+| Entity | Store | ID shape | Written by |
+| --- | --- | --- | --- |
+| **Source** | `sources/manifest.json` → `pages` | Notion page id or `SRC-…` | Import / curator |
+| **Raw payload** | `sources/notion/*.json` or notice/binary path | path on disk | Import (immutable thereafter) |
+| **Snapshot** | `sources/pages/*.md` | same as source id | Import / transcription |
+| **Attachment** | `manifest.json` → `attachments` | filename + status | Import / archival |
+| **Occurrence** | `sources/vocabulary-occurrences.json` | `OCC-` + 16 hex | Import; append-only for new evidence |
+| **Vocabulary record** | `vocabulary.csv` | `VOC-` + 12 hex (hash of normalized Dutch) | Curator / controlled reconciliation |
+| **Generated word/list view** | `wiki/vocabulary/**` | derived from `VOC-` | `library.py build` only |
+| **Grammar note** | `wiki/grammar/*.md` | `GRAM-…` in YAML | Curator |
+| **Course / summary pages** | `course/**`, cheat sheets, review sheets | path | Curator (summaries must not invent facts) |
+
+**Cardinality that matters:** many occurrences → one vocabulary row (exact normalized term). One row lists many `occurrence_ids` and `source_ids`. Validation requires every listed OCC/SRC to exist and to point back at that row.
+
+### Write vs read paths
+
+```mermaid
+flowchart TB
+  subgraph write["Write path — facts enter here"]
+    IN["inbox / Issue"] --> SRC["Register SOURCE in manifest"]
+    SRC --> RAW["Keep RAW bytes or retrieval JSON"]
+    SRC --> SNAP["Write SNAPSHOT Markdown"]
+    SNAP --> OCC["Append OCCURRENCE rows"]
+    OCC --> CSV["Update or create VOC row in vocabulary.csv"]
+    SNAP --> GRAM["Update GRAMMAR note if needed"]
+    CSV --> BUILD["library.py build"]
+    BUILD --> GEN["wiki/vocabulary views"]
+    CSV --> VAL["library.py validate + tests"]
+    GRAM --> VAL
+    GEN --> VAL
+  end
+  subgraph read["Read path — learners and agents"]
+    HOME["Study home / course chapter"] --> GEN
+    HOME --> GRAM
+    HOME --> COURSE["course pages"]
+    GEN --> CSV
+    GEN --> SNAP
+    SEARCH["library.py search"] --> CSV
+    SEARCH --> COURSE
+    SEARCH --> GRAM
+    SEARCH --> SNAP
+  end
+```
+
+| Direction | Allowed | Forbidden |
+| --- | --- | --- |
+| Evidence → maintained | Consolidate into CSV/grammar with notes | Silently drop conflicting source values |
+| Maintained → generated | `build` regenerates views | Hand-edit `wiki/vocabulary/` |
+| Maintained → summaries | Update cheat/review sheets after CSV/grammar change | Invent facts only in a summary |
+| Maintained → evidence | Never | Rewrite snapshots/images so they “match” a correction |
+
+### Vocabulary consolidation flow
+
+```mermaid
+flowchart LR
+  O1["OCC from chapter table"] --> N["normalized Dutch key"]
+  O2["OCC from oral list"] --> N
+  O3["OCC from perfectum sheet"] --> N
+  N --> R["One VOC- row"]
+  R --> V["Variants joined with ⟐"]
+  R --> L["occurrence_ids + source_ids lists"]
+  R --> S["review_status"]
+```
+
+- **Same sense, same normalized string** → one row; differing field values stay visible (` ⟐ `).
+- **Different sense** → new id via `record_id(term + ' | ' + sense_label)`; explain in `notes`.
+- **Spelling fix** → keep the same `VOC-` id; do not mint a new hash id.
+- **`[added]` English** → translation not attested in course evidence; stays `needs-review` until a human accepts it.
+
+### Provenance join (how to audit one word)
+
+1. Open the generated note or CSV row → read `id`, `occurrence_ids`, `source_ids`.
+2. Look up each `OCC-…` in `vocabulary-occurrences.json` → `locator`, source-local fields (`dutch`, `english`, `example`, …).
+3. Look up each source in `manifest.json` → `snapshot_path` / `raw_path` / attachments.
+4. Compare snapshot wording to CSV; if they disagree, CSV is the maintained claim and the snapshot remains the evidence.
+
+### What validation proves
+
+`library.py validate` checks structural integrity of this graph (schema width, id shapes, OCC↔VOC links, known sources, generated freshness, archived hashes/format, grammar frontmatter, relative links). It does **not** prove linguistic correctness or that a snapshot matches a screenshot.
+
+---
+
 ## How to study (short loop)
 
 ```mermaid

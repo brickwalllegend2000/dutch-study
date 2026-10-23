@@ -75,7 +75,8 @@ After content changes: build, validate, tests; open a PR.
 
 | Path | Why |
 | --- | --- |
-| [docs/OVERVIEW.md](OVERVIEW.md) | Architecture + status |
+| [docs/OVERVIEW.md](OVERVIEW.md) | Architecture, **data/information flow**, status |
+| [docs/DATA-SCHEMA.md](DATA-SCHEMA.md) | Column and ID rules |
 | [journal/my-study-view.md](../journal/my-study-view.md) | Learner entry |
 | [vocabulary.csv](../vocabulary.csv) | Lexicon |
 | [sources/pages/zo-gezegd-1-2-mondeling.md](../sources/pages/zo-gezegd-1-2-mondeling.md) | Oral evidence (enriched) |
