@@ -2,6 +2,23 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Oral track curriculum and wiki integration (`oral-track-and-wiki-integration`, PR #14)
+
+- Added `course/oral/README.md`: dedicated oral track hub with curriculum overview, speaking practice guidance, and a detailed *Schriftelijk (S)* vs. *Mondeling (M)* curriculum alignment matrix.
+- Enriched all 7 oral units (`course/oral/modeling-01.md` to `modeling-07.md`) with transcribed vocabulary tables, conversational frames, grammar focus, *Dit kan ik!* checklists, speaking roleplay prompts, and Section 6: Review & Exam Connections.
+- Added new canonical grammar notes: `wiki/grammar/continuous-aspect-aan-het.md` (*zijn + aan het + infinitief*) and `wiki/grammar/infinitive-clauses-om-te.md` (*om te + infinitief*).
+- Cross-referenced oral modules across `wiki/cheat-sheets/` (perfectum, verb + infinitive, word order, adjectives, negation and er, descriptions) and `wiki/grammar/README.md`.
+- Imported 108 new vocabulary records from *Zo Gezegd 1.2 Mondeling* (`SRC-ZG12M-20261023`) into `vocabulary.csv` (bringing total vocabulary to 520 records); regenerated all reading views in `wiki/vocabulary/`.
+- Verified with 21 unit tests and full repository validation. Merged in PR #14.
+
+## 2026-10-23 — Exam preparation guide and master descriptions cheat sheet (`exam-prep-and-descriptions`, PR #13)
+
+- Added `course/exams/exam-preparation.md`: compact revision guide based on the official course agenda, featuring 5 core writing prompts (person, home/room, personal message, trip, lost object), a 4-step self-correction checklist, a grammar priority checklist, and dated exam schedule (written exam 23 Oct, oral exams 26–27 Oct, NT2 test 29 Oct).
+- Added `wiki/cheat-sheets/descriptions.md`: master reference for descriptions covering personal appearance, clothing, body, materials, spatial prepositions, action vs. position verbs, and room layout blueprints.
+- Added action vs. position verbs distinction to `wiki/cheat-sheets/negation-and-er.md` and updated `wiki/grammar/using-er-there-is-there-are.md`.
+- Archived and symlinked the official course calendar PDF at `sources/originals/agenda-sept-okt-26.pdf`.
+- Cross-linked exam preparation and descriptions guide from `README.md`, `course/README.md`, `wiki/README.md`, and relevant grammar notes. Merged in PR #13.
+
 ## 2026-10-23 — Course practice, overview and view
 
 - Added `course/wat-doe-jij-elke-dag.md` (Chapter 2 daily-routine practice) and `course/instructies-geven.md` (Chapter 3 instructions practice). Linked from chapter guides, review sheets and course README. Cross-linked to wiki grammar (perfectum, gaan + infinitive, word order, modals).

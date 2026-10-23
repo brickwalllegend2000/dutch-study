@@ -10,6 +10,10 @@ Personal dashboard. Your notes here do not override the canonical course or wiki
 
 ## Active pages
 
+- [Exam preparation](../course/exams/exam-preparation.md) — compact revision priorities: 5 writing prompts, 4-step checklist, and exam schedule.
+- [Mondeling track overview](../course/oral/README.md) — spoken themes (Modeling 1–7) and oral-written curriculum overlap analysis.
+- [Descriptions, positions and room layout](../wiki/cheat-sheets/descriptions.md) — master cheat sheet for personal appearance, clothing, objects, and spatial room layouts.
+- [Course agenda PDF](../sources/originals/agenda-sept-okt-26.pdf) — preserved class calendar and lesson breakdown.
 - [Describing things, adjectives, locations and instructions](../course/describing-things.md)
 - [What do you do every day? — Chapter 2 practice](../course/wat-doe-jij-elke-dag.md)
 - [Giving instructions — Chapter 3 practice](../course/instructies-geven.md)
