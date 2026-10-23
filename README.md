@@ -4,7 +4,7 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 ## Start here
 
-**Publication pending:** the connected GitHub account could not create the repository. You can open this folder in Obsidian now; follow [publishing instructions](docs/PUBLISH.md) to activate GitHub hosting and task tracking.
+**Hosted on GitHub:** this vault now lives in the private repository `brickwalllegend2000/dutch-study`. Clone it and open the folder in Obsidian. Milestones, labels and starter tasks are not created yet; see [publishing instructions](docs/PUBLISH.md) to add them.
 
 - [First-time setup](docs/SETUP.md) — GitHub Desktop, Obsidian and synchronization.
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.
