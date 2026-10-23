@@ -425,7 +425,19 @@
       "snapshot_path": "sources/pages/zo-gezegd-1-2-mondeling.md",
       "last_edited_at": "2026-10-23T07:50:45.000Z",
       "retrieval_status": "captured",
-      "linguistic_review": "reviewed"
+      "linguistic_review": "provisional — snapshot mixes page transcription with editorial enrichment; clothing pp. 90–91 diverge from archived screenshots",
+      "notes": "Do not treat reviewed vocabulary/grammar that cite only this snapshot as proof of textbook-page fidelity until a faithful page-level transcription exists."
+    },
+    {
+      "id": "SRC-AGENDA-20261023",
+      "title": "Course agenda sept–okt 2026 (Waystage 1.2)",
+      "url": "sources/pages/agenda-sept-okt-26.md",
+      "raw_path": "sources/originals/agenda-sept-okt-26.notice.txt",
+      "snapshot_path": "sources/pages/agenda-sept-okt-26.md",
+      "last_edited_at": "2026-10-23T12:00:00.000Z",
+      "retrieval_status": "redacted-public",
+      "linguistic_review": "not-applicable",
+      "notes": "Original PDF withheld from the public tree because it embeds Moodle class-code and password instructions. Study-safe transcription omits credentials. Private SHA-256 of withheld binary: f874ef0cc300411ca1f1890c05e6d9f972180c186f1508529f2cbab58b117351"
     }
   ],
   "attachments": [
@@ -897,6 +909,14 @@
       "local_path": "sources/originals/mondeling-1-2/BetterShot_2026-10-23-07-50-45.png",
       "sha256": "f1bb729240876483cf60a5970baf9ed47e8a8b672a3c974d03a6f406a5a8f572",
       "status": "archived"
+    },
+    {
+      "name": "agenda-sept-okt-26.pdf",
+      "status": "withheld-public",
+      "sha256": "f874ef0cc300411ca1f1890c05e6d9f972180c186f1508529f2cbab58b117351",
+      "reason": "Contains course Moodle klascode and password instructions; binary removed from public tree on 2026-10-23",
+      "study_path": "sources/pages/agenda-sept-okt-26.md",
+      "notice_path": "sources/originals/agenda-sept-okt-26.notice.txt"
     }
   ]
 }

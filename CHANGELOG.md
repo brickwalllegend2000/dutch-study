@@ -2,6 +2,17 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Review remediation: trust, public safety, study route (`cursor/review-trust-and-workflow-2c41`)
+
+- Confirmed repository visibility is **public**; corrected docs that called it private.
+- Removed the course agenda PDF from the tree (embedded Moodle class-code/password instructions). Added study-safe transcription `sources/pages/agenda-sept-okt-26.md`, a notice file, gitignore rules, and a manifest source/attachment record (`withheld-public`).
+- Cleared the personal freeform draft from `inbox/README.md`; listed the unprocessed class-notes capture.
+- Labeled the oral snapshot as an enriched reconstruction; documented pp. 90–91 clothing discrepancies against archived screenshots.
+- Restored 16 blank English glosses from the irregular-verbs supplement; reconciled selected oral English/examples/forms; noted the clothing “suits” sense of *staan* without merging senses.
+- Added `docs/INVENTORY.md` and dated the migration report as historical; designated [Study home](journal/my-study-view.md) as the learner entry.
+- Verb study lists now show auxiliary and participle. Validation: UTF-8 JSON reads, CSV row width, unexpected generated files, grammar frontmatter, archived binary format. Search `--all` is maintained-first; `--sources` opts into snapshots; inbox is searchable. Publishing credential-helper setup is idempotent.
+- Fixed editorial drift in review index, describing-things (*zitten*), T-shirt cheat-sheet link, exam-prep action-verb note, and example-2 *gaan* label.
+
 ## 2026-10-23 — Oral track curriculum and wiki integration (`oral-track-and-wiki-integration`, PR #14)
 
 - Added `course/oral/README.md`: dedicated oral track hub with curriculum overview, speaking practice guidance, and a detailed *Schriftelijk (S)* vs. *Mondeling (M)* curriculum alignment matrix.
@@ -16,7 +27,7 @@ Dated record of merged changes to the library, newest first. Each entry names th
 - Added `course/exams/exam-preparation.md`: compact revision guide based on the official course agenda, featuring 5 core writing prompts (person, home/room, personal message, trip, lost object), a 4-step self-correction checklist, a grammar priority checklist, and dated exam schedule (written exam 23 Oct, oral exams 26–27 Oct, NT2 test 29 Oct).
 - Added `wiki/cheat-sheets/descriptions.md`: master reference for descriptions covering personal appearance, clothing, body, materials, spatial prepositions, action vs. position verbs, and room layout blueprints.
 - Added action vs. position verbs distinction to `wiki/cheat-sheets/negation-and-er.md` and updated `wiki/grammar/using-er-there-is-there-are.md`.
-- Archived and symlinked the official course calendar PDF at `sources/originals/agenda-sept-okt-26.pdf`.
+- Archived and symlinked the official course calendar PDF at `sources/originals/agenda-sept-okt-26.pdf` (later withheld from the public tree; see 2026-10-23 review remediation).
 - Cross-linked exam preparation and descriptions guide from `README.md`, `course/README.md`, `wiki/README.md`, and relevant grammar notes. Merged in PR #13.
 
 ## 2026-10-23 — Course practice, overview and view

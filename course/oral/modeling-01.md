@@ -138,4 +138,4 @@ Modeling 1 · [Modeling 2 →](modeling-02.md)
   - [Continuous aspect: zijn + aan het + infinitief](../../wiki/grammar/continuous-aspect-aan-het.md).
   - [Comparisons: equal, comparative and superlative](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md) (*de oudste / de jongste*).
 - **Exam practice:** [Exam preparation — Prompt 1: Describe a person](../exams/exam-preparation.md#1-describe-a-person-persoonsbeschrijving).
-- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) · Oral evaluation: 26–27 October 2026.
+- **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

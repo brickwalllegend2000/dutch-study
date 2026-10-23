@@ -1,5 +1,7 @@
 # Migration report — 2026-10-23
 
+> **Historical baseline only.** Live counts and archival status are in [INVENTORY.md](INVENTORY.md). Figures below describe the initial Notion migration pass and must not be quoted as the current vault size. The Practice tests page later recorded truncation/unknown-block warnings in the manifest; do not read the “no truncation” sentence below as a permanent guarantee.
+
 ## Imported
 
 - 53 Notion pages preserved as exact fetched JSON payloads and readable Markdown snapshots.

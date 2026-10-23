@@ -21,6 +21,6 @@
 
 - [Exam preparation](../../course/exams/exam-preparation.md) — compact 5 writing prompts, self-correction checklist, and exam schedule.
 - [Oral track overview](../../course/oral/README.md) — complete guide to Modeling 1–7 with dialogue blueprints, audio vocabulary, and written-oral overlap analysis.
-- [Course agenda (PDF)](../../sources/originals/agenda-sept-okt-26.pdf) — official lesson calendar, textbook page references, and schedule.
+- [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) — official lesson calendar, textbook page references, and schedule.
 - [Practice tests](../../course/exams/README.md) — [Zo gezegd 1.2 practice test](../../course/exams/zo-gezegd-1-2-practice-test.md) and [extra practice tests](../../course/exams/practice-tests.md).
 - [Chapter exercises](../../course/exercises/README.md) — workbook assignments and practice tasks per chapter.
