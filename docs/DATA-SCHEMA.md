@@ -2,7 +2,7 @@
 
 ## Vocabulary
 
-`vocabulary.csv` is UTF-8, comma-delimited, with a header. Use a CSV library to edit it; quoted cells may contain commas or newlines.
+Canonical vocabulary lives at [`data/vocabulary.csv`](../data/vocabulary.csv). It is UTF-8, comma-delimited, with a header. Use a CSV library to edit it; quoted cells may contain commas or newlines. Canonical grammar notes live under [`data/grammar/`](../data/grammar/README.md).
 
 | Column | Meaning |
 | --- | --- |

@@ -6,7 +6,7 @@
 
 **Start here:** write the short teacher email using *omdat*, then practise a reply with *zal* (adapted practice).
 
-Grammar: [modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md) · [want, en, maar, of](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md) · [omdat](../../wiki/grammar/because-omdat-and-subordinate-clauses.md) · [zal](../../wiki/grammar/using-zal.md). Before you write, follow the [writing checklist](../../wiki/grammar/writing-checklist.md).
+Grammar: [modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md) · [want, en, maar, of](../../data/grammar/joining-sentences-want-en-maar-and-of.md) · [omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md) · [zal](../../data/grammar/using-zal.md). Before you write, follow the [writing checklist](../../data/grammar/writing-checklist.md).
 
 ## Workbook exercises
 
@@ -27,7 +27,7 @@ Whatsapp-gesprek met Ana:
 - **Asuka:** Oké, dat zal ik doen! Ik zal ook vragen welke oefeningen ik moet maken.
 - **Ana:** Dat is een goed idee. Veel beterschap!
 
-Tip: gebruik het Stappenplan schrijven (zie de [writing checklist](../../wiki/grammar/writing-checklist.md)).
+Tip: gebruik het Stappenplan schrijven (zie de [writing checklist](../../data/grammar/writing-checklist.md)).
 
 a. Naar wie schrijf je?  
 b. Waarom schrijf je?  

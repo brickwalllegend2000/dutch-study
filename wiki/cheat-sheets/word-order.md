@@ -1,8 +1,8 @@
 # Cheat sheet: word order
 
-[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
+[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../../data/grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
 
-> One-page summary of [Word order: eerst, dan and daarna](../grammar/word-order-eerst-dan-and-daarna.md), [Joining sentences: want, en, maar and of](../grammar/joining-sentences-want-en-maar-and-of.md), [Because: omdat](../grammar/because-omdat-and-subordinate-clauses.md) and the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
+> One-page summary of [Word order: eerst, dan and daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md), [Joining sentences: want, en, maar and of](../../data/grammar/joining-sentences-want-en-maar-and-of.md), [Because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md) and the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
 
 **Review sheets:** [Chapter 2](../../course/review/chapter-02.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 6](../../course/review/chapter-06.md) · **Oral modules:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 6](../../course/oral/modeling-06.md)
 

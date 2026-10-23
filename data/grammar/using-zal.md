@@ -12,7 +12,7 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 6](../../course/chapter-06.md) — **Oral:** [Modeling 3](../../course/oral/modeling-03.md)
 
-**Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
+**Cheat sheet:** [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
 
 *Zal / zullen*
 

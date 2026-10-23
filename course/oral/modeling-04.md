@@ -69,7 +69,7 @@
 
 ## 3. Grammar Focus (Grammatica, pp. 116–117)
 
-1. **Onregelmatige trappen van vergelijking:** [Comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
+1. **Onregelmatige trappen van vergelijking:** [Comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md)
    - **goed** → **beter** → **best** (*de trein is beter voor het milieu*)
    - **veel** → **meer** → **meest** (*de meeste mensen nemen de fiets*)
    - **weinig** → **minder** → **minst** (*de step verbruikt het minst*)
@@ -78,9 +78,9 @@
    - Normale volgorde: *Ik neem elke ochtend de bus.*
    - Inversie (tijd eerst): *Elke ochtend **neem** ik de bus.*
 3. **Verbindingswoorden: want vs. omdat:**
-   - [Joining sentences: want, en, maar and of](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md):
+   - [Joining sentences: want, en, maar and of](../../data/grammar/joining-sentences-want-en-maar-and-of.md):
      - "Ik neem de bus, **want** het **regent** pijpenstelen."
-   - [Because: omdat and subordinate clauses](../../wiki/grammar/because-omdat-and-subordinate-clauses.md):
+   - [Because: omdat and subordinate clauses](../../data/grammar/because-omdat-and-subordinate-clauses.md):
      - "Ik neem de bus, **omdat** het pijpenstelen **regent**."
 
 ---
@@ -105,8 +105,8 @@
 
 - **Written counterpart:** [Chapter 2: Did you have a good city trip?](../chapter-02.md) (travel, itinerary, transit) and [Chapter 8: Who is the champion?](../chapter-08.md) (comparatives and superlatives).
 - **Cheat sheets & grammar:**
-  - [Word order: eerst, dan and daarna](../../wiki/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md) (time-linkers with inversion).
-  - [Because: omdat and subordinate clauses](../../wiki/grammar/because-omdat-and-subordinate-clauses.md) (verb-final subordinate order).
-  - [Comparisons: equal, comparative and superlative](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md) (*sneller, duurder, het handigst*).
+  - [Word order: eerst, dan and daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md) (time-linkers with inversion).
+  - [Because: omdat and subordinate clauses](../../data/grammar/because-omdat-and-subordinate-clauses.md) (verb-final subordinate order).
+  - [Comparisons: equal, comparative and superlative](../../data/grammar/comparisons-equal-comparative-and-superlative.md) (*sneller, duurder, het handigst*).
 - **Exam practice:** [Exam preparation — Prompt 3: Write a personal message](../exams/exam-preparation.md#3-write-a-personal-message-or-email-persoonlijk-berichtje) (delay / absence notices) & [Prompt 4: Write about a trip](../exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip-vakantiekaartje).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

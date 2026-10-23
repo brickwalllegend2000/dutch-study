@@ -18,13 +18,13 @@ Full list with forms and sources: [chapter 5 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **Adjectives that never get -e:** materials (*houten, glazen, lederen/leren, stoffen, ijzeren*; *plastic* stays the same), adjectives ending in -en (*effen*) and in -e (*roze, oranje*). *De houten stoel, het ijzeren bed, de plastic stoel.* — [Adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md)
+- **Adjectives that never get -e:** materials (*houten, glazen, lederen/leren, stoffen, ijzeren*; *plastic* stays the same), adjectives ending in -en (*effen*) and in -e (*roze, oranje*). *De houten stoel, het ijzeren bed, de plastic stoel.* — [Adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md)
 - **staan, liggen, hangen, zitten (presens):** ik sta / hij staat · ik lig / hij ligt · ik hang / hij hangt · ik zit / hij zit. The vocabulary notes say: *staan* for upright things or things on legs, *liggen* for flat things, *hangen* for things hung on a wall or ceiling, *zitten* for things inside a closed space.
-- **Er + position verb:** *Er hangt een groot schilderij aan de muur. Er ligt een rond groen tapijt onder de tafel. Er staat een hoge kast naast de zetel.* — [Using er](../../wiki/grammar/using-er-there-is-there-are.md)
+- **Er + position verb:** *Er hangt een groot schilderij aan de muur. Er ligt een rond groen tapijt onder de tafel. Er staat een hoge kast naast de zetel.* — [Using er](../../data/grammar/using-er-there-is-there-are.md)
 - **Prepositions of place:** *op, onder, naast, tussen, tegen, boven, voor, aan.* *Naast de tv staat een moderne lamp.*
-- **Perfectum:** *hebben gestaan, gelegen, gehangen, gezeten.* — [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+- **Perfectum:** *hebben gestaan, gelegen, gehangen, gezeten.* — [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
 
-Cheat sheets: [Adjectives](../../wiki/cheat-sheets/adjectives.md) · [Negation and er](../../wiki/cheat-sheets/negation-and-er.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Writing checklist](../../wiki/grammar/writing-checklist.md)
+Cheat sheets: [Adjectives](../../wiki/cheat-sheets/adjectives.md) · [Negation and er](../../wiki/cheat-sheets/negation-and-er.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Writing checklist](../../data/grammar/writing-checklist.md)
 
 ## Watch out
 

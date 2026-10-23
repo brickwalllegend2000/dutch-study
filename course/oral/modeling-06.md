@@ -70,14 +70,14 @@
 
 ## 3. Grammar Focus (Grammatica, p. 167)
 
-1. **Doelaanduiding: om te + infinitief:** [Infinitive clauses: om te + infinitief](../../wiki/grammar/infinitive-clauses-om-te.md)
+1. **Doelaanduiding: om te + infinitief:** [Infinitive clauses: om te + infinitief](../../data/grammar/infinitive-clauses-om-te.md)
    - "Ik bel **om** mijn afspraak **te verzetten**."
    - "Ik ga naar de garage **om** mijn auto **te laten herstellen**."
    - "Het is belangrijk **om** de praktijk op tijd **te verwittigen**."
-2. **Modale verba: moeten en kunnen:** [Modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md)
+2. **Modale verba: moeten en kunnen:** [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md)
    - "Ik **moet** onverwacht naar het buitenland vertrekken."
    - "**Kunnen** we de afspraak verschuiven naar woensdag?"
-3. **Redengevend nevenschikkend voegwoord: want:** [Joining sentences: want, en, maar and of](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
+3. **Redengevend nevenschikkend voegwoord: want:** [Joining sentences: want, en, maar and of](../../data/grammar/joining-sentences-want-en-maar-and-of.md)
    - "Ik kan donderdag niet komen, **want** ik **moet** dringend werken." (Normale woordvolgorde na *want*).
 
 ---
@@ -102,8 +102,8 @@
 
 - **Written counterpart:** [Chapter 3: What should I do?](../chapter-03.md) (modal verbs, scheduling) and [Chapter 6: Have you read my message?](../chapter-06.md) (written messages, appointment requests, polite excuses).
 - **Cheat sheets & grammar:**
-  - [Infinitive clauses: om te + infinitief](../../wiki/grammar/infinitive-clauses-om-te.md).
-  - [Modal verbs: can, must, may and want](../../wiki/grammar/modal-verbs-can-must-may-and-want.md) · [Verb + infinitive cheat sheet](../../wiki/cheat-sheets/verb-plus-infinitive.md).
-  - [Joining sentences: want, en, maar and of](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md) · [Because: omdat](../../wiki/grammar/because-omdat-and-subordinate-clauses.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
+  - [Infinitive clauses: om te + infinitief](../../data/grammar/infinitive-clauses-om-te.md).
+  - [Modal verbs: can, must, may and want](../../data/grammar/modal-verbs-can-must-may-and-want.md) · [Verb + infinitive cheat sheet](../../wiki/cheat-sheets/verb-plus-infinitive.md).
+  - [Joining sentences: want, en, maar and of](../../data/grammar/joining-sentences-want-en-maar-and-of.md) · [Because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
 - **Exam practice:** [Exam preparation — Prompt 3: Write a personal message or email](../exams/exam-preparation.md#3-write-a-personal-message-or-email-persoonlijk-berichtje) (Situatie B: afspraak verzetten).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

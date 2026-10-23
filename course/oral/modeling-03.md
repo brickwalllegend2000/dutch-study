@@ -87,10 +87,10 @@
 1. **Modale hulpwerkwoorden: kunnen en zullen:**
    - **kunnen + infinitief:** mogelijkheid of toestemming ("**Kan** ik dit hemd **passen**?").
    - **zullen + infinitief:** aanbod of hulp voorstellen ("**Zal** ik een maatje groter voor u **halen**?").
-2. **Buiging van het adjectief:** [Adjective endings: with or without -e](../../wiki/grammar/adjective-endings-with-or-without-e.md)
+2. **Buiging van het adjectief:** [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md)
    - Vrijwel altijd `+ -e`: *een mooi**e** trui*, *de zwart**e** broek*, *warm**e** sokken*.
    - **Alleen geen -e** bij: een enkelvoudig onbepaald *het*-woord (*een wit T-shirt*, *geen duur kleedje*).
-3. **Trappen van vergelijking:** [Comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
+3. **Trappen van vergelijking:** [Comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md)
    - *groot* → **groter** → **het grootst**
    - *klein* → **kleiner** → **het kleinst**
    - *strak* → **strakker** → **het strakst**
@@ -119,8 +119,8 @@
 - **Written counterpart:** [Chapter 1: Who is who?](../chapter-01.md) (clothing items, colors, adjectives) and [Chapter 7: I’ve forgotten my umbrella!](../chapter-07.md) (materials, fabrics, lost property descriptions).
 - **Cheat sheets & grammar:**
   - [Descriptions, positions and room layout](../../wiki/cheat-sheets/descriptions.md) (comprehensive guide to clothing, colors, fabrics, and fit).
-  - [Adjective endings: with or without -e](../../wiki/grammar/adjective-endings-with-or-without-e.md) · [Adjectives cheat sheet](../../wiki/cheat-sheets/adjectives.md).
-  - [Comparisons: equal, comparative and superlative](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md) (*een maat groter / kleiner*).
-  - [Modal verbs: can, must, may and want](../../wiki/grammar/modal-verbs-can-must-may-and-want.md).
+  - [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md) · [Adjectives cheat sheet](../../wiki/cheat-sheets/adjectives.md).
+  - [Comparisons: equal, comparative and superlative](../../data/grammar/comparisons-equal-comparative-and-superlative.md) (*een maat groter / kleiner*).
+  - [Modal verbs: can, must, may and want](../../data/grammar/modal-verbs-can-must-may-and-want.md).
 - **Exam practice:** [Exam preparation — Prompt 1: Describe a person](../exams/exam-preparation.md#1-describe-a-person-persoonsbeschrijving) & [Prompt 5: Describe a lost object](../exams/exam-preparation.md#5-describe-a-lost-object-verloren-voorwerp).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

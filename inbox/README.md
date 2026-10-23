@@ -4,7 +4,7 @@ Put new course files and quick captures here. Use the Capture template for notes
 
 ## Deferred (process later)
 
-Do **not** integrate these into canonical `course/` or `vocabulary.csv` until someone explicitly asks.
+Do **not** integrate these into canonical `course/` or `data/vocabulary.csv` until someone explicitly asks.
 
 | Capture | Status | Notes |
 | --- | --- | --- |

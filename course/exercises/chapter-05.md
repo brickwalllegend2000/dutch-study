@@ -6,13 +6,13 @@
 
 **Start here:** describe your favourite room in at least five sentences (opdracht 13).
 
-Grammar: [er is / er zijn](../../wiki/grammar/using-er-there-is-there-are.md) · [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md). Before you write, follow the [writing checklist](../../wiki/grammar/writing-checklist.md).
+Grammar: [er is / er zijn](../../data/grammar/using-er-there-is-there-are.md) · [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md). Before you write, follow the [writing checklist](../../data/grammar/writing-checklist.md).
 
 ## Workbook exercises
 
 ### Opdracht 13
 
-Schrijf een tekst voor het Facebookforum "Mijn favoriete kamer". Beschrijf jouw favoriete kamer. Schrijf minimum 5 zinnen. Tip: gebruik het Stappenplan schrijven (zie de [writing checklist](../../wiki/grammar/writing-checklist.md)).
+Schrijf een tekst voor het Facebookforum "Mijn favoriete kamer". Beschrijf jouw favoriete kamer. Schrijf minimum 5 zinnen. Tip: gebruik het Stappenplan schrijven (zie de [writing checklist](../../data/grammar/writing-checklist.md)).
 
 **Ik beschrijf een kamer.** Voorbeeld:
 

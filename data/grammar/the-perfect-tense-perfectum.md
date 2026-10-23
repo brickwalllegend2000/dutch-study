@@ -12,9 +12,9 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 2](../../course/chapter-02.md) · [Chapter 3](../../course/chapter-03.md) · [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 6](../../course/chapter-06.md) · [Chapter 7](../../course/chapter-07.md) · [Chapter 8](../../course/chapter-08.md) — **Oral:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 5](../../course/oral/modeling-05.md) · [Modeling 6](../../course/oral/modeling-06.md) · [Modeling 7](../../course/oral/modeling-07.md)
 
-**Cheat sheet:** [Perfectum](../cheat-sheets/perfectum.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 6](../../course/review/chapter-06.md) · [Chapter 7](../../course/review/chapter-07.md) · [Chapter 8](../../course/review/chapter-08.md)
+**Cheat sheet:** [Perfectum](../../wiki/cheat-sheets/perfectum.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 6](../../course/review/chapter-06.md) · [Chapter 7](../../course/review/chapter-07.md) · [Chapter 8](../../course/review/chapter-08.md)
 
-**Exercises & practice:** [Chapter 2 exercises (citytrip & perfectum)](../../course/exercises/chapter-02.md) · [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md) · [Chapter 7 exercises (lost items & perfectum)](../../course/exercises/chapter-07.md) · [Exam preparation (citytrip prompt)](../../course/exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip--vakantiekaartje) · [80-verb study list](../vocabulary/PERFECTUM-STUDY-LIST.md)
+**Exercises & practice:** [Chapter 2 exercises (citytrip & perfectum)](../../course/exercises/chapter-02.md) · [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md) · [Chapter 7 exercises (lost items & perfectum)](../../course/exercises/chapter-07.md) · [Exam preparation (citytrip prompt)](../../course/exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip--vakantiekaartje) · [80-verb study list](../../wiki/vocabulary/PERFECTUM-STUDY-LIST.md)
 
 *Perfectum*
 
@@ -58,7 +58,7 @@ Answers
 
 ## Verb forms
 
-[Irregular verbs](../vocabulary/IRREGULAR-VERBS.md)
+[Irregular verbs](../../wiki/vocabulary/IRREGULAR-VERBS.md)
 
 ## Review note
 
@@ -66,7 +66,7 @@ Reviewed by an AI agent (Claude) against the course snapshots and general standa
 
 - Rule checked: *hebben* or *zijn* in second position and the participle at the end. The pairs *eten* → *hebben gegeten*, *gaan* → *zijn gegaan*, *vinden* → *hebben gevonden*, and the participle *teruggevonden* (separable *terugvinden*) are correct. *Zwemmen* with *hebben* or *zijn* depending on the meaning is correct.
 - Examples: all sentences are from the course archive (chapters 2 and 7). The exercise and answers are added study aids.
-- Limit: auxiliary choice is learned per verb; see [Irregular verbs](../vocabulary/IRREGULAR-VERBS.md) for each verb's auxiliary and participle as the course gives them.
+- Limit: auxiliary choice is learned per verb; see [Irregular verbs](../../wiki/vocabulary/IRREGULAR-VERBS.md) for each verb's auxiliary and participle as the course gives them.
 
 ## Sources and chapter links
 

@@ -1,23 +1,23 @@
 # Ongoing workflow
 
-The process lives here. GitHub Issues hold tasks and their status. The local clone holds the study content; Obsidian edits those same files.
+The process lives here. GitHub Issues hold tasks and their status. The local clone (or GitHub web UI) holds the study content.
 
 ## Daily study
 
 1. In GitHub Desktop, fetch and pull before editing. Resolve any uncommitted changes before pulling.
-2. Open README in Obsidian; choose a chapter, vocabulary list or practice task.
-3. Make a study note in `journal/` using the Study Session template. Keep your answers and personal mistakes here rather than changing course facts.
+2. Open README or [study home](journal/my-study-view.md); choose a chapter, vocabulary list or practice task.
+3. Make a study note in `journal/` (copy [templates/Study-Session.md](templates/Study-Session.md) if useful). Keep your answers and personal mistakes here rather than changing course facts.
 4. Capture uncertain facts as a GitHub correction issue. Link the relevant word ID or grammar file.
 5. When finished, review changed files in GitHub Desktop, commit with a meaningful summary and push. Wait for a green Library checks run when changing canonical content.
 
-Obsidian saves locally; saving is not a GitHub push. Fetch/pull on the next device before editing. Use one device at a time for the same note.
+Saving a file locally is not a GitHub push. Fetch/pull on the next device before editing. Use one device at a time for the same note.
 
 ## New course material
 
 1. Put the original file into `inbox/`. Create an Import material issue describing the chapter and desired outcome.
 2. An agent or you creates a source record in `sources/manifest.json`, preserves the original in `sources/originals/`, and writes a readable transcription in `sources/pages/`. Use a stable source ID, filename and page/sheet locators. Follow the [data schema](docs/DATA-SCHEMA.md).
 3. Check existing vocabulary and grammar before adding records. Update an existing record when the term and sense match; retain separate records for distinct senses when needed. Document any proposed split rather than silently merging senses.
-4. Add source occurrences to `sources/vocabulary-occurrences.json`; update `vocabulary.csv` or the maintained grammar file. Preserve variants and label any added interpretation.
+4. Add source occurrences to `sources/vocabulary-occurrences.json`; update `data/vocabulary.csv` or a file under `data/grammar/`. Preserve variants and label any added interpretation.
 5. Run `python scripts/library.py build`, `python scripts/library.py validate`, and `python -m unittest discover -s tests -v`.
 6. Submit substantial imports and corrections through a branch and pull request. Include coverage counts, source locations and unresolved questions. After review, merge and close the issue.
 7. Move processed inbox material to its permanent source location. Do not remove source evidence.
@@ -36,7 +36,7 @@ Use one GitHub status label per open issue: `status:backlog`, `status:in-progres
 
 ## Weekly maintenance
 
-Triage the inbox, review open corrections, verify that changes have been pushed, and check Library checks. Git history records changes. Keep a separate periodic backup of the local vault, including source originals. GitHub stores committed files, not uncommitted or ignored local state.
+Triage the inbox, review open corrections, verify that changes have been pushed, and check Library checks. Git history records changes. Keep a separate periodic backup of the local clone, including source originals. GitHub stores committed files, not uncommitted or ignored local state.
 
 ## Conflict recovery
 

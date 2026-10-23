@@ -12,7 +12,7 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 2](../../course/chapter-02.md)
 
-**Cheat sheet:** [Word order](../cheat-sheets/word-order.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
+**Cheat sheet:** [Word order](../../wiki/cheat-sheets/word-order.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
 
 **Exercises & practice:** [Chapter 2 exercises (inversie)](../../course/exercises/chapter-02.md) · [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md) · [Exam preparation (checklist & prompt 4)](../../course/exams/exam-preparation.md#3-self-correction-checklist)
 

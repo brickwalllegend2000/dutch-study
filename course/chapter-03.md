@@ -35,8 +35,8 @@ Course grammar (from the table of contents):
 
 Maintained grammar notes:
 
-- [Modal verbs: can, must, may and want](../wiki/grammar/modal-verbs-can-must-may-and-want.md)
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
+- [Modal verbs: can, must, may and want](../data/grammar/modal-verbs-can-must-may-and-want.md)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
 
 Cheat sheets: [Verb + infinitive](../wiki/cheat-sheets/verb-plus-infinitive.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 

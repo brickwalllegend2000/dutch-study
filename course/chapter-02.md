@@ -43,11 +43,11 @@ Course grammar (from the table of contents):
 
 Maintained grammar notes:
 
-- [Future plans: gaan + infinitive](../wiki/grammar/future-plans-gaan-infinitive.md)
-- [Modal verbs: can, must, may and want](../wiki/grammar/modal-verbs-can-must-may-and-want.md)
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
-- [Word order: eerst, dan and daarna](../wiki/grammar/word-order-eerst-dan-and-daarna.md)
-- [Writing checklist](../wiki/grammar/writing-checklist.md)
+- [Future plans: gaan + infinitive](../data/grammar/future-plans-gaan-infinitive.md)
+- [Modal verbs: can, must, may and want](../data/grammar/modal-verbs-can-must-may-and-want.md)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
+- [Word order: eerst, dan and daarna](../data/grammar/word-order-eerst-dan-and-daarna.md)
+- [Writing checklist](../data/grammar/writing-checklist.md)
 
 Cheat sheets: [Perfectum](../wiki/cheat-sheets/perfectum.md) · [Word order](../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../wiki/cheat-sheets/verb-plus-infinitive.md)
 

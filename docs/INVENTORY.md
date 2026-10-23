@@ -10,7 +10,7 @@ Generated for maintenance truthfulness. Prefer these figures over historical cou
 python - <<'PY'
 import csv, json
 from pathlib import Path
-rows=list(csv.DictReader(open('vocabulary.csv',encoding='utf-8')))
+rows=list(csv.DictReader(open('data/vocabulary.csv',encoding='utf-8')))
 m=json.loads(Path('sources/manifest.json').read_text(encoding='utf-8'))
 occ=json.loads(Path('sources/vocabulary-occurrences.json').read_text(encoding='utf-8'))
 print('vocabulary',len(rows))
@@ -23,7 +23,7 @@ print('unavailable',sum(1 for a in m['attachments'] if a.get('status')=='unavail
 print('reference-only',sum(1 for a in m['attachments'] if a.get('status')=='reference-only'))
 print('withheld-public',sum(1 for a in m['attachments'] if a.get('status')=='withheld-public'))
 print('occurrences',len(occ))
-print('grammar notes',len(list(Path('wiki/grammar').glob('*.md')))-1)
+print('grammar notes',len(list(Path('data/grammar').glob('*.md')))-1)
 PY
 python scripts/library.py validate
 ```
@@ -32,7 +32,7 @@ python scripts/library.py validate
 
 | Item | Count | Notes |
 | --- | --- | --- |
-| Vocabulary records | 520 | Canonical: `vocabulary.csv` |
+| Vocabulary records | 520 | Canonical: `data/vocabulary.csv` |
 | Reviewed / needs-review | 501 / 19 | 19 remaining needs-review carry `[added]` English |
 | Blank English | 0 | Every row has a gloss |
 | Source occurrences | 911 | `sources/vocabulary-occurrences.json` |

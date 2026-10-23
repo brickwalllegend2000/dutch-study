@@ -6,7 +6,7 @@
 
 **Start here:** complete exercise 1 using *mogen*, *moeten* and *niet mogen*.
 
-Grammar: [modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md). One focus: tell permission, obligation and prohibition apart.
+Grammar: [modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md). One focus: tell permission, obligation and prohibition apart.
 
 - **mogen** = permission
 - **moeten** = obligation

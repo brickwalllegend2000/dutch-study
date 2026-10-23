@@ -1,22 +1,22 @@
 # Dutch study
 
-Your canonical Dutch study library. This repository is also an Obsidian vault: clone it once and open that same folder in Obsidian.
+Canonical Dutch study library on GitHub. Study and maintain it here first (browser, editor, Issues, PRs). An Obsidian export vault is **not** part of this repository right now.
 
 ## Start here
 
 **Open study home:** [journal/my-study-view.md](journal/my-study-view.md) — continue, practise writing or speaking, look things up, or log mistakes.
 
-**Understand the vault:** [docs/OVERVIEW.md](docs/OVERVIEW.md) — architecture, data flow, **wiki vs rest of vault**, **setup**, and live status.  
-**Next session:** [docs/HANDOFF.md](docs/HANDOFF.md). · **Desktop setup:** [docs/SETUP.md](docs/SETUP.md).
+**Understand the library:** [docs/OVERVIEW.md](docs/OVERVIEW.md) — architecture, data flow, wiki vs course, setup, and live status.  
+**Next session:** [docs/HANDOFF.md](docs/HANDOFF.md). · **Clone / Git setup:** [docs/SETUP.md](docs/SETUP.md).
 
-**Hosted on GitHub:** `brickwalllegend2000/dutch-study` is a **public** repository. Treat anything committed here as public. Course Moodle credentials must not be stored in this tree. Clone it and open the folder in Obsidian.
+**Hosted on GitHub:** `brickwalllegend2000/dutch-study` is a **public** repository. Treat anything committed here as public. Course Moodle credentials must not be stored in this tree.
 
 ### Learner links
 
 - [Study home](journal/my-study-view.md)
 - [Course and wiki view](course/view.md)
 - [Vocabulary](wiki/vocabulary/VOCABULARY.md) · [Perfectum study list](wiki/vocabulary/PERFECTUM-STUDY-LIST.md) · [Needs review](wiki/vocabulary/NEEDS-REVIEW.md)
-- [Grammar](wiki/grammar/README.md) · [Chapters](course/README.md) · [Oral track](course/oral/README.md)
+- [Grammar](data/grammar/README.md) · [Chapters](course/README.md) · [Oral track](course/oral/README.md)
 - [Exam preparation](course/exams/exam-preparation.md) · [Practice tests](course/exams/README.md)
 - [Review sheets](course/review/README.md) · [Cheat sheets](wiki/cheat-sheets/README.md)
 
@@ -30,8 +30,9 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 | Folder | Purpose |
 | --- | --- |
-| [course](course/README.md) | Chapters 1–8, oral guides, exercises, review sheets, exams |
-| [wiki](wiki/README.md) | Grammar, cheat sheets, generated vocabulary lists |
+| [data](data/grammar/README.md) | **Facts** — [vocabulary.csv](data/vocabulary.csv) and [grammar notes](data/grammar/README.md) |
+| [course](course/README.md) | **Authored study** — chapters 1–8, oral guides, exercises, review sheets, exams |
+| [wiki](wiki/README.md) | Generated vocabulary views + authored cheat sheets (grammar facts live under `data/`) |
 | [journal](journal/README.md) | Personal study notes and study home |
 | [inbox](inbox/README.md) | Captures waiting or **deferred** |
 | [sources](sources/README.md) | Import evidence — never reorganized to match corrections |
@@ -40,13 +41,13 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 | Material | Maintained location |
 | --- | --- |
-| Words, meanings, forms, provenance | [vocabulary.csv](vocabulary.csv) |
-| Grammar explanations | [wiki/grammar](wiki/grammar/README.md) |
+| Words, meanings, forms, provenance | [data/vocabulary.csv](data/vocabulary.csv) |
+| Grammar explanations | [data/grammar](data/grammar/README.md) |
 | Study order | [course](course/README.md) |
 | Evidence | [sources](sources/README.md) |
 | Outstanding work | [GitHub Issues](https://github.com/brickwalllegend2000/dutch-study/issues) (currently none open) |
 
-`wiki/vocabulary/` is **generated** from the CSV. Edit the CSV and run `build`. Source snapshots may conflict with maintained facts — keep conflicts visible.
+`wiki/vocabulary/` is **generated** from the CSV. Edit `data/vocabulary.csv` and run `build`. Cheat sheets and review sheets summarize facts; they add no new ones. Source snapshots may conflict with maintained facts — keep conflicts visible.
 
 Status snapshot: **520** vocabulary rows (**501** reviewed, **19** needs-review); **14** grammar topics reviewed; inbox class notes **deferred**. Details in [OVERVIEW.md](docs/OVERVIEW.md).
 
@@ -54,7 +55,7 @@ Status snapshot: **520** vocabulary rows (**501** reviewed, **19** needs-review)
 
 Rules: [AGENTS.md](AGENTS.md). Suggested start:
 
-> Read AGENTS.md, docs/OVERVIEW.md, and docs/HANDOFF.md. Use this repository as the canonical Dutch study library. Search before answering, cite VOC- ids and paths, and defer the inbox class-notes capture unless asked to process it.
+> Read AGENTS.md, docs/OVERVIEW.md, and docs/HANDOFF.md. Use this repository as the canonical Dutch study library on GitHub. Search before answering, cite VOC- ids and paths, and defer the inbox class-notes capture unless asked to process it.
 
 ## Maintenance commands
 
@@ -69,4 +70,4 @@ python scripts/library.py validate
 python -m unittest discover -s tests -v
 ```
 
-On Windows, use `py` if needed. Obsidian study needs no Python.
+On Windows, use `py` if needed. Reading Markdown on GitHub needs no Python.

@@ -7,18 +7,18 @@
 
 Read first: [OVERVIEW.md](OVERVIEW.md) · [AGENTS.md](../AGENTS.md) · [WORKFLOW.md](../WORKFLOW.md)
 
-Status canvas (Cursor session artifact): [Dutch study vault — status](https://cursor.com/canvas/store-e3b9ce1e-327d-440a-a36e-bcd74498c6b7/fe50411d-1314-4b78-8325-8af6acd267c2)
-
 ---
 
 ## Session outcome (this run family)
 
-1. Comprehensive vault review acted on (public safety, oral evidence labels, stranded glosses, validation, study home).
+1. Comprehensive library review acted on (public safety, oral evidence labels, stranded glosses, validation, study home).
 2. Open PRs #17–#20 merged; starter Issues #1–#5 closed.
 3. Closed GitHub Issues **cannot be deleted** by this integration (`deleteIssue` FORBIDDEN).
 4. Starter bootstrap cleared; [TASKS.md](TASKS.md) shows no open Issues.
 5. Inbox class notes **deferred** (do not process unless asked).
-6. Orientation docs expanded: this handoff + [OVERVIEW.md](OVERVIEW.md) (architecture, data flow, **wiki vs vault**, **setup**).
+6. Orientation docs expanded: this handoff + [OVERVIEW.md](OVERVIEW.md) (architecture, data flow, wiki vs course, setup).
+7. **Obsidian removed** from the repository (`.obsidian/` deleted; docs are GitHub-first). A future export vault may be added later; do not restore Obsidian config unless asked.
+8. **Soft layer split** — canonical facts live under `data/` (`vocabulary.csv`, `grammar/`); `course/` stays authored study; `wiki/vocabulary/` remains generated. Optional later rename of generated views and any Obsidian *export* vault stay deferred.
 
 ---
 
@@ -30,6 +30,7 @@ Status canvas (Cursor session artifact): [Dutch study vault — status](https://
 | Vocabulary | 520 (501 reviewed, 19 needs-review with `[added]` English) |
 | Grammar notes | 14 reviewed (AI / course-snapshot; not teacher-certified) |
 | Validate + tests | Expect green on `main` |
+| Obsidian | **Removed** — study on GitHub / Markdown editors |
 | Deferred | `inbox/2026-10-23-class-notes-schriftelijk.md` |
 
 ---
@@ -38,10 +39,10 @@ Status canvas (Cursor session artifact): [Dutch study vault — status](https://
 
 Only if the user asks — otherwise study as-is.
 
-1. **Desktop Obsidian pull** — optional re-check of [SETUP.md](SETUP.md) on a personal machine.
-2. **Process deferred inbox** — when ready: Import material Issue → source record → reconcile with CSV (learner notes contain errors; do not promote mistakes as course facts).
-3. **Faithful oral re-transcription** — reconcile `sources/pages/zo-gezegd-1-2-mondeling.md` theme-by-theme against `sources/originals/mondeling-1-2/*.png`; demote unreliable `reviewed` claims.
-4. **Teacher pass on 19 `[added]` glosses** — confirm or replace; then mark reviewed with a human note.
+1. **Process deferred inbox** — when ready: Import material Issue → source record → reconcile with `data/vocabulary.csv` (learner notes contain errors; do not promote mistakes as course facts).
+2. **Faithful oral re-transcription** — reconcile `sources/pages/zo-gezegd-1-2-mondeling.md` theme-by-theme against `sources/originals/mondeling-1-2/*.png`; demote unreliable `reviewed` claims.
+3. **Teacher pass on 19 `[added]` glosses** — confirm or replace; then mark reviewed with a human note.
+4. **Optional later polish** — rename `wiki/vocabulary/` → `views/vocabulary/` once the data-layer move is stable; optional Obsidian *export* vault packaging (not whole-repo Obsidian).
 5. **Visibility / history** — consider private repo + history purge if agenda credentials in old commits matter.
 6. **Delete closed Issues** — only with a GitHub admin account (UI or GraphQL `deleteIssue`).
 
@@ -49,12 +50,13 @@ Only if the user asks — otherwise study as-is.
 
 ## Do not
 
-- Rerun `scripts/import_notion.py` against this vault (refuses to overwrite CSV; one-time tool).
+- Rerun `scripts/import_notion.py` against this library (refuses to overwrite CSV; one-time tool).
 - Edit `wiki/vocabulary/` by hand — edit CSV, then `build`.
 - Rewrite source snapshots to match CSV corrections.
 - Re-commit agenda PDF or Moodle passwords.
 - Treat `reviewed` as native-speaker certification.
 - Process deferred inbox into canonical files without an explicit request.
+- Re-add `.obsidian/` unless the user explicitly wants an Obsidian export again.
 
 ---
 
@@ -62,10 +64,11 @@ Only if the user asks — otherwise study as-is.
 
 ```
 Read AGENTS.md, docs/OVERVIEW.md, and docs/HANDOFF.md.
-Use this repository as the canonical Dutch study library.
+Use this repository as the canonical Dutch study library on GitHub.
 Search maintained files before answering; cite VOC- ids and paths.
 Distinguish imported / [added] / reviewed facts.
 Defer inbox/2026-10-23-class-notes-schriftelijk.md unless the user asks to process it.
+Do not restore Obsidian config unless asked.
 After content changes: build, validate, tests; open a PR.
 ```
 
@@ -75,12 +78,13 @@ After content changes: build, validate, tests; open a PR.
 
 | Path | Why |
 | --- | --- |
-| [docs/OVERVIEW.md](OVERVIEW.md) | Architecture, data flow, **wiki vs vault**, **setup**, status |
-| [docs/SETUP.md](SETUP.md) | Desktop Obsidian + Git |
+| [docs/OVERVIEW.md](OVERVIEW.md) | Architecture, data flow, wiki vs course, setup, status |
+| [docs/SETUP.md](SETUP.md) | Clone and Git sync |
 | [wiki/README.md](../wiki/README.md) | Reference layer index |
 | [docs/DATA-SCHEMA.md](DATA-SCHEMA.md) | Column and ID rules |
 | [journal/my-study-view.md](../journal/my-study-view.md) | Learner entry |
-| [vocabulary.csv](../vocabulary.csv) | Lexicon |
+| [data/vocabulary.csv](../data/vocabulary.csv) | Lexicon (facts layer) |
+| [data/grammar/](../data/grammar/README.md) | Canonical grammar notes |
 | [sources/pages/zo-gezegd-1-2-mondeling.md](../sources/pages/zo-gezegd-1-2-mondeling.md) | Oral evidence (enriched) |
 | [inbox/README.md](../inbox/README.md) | Deferred captures |
 | [docs/INVENTORY.md](INVENTORY.md) | Refresh counts |
@@ -89,4 +93,4 @@ After content changes: build, validate, tests; open a PR.
 
 ## Skills / tools note
 
-Python 3.11+ stdlib only for library scripts. No app server. Obsidian core plugins only.
+Python 3.11+ stdlib only for library scripts. No app server. No Obsidian dependency.

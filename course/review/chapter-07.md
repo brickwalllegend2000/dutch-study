@@ -16,10 +16,10 @@ Full list with forms and sources: [chapter 7 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **Adjective with or without -e** in descriptions: *Het is een gele muts. Het is een gestreepte muts. Het is een geruite sjaal. Het zijn effen, blauwe handschoenen.* Material adjectives (*katoenen, wollen*) never take -e. — [Adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md)
+- **Adjective with or without -e** in descriptions: *Het is een gele muts. Het is een gestreepte muts. Het is een geruite sjaal. Het zijn effen, blauwe handschoenen.* Material adjectives (*katoenen, wollen*) never take -e. — [Adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md)
 - **Start a description with *Het is* / *Het zijn*:** *Het is* for one thing, *Het zijn* for more (*Het zijn effen, blauwe handschoenen.*).
 - **Separable verbs in the presens** (from the vocabulary forms): ik vul in, ik ruim op, ik haal op, ik geef terug, ik krijg terug, ik vind terug. *Je krijgt het verloren voorwerp terug.*
-- **Perfectum:** *Ik heb mijn paraplu teruggevonden.* Also *opgehaald, teruggegeven, teruggekregen, gevonden, gezongen*; *vergeten* takes *hebben* or *zijn*. — [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+- **Perfectum:** *Ik heb mijn paraplu teruggevonden.* Also *opgehaald, teruggegeven, teruggekregen, gevonden, gezongen*; *vergeten* takes *hebben* or *zijn*. — [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
 - **Plurals in this chapter's vocabulary:** de sporttas → de sporttassen, de handtas → de handtassen, de knoop → de knopen, de streep → de strepen, de brooddoos → de brooddozen, het verhaal → de verhalen, het voorwerp → de voorwerpen, de paraplu → de paraplu's, de bushalte → de bushaltes.
 
 Cheat sheets: [Adjectives](../../wiki/cheat-sheets/adjectives.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md)

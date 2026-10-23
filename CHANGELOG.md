@@ -2,6 +2,12 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Remove Obsidian; GitHub-first library (`cursor/remove-obsidian-30a6`)
+
+- Deleted `.obsidian/` config; repository is no longer an Obsidian vault.
+- Reframes README, START-HERE, SETUP, OVERVIEW, WORKFLOW, AGENTS, HANDOFF, wiki index, and templates as GitHub-first Markdown study.
+- `publish_github.py` descriptions no longer mention Obsidian. A future export vault may be added later; not present now.
+
 ## 2026-10-23 — Data architecture and information flow (`cursor/data-architecture-flow-2c41`)
 
 - Expanded `docs/OVERVIEW.md` with entity model (ER), write/read paths, consolidation rules, and provenance audit steps. Links from handoff.

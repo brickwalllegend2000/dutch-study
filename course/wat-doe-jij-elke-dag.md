@@ -4,10 +4,10 @@
 
 Practice for Chapter 2 grammar. Canonical notes:
 
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
-- [Future plans: gaan + infinitive](../wiki/grammar/future-plans-gaan-infinitive.md)
-- [Word order: eerst, dan and daarna](../wiki/grammar/word-order-eerst-dan-and-daarna.md)
-- [Using zal](../wiki/grammar/using-zal.md) (chapter 6; secondary here)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
+- [Future plans: gaan + infinitive](../data/grammar/future-plans-gaan-infinitive.md)
+- [Word order: eerst, dan and daarna](../data/grammar/word-order-eerst-dan-and-daarna.md)
+- [Using zal](../data/grammar/using-zal.md) (chapter 6; secondary here)
 
 Describe a usual day, then change sentences to yesterday and tomorrow. Prefer **gaan + infinitive** for plans (as in the wiki); **zullen** is for promises or more formal future.
 
@@ -57,7 +57,7 @@ Describe a usual day, then change sentences to yesterday and tomorrow. Prefer **
 
 **Time first:** ’s Morgens drink ik koffie.
 
-The conjugated verb stays in the second position. A whole phrase such as “Om zeven uur” counts as one position. See [word order](../wiki/grammar/word-order-eerst-dan-and-daarna.md).
+The conjugated verb stays in the second position. A whole phrase such as “Om zeven uur” counts as one position. See [word order](../data/grammar/word-order-eerst-dan-and-daarna.md).
 
 **Correct:** Daarna maak ik huiswerk.
 
@@ -103,9 +103,9 @@ Ik sta meestal om zeven uur op. Eerst douche ik en kleed ik me aan. Daarna ontbi
 | Plan: morgen — gaan + infinitive | subject + gaan + rest + infinitive | Ik ga morgen huiswerk maken. |
 | Promise / future: zullen + infinitive | subject + zal/zullen + rest + infinitive | Ik zal morgen mijn huiswerk maken. |
 
-**Future conjugation:** ik zal; jij/u zal or zult; hij/zij zal; wij/jullie/zij zullen. Prefer [gaan + infinitive](../wiki/grammar/future-plans-gaan-infinitive.md) for plans at this level.
+**Future conjugation:** ik zal; jij/u zal or zult; hij/zij zal; wij/jullie/zij zullen. Prefer [gaan + infinitive](../data/grammar/future-plans-gaan-infinitive.md) for plans at this level.
 
-**Hebben or zijn:** learn the auxiliary with the verb. Here: **ik ben opgestaan / gegaan**, but **ik heb ontbeten / gewerkt / geslapen**. Movement does not automatically mean “zijn”: **ik heb een uur gefietst** describes an activity; **ik ben naar school gefietst** describes travel to a destination. See [perfectum](../wiki/grammar/the-perfect-tense-perfectum.md).
+**Hebben or zijn:** learn the auxiliary with the verb. Here: **ik ben opgestaan / gegaan**, but **ik heb ontbeten / gewerkt / geslapen**. Movement does not automatically mean “zijn”: **ik heb een uur gefietst** describes an activity; **ik ben naar school gefietst** describes travel to a destination. See [perfectum](../data/grammar/the-perfect-tense-perfectum.md).
 
 **Regular participles:** maken → gemaakt; werken → gewerkt. **Irregular:** eten → gegeten; drinken → gedronken; doen → gedaan. With separable verbs, ge often goes between the parts: opstaan → opgestaan; afwassen → afgewassen.
 

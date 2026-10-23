@@ -37,8 +37,8 @@ Course grammar (from the table of contents):
 
 Maintained grammar notes:
 
-- [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
+- [Adjective endings: with or without -e](../data/grammar/adjective-endings-with-or-without-e.md)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
 
 Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Descriptions, positions & room layout](../wiki/cheat-sheets/descriptions.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 

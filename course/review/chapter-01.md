@@ -24,13 +24,13 @@ Full list with forms and sources: [chapter 1 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **Adjective after the noun (after *zijn*): never -e.** De tafel is rond. De stoelen zijn nieuw. — [Adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md)
+- **Adjective after the noun (after *zijn*): never -e.** De tafel is rond. De stoelen zijn nieuw. — [Adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md)
 - **Adjective before the noun:** de-word or plural → always -e (een ronde tafel, nieuwe stoelen). Het-word → -e, except after *een* or with no article (een rond tapijt / het ronde tapijt). From the tips: *Maria draagt een gele broek.* *De man met het rode hemd is Andres.*
 - **Never -e:** adjectives ending in -en (*effen*), materials (*houten, glazen*; *plastic* also stays the same) and adjectives ending in -e (*roze, oranje*).
 - **Presens in the right form:** *Zij draagt een korte rok.* (dragen: ik draag, hij draagt). The course also lists *Artikel* and *Perfectum* for this chapter; see [Perfectum](../../wiki/cheat-sheets/perfectum.md).
 - **Prepositions with clothes:** *met* / *zonder*: *Hij draagt een T-shirt zonder mouwen.*
 
-Cheat sheets: [Adjectives](../../wiki/cheat-sheets/adjectives.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Writing checklist](../../wiki/grammar/writing-checklist.md)
+Cheat sheets: [Adjectives](../../wiki/cheat-sheets/adjectives.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Writing checklist](../../data/grammar/writing-checklist.md)
 
 ## Watch out
 

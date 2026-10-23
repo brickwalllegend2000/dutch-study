@@ -15,8 +15,8 @@ One page per written chapter for revising before a test: key vocabulary, the gra
 | [3. What should I do?](chapter-03.md) | Modal verbs | Perfectum of separable verbs, spelling |
 | [4. What is the apartment like?](chapter-04.md) | Comparative, er is/zijn, want/en/maar, geen/niet | Spelling |
 | [5. My favourite room](chapter-05.md) | Adjectives without -e, staan/liggen/hangen/zitten, er + position verb | Spelling |
-| [6. Have you read my message?](chapter-06.md) | Omdat, want, zal, modal verbs, e-mail shape | Spelling (see also [om te](../../wiki/grammar/infinitive-clauses-om-te.md)) |
+| [6. Have you read my message?](chapter-06.md) | Omdat, want, zal, modal verbs, e-mail shape | Spelling (see also [om te](../../data/grammar/infinitive-clauses-om-te.md)) |
 | [7. I’ve forgotten my umbrella!](chapter-07.md) | Adjective -e, separable verbs, perfectum | Plural and separable-verb rules, spelling |
 | [8. Who is the champion?](chapter-08.md) | Superlative and comparative | Spelling |
 
-The oral guides (Modeling 1–7) have no dedicated review sheets yet. Oral vocabulary and two oral grammar notes (*aan het*, *om te*) are already in the library; use the [oral track](../oral/README.md) and [grammar index](../../wiki/grammar/README.md) until oral review sheets exist.
+The oral guides (Modeling 1–7) have no dedicated review sheets yet. Oral vocabulary and two oral grammar notes (*aan het*, *om te*) are already in the library; use the [oral track](../oral/README.md) and [grammar index](../../data/grammar/README.md) until oral review sheets exist.

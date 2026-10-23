@@ -1,9 +1,0 @@
-{
-  "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
-  "attachmentFolderPath": "inbox/attachments",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "inbox",
-  "trashOption": "local"
-}

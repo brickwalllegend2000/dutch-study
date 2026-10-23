@@ -6,7 +6,7 @@
 
 **Plan (from the Notion page *Example ideas*):** EXAMPLE #2 → TRIP. T2 → trip to AUSTRIA → Swiss for soccer? T6 → link / relate with trip content. T7 → "lost" something after trip / checking id(n)t? "T" is read here as the chapter number (*thema*). "Checking id(n)t" is read as showing your identity card when you collect a lost item; the page does not say so. The football match also uses the comparisons of chapter 8.
 
-The parts tell one story in order: a message from Vienna, the match in Switzerland, messages about the trip, and a bag forgotten on the train home. Before you write your own version, follow the [writing checklist](../../wiki/grammar/writing-checklist.md) (*Stappenplan schrijven*), then save it in the [journal](../../journal/README.md).
+The parts tell one story in order: a message from Vienna, the match in Switzerland, messages about the trip, and a bag forgotten on the train home. Before you write your own version, follow the [writing checklist](../../data/grammar/writing-checklist.md) (*Stappenplan schrijven*), then save it in the [journal](../../journal/README.md).
 
 ## Part 1 — Op citytrip in Wenen (chapter 2)
 
@@ -22,10 +22,10 @@ This follows workbook opdracht 10 and exercise 1 of [chapter 2](../exercises/cha
 
 **What it practises.**
 
-- **Perfectum with zijn or hebben**: movement to a place takes *zijn* (*zijn … aangekomen*, *zijn … gegaan*, *zijn … geweest*); other actions take *hebben* (*hebben … bezocht / gegeten / gedronken*). The participle goes last. See [the perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md).
-- **Eerst, dan, daarna + inversion**: *Eerst **zijn we** …, Dan **hebben we** …, Daarna **hebben we** …*. See [word order](../../wiki/grammar/word-order-eerst-dan-and-daarna.md).
-- **Gaan + infinitive** for plans: *Morgen gaan we … wandelen.* See [future plans](../../wiki/grammar/future-plans-gaan-infinitive.md).
-- **Kunnen + infinitive** for what you can do in a city (can-do goal of chapter 2): *je kan musea bezoeken*. See [modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md).
+- **Perfectum with zijn or hebben**: movement to a place takes *zijn* (*zijn … aangekomen*, *zijn … gegaan*, *zijn … geweest*); other actions take *hebben* (*hebben … bezocht / gegeten / gedronken*). The participle goes last. See [the perfect tense](../../data/grammar/the-perfect-tense-perfectum.md).
+- **Eerst, dan, daarna + inversion**: *Eerst **zijn we** …, Dan **hebben we** …, Daarna **hebben we** …*. See [word order](../../data/grammar/word-order-eerst-dan-and-daarna.md).
+- **Gaan + infinitive** for plans: *Morgen gaan we … wandelen.* See [future plans](../../data/grammar/future-plans-gaan-infinitive.md).
+- **Kunnen + infinitive** for what you can do in a city (can-do goal of chapter 2): *je kan musea bezoeken*. See [modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md).
 - **Weather**: *Het is mooi weer. Het waait een beetje.*
 - **Time words**: gisteren, 's avonds, morgen, overmorgen.
 - **Capital letters** for cities and countries: Wenen, Oostenrijk, Zwitserland.
@@ -73,9 +73,9 @@ This follows workbook opdracht 10 and exercise 1 of [chapter 2](../exercises/cha
 
 **What it practises.**
 
-- **Comparisons**: comparative + *dan* (*kleiner dan*, *hoger*, *duurder dan*), equal comparison with *even … als* (*even snel als*), superlative (*de mooiste stad*). See [comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md). Note *hoog → hoger* and *duur → duurder* (an extra *d* after *r*).
+- **Comparisons**: comparative + *dan* (*kleiner dan*, *hoger*, *duurder dan*), equal comparison with *even … als* (*even snel als*), superlative (*de mooiste stad*). See [comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md). Note *hoog → hoger* and *duur → duurder* (an extra *d* after *r*).
 - **Perfectum** again: *zijn … geweest*, *heeft … gespeeld*, *heeft … gewonnen*, and *komen* with *zijn*: *Er zijn veel mensen … gekomen.*
-- **Gaan (main verb, not gaan + infinitive):** *Morgen gaan we terug naar België* — *gaan* is the main verb (we are going back); there is no second infinitive. For the future construction see [gaan + infinitive](../../wiki/grammar/future-plans-gaan-infinitive.md).
+- **Gaan (main verb, not gaan + infinitive):** *Morgen gaan we terug naar België* — *gaan* is the main verb (we are going back); there is no second infinitive. For the future construction see [gaan + infinitive](../../data/grammar/future-plans-gaan-infinitive.md).
 - The match and score are invented. *Zwitserland is kleiner dan Oostenrijk* and *de bergen zijn hoger* are true; the price comparison is a generalisation.
 - Words not in the course list: *de voetbalwedstrijd*, *de wedstrijd*, *de berg*, *het eten*, *de trein*, *tegen* (against, in a match).
 
@@ -129,9 +129,9 @@ This follows exercises 4 and 5 of [chapter 6](../exercises/chapter-06.md).
 
 **What it practises.**
 
-- **Omdat sends the verb to the end**: *omdat ik op reis **ben***, *omdat mijn trein pas om tien uur 's avonds **aankomt*** (a separable verb stays together at the end). See [because: omdat](../../wiki/grammar/because-omdat-and-subordinate-clauses.md).
-- **Zal + infinitive** for a promise: *Ik zal mijn huiswerk na de reis maken.* *Ik zal wat later zijn* is the course's own opening. See [using zal](../../wiki/grammar/using-zal.md).
-- **Questions with modal verbs**: *Welke oefeningen moet ik maken? Kan jij …? Kunt u …? Moet ik …?* See [modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md).
+- **Omdat sends the verb to the end**: *omdat ik op reis **ben***, *omdat mijn trein pas om tien uur 's avonds **aankomt*** (a separable verb stays together at the end). See [because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md).
+- **Zal + infinitive** for a promise: *Ik zal mijn huiswerk na de reis maken.* *Ik zal wat later zijn* is the course's own opening. See [using zal](../../data/grammar/using-zal.md).
+- **Questions with modal verbs**: *Welke oefeningen moet ik maken? Kan jij …? Kunt u …? Moet ik …?* See [modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md).
 - **Informal or formal**: *jij* to a teacher you know, *u* and *Beste meneer, mevrouw* to a hotel. Start with *Beste* + name and end with *Met vriendelijke groeten* and your name (chapter 6 tips).
 - The teacher's name, the dates and the addresses are placeholders. Use *u* to the teacher if your class does.
 - Words not in the course list: *afwezig*, *volgende week*, *terugkomen*, *het hotel*, *pas* (only, not until). *De nacht* is a chapter 2 word.
@@ -181,9 +181,9 @@ This follows exercises 10 and 11 of [chapter 7](../exercises/chapter-07.md).
 
 **What it practises.**
 
-- **Describing an object** (chapter 7): start with *Het is …*; colour, pattern and parts (*een witte streep*, *twee zwarte handvatten*, *een lange rits*). Adjective endings: *een donkerblauwe sporttas* (de-word, -e), *een rood T-shirt* (het-word after *een*, no -e), *witte sneakers* (plural, -e). See [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md).
+- **Describing an object** (chapter 7): start with *Het is …*; colour, pattern and parts (*een witte streep*, *twee zwarte handvatten*, *een lange rits*). Adjective endings: *een donkerblauwe sporttas* (de-word, -e), *een rood T-shirt* (het-word after *een*, no -e), *witte sneakers* (plural, -e). See [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md).
 - **Zitten for things inside a bag**: *In de sporttas zitten …*, *Er zit ook een portemonnee in de tas.*
-- **Perfectum of separable verbs**: *terugvinden → teruggevonden*, *ophalen → opgehaald*, *terugkrijgen → teruggekregen*; *ge-* goes between the parts. *Vergeten* has no extra *ge-*: *ik heb … vergeten*. See [the perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md).
+- **Perfectum of separable verbs**: *terugvinden → teruggevonden*, *ophalen → opgehaald*, *terugkrijgen → teruggekregen*; *ge-* goes between the parts. *Vergeten* has no extra *ge-*: *ik heb … vergeten*. See [the perfect tense](../../data/grammar/the-perfect-tense-perfectum.md).
 - **Moeten and kunnen** in an official message: *U kan … ophalen. U moet … meebrengen.* (chapter 3 again).
 - *Identiteitskaart* appears in the [practice test](../exams/zo-gezegd-1-2-practice-test.md) ("Breng alstublieft uw identiteitskaart mee."), not in the chapter vocabulary.
 - Words not in the course list: *de identiteitskaart*, *het station*, *de reiziger*, *de dienst*, *bellen*, *vanmorgen*, *alles*, *NMBS* (the Belgian railway company).

@@ -1,8 +1,8 @@
 # Cheat sheet: perfectum
 
-[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
+[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../../data/grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
 
-> One-page summary of [The perfect tense (perfectum)](../grammar/the-perfect-tense-perfectum.md), the [perfectum study sheet notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md) and the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
+> One-page summary of [The perfect tense (perfectum)](../../data/grammar/the-perfect-tense-perfectum.md), the [perfectum study sheet notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md) and the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
 
 **Review sheets:** the course lists the perfectum in every chapter: [1](../../course/review/chapter-01.md) · [2](../../course/review/chapter-02.md) · [3](../../course/review/chapter-03.md) · [4](../../course/review/chapter-04.md) · [5](../../course/review/chapter-05.md) · [6](../../course/review/chapter-06.md) · [7](../../course/review/chapter-07.md) · [8](../../course/review/chapter-08.md) · **Oral modules:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 7](../../course/oral/modeling-07.md)
 

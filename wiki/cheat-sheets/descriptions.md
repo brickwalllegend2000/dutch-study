@@ -1,6 +1,6 @@
 # Cheat sheet: descriptions, positions and room layout
 
-[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
+[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../../data/grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
 
 > Comprehensive master reference and review for **descriptions** in Waystage 1.2 (*Zo Gezegd 1.2*). It synthesizes vocabulary, prepositional structures, action vs. position verbs, and step-by-step spatial blueprints across [Chapter 1](../../course/chapter-01.md) (people & clothes), [Chapter 4](../../course/chapter-04.md) (dwellings & rooms), [Chapter 5](../../course/chapter-05.md) (furniture, materials & positions), [Chapter 7](../../course/chapter-07.md) (objects, bags & loss), and oral modules [Modeling 3](../../course/oral/modeling-03.md) & [Modeling 5](../../course/oral/modeling-05.md). Examples marked † were constructed for this reference sheet.
 

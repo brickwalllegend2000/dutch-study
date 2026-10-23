@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · [Chapter 3](chapter-03.md) · [Chapter 3 exercises](exercises/chapter-03.md)
 
-Practice for Chapter 3 grammar. Canonical note: [Modal verbs: can, must, may and want](../wiki/grammar/modal-verbs-can-must-may-and-want.md).
+Practice for Chapter 3 grammar. Canonical note: [Modal verbs: can, must, may and want](../data/grammar/modal-verbs-can-must-may-and-want.md).
 
 Learn the difference between **moeten**, **mogen** and **kunnen**, then practise giving four clear instructions.
 
@@ -37,7 +37,7 @@ Learn the difference between **moeten**, **mogen** and **kunnen**, then practise
 
 ### Word order
 
-The conjugated modal verb is in the second position; the infinitive goes at the end. See [modal verbs](../wiki/grammar/modal-verbs-can-must-may-and-want.md).
+The conjugated modal verb is in the second position; the infinitive goes at the end. See [modal verbs](../data/grammar/modal-verbs-can-must-may-and-want.md).
 
 **Je moet het formulier invullen.** — You have to complete the form.
 
@@ -53,7 +53,7 @@ The conjugated modal verb is in the second position; the infinitive goes at the 
 | hij / zij / het | moet | mag | kan | wil |
 | wij / jullie / zij (plural) | moeten | mogen | kunnen | willen |
 
-Forms match the [wiki table](../wiki/grammar/modal-verbs-can-must-may-and-want.md).
+Forms match the [wiki table](../data/grammar/modal-verbs-can-must-may-and-want.md).
 
 ## Direct and polite instructions
 

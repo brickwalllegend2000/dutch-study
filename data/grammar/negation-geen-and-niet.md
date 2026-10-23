@@ -12,7 +12,7 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 4](../../course/chapter-04.md) — **Oral:** [Modeling 2](../../course/oral/modeling-02.md)
 
-**Cheat sheet:** [Negation and er](../cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md)
+**Cheat sheet:** [Negation and er](../../wiki/cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md)
 
 *Negatie: geen / niet*
 

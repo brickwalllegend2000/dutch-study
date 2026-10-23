@@ -4,7 +4,7 @@ import sys
 import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from library import parse_tables, consolidate, validate_rows, FIELDS, to_markdown
+from library import parse_tables, consolidate, validate_rows, FIELDS, DATA_CSV, GRAMMAR_DIR, VIEWS, to_markdown
 
 class LibraryTests(unittest.TestCase):
     def test_markdown_escaped_pipe_and_accents(self):
@@ -56,22 +56,51 @@ class CorpusFixture(unittest.TestCase):
         (self.root/'sources/pages/a.md').write_text('# Evidence\n')
         (self.root/'sources/raw.txt').write_text('original')
         (self.root/'README.md').write_text('# Home\n')
+        (self.root/Path(DATA_CSV).parent).mkdir(parents=True,exist_ok=True)
         self.row=consolidate([{'dutch':'eten','source_id':'a','occurrence_id':'OCC-1'}])[0]
-        with (self.root/'vocabulary.csv').open('w',newline='') as f:
-            w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerow(self.row)
+        self.write_vocabulary(self.row)
         self.manifest={'pages':[{'id':'a','raw_path':'sources/raw.txt','snapshot_path':'sources/pages/a.md'}],'attachments':[]}
         self.write_manifest()
         self.occurrence={'occurrence_id':'OCC-1','source_id':'a','record_id':self.row['id']}
         (self.root/'sources/vocabulary-occurrences.json').write_text(json.dumps([self.occurrence]))
         build(self.root)
+    def write_vocabulary(self, *rows):
+        path=self.root/DATA_CSV
+        path.parent.mkdir(parents=True,exist_ok=True)
+        with path.open('w',newline='',encoding='utf-8') as f:
+            w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader()
+            for row in rows: w.writerow(row)
     def write_manifest(self):
         import json
         (self.root/'sources/manifest.json').write_text(json.dumps(self.manifest))
 
 class CorpusValidationTests(CorpusFixture):
+    def test_data_layer_fixture_validates_clean(self):
+        from library import validate
+        grammar=self.root/GRAMMAR_DIR; grammar.mkdir(parents=True)
+        (grammar/'topic.md').write_text(
+            '---\nreview_status: needs-review\n---\n# Topic\n\n[Home](../../README.md)\n',
+            encoding='utf-8',
+        )
+        course=self.root/'course'; course.mkdir(exist_ok=True)
+        links=[f'[Grammar]({GRAMMAR_DIR}/topic.md)']
+        for n in range(1,9):
+            (course/f'chapter-{n:02}.md').write_text(f'# Chapter {n}\n\n[Home](../README.md)\n',encoding='utf-8')
+            links.append(f'[Chapter {n}](course/chapter-{n:02}.md)')
+        (self.root/'README.md').write_text('\n'.join(links)+'\n',encoding='utf-8')
+        # Generated PERFECTUM-STUDY-LIST links this source page; stub it for link checks.
+        (self.root/'sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md').write_text('# Study list source\n',encoding='utf-8')
+        self.assertEqual(validate(self.root), [])
+        self.assertTrue((self.root/DATA_CSV).is_file())
+        self.assertTrue((self.root/VIEWS/'VOCABULARY.md').is_file())
+        vocab=(self.root/VIEWS/'VOCABULARY.md').read_text(encoding='utf-8')
+        self.assertIn(f'../../{DATA_CSV}', vocab)
+        word=(self.root/VIEWS/'words'/f"{self.row['id']}.md").read_text(encoding='utf-8')
+        self.assertIn(f'../../../{DATA_CSV}', word)
+
     def test_changed_csv_requires_regeneration(self):
         from library import validate
-        path=self.root/'vocabulary.csv'
+        path=self.root/DATA_CSV
         path.write_text(path.read_text().replace('eten','drinken'))
         self.assertTrue(any('stale generated' in e for e in validate(self.root)))
     def test_provenance_cannot_point_to_another_record(self):
@@ -101,21 +130,25 @@ class CorpusValidationTests(CorpusFixture):
         (self.root/'wiki/cheat-sheets').mkdir(parents=True)
         (self.root/'wiki/cheat-sheets/perfectum.md').write_text('# Perfectum')
         self.assertTrue(any('wiki/cheat-sheets/perfectum.md: orphan page' in e for e in validate(self.root)))
+    def test_grammar_missing_frontmatter_fails(self):
+        from library import validate
+        grammar=self.root/GRAMMAR_DIR; grammar.mkdir(parents=True)
+        (grammar/'topic.md').write_text('# Topic without frontmatter\n',encoding='utf-8')
+        (self.root/'README.md').write_text(f'[Grammar]({GRAMMAR_DIR}/topic.md)\n',encoding='utf-8')
+        self.assertTrue(any('missing YAML frontmatter' in e for e in validate(self.root)))
 
 class CompleteProvenanceTests(CorpusFixture):
     def test_every_source_occurrence_requires_a_reverse_record_link(self):
         from library import validate
         self.row['occurrence_ids']=''
-        with (self.root/'vocabulary.csv').open('w',newline='') as f:
-            w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerow(self.row)
+        self.write_vocabulary(self.row)
         self.assertTrue(any('unlinked occurrence' in e for e in validate(self.root)))
 
     def test_multiline_vocabulary_renders_as_single_table_row(self):
         from library import rendered
         self.row['english']='to eat,\nconsume'
-        with (self.root/'vocabulary.csv').open('w',newline='') as f:
-            w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerow(self.row)
-        self.assertIn('to eat,<br>consume', rendered(self.root)['wiki/vocabulary/VOCABULARY.md'])
+        self.write_vocabulary(self.row)
+        self.assertIn('to eat,<br>consume', rendered(self.root)[f'{VIEWS}/VOCABULARY.md'])
 
 
 class TextSearchTests(unittest.TestCase):
@@ -130,17 +163,41 @@ class TextSearchTests(unittest.TestCase):
             hits=list(search_text('vergeten',root,['course','missing']))
         self.assertEqual(hits,[('course/chapter-01.md',2,'Ik ben VERGETEN.')])
 
+    def test_default_text_dirs_include_data_grammar(self):
+        import tempfile
+        from library import search_text, TEXT_DIRS
+        self.assertIn(GRAMMAR_DIR, TEXT_DIRS)
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            grammar=root/GRAMMAR_DIR; grammar.mkdir(parents=True)
+            (grammar/'topic.md').write_text('# Aan het\ncontinuous aspect\n',encoding='utf-8')
+            hits=list(search_text('aan het', root))
+        self.assertEqual(hits,[(f'{GRAMMAR_DIR}/topic.md',1,'# Aan het')])
+
+    def test_search_cli_accepts_flags_before_query(self):
+        import io
+        import library
+        buf=io.StringIO()
+        old_out,old_argv=sys.stdout,sys.argv
+        try:
+            sys.stdout=buf
+            sys.argv=['library.py','search','--all','vergeten']
+            self.assertEqual(library.main(),0)
+        finally:
+            sys.stdout,sys.argv=old_out,old_argv
+        self.assertIn('VOC-', buf.getvalue())
+
 
 class ValidationGapTests(CorpusFixture):
     def test_extra_generated_word_note_is_rejected(self):
         from library import validate
-        extra=self.root/'wiki/vocabulary/words/VOC-deadbeefdead.md'
+        extra=self.root/VIEWS/'words'/'VOC-deadbeefdead.md'
         extra.write_text('# orphan generated note\n',encoding='utf-8')
         self.assertTrue(any('unexpected generated file' in e for e in validate(self.root)))
 
     def test_csv_row_with_extra_cell_is_rejected(self):
-        from library import validate, FIELDS
-        path=self.root/'vocabulary.csv'
+        from library import validate
+        path=self.root/DATA_CSV
         path.write_text(path.read_text(encoding='utf-8').rstrip('\n')+',extra\n',encoding='utf-8')
         self.assertTrue(any('expected %d cells' % len(FIELDS) in e for e in validate(self.root)))
 

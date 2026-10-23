@@ -6,7 +6,7 @@
 
 **Start here:** do parts A–C, then describe your own home (part D).
 
-Grammar: [er is / er zijn](../../wiki/grammar/using-er-there-is-there-are.md) · [geen and niet](../../wiki/grammar/negation-geen-and-niet.md) · [want, en, maar, of](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md) · [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md) · [comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md).
+Grammar: [er is / er zijn](../../data/grammar/using-er-there-is-there-are.md) · [geen and niet](../../data/grammar/negation-geen-and-niet.md) · [want, en, maar, of](../../data/grammar/joining-sentences-want-en-maar-and-of.md) · [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md) · [comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md).
 
 Comparison examples for this chapter:
 

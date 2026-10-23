@@ -1,11 +1,11 @@
 ---
 type: study-session
-date: "{{date:YYYY-MM-DD}}"
+date: YYYY-MM-DD
 chapter:
 vocabulary_ids: []
 grammar_topics: []
 ---
-# Study session — {{date:YYYY-MM-DD}}
+# Study session — YYYY-MM-DD
 
 ## Goal
 
@@ -19,6 +19,4 @@ Record vocabulary IDs, grammar paths and exercise references.
 
 Distinguish your answer from the checked correction and cite its source.
 
-## Questions to review
-
-## Next session
+## Next review

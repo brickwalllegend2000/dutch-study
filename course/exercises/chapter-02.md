@@ -6,7 +6,7 @@
 
 **Start here:** read the three grammar notes, then write the four-sentence trip message (adapted practice).
 
-Grammar: [the perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md) · [gaan + infinitive](../../wiki/grammar/future-plans-gaan-infinitive.md) · [eerst, dan, daarna](../../wiki/grammar/word-order-eerst-dan-and-daarna.md). Before you write, follow the [writing checklist](../../wiki/grammar/writing-checklist.md).
+Grammar: [the perfect tense](../../data/grammar/the-perfect-tense-perfectum.md) · [gaan + infinitive](../../data/grammar/future-plans-gaan-infinitive.md) · [eerst, dan, daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md). Before you write, follow the [writing checklist](../../data/grammar/writing-checklist.md).
 
 ## Workbook exercises
 
@@ -18,7 +18,7 @@ c. Schrijf een zin bij de foto: wat gaan jullie morgen doen? Vul aan. → de Mer
 
 ### 3 Proficiat! Je hebt gewonnen! – Opdracht 10
 
-Kies jouw stad en schrijf een whatsappbericht naar je vrienden. Tip: gebruik het Stappenplan schrijven (zie de [writing checklist](../../wiki/grammar/writing-checklist.md)).
+Kies jouw stad en schrijf een whatsappbericht naar je vrienden. Tip: gebruik het Stappenplan schrijven (zie de [writing checklist](../../data/grammar/writing-checklist.md)).
 
 a. Voor wie schrijf je? ☐ een bekend persoon ☐ een onbekend persoon  
 b. Wat voor tekst ga je schrijven? ☐ een e-mail ☐ een whatsappbericht ☐ een tekst voor een website  

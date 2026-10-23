@@ -74,11 +74,11 @@
 
 ## 3. Grammar Focus (Grammatica, pp. 141–143)
 
-1. **Er als voorlopig subject met positiewerkwoorden:** [Using er: there is / there are](../../wiki/grammar/using-er-there-is-there-are.md)
+1. **Er als voorlopig subject met positiewerkwoorden:** [Using er: there is / there are](../../data/grammar/using-er-there-is-there-are.md)
    - "In de woonkamer **staat er** een grote leren zetel."
    - "Op de vloer **ligt er** een zacht wollen tapijt."
    - "Aan de muur **hangen er** drie familiefoto's."
-2. **Moeten + infinitief voor instructies:** [Modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md)
+2. **Moeten + infinitief voor instructies:** [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md)
    - "Waar **moet** ik de boekenkast **zetten**?"
    - "Je **moet** de salontafel tussen de twee zetels **plaatsen**."
 3. **De imperatief (gebiedende wijs):**
@@ -86,7 +86,7 @@
      - "**Zet** die zware doos maar in de hoek!"
      - "**Hang** de luster recht boven de eettafel."
      - "**Leg** het kussen op de sofa."
-4. **Stoffelijke adjectieven:** [Adjective endings: with or without -e](../../wiki/grammar/adjective-endings-with-or-without-e.md)
+4. **Stoffelijke adjectieven:** [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md)
    - Bijna alle materialen eindigen op `-en` (*een glazen vaas*, *een houten stoel*), behalve leenwoorden zoals *plastic*.
 5. **Cheat sheet:** [Descriptions, positions and room layout](../../wiki/cheat-sheets/descriptions.md)
 
@@ -119,8 +119,8 @@
 - **Written counterpart:** [Chapter 4: What is the apartment like?](../chapter-04.md) (types of dwellings, rooms, spatial layout) and [Chapter 5: My favourite room](../chapter-05.md) (furniture, materials, placement).
 - **Cheat sheets & grammar:**
   - [Descriptions, positions and room layout](../../wiki/cheat-sheets/descriptions.md) (complete spatial prepositions, blueprints, and furniture checklist).
-  - [Using er: there is / there are](../../wiki/grammar/using-er-there-is-there-are.md) · [Negation and er cheat sheet](../../wiki/cheat-sheets/negation-and-er.md).
-  - [Action vs. Position verbs](../../wiki/grammar/using-er-there-is-there-are.md#action-vs-position-verbs) (*zetten, leggen, hangen, stoppen* vs. *staan, liggen, hangen, zitten*).
+  - [Using er: there is / there are](../../data/grammar/using-er-there-is-there-are.md) · [Negation and er cheat sheet](../../wiki/cheat-sheets/negation-and-er.md).
+  - [Action vs. Position verbs](../../data/grammar/using-er-there-is-there-are.md#action-vs-position-verbs) (*zetten, leggen, hangen, stoppen* vs. *staan, liggen, hangen, zitten*).
 - **Exam practice:** [Exam preparation — Prompt 2: Describe a home or room](../exams/exam-preparation.md#2-describe-a-home-or-room-woning--favoriete-kamer).
 - **Model text:** [Worked example 1: Where I live](../examples/example-1-where-i-live.md).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

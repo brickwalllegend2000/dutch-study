@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import re
 from urllib.parse import parse_qs, urlparse
-from library import ROOT, FIELDS, parse_tables, plain, consolidate, to_markdown, record_id, build
+from library import ROOT, FIELDS, DATA_CSV, parse_tables, plain, consolidate, to_markdown, record_id, build
 
 
 def body(page):
@@ -18,7 +18,7 @@ def slug(title):
 
 
 def main():
-    if (ROOT/'vocabulary.csv').exists(): raise SystemExit('Refusing to overwrite vocabulary.csv. Migration is one-time; use the normal workflow for edits.')
+    if (ROOT/DATA_CSV).exists(): raise SystemExit(f'Refusing to overwrite {DATA_CSV}. Migration is one-time; use the normal workflow for edits.')
     pages={p.stem:json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'sources/notion').glob('*.json'))}
     cfg=json.loads((ROOT/'sources/import-config.json').read_text())
     chapters={sid:n for n,sid in enumerate(cfg['chapter_ids'],1)}
@@ -108,7 +108,8 @@ def main():
             add(irregular,f'irregular table {ti}, row {ri}',dutch=r[0],auxiliary=m[1],participle=m[2],word_type='Verbum',categories='Irregular verbs')
             irregular_count+=1
     rows=consolidate(occurrences)
-    with (ROOT/'vocabulary.csv').open('w',encoding='utf-8',newline='') as f:
+    csv_path=ROOT/DATA_CSV; csv_path.parent.mkdir(parents=True,exist_ok=True)
+    with csv_path.open('w',encoding='utf-8',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=FIELDS);writer.writeheader();writer.writerows(rows)
     for o in occurrences: o['record_id']=record_id(o['dutch'])
     (ROOT/'sources/vocabulary-occurrences.json').write_text(json.dumps(occurrences,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
