@@ -233,10 +233,24 @@ def validate(root=ROOT):
     return errors
 
 
+TEXT_DIRS = ['wiki/grammar','course','journal','sources/pages']
+
+
+def search_text(query, root=ROOT, dirs=TEXT_DIRS):
+    """Yield (path, line number, line) for Markdown lines containing query."""
+    needle=normalized(query)
+    for folder in dirs:
+        for path in sorted((root/folder).rglob('*.md')):
+            for number,line in enumerate(path.read_text(encoding='utf-8').splitlines(),1):
+                if needle in normalized(line):
+                    yield path.relative_to(root).as_posix(), number, line.strip()
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['build','validate','search'])
     parser.add_argument('query',nargs='?',default='')
+    parser.add_argument('--all',action='store_true',help='search: also search grammar, course, journal and source pages')
     args=parser.parse_args()
     if args.command=='build': print(f'Generated {build()} reading views')
     elif args.command=='validate':
@@ -246,9 +260,19 @@ def main():
     else:
         needle=normalized(args.query)
         if not needle: parser.error('search requires a query')
+        if args.all: print('== Vocabulary ==')
         for row in read_rows():
             if needle in normalized(' '.join(row.values())):
                 print(f"{row['id']}\t{row['dutch']}\t{row['english']}\t{VIEWS}/words/{row['id']}.md")
+        if args.all:
+            current=None
+            for path,number,line in search_text(args.query):
+                if path!=current:
+                    print(f'\n== {path} =='); current=path
+                print(f'{number}: {line}')
     return 0
 
-if __name__=='__main__': sys.exit(main())
+if __name__=='__main__':
+    try: sys.exit(main())
+    except BrokenPipeError:
+        sys.stderr.close(); sys.exit(0)

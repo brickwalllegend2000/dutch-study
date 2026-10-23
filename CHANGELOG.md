@@ -2,6 +2,11 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Search everything (`claude/project-thread-nasid3`)
+
+- `python scripts/library.py search --all TERM` searches vocabulary plus the Markdown in `wiki/grammar/`, `course/`, `journal/` and `sources/pages/`, printing matching lines grouped by file. Plain `search` is unchanged (vocabulary only).
+- Piping search output into another command (for example `head`) no longer prints a BrokenPipeError.
+
 ## 2026-10-23 — Course and wiki layout (`claude/project-thread-c3lipk`)
 
 - Moved `chapters/` to `course/` (oral guides in `course/oral/`), `practice/` to `course/exams/`, `grammar/` and `views/` to `wiki/grammar/` and `wiki/vocabulary/`, and `study/` to `journal/`, with `git mv` so history follows. Added `wiki/README.md` and a layout table in the README.

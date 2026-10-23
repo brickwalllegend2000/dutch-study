@@ -104,3 +104,16 @@ class CompleteProvenanceTests(CorpusFixture):
         with (self.root/'vocabulary.csv').open('w',newline='') as f:
             w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerow(self.row)
         self.assertIn('to eat,<br>consume', rendered(self.root)['wiki/vocabulary/VOCABULARY.md'])
+
+
+class TextSearchTests(unittest.TestCase):
+    def test_search_text_finds_lines_case_insensitively(self):
+        import tempfile
+        from library import search_text
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            (root/'course').mkdir()
+            (root/'course'/'chapter-01.md').write_text('# Hoofdstuk\nIk ben VERGETEN.\nNiets\n',encoding='utf-8')
+            (root/'course'/'notes.txt').write_text('vergeten\n',encoding='utf-8')
+            hits=list(search_text('vergeten',root,['course','missing']))
+        self.assertEqual(hits,[('course/chapter-01.md',2,'Ik ben VERGETEN.')])

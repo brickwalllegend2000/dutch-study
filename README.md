@@ -56,9 +56,12 @@ Python 3.11 or later; no packages to install. Run from this folder:
 
 ```bash
 python scripts/library.py search vergeten
+python scripts/library.py search --all vergeten
 python scripts/library.py build
 python scripts/library.py validate
 python -m unittest discover -s tests -v
 ```
+
+`search` looks up words in vocabulary.csv. `search --all` also searches the grammar notes, course chapters, oral guides, exams, your journal and the imported source pages, and lists each matching line under its file. Searches ignore upper and lower case.
 
 On Windows, use `py` if `python` is unavailable. Reading and studying in Obsidian requires no Python installation.
