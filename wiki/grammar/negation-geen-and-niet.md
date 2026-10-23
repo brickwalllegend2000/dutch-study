@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 4](../../course/chapter-04.md) — **Oral:** [Modeling 2](../../course/oral/modeling-02.md)
 
+**Cheat sheet:** [Negation and er](../cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md)
+
 *Negatie: geen / niet*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

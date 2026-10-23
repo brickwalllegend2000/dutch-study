@@ -232,13 +232,13 @@ def validate(root=ROOT):
             target=unquote(target.split('#')[0])
             if target and not (p.parent/target).exists(): errors.append(f'{p.relative_to(root)}: broken link {target}')
             elif target and (p.parent/target).resolve()!=p.resolve(): linked.add((p.parent/target).resolve())
-    # Hand-maintained course and grammar pages must be reachable from another page.
-    for p in sorted([*root.glob('course/**/*.md'),*root.glob('wiki/grammar/*.md')]):
+    # Hand-maintained course, grammar and cheat-sheet pages must be reachable from another page.
+    for p in sorted([*root.glob('course/**/*.md'),*root.glob('wiki/grammar/*.md'),*root.glob('wiki/cheat-sheets/*.md')]):
         if p.resolve() not in linked: errors.append(f'{p.relative_to(root)}: orphan page (no other page links to it)')
     return errors
 
 
-TEXT_DIRS = ['wiki/grammar','course','journal','sources/pages']
+TEXT_DIRS = ['wiki/grammar','wiki/cheat-sheets','course','journal','sources/pages']
 
 
 def search_text(query, root=ROOT, dirs=TEXT_DIRS):
@@ -255,7 +255,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['build','validate','search'])
     parser.add_argument('query',nargs='?',default='')
-    parser.add_argument('--all',action='store_true',help='search: also search grammar, course, journal and source pages')
+    parser.add_argument('--all',action='store_true',help='search: also search grammar, cheat sheets, course, journal and source pages')
     args=parser.parse_args()
     if args.command=='build': print(f'Generated {build()} reading views')
     elif args.command=='validate':

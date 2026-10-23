@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 4](../../course/chapter-04.md) · [Chapter 8](../../course/chapter-08.md) — **Oral:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 4](../../course/oral/modeling-04.md)
 
+**Cheat sheet:** [Adjectives and comparisons](../cheat-sheets/adjectives.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 8](../../course/review/chapter-08.md)
+
 *Vergelijken*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

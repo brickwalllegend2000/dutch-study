@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) — **Oral:** [Modeling 5](../../course/oral/modeling-05.md)
 
+**Cheat sheet:** [Negation and er](../cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md)
+
 *Er als voorlopig subject*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

@@ -1,6 +1,6 @@
 # Grammar
 
-[Home](../../README.md) · [Wiki](../README.md) · [Chapters](../../course/README.md)
+[Home](../../README.md) · [Wiki](../README.md) · [Chapters](../../course/README.md) · [Cheat sheets](../cheat-sheets/README.md) · [Review sheets](../../course/review/README.md)
 
 - [Adjective endings: with or without -e](adjective-endings-with-or-without-e.md) — chapters 1, 4, 5, 7; Modeling 3, 5
 - [Because: omdat and subordinate clauses](because-omdat-and-subordinate-clauses.md) — chapter 6; Modeling 2, 4, 6

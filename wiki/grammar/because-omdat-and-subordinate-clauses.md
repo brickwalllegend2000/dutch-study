@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 6](../../course/chapter-06.md) — **Oral:** [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 6](../../course/oral/modeling-06.md)
 
+**Cheat sheet:** [Word order](../cheat-sheets/word-order.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
+
 *Omdat / bijzin*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 2](../../course/chapter-02.md)
 
+**Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
+
 *Gaan + infinitief*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

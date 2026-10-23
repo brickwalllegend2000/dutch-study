@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · [← Chapter 7](chapter-07.md) · Chapter 8
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-08.md) · [Exercises](exercises/chapter-08.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc81f4bb12e08d54fec7fd.md) · [Practice tests](exams/README.md)
+[Vocabulary](../wiki/vocabulary/CHAPTER-08.md) · [Exercises](exercises/chapter-08.md) · [Review sheet](review/chapter-08.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc81f4bb12e08d54fec7fd.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** vrijetijdsbesteder. Coursebook p. 197. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -36,6 +36,8 @@ Maintained grammar notes:
 
 - [Comparisons: equal, comparative and superlative](../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
+
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · [← Chapter 5](chapter-05.md) · Chapter 6 · [Chapter 7 →](chapter-07.md)
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-06.md) · [Exercises](exercises/chapter-06.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc8123a771c4658330b3eb.md) · [Practice tests](exams/README.md)
+[Vocabulary](../wiki/vocabulary/CHAPTER-06.md) · [Exercises](exercises/chapter-06.md) · [Review sheet](review/chapter-06.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc8123a771c4658330b3eb.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** administrator, consument, cursist, opvoeder, vrijetijdsbesteder en werkende. Coursebook p. 139. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -42,6 +42,8 @@ Maintained grammar notes:
 - [Because: omdat and subordinate clauses](../wiki/grammar/because-omdat-and-subordinate-clauses.md)
 - [Joining sentences: want, en, maar and of](../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
 - [Writing checklist](../wiki/grammar/writing-checklist.md)
+
+Cheat sheets: [Word order](../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../wiki/cheat-sheets/verb-plus-infinitive.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

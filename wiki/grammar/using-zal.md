@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 6](../../course/chapter-06.md) — **Oral:** [Modeling 3](../../course/oral/modeling-03.md)
 
+**Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
+
 *Zal / zullen*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)
