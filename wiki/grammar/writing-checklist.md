@@ -1,11 +1,12 @@
 ---
 id: GRAM-e476f71d211b
 source_ids: ["401f89e5e0fc812a9f40e476f71d211b"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Writing checklist
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc812a9f40e476f71d211b.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -21,6 +22,13 @@ review_status: needs-review
 5. **Correct your text.** Read your teacher’s feedback and make corrections.
 6. **Write the final version** in your workbook.
 
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Checked: the six steps match the archived *Stappenplan schrijven*, and the *jij/je/jouw* versus *u/uw* distinction is correct.
+- This is a study procedure, not a grammar rule, so there is no linguistic example to verify.
 
 ## Use it with
 

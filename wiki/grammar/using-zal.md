@@ -1,11 +1,12 @@
 ---
 id: GRAM-f108d18fde5e
 source_ids: ["401f89e5e0fc81ebabb5f108d18fde5e"]
-review_status: needs-review
+review_status: reviewed
+reviewed_on: 2026-10-23
 ---
 # Using zal
 
-> Imported course material; linguistic review pending.
+> Maintained grammar reference. Course examples are kept as archived; added explanations are labeled in the review note.
 
 [Source snapshot](../../sources/pages/401f89e5e0fc81ebabb5f108d18fde5e.md) · [Home](../../README.md) · [Grammar](README.md)
 
@@ -46,6 +47,14 @@ Answers
 1. Ik **zal** wat later **zijn**.
 2. **Dat zal ik doen.**
 3. **Wij zullen dat doen.**
+
+## Review note
+
+Reviewed by an AI agent (Claude) against the course snapshots and general standard-Dutch knowledge. This is not a teacher or native-speaker review. Reviewed 2026-10-23.
+
+- Rule checked: *zal/zullen* plus an infinitive; *zal* with *ik*, *hij* and *zij*; *zullen* in the plural; *zal* or *zult* after *jij*, *je* and *u*. Correct. In a question after *je* the *-t* form is dropped (*zul je*), which the course does not show.
+- Examples: *Dat zal ik doen!*, *Ik zal ook vragen …* and *Ik zal wat later zijn* are from the archive (chapter 6). The exercise and answers are added study aids.
+- Limit: only the future-promise use is covered. Regional note: in Flanders *gaan* is the more common way to talk about the future in speech; see [Future plans](future-plans-gaan-infinitive.md).
 
 ## Sources and chapter links
 
