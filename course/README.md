@@ -25,6 +25,11 @@ The course has two tracks. Work through both for each topic: the written track t
 - [Modeling 6: Kan ik de afspraak verzetten?](oral/modeling-06.md)
 - [Modeling 7: Mijn soep is koud!](oral/modeling-07.md)
 
+## Additional study notes
+
+- [What do you do every day?](wat-doe-jij-elke-dag.md) — daily routines, present/perfectum/future practice
+- [Giving instructions](instructies-geven.md) — modals, imperatives, permission and obligation
+
 ## Exercises
 
 - [Chapter exercises](exercises/README.md): workbook tasks, writing tips and adapted practice for chapters 1–8, with what is missing per chapter.
