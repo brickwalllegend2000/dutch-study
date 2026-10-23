@@ -17,8 +17,8 @@
 - Preserve all contributing source occurrences and locators. Keep conflicts visible until resolved with evidence. Do not overwrite source snapshots to match a correction.
 - Use valid UTF-8 and relative standard Markdown links. Keep narrative explanations in Markdown and filterable vocabulary in CSV.
 - After content changes run build, validate and the tests. Commit regenerated views with canonical edits. Never edit generated views independently.
-- Do not rerun scripts/import_notion.py against a maintained vault. It is a one-time import utility and refuses to overwrite vocabulary.csv.
-- Avoid third-party Obsidian plugin dependencies, private tokens, passwords, and machine-specific paths in tracked files.
+- Do not rerun scripts/import_notion.py against a maintained library. It is a one-time import utility and refuses to overwrite vocabulary.csv.
+- Do not add Obsidian config (`.obsidian/`) unless the user explicitly asks to restore an export vault. Avoid private tokens, passwords, and machine-specific paths in tracked files.
 - Do not claim original images are archived unless the binary files exist and the manifest records local paths and hashes.
 
 ## Completion

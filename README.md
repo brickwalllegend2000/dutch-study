@@ -1,15 +1,15 @@
 # Dutch study
 
-Your canonical Dutch study library. This repository is also an Obsidian vault: clone it once and open that same folder in Obsidian.
+Canonical Dutch study library on GitHub. Study and maintain it here first (browser, editor, Issues, PRs). An Obsidian export vault is **not** part of this repository right now.
 
 ## Start here
 
 **Open study home:** [journal/my-study-view.md](journal/my-study-view.md) — continue, practise writing or speaking, look things up, or log mistakes.
 
-**Understand the vault:** [docs/OVERVIEW.md](docs/OVERVIEW.md) — architecture, data flow, **wiki vs rest of vault**, **setup**, and live status.  
-**Next session:** [docs/HANDOFF.md](docs/HANDOFF.md). · **Desktop setup:** [docs/SETUP.md](docs/SETUP.md).
+**Understand the library:** [docs/OVERVIEW.md](docs/OVERVIEW.md) — architecture, data flow, wiki vs course, setup, and live status.  
+**Next session:** [docs/HANDOFF.md](docs/HANDOFF.md). · **Clone / Git setup:** [docs/SETUP.md](docs/SETUP.md).
 
-**Hosted on GitHub:** `brickwalllegend2000/dutch-study` is a **public** repository. Treat anything committed here as public. Course Moodle credentials must not be stored in this tree. Clone it and open the folder in Obsidian.
+**Hosted on GitHub:** `brickwalllegend2000/dutch-study` is a **public** repository. Treat anything committed here as public. Course Moodle credentials must not be stored in this tree.
 
 ### Learner links
 
@@ -54,7 +54,7 @@ Status snapshot: **520** vocabulary rows (**501** reviewed, **19** needs-review)
 
 Rules: [AGENTS.md](AGENTS.md). Suggested start:
 
-> Read AGENTS.md, docs/OVERVIEW.md, and docs/HANDOFF.md. Use this repository as the canonical Dutch study library. Search before answering, cite VOC- ids and paths, and defer the inbox class-notes capture unless asked to process it.
+> Read AGENTS.md, docs/OVERVIEW.md, and docs/HANDOFF.md. Use this repository as the canonical Dutch study library on GitHub. Search before answering, cite VOC- ids and paths, and defer the inbox class-notes capture unless asked to process it.
 
 ## Maintenance commands
 
@@ -69,4 +69,4 @@ python scripts/library.py validate
 python -m unittest discover -s tests -v
 ```
 
-On Windows, use `py` if needed. Obsidian study needs no Python.
+On Windows, use `py` if needed. Reading Markdown on GitHub needs no Python.

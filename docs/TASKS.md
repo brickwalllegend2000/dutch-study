@@ -11,7 +11,7 @@ Orientation: [OVERVIEW.md](OVERVIEW.md) · Next session: [HANDOFF.md](HANDOFF.md
 | #1 Archive referenced originals | Marked unavailable; see `sources/originals/UNAVAILABLE.md` |
 | #2 Vocabulary review | Closed via PR #17 |
 | #3 Grammar review | Closed via PR #19 |
-| #4 Obsidian sync cycle | Cloud checks done; desktop Obsidian remains optional |
+| #4 Sync cycle | Cloud checks done; Obsidian later removed — study is GitHub-first |
 | #5 First perfectum session | `journal/2026-10-23-perfectum-study-session.md` |
 
 Closed issues remain in GitHub’s closed filter. Deleting them needs admin `delete_issue` permission.

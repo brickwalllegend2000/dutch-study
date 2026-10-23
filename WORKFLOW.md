@@ -1,16 +1,16 @@
 # Ongoing workflow
 
-The process lives here. GitHub Issues hold tasks and their status. The local clone holds the study content; Obsidian edits those same files.
+The process lives here. GitHub Issues hold tasks and their status. The local clone (or GitHub web UI) holds the study content.
 
 ## Daily study
 
 1. In GitHub Desktop, fetch and pull before editing. Resolve any uncommitted changes before pulling.
-2. Open README in Obsidian; choose a chapter, vocabulary list or practice task.
-3. Make a study note in `journal/` using the Study Session template. Keep your answers and personal mistakes here rather than changing course facts.
+2. Open README or [study home](journal/my-study-view.md); choose a chapter, vocabulary list or practice task.
+3. Make a study note in `journal/` (copy [templates/Study-Session.md](templates/Study-Session.md) if useful). Keep your answers and personal mistakes here rather than changing course facts.
 4. Capture uncertain facts as a GitHub correction issue. Link the relevant word ID or grammar file.
 5. When finished, review changed files in GitHub Desktop, commit with a meaningful summary and push. Wait for a green Library checks run when changing canonical content.
 
-Obsidian saves locally; saving is not a GitHub push. Fetch/pull on the next device before editing. Use one device at a time for the same note.
+Saving a file locally is not a GitHub push. Fetch/pull on the next device before editing. Use one device at a time for the same note.
 
 ## New course material
 
@@ -36,7 +36,7 @@ Use one GitHub status label per open issue: `status:backlog`, `status:in-progres
 
 ## Weekly maintenance
 
-Triage the inbox, review open corrections, verify that changes have been pushed, and check Library checks. Git history records changes. Keep a separate periodic backup of the local vault, including source originals. GitHub stores committed files, not uncommitted or ignored local state.
+Triage the inbox, review open corrections, verify that changes have been pushed, and check Library checks. Git history records changes. Keep a separate periodic backup of the local clone, including source originals. GitHub stores committed files, not uncommitted or ignored local state.
 
 ## Conflict recovery
 

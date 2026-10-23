@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish this prepared vault to a PRIVATE GitHub repository using your gh login.
+"""Publish this prepared library to a PRIVATE GitHub repository using your gh login.
 
 Run: python scripts/publish_github.py
 Requires Git, GitHub CLI, and an authenticated account allowed to create/write the repo.
@@ -36,7 +36,7 @@ def ensure_repository(repo):
     result=command(['gh','repo','view',repo,'--json','nameWithOwner,isPrivate,isEmpty,url'],check=False)
     if result.returncode:
         # An access error is allowed to fail clearly; do not switch identity or make a public repo.
-        command(['gh','repo','create',repo,'--private','--description','Canonical Dutch study library and Obsidian vault'])
+        command(['gh','repo','create',repo,'--private','--description','Canonical Dutch study library'])
         metadata=gh_json(['repo','view',repo,'--json','nameWithOwner,isPrivate,isEmpty,url'])
     else: metadata=json.loads(result.stdout)
     matching=False
@@ -77,7 +77,7 @@ def prepare_git(repo):
         command(['git','config','--local','user.email',f'{profile["id"]}+{profile["login"]}@users.noreply.github.com'])
     command(['git','add','.'])
     if command(['git','diff','--cached','--quiet'],check=False).returncode:
-        command(['git','commit','-m','feat: configure canonical Dutch study library and Obsidian vault'])
+        command(['git','commit','-m','feat: configure canonical Dutch study library'])
     command(['git','push','-u','origin','main']) # Fast-forward only; never force.
 
 
@@ -143,7 +143,7 @@ def main():
         check_remote_urls(args.repo, command(['git','remote','get-url','origin']).stdout.strip(), command(['git','remote','get-url','--push','--all','origin']).stdout.splitlines())
         command(['git','push','origin','main'])
     print(json.dumps(report,indent=2))
-    print('Repository and tasks published. Open the clone folder as an existing vault in Obsidian. Check Actions for remote verification.')
+    print('Repository and tasks published. Browse the clone on GitHub or open Markdown locally. Check Actions for remote verification.')
     return 0
 
 if __name__=='__main__':

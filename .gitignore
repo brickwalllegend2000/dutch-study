@@ -1,11 +1,7 @@
-# Local application state and recoverable files
-.obsidian/workspace*.json
-.obsidian/cache/
-.obsidian/plugins/
-.obsidian/graph.json
-.trash/
+# Local / editor junk
 .DS_Store
 Thumbs.db
+.trash/
 __pycache__/
 *.py[cod]
 .venv/
@@ -13,6 +9,9 @@ __pycache__/
 .env.*
 !.env.example
 .superpowers/
+
+# Obsidian removed from this library (2026-10-23). Ignore if recreated locally.
+.obsidian/
 
 # Course agenda PDF embeds Moodle login instructions — keep out of the public tree.
 # Study-safe transcription: sources/pages/agenda-sept-okt-26.md

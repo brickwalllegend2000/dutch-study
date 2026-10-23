@@ -1,10 +1,10 @@
 # Wiki
 
-[Home](../README.md) · [Course](../course/README.md) · [Overview (wiki vs vault)](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-vault) · [Setup](../docs/SETUP.md)
+[Home](../README.md) · [Course](../course/README.md) · [Overview (wiki vs library)](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-library) · [Setup](../docs/SETUP.md)
 
 Reference material to look things up in while you work through the [course](../course/README.md).
 
-This folder is **part of the Git vault**, not GitHub’s separate Wiki product. The course is the study path; this wiki is the lookup layer. See [wiki versus the rest of the vault](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-vault).
+This folder is **part of the Git repository**, not GitHub’s separate Wiki product. The course is the study path; this wiki is the lookup layer. See [wiki versus the rest of the library](../docs/OVERVIEW.md#wiki-versus-the-rest-of-the-library).
 
 ## What’s here
 

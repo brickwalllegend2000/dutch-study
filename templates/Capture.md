@@ -1,10 +1,10 @@
 ---
 type: capture
-captured_on: "{{date:YYYY-MM-DD}}"
+captured_on: YYYY-MM-DD
 chapter:
 source_filename:
 ---
-# Capture — {{date:YYYY-MM-DD}}
+# Capture — YYYY-MM-DD
 
 ## Material
 
