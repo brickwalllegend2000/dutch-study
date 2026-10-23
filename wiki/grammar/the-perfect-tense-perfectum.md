@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 2](../../course/chapter-02.md) · [Chapter 3](../../course/chapter-03.md) · [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 6](../../course/chapter-06.md) · [Chapter 7](../../course/chapter-07.md) · [Chapter 8](../../course/chapter-08.md) — **Oral:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 5](../../course/oral/modeling-05.md) · [Modeling 6](../../course/oral/modeling-06.md) · [Modeling 7](../../course/oral/modeling-07.md)
 
+**Cheat sheet:** [Perfectum](../cheat-sheets/perfectum.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 6](../../course/review/chapter-06.md) · [Chapter 7](../../course/review/chapter-07.md) · [Chapter 8](../../course/review/chapter-08.md)
+
 *Perfectum*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

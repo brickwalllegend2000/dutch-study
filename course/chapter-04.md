@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · [← Chapter 3](chapter-03.md) · Chapter 4 · [Chapter 5 →](chapter-05.md)
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-04.md) · [Exercises](exercises/chapter-04.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc8161a272c77ca72ea0ae.md) · [Practice tests](exams/README.md)
+[Vocabulary](../wiki/vocabulary/CHAPTER-04.md) · [Exercises](exercises/chapter-04.md) · [Review sheet](review/chapter-04.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc8161a272c77ca72ea0ae.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** administrator, cursist en vrijetijdsbesteder. Coursebook p. 89. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -47,6 +47,8 @@ Maintained grammar notes:
 - [Joining sentences: want, en, maar and of](../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
 - [Negation: geen and niet](../wiki/grammar/negation-geen-and-niet.md)
 - [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
+
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) · [Word order](../wiki/cheat-sheets/word-order.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

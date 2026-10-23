@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · [← Chapter 1](chapter-01.md) · Chapter 2 · [Chapter 3 →](chapter-03.md)
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-02.md) · [Exercises](exercises/chapter-02.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc8113b4facf9a197eabed.md) · [Practice tests](exams/README.md)
+[Vocabulary](../wiki/vocabulary/CHAPTER-02.md) · [Exercises](exercises/chapter-02.md) · [Review sheet](review/chapter-02.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc8113b4facf9a197eabed.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** vrijetijdsbesteder. Coursebook p. 41. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -48,6 +48,8 @@ Maintained grammar notes:
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
 - [Word order: eerst, dan and daarna](../wiki/grammar/word-order-eerst-dan-and-daarna.md)
 - [Writing checklist](../wiki/grammar/writing-checklist.md)
+
+Cheat sheets: [Perfectum](../wiki/cheat-sheets/perfectum.md) · [Word order](../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../wiki/cheat-sheets/verb-plus-infinitive.md)
 
 ## Can-do goals (Dit kan ik!)
 

@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · [← Chapter 2](chapter-02.md) · Chapter 3 · [Chapter 4 →](chapter-04.md)
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-03.md) · [Exercises](exercises/chapter-03.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc815880d4fe91f60dbdfc.md) · [Practice tests](exams/README.md)
+[Vocabulary](../wiki/vocabulary/CHAPTER-03.md) · [Exercises](exercises/chapter-03.md) · [Review sheet](review/chapter-03.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc815880d4fe91f60dbdfc.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** administrator, consument en vrijetijdsbesteder. Coursebook p. 67. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -37,6 +37,8 @@ Maintained grammar notes:
 
 - [Modal verbs: can, must, may and want](../wiki/grammar/modal-verbs-can-must-may-and-want.md)
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
+
+Cheat sheets: [Verb + infinitive](../wiki/cheat-sheets/verb-plus-infinitive.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

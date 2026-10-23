@@ -2,6 +2,13 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Review sheets and cheat sheets (`claude/project-thread-3w918c`)
+
+- Added `course/review/` with a review sheet for each written chapter (1–8) and an index: key vocabulary copied from `vocabulary.csv` (grouped by category, linked to word pages, with auxiliary and participle for verbs), the grammar to know, a *Watch out* list derived from the course rules and writing tips, the *Dit kan ik!* goals and the course grammar that has no maintained note yet.
+- Added `wiki/cheat-sheets/` with five one-page grammar summaries (perfectum, verb + infinitive, word order, adjectives and comparisons, negation and *er*) and an index. They condense `wiki/grammar/` and, in places, the preserved master grammar reference and perfectum study notes.
+- Sheets add no facts; examples written for them (mostly the ✗ forms in *Watch out*) are marked † and unverified. Everything is needs-review.
+- Chapter guides link their review sheet and cheat sheets; grammar notes link their cheat sheet and chapter review sheets; the course, wiki, grammar and home indexes link both. `validate` now also reports orphan cheat sheets, and `search --all` searches them. `sources/` is unchanged.
+
 ## 2026-10-23 — Chapter exercises (`claude/project-thread-35p9h9`)
 
 - Added `course/exercises/` with one page per written chapter (1–8) and an index. Exercise wording, writing tips, adapted practice and answers come from the Notion chapter pages, read from the retrieval payloads in `sources/notion/` because the Markdown snapshots fold the Practice sections into a link label. Each page separates workbook wording from practice written for the study page and lists missing material; all content is unreviewed.

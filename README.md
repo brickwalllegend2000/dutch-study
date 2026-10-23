@@ -11,6 +11,7 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.
 - [Vocabulary](wiki/vocabulary/VOCABULARY.md) · [Perfectum study list](wiki/vocabulary/PERFECTUM-STUDY-LIST.md) · [All perfectum verbs](wiki/vocabulary/PERFECTUM.md) · [Irregular verbs](wiki/vocabulary/IRREGULAR-VERBS.md) · [Needs review](wiki/vocabulary/NEEDS-REVIEW.md).
 - [Grammar](wiki/grammar/README.md) · [Chapters](course/README.md) · [Practice tests](course/exams/README.md).
+- [Review sheets](course/review/README.md) per chapter · [Cheat sheets](wiki/cheat-sheets/README.md) per grammar topic.
 - [Study journal](journal/README.md) · [Inbox](inbox/README.md).
 - [Prepared project backlog](docs/TASKS.md) · [Publish to GitHub](docs/PUBLISH.md) · [Changelog](CHANGELOG.md).
 
@@ -18,8 +19,8 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 | Folder | Purpose |
 | --- | --- |
-| [course](course/README.md) | The course: written chapters 1-8, oral guides in `course/oral/`, practice tests and exams in `course/exams/`. |
-| [wiki](wiki/README.md) | Reference you look things up in: grammar topics and vocabulary lists (generated from the CSV). |
+| [course](course/README.md) | The course: written chapters 1-8, oral guides in `course/oral/`, exercises in `course/exercises/`, review sheets in `course/review/`, practice tests and exams in `course/exams/`. |
+| [wiki](wiki/README.md) | Reference you look things up in: grammar topics, grammar cheat sheets and vocabulary lists (generated from the CSV). |
 | [journal](journal/README.md) | Your own study notes. |
 | [inbox](inbox/README.md) | New material waiting to be processed. |
 | [sources](sources/README.md) | Preserved import evidence. Never reorganized. |
@@ -63,6 +64,6 @@ python scripts/library.py validate
 python -m unittest discover -s tests -v
 ```
 
-`search` looks up words in vocabulary.csv. `search --all` also searches the grammar notes, course chapters, oral guides, exams, your journal and the imported source pages, and lists each matching line under its file. Searches ignore upper and lower case.
+`search` looks up words in vocabulary.csv. `search --all` also searches the grammar notes and cheat sheets, course chapters, oral guides, exams, your journal and the imported source pages, and lists each matching line under its file. Searches ignore upper and lower case.
 
 On Windows, use `py` if `python` is unavailable. Reading and studying in Obsidian requires no Python installation.
