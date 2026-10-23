@@ -35,7 +35,7 @@ Can-do goals (*Dit kan ik!*, coursebook p. 88):
 - [ ] Ik kan begrijpen wat ik moet, mag en niet mag doen in instructies.
 - [ ] Ik kan de gepaste wenskaart kiezen.
 
-Practise with [exercise 1](../exercises/chapter-03.md) (no answers were supplied).
+Practise with [exercise 1](../exercises/chapter-03.md) (no answers were supplied) or the [instructions practice](../instructies-geven.md).
 
 ## Not in the library yet
 
