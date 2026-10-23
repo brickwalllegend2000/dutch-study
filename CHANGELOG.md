@@ -2,6 +2,13 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Close remaining starter issues (`cursor/close-remaining-issues-2c41`)
+
+- Issue #1: marked 41 Notion attachment refs (24 filenames) `unavailable` with reasons; added `sources/originals/UNAVAILABLE.md`.
+- Issue #3: grammar reviews already on main via PR #19 (all 14 topic notes `reviewed`).
+- Issue #4: cloud-side sync/link verification note; desktop Obsidian steps documented as optional user follow-up.
+- Issue #5: first perfectum study session note with 10 verbs and auxiliary checks.
+
 ## 2026-10-23 — Vocabulary review onto post-remediation main (`task/2-vocabulary-review`, PR #17)
 
 - Merged #17 after #18/#19: filled previously blank English meanings, resolved auxiliary variants, marked checked records reviewed (AI review notes; not teacher-certified).

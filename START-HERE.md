@@ -18,6 +18,6 @@ The vault is published at `brickwalllegend2000/dutch-study` and is **public** on
 
 See the live [current inventory](docs/INVENTORY.md) for counts. Historically the Notion migration started at 412 vocabulary records and 12 grammar topics; the vault now also includes oral Modeling guides, additional vocabulary from the oral import, archived oral screenshots, and a study-safe agenda transcription (original agenda PDF withheld because it contained Moodle login instructions). Imported material still needs linguistic review unless a note explicitly documents what was checked.
 
-41 Notion attachment references (24 distinct original filenames) remain reference-only. Separately, 26 oral textbook screenshots are archived with hashes. The manifest records both states.
+41 Notion attachment references (24 distinct original filenames) are recorded as **unavailable** (no downloadable bytes). Separately, 26 oral textbook screenshots are archived with hashes. See [UNAVAILABLE.md](sources/originals/UNAVAILABLE.md) and the [current inventory](docs/INVENTORY.md).
 
 [Open the library](README.md) · [Study home](journal/my-study-view.md) · [Daily workflow](WORKFLOW.md) · [Desktop setup](docs/SETUP.md) · [Prepared tasks](docs/TASKS.md)

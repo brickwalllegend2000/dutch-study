@@ -37,7 +37,16 @@ Use stable IDs such as `OCC-` plus 16 hexadecimal characters. A locator should i
 
 `sources/manifest.json` contains `pages` and `attachments` arrays. A page/source record requires `id`, `title`, `url`, `raw_path`, and `snapshot_path`; both local paths must exist. For new local originals, use a local path for url or document the external source URL. Use a stable ID such as `SRC-20261024-01`. Raw evidence may be a PDF, image, text file or exact retrieval payload. A snapshot is a readable Markdown transcription with page locators and uncertainty markings.
 
-When a binary original is actually added, record `local_path`, `sha256`, and `status: archived` on its attachment entry. Keep original filenames or document any renaming. `reference-only` means no local binary was retrieved. A source URL is a reference, not a backup.
+When a binary original is actually added, record `local_path`, `sha256`, and `status: archived` on its attachment entry. Keep original filenames or document any renaming. Attachment `status` values:
+
+| Status | Meaning |
+| --- | --- |
+| `archived` | Local binary present; SHA-256 recorded and checked by validate |
+| `reference-only` | Filename known from import; bytes not yet retrieved (temporary) |
+| `unavailable` | Confirmed not retrievable with current tools/exports; see `unavailable_reason` |
+| `withheld-public` | Binary intentionally omitted from the public tree |
+
+A source URL is a reference, not a backup.
 
 ## Grammar and study notes
 
