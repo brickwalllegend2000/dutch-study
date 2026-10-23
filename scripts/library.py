@@ -150,14 +150,28 @@ def validate_rows(rows, source_ids):
     return errors
 
 
+def _cell(value):
+    return value.replace('|','\\|').replace('\n','<br>')
+
+
+def listing(selected, columns=('dutch','english','review_status')):
+    """Build a Markdown table; dutch links to the word note. Verb study lists pass auxiliary/participle."""
+    headers={'dutch':'Dutch','english':'English','review_status':'Review','auxiliary':'Auxiliary','participle':'Participle'}
+    result=['| '+' | '.join(headers[c] for c in columns)+' |','| '+' | '.join(['---']*len(columns))+' |']
+    for r in selected:
+        cells=[]
+        for c in columns:
+            if c=='dutch':
+                cells.append(f"[{_cell(r['dutch'])}](words/{r['id']}.md)")
+            else:
+                cells.append(_cell(r.get(c,'')))
+        result.append('| '+' | '.join(cells)+' |')
+    return '\n'.join(result)+'\n'
+
+
 def rendered(root=ROOT):
     rows=read_rows(root); pages={}; index=['# Vocabulary','', '> Generated from [vocabulary.csv](../../vocabulary.csv). Edit the CSV, then run `python scripts/library.py build`.','']
-    def listing(selected):
-        result=['| Dutch | English | Review |','| --- | --- | --- |']
-        for r in selected:
-            dutch=r['dutch'].replace('|','\\|').replace('\n','<br>'); english=r['english'].replace('|','\\|').replace('\n','<br>')
-            result.append(f"| [{dutch}](words/{r['id']}.md) | {english} | {r['review_status']} |")
-        return '\n'.join(result)+'\n'
+    verb_cols=('dutch','english','auxiliary','participle','review_status')
     for r in rows:
         lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', '> Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).','']
         for field in FIELDS[2:12]:
@@ -166,9 +180,9 @@ def rendered(root=ROOT):
         lines+=['', 'Original source occurrences: [provenance ledger](../../../sources/vocabulary-occurrences.json).', '', '[All vocabulary](../VOCABULARY.md) · [Home](../../../README.md)','']
         pages[f"{VIEWS}/words/{r['id']}.md"]='\n'.join(lines)
     pages[f'{VIEWS}/VOCABULARY.md']='\n'.join(index)+listing(rows)
-    pages[f'{VIEWS}/PERFECTUM.md']='# Perfectum verbs\n\n> Generated; auxiliary variants retain source context. Review the source occurrences before generalizing.\n\n'+listing([r for r in rows if r['participle']])
-    pages[f'{VIEWS}/IRREGULAR-VERBS.md']='# Irregular verbs\n\n'+listing([r for r in rows if 'Irregular verbs' in r['categories'].split(';')])
-    pages[f'{VIEWS}/PERFECTUM-STUDY-LIST.md']='# Perfectum study list — 80 verbs\n\n[Source transcription and usage notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md)\n\n'+listing([r for r in rows if 'Perfectum study list' in r['categories'].split(';')])
+    pages[f'{VIEWS}/PERFECTUM.md']='# Perfectum verbs\n\n> Generated; auxiliary variants retain source context. Review the source occurrences before generalizing.\n\n'+listing([r for r in rows if r['participle']], verb_cols)
+    pages[f'{VIEWS}/IRREGULAR-VERBS.md']='# Irregular verbs\n\n'+listing([r for r in rows if 'Irregular verbs' in r['categories'].split(';')], verb_cols)
+    pages[f'{VIEWS}/PERFECTUM-STUDY-LIST.md']='# Perfectum study list — 80 verbs\n\n[Source transcription and usage notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md)\n\n'+listing([r for r in rows if 'Perfectum study list' in r['categories'].split(';')], verb_cols)
     pages[f'{VIEWS}/NEEDS-REVIEW.md']='# Vocabulary needing review\n\n'+listing([r for r in rows if r['review_status']=='needs-review'])
     for n in range(1,9):
         pages[f'{VIEWS}/CHAPTER-{n:02}.md']=f'# Chapter {n} vocabulary\n\n[Chapter {n} guide](../../course/chapter-{n:02}.md) · [All vocabulary](VOCABULARY.md)\n\n'+listing([r for r in rows if str(n) in r['chapters'].split(';')])
@@ -185,13 +199,67 @@ def build(root=ROOT):
     return len(expected)
 
 
+def _csv_width_errors(root):
+    """Reject rows whose cell count does not match the header (DictReader would silently drop extras)."""
+    errors=[]; path=root/'vocabulary.csv'
+    with path.open(encoding='utf-8',newline='') as f:
+        reader=csv.reader(f); header=next(reader,None)
+        if header!=FIELDS: return [f'vocabulary.csv schema differs from documented FIELDS']
+        for n,row in enumerate(reader,2):
+            if len(row)!=len(FIELDS):
+                errors.append(f'row {n}: expected {len(FIELDS)} cells, found {len(row)}')
+    return errors
+
+
+def _grammar_frontmatter_errors(root):
+    """Check maintained grammar notes for review_status and known source_ids when present."""
+    errors=[]; manifest=json.loads((root/'sources/manifest.json').read_text(encoding='utf-8'))
+    known={s['id'] for s in manifest['pages']}
+    for path in sorted((root/'wiki/grammar').glob('*.md')):
+        if path.name=='README.md': continue
+        text=path.read_text(encoding='utf-8')
+        if not text.startswith('---'):
+            errors.append(f'{path.relative_to(root)}: missing YAML frontmatter'); continue
+        end=text.find('\n---',3)
+        if end<0:
+            errors.append(f'{path.relative_to(root)}: unclosed YAML frontmatter'); continue
+        meta={}
+        for line in text[3:end].splitlines():
+            if ':' in line:
+                key,val=line.split(':',1); meta[key.strip()]=val.strip().strip('"').strip("'")
+        status=meta.get('review_status','')
+        if status not in ('needs-review','reviewed'):
+            errors.append(f'{path.relative_to(root)}: invalid review_status {status!r}')
+        if status=='reviewed' and not re.fullmatch(r'\d{4}-\d{2}-\d{2}',meta.get('reviewed_on','')):
+            errors.append(f'{path.relative_to(root)}: reviewed_on required when reviewed')
+        raw_sources=meta.get('source_ids','')
+        if raw_sources:
+            # Accept YAML list form ["id", "id"] or semicolon-separated ids.
+            for sid in re.findall(r'[A-Za-z0-9][A-Za-z0-9._-]{5,}', raw_sources):
+                if sid not in known:
+                    errors.append(f'{path.relative_to(root)}: unknown source {sid}')
+    return errors
+
+
+def _archived_format_ok(path):
+    """True when an archived original matches a known binary signature (rejects symlink-as-text checkouts)."""
+    data=path.read_bytes()[:8]
+    name=path.name.casefold()
+    if name.endswith('.pdf'): return data.startswith(b'%PDF')
+    if name.endswith('.png'): return data.startswith(b'\x89PNG\r\n\x1a\n')
+    if name.endswith(('.jpg','.jpeg')): return data.startswith(b'\xff\xd8\xff')
+    return True
+
+
 def validate(root=ROOT):
     try: rows=read_rows(root)
     except (ValueError,OSError) as e: return [str(e)]
-    manifest=json.loads((root/'sources/manifest.json').read_text())
+    errors=_csv_width_errors(root)
+    if errors: return errors
+    manifest=json.loads((root/'sources/manifest.json').read_text(encoding='utf-8'))
     known={s['id'] for s in manifest['pages']}
     errors=validate_rows(rows,known)
-    occurrences=json.loads((root/'sources/vocabulary-occurrences.json').read_text())
+    occurrences=json.loads((root/'sources/vocabulary-occurrences.json').read_text(encoding='utf-8'))
     occurrence_map={o['occurrence_id']:o for o in occurrences}
     if len(occurrence_map)!=len(occurrences): errors.append('duplicate occurrence IDs')
     for row in rows:
@@ -219,9 +287,18 @@ def validate(root=ROOT):
             errors.append(f'archived attachment missing: {attachment.get("name")}')
         elif hashlib.sha256(path.read_bytes()).hexdigest() != attachment.get('sha256'):
             errors.append(f'archived attachment hash mismatch: {local_path}')
-    for name,body in rendered(root).items():
+        elif not _archived_format_ok(path):
+            errors.append(f'archived attachment unexpected format: {local_path}')
+    expected=rendered(root)
+    for name,body in expected.items():
         p=root/name
         if not p.is_file() or p.read_text(encoding='utf-8')!=body: errors.append(f'stale generated file: {name}')
+    expected_paths=set(expected)
+    for p in (root/VIEWS).rglob('*.md'):
+        rel=p.relative_to(root).as_posix()
+        if rel not in expected_paths:
+            errors.append(f'unexpected generated file: {rel}')
+    errors.extend(_grammar_frontmatter_errors(root))
     linked=set()
     for p in root.rglob('*.md'):
         if any(x.startswith('.') for x in p.relative_to(root).parts): continue
@@ -238,7 +315,8 @@ def validate(root=ROOT):
     return errors
 
 
-TEXT_DIRS = ['wiki/grammar','wiki/cheat-sheets','course','journal','sources/pages']
+TEXT_DIRS = ['wiki/grammar','wiki/cheat-sheets','course','journal','inbox']
+SOURCE_DIRS = ['sources/pages']
 
 
 def search_text(query, root=ROOT, dirs=TEXT_DIRS):
@@ -255,7 +333,8 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['build','validate','search'])
     parser.add_argument('query',nargs='?',default='')
-    parser.add_argument('--all',action='store_true',help='search: also search grammar, cheat sheets, course, journal and source pages')
+    parser.add_argument('--all',action='store_true',help='search: also search grammar, cheat sheets, course, journal and inbox (maintained/personal)')
+    parser.add_argument('--sources',action='store_true',help='search: also search source snapshots (implies --all folders plus sources/pages)')
     args=parser.parse_args()
     if args.command=='build': print(f'Generated {build()} reading views')
     elif args.command=='validate':
@@ -265,13 +344,15 @@ def main():
     else:
         needle=normalized(args.query)
         if not needle: parser.error('search requires a query')
-        if args.all: print('== Vocabulary ==')
+        if args.all or args.sources: print('== Vocabulary ==')
         for row in read_rows():
             if needle in normalized(' '.join(row.values())):
                 print(f"{row['id']}\t{row['dutch']}\t{row['english']}\t{VIEWS}/words/{row['id']}.md")
-        if args.all:
+        if args.all or args.sources:
+            dirs=list(TEXT_DIRS)
+            if args.sources: dirs=dirs+SOURCE_DIRS
             current=None
-            for path,number,line in search_text(args.query):
+            for path,number,line in search_text(args.query, dirs=dirs):
                 if path!=current:
                     print(f'\n== {path} =='); current=path
                 print(f'{number}: {line}')
