@@ -14,11 +14,12 @@ No community plugins or Python are required just to study.
 
 | Doc | Purpose |
 | --- | --- |
-| [docs/OVERVIEW.md](docs/OVERVIEW.md) | Architecture diagrams, ownership, **status** |
+| [docs/OVERVIEW.md](docs/OVERVIEW.md) | Architecture, data flow, **wiki vs vault**, **setup**, status |
 | [docs/HANDOFF.md](docs/HANDOFF.md) | What the last session left for the next |
 | [docs/INVENTORY.md](docs/INVENTORY.md) | Refreshable counts |
 | [WORKFLOW.md](WORKFLOW.md) | Capture → process → review → push |
 | [docs/SETUP.md](docs/SETUP.md) | GitHub Desktop + sync |
+| [wiki/README.md](wiki/README.md) | Grammar / vocab / cheat sheets (not GitHub Wiki) |
 
 ## GitHub
 

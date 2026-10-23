@@ -6,8 +6,8 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 **Open study home:** [journal/my-study-view.md](journal/my-study-view.md) — continue, practise writing or speaking, look things up, or log mistakes.
 
-**Understand the vault:** [docs/OVERVIEW.md](docs/OVERVIEW.md) — architecture diagrams, ownership rules, and **live status**.  
-**Next session:** [docs/HANDOFF.md](docs/HANDOFF.md).
+**Understand the vault:** [docs/OVERVIEW.md](docs/OVERVIEW.md) — architecture, data flow, **wiki vs rest of vault**, **setup**, and live status.  
+**Next session:** [docs/HANDOFF.md](docs/HANDOFF.md). · **Desktop setup:** [docs/SETUP.md](docs/SETUP.md).
 
 **Hosted on GitHub:** `brickwalllegend2000/dutch-study` is a **public** repository. Treat anything committed here as public. Course Moodle credentials must not be stored in this tree. Clone it and open the folder in Obsidian.
 

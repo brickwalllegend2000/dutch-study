@@ -171,6 +171,132 @@ flowchart LR
 
 ---
 
+## Wiki versus the rest of the vault
+
+`wiki/` is a **folder inside this Git repository**. It is **not** the GitHub Wiki feature (that remote wiki is unused / disabled). Links like `wiki/grammar/…` always mean paths in the clone you open in Obsidian or on GitHub’s file browser.
+
+### What each top-level area is for
+
+```mermaid
+flowchart LR
+  subgraph learn["Study path"]
+    HOME["journal/ study home"]
+    COURSE["course/ chapters · oral · exams"]
+    WIKI["wiki/ reference lookup"]
+  end
+  subgraph facts["Shared facts"]
+    CSV["vocabulary.csv"]
+    GRAM["wiki/grammar/"]
+  end
+  subgraph views["Derived / summary"]
+    WV["wiki/vocabulary/ generated"]
+    CS["wiki/cheat-sheets/"]
+    RV["course/review/"]
+  end
+  subgraph not_canon["Not canonical library"]
+    SRC["sources/ evidence"]
+    IN["inbox/ deferred"]
+    J2["journal/ personal errors"]
+  end
+  HOME --> COURSE
+  HOME --> WIKI
+  COURSE --> CSV
+  COURSE --> GRAM
+  CSV --> WV
+  GRAM --> CS
+  CSV --> CS
+  GRAM --> RV
+  CSV --> RV
+  SRC -.->|supports| CSV
+  IN -.->|later| SRC
+```
+
+| Area | Role relative to `wiki/` | Edit rule |
+| --- | --- | --- |
+| **`wiki/grammar/`** | Canonical **explanations** (maintained Markdown) | Edit here; cite sources in frontmatter |
+| **`wiki/vocabulary/`** | **Reading views** of the lexicon | Never hand-edit — change `vocabulary.csv`, run `build` |
+| **`wiki/cheat-sheets/`** | Compact **summaries** of grammar/CSV | Update when those change; no new facts; † for constructed examples |
+| **`course/`** | **Study order**, exercises, oral guides, exams, chapter review sheets | Narrative + practice; links into wiki for lookup |
+| **`sources/`** | **Evidence** behind facts | Append / preserve; do not rewrite snapshots to match CSV |
+| **`journal/`** | **Personal** study home and session logs | Mistakes stay here unless a shared fact is wrong |
+| **`inbox/`** | Unprocessed or **deferred** captures | Not library content until imported via Issue → source → CSV |
+| **`docs/`**, **`scripts/`**, **`.obsidian/`** | Orientation, automation, Obsidian core config | Setup and agent rules — not study material |
+
+### Course vs wiki (how to choose)
+
+| Need | Open |
+| --- | --- |
+| “What do I study next?” / exercises / oral dialogues | [course/](../course/README.md) |
+| “How does perfectum / word order / *er* work?” | [wiki/grammar/](../wiki/grammar/README.md) |
+| “What does this word mean / which chapter?” | [wiki/vocabulary/](../wiki/vocabulary/VOCABULARY.md) (or search CSV) |
+| “Quick exam checklist” | [cheat sheets](../wiki/cheat-sheets/README.md) + [exam prep](../course/exams/exam-preparation.md) |
+| “What did the textbook / Notion page actually say?” | [sources/pages/](../sources/README.md) |
+
+**Rule of thumb:** course = path through the material; wiki = lookup while on that path. Both can link to the same VOC-/GRAM- facts; only CSV and `wiki/grammar/` are authoritative for those facts.
+
+### Inside `wiki/` (maintained vs generated)
+
+| Path | Kind | Source of truth |
+| --- | --- | --- |
+| `wiki/grammar/*.md` | Maintained | The note itself |
+| `wiki/cheat-sheets/*.md` | Hand-written summary | Must track CSV + grammar |
+| `wiki/vocabulary/**` | Generated | `vocabulary.csv` via `library.py build` |
+| `wiki/README.md` | Index | Points at the above |
+
+Regenerated vocabulary lists (all words, by chapter, perfectum, irregular, needs-review, per-word notes) are committed so Obsidian and GitHub show them without running Python. After any CSV change, commit the regenerated tree with the CSV edit.
+
+---
+
+## Set up information
+
+Full desktop steps: [SETUP.md](SETUP.md). First-open checklist: [START-HERE.md](../START-HERE.md).
+
+### What “set up” means here
+
+```mermaid
+flowchart TD
+  A["Clone repo once"] --> B["Open that folder as Obsidian vault"]
+  B --> C["Study: Markdown only"]
+  C --> D["Git pull / commit / push"]
+  D --> C
+  E["Optional: Python 3.11+"] -.->|build / validate / search| F["Maintainers and agents"]
+```
+
+| Goal | Requirement |
+| --- | --- |
+| Read and study | Git clone + Obsidian “Open folder as vault” on the clone root (keep `.obsidian/`) |
+| Sync across machines | **Git only** (GitHub Desktop or CLI). Do not also use Obsidian Sync / Dropbox / OneDrive / iCloud on the same folder |
+| Log a session | Create/edit under `journal/`; Templates core plugin is preconfigured |
+| Correct shared vocabulary | Issue or PR that edits `vocabulary.csv` (+ `build`); Obsidian is not a CSV editor |
+| Run library checks | Python 3.11+ stdlib only — not needed for ordinary study |
+
+### What you do **not** need
+
+- Community Obsidian plugins (restricted mode is fine)
+- GitHub Wiki (the `wiki/` folder is enough)
+- A hosted search index (`library.py search` or Obsidian Ctrl/Cmd+Shift+F)
+- Python, just to open notes and follow the course
+- Cloud Agent access for personal study (agents are optional for library maintenance)
+
+### Cloud vs desktop
+
+| Place | Can do | Cannot do for you |
+| --- | --- | --- |
+| This GitHub / cloud agent workspace | Edit CSV/grammar/docs, build, validate, open PRs | Click through your local Obsidian UI or prove Sync works on your laptop |
+| Your computer | Obsidian browsing, journal notes, GitHub Desktop pull/push | Assume the agent sees unpushed local edits |
+
+Issue #4 (Obsidian sync) was closed after documenting this split: automation verifies repo config and links; the human confirms the desktop open-folder cycle once.
+
+### After clone — first five minutes
+
+1. `git pull` (or GitHub Desktop Fetch + Pull).
+2. Obsidian → Open folder as vault → select the `dutch-study` root.
+3. Open [journal/my-study-view.md](../journal/my-study-view.md).
+4. Use wiki links from the course when you need a definition or grammar note.
+5. Commit journal changes; leave `wiki/vocabulary/` alone unless you ran `build` after a CSV edit.
+
+---
+
 ## How to study (short loop)
 
 ```mermaid
@@ -268,5 +394,7 @@ On Windows use `py` if needed. Obsidian study needs no Python.
 | [DATA-SCHEMA.md](DATA-SCHEMA.md) | Adding vocabulary or sources |
 | [MIGRATION.md](MIGRATION.md) | Historical Notion import baseline only |
 | [VERIFICATION.md](VERIFICATION.md) | What automated checks do and do not prove |
-| [SETUP.md](SETUP.md) | Desktop Obsidian + Git |
+| [SETUP.md](SETUP.md) | Desktop Obsidian + Git (clone, open folder, Git-only sync) |
+| [START-HERE.md](../START-HERE.md) | First-open checklist |
+| [wiki/README.md](../wiki/README.md) | Wiki index (grammar / generated vocab / cheat sheets) |
 | [AGENTS.md](../AGENTS.md) | Rules for automated edits |
