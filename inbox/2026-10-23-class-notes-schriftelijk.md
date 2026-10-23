@@ -1,10 +1,14 @@
 ---
 type: capture
 captured_on: "2026-10-23"
+status: deferred
+deferred_on: "2026-10-23"
 chapter:
 source_filename:
 ---
 # Capture — 2026-10-23
+
+> **Deferred.** Do not process into canonical course or vocabulary until explicitly requested. Learner spelling/grammar mistakes are preserved on purpose.
 
 ## Material
 

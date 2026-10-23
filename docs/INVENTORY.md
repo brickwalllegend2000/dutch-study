@@ -1,8 +1,8 @@
 # Current inventory
 
-Generated for maintenance truthfulness. Prefer these figures over historical counts in [MIGRATION.md](MIGRATION.md) or [START-HERE.md](../START-HERE.md).
+Generated for maintenance truthfulness. Prefer these figures over historical counts in [MIGRATION.md](MIGRATION.md) or [START-HERE.md](../START-HERE.md). Orientation and diagrams: [OVERVIEW.md](OVERVIEW.md).
 
-**As of:** 2026-10-23 (post-review remediation on branch work). Re-run the commands below after substantial imports.
+**As of:** 2026-10-23 (post starter-issue closure and overview handoff). Re-run the commands below after substantial imports.
 
 ## How to refresh
 
@@ -28,17 +28,20 @@ PY
 python scripts/library.py validate
 ```
 
-## Snapshot (2026-10-23 remediation)
+## Snapshot (2026-10-23)
 
 | Item | Count | Notes |
 | --- | --- | --- |
 | Vocabulary records | 520 | Canonical: `vocabulary.csv` |
-| Reviewed / needs-review | 108 / 412 | `reviewed` is not proof of textbook-page fidelity for oral-enriched items |
+| Reviewed / needs-review | 501 / 19 | 19 remaining needs-review carry `[added]` English |
+| Blank English | 0 | Every row has a gloss |
 | Source occurrences | 911 | `sources/vocabulary-occurrences.json` |
 | Manifest sources | 43 | Includes oral grouping + redacted agenda source |
 | Attachments | 68 | 26 archived oral PNGs; 41 unavailable Notion originals (24 filenames); 1 withheld agenda PDF |
-| Grammar topic notes | 14 | Plus `wiki/grammar/README.md` |
+| Grammar topic notes | 14 | All marked reviewed (AI/course-snapshot) |
 | Generated vocabulary views | 533 | Rebuild with `python scripts/library.py build` |
+| Open GitHub Issues | 0 | Starters closed; see [TASKS.md](TASKS.md) |
+| Deferred inbox | 1 | Class notes — not for canonical import yet |
 
 ## Source coverage labels
 

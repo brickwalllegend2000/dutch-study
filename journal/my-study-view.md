@@ -31,7 +31,7 @@ Start here for a short session. Canonical course facts live in `course/` and `wi
 - [Course agenda (study-safe)](../sources/pages/agenda-sept-okt-26.md) — calendar transcription; Moodle credentials omitted
 - [Perfectum study list](../wiki/vocabulary/PERFECTUM-STUDY-LIST.md) — Dutch, meaning, auxiliary, participle
 - [Needs review vocabulary](../wiki/vocabulary/NEEDS-REVIEW.md)
-- [Current inventory](../docs/INVENTORY.md)
+- [Overview & status](../docs/OVERVIEW.md) · [Inventory](../docs/INVENTORY.md) · [Handoff](../docs/HANDOFF.md)
 
 ## Practice log
 
