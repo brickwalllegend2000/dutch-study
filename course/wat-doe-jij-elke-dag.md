@@ -1,8 +1,8 @@
-# What do you do every day? — A1/A2 study notes
+# What do you do every day? — Chapter 2 practice
 
-[Home](../README.md) · [Chapters](README.md)
+[Home](../README.md) · [Chapters](README.md) · [Chapter 2](chapter-02.md) · [Chapter 2 exercises](exercises/chapter-02.md)
 
-Start here: describe your usual day in the present tense. Then change three sentences to yesterday and tomorrow.
+Practice for Chapter 2 grammar: present, perfectum, gaan + infinitive, and word order. Describe a usual day, then change sentences to yesterday and tomorrow.
 
 ## Daily-routine vocabulary
 
@@ -132,6 +132,6 @@ Write six sentences about a normal day. Include one exact time, one frequency wo
 
 **Two-minute practice:** say “Ik sta om … op”, “Gisteren ben ik om … opgestaan” and “Morgen ga ik om … opstaan” aloud.
 
-Related: [Instructies geven](instructies-geven.md)
+See also [Chapter 3: Giving instructions](instructies-geven.md).
 
 *Note: Original source photo preserved in Notion; transcription pending.*
