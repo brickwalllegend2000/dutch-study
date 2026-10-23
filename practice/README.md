@@ -11,7 +11,6 @@
 - [✉️ C1 Email the hotel](c1-email-the-hotel.md)
 - [📅 C2 Change the reservation](c2-change-the-reservation.md)
 - [🏋️ C3 Warm-up drills](c3-warm-up-drills.md)
-- [🧩 Combined projects](combined-projects.md)
 - [🏠 Project A: We've moved](project-a-we-ve-moved.md)
 - [🧥 Project B: A day out that went wrong](project-b-a-day-out-that-went-wrong.md)
 - [🏖️ Project C: Booking a weekend at the coast](project-c-booking-a-weekend-at-the-coast.md)

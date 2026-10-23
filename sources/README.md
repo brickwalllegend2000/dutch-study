@@ -50,7 +50,6 @@ These are preserved snapshots, not maintained canonical explanations. Their raw 
 | Database views | [Read](pages/401f89e5e0fc81bbabdccd6816483f61.md) | [JSON](notion/401f89e5e0fc81bbabdccd6816483f61.json) |
 | Modal verbs: can, must, may and want | [Read](pages/401f89e5e0fc81bbb2f1f615a447293f.md) | [JSON](notion/401f89e5e0fc81bbb2f1f615a447293f.json) |
 | Word order: eerst, dan and daarna | [Read](pages/401f89e5e0fc81c68ac9ed0f2909da1c.md) | [JSON](notion/401f89e5e0fc81c68ac9ed0f2909da1c.json) |
-| 🧩 Combined projects | [Read](pages/401f89e5e0fc81c787f4cf27dc5cb151.md) | [JSON](notion/401f89e5e0fc81c787f4cf27dc5cb151.json) |
 | 🛋️ A2 My favourite room | [Read](pages/401f89e5e0fc81cfbc00c7b871d6adce.md) | [JSON](notion/401f89e5e0fc81cfbc00c7b871d6adce.json) |
 | Adjective endings: with or without -e | [Read](pages/401f89e5e0fc81d3bb4ac35f44245e4f.md) | [JSON](notion/401f89e5e0fc81d3bb4ac35f44245e4f.json) |
 | Using zal | [Read](pages/401f89e5e0fc81ebabb5f108d18fde5e.md) | [JSON](notion/401f89e5e0fc81ebabb5f108d18fde5e.json) |
