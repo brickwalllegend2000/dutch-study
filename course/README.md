@@ -7,8 +7,8 @@ The course has two tracks. Work through both for each topic: the written track t
 ## Schriftelijk — lezen en schrijven (chapters 1–8)
 
 - [Chapter 1: Who is who?](chapter-01.md)
-- [Chapter 2: Did you have a good city trip?](chapter-02.md)
-- [Chapter 3: What should I do?](chapter-03.md)
+- [Chapter 2: Did you have a good city trip?](chapter-02.md) · [daily routines practice](wat-doe-jij-elke-dag.md)
+- [Chapter 3: What should I do?](chapter-03.md) · [instructions practice](instructies-geven.md)
 - [Chapter 4: What is the apartment like?](chapter-04.md)
 - [Chapter 5: My favourite room](chapter-05.md)
 - [Chapter 6: Have you read my message?](chapter-06.md)
@@ -24,11 +24,6 @@ The course has two tracks. Work through both for each topic: the written track t
 - [Modeling 5: Waar moet ik de lamp zetten?](oral/modeling-05.md)
 - [Modeling 6: Kan ik de afspraak verzetten?](oral/modeling-06.md)
 - [Modeling 7: Mijn soep is koud!](oral/modeling-07.md)
-
-## Additional study notes
-
-- [What do you do every day?](wat-doe-jij-elke-dag.md) — daily routines, present/perfectum/future practice
-- [Giving instructions](instructies-geven.md) — modals, imperatives, permission and obligation
 
 ## Exercises
 
