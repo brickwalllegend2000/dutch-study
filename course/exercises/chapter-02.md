@@ -1,6 +1,6 @@
 # Chapter 2 exercises: Did you have a good city trip?
 
-[Home](../../README.md) · [Exercises](README.md) · [Chapter 2 guide](../chapter-02.md) · [← Chapter 1 exercises](chapter-01.md) · [Chapter 3 exercises →](chapter-03.md)
+[Home](../../README.md) · [Exercises](README.md) · [Chapter 2 guide](../chapter-02.md) · [Daily routines practice](../wat-doe-jij-elke-dag.md) · [← Chapter 1 exercises](chapter-01.md) · [Chapter 3 exercises →](chapter-03.md)
 
 > Imported from the Notion chapter page *2. Did you have a good city trip?* ([source snapshot](../../sources/pages/401f89e5e0fc8113b4facf9a197eabed.md)). Workbook wording is transcribed from photos; the adapted practice was written for the study page. Neither has been reviewed.
 
@@ -46,6 +46,10 @@ e. Schrijf je tekst.
 *Written for the study page from the chapter's words and examples because the Oostende photo is incomplete; not from the workbook.*
 
 Write a short message with four sentences: first a museum visit, then shopping, then eating mussels, and a plan to go shopping tomorrow. Use **eerst, daarna, dan, morgen**.
+
+## Daily routines practice
+
+See [What do you do every day?](../wat-doe-jij-elke-dag.md) for vocabulary, model answers and fill-in practice on present, perfectum and future. Complete sections A and B there after the adapted practice above.
 
 ## Answers
 
