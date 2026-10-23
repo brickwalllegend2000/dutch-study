@@ -1,6 +1,6 @@
 # Chapter 3 exercises: What should I do?
 
-[Home](../../README.md) · [Exercises](README.md) · [Chapter 3 guide](../chapter-03.md) · [← Chapter 2 exercises](chapter-02.md) · [Chapter 4 exercises →](chapter-04.md)
+[Home](../../README.md) · [Exercises](README.md) · [Chapter 3 guide](../chapter-03.md) · [Instructions practice](../instructies-geven.md) · [← Chapter 2 exercises](chapter-02.md) · [Chapter 4 exercises →](chapter-04.md)
 
 > Imported from the Notion chapter page *3. What should I do?* ([source snapshot](../../sources/pages/401f89e5e0fc815880d4fe91f60dbdfc.md)). Exercise wording and photo descriptions are transcribed from the workbook photos and have not been reviewed.
 
@@ -51,6 +51,10 @@ The 18 photo situations, as described in the study page:
 | p | Eten en drinken verboden – Het is verboden om te eten en te drinken in het klaslokaal!!! |
 | q | Ramen sluiten voor vertrek |
 | r | Picknicken toegelaten! |
+
+## Instructions practice
+
+See [Giving instructions](../instructies-geven.md) for modal meanings, imperatives, model texts and fill-in practice. Complete sections A and B there after the workbook exercise above.
 
 ## Missing material
 
