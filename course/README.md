@@ -1,6 +1,6 @@
 # Chapters
 
-[Home](../README.md)
+[Home](../README.md) · [Wiki](../wiki/README.md) · [Practice tests](exams/README.md)
 
 The course has two tracks. Work through both for each topic: the written track trains reading and writing, the oral track trains listening and speaking. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -24,6 +24,11 @@ The course has two tracks. Work through both for each topic: the written track t
 - [Modeling 5: Waar moet ik de lamp zetten?](oral/modeling-05.md)
 - [Modeling 6: Kan ik de afspraak verzetten?](oral/modeling-06.md)
 - [Modeling 7: Mijn soep is koud!](oral/modeling-07.md)
+
+## Practice tests and exams
+
+- [Zo gezegd 1.2 practice test](exams/zo-gezegd-1-2-practice-test.md): mock exam covering reading, writing, listening, speaking, vocabulary and grammar.
+- [Practice tests](exams/practice-tests.md): extra exercises, the CVO writing test and Schrijven A2 material.
 
 ## Pairing by topic
 

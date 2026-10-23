@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc816d805cfde890611e5e.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc816d805cfde890611e5e.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) — **Oral:** [Modeling 5](../../course/oral/modeling-05.md)
 
 *Er als voorlopig subject*
 

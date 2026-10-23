@@ -1,5 +1,7 @@
 # Chapter 7 vocabulary
 
+[Chapter 7 guide](../../course/chapter-07.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [beschrijving](words/VOC-63167e34096f.md) | description | needs-review |

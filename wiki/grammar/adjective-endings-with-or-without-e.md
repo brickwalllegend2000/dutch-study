@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc81d3bb4ac35f44245e4f.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc81d3bb4ac35f44245e4f.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 7](../../course/chapter-07.md) — **Oral:** [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 5](../../course/oral/modeling-05.md)
 
 *Adjectief: met of zonder -e*
 

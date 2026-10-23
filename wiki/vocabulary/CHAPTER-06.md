@@ -1,5 +1,7 @@
 # Chapter 6 vocabulary
 
+[Chapter 6 guide](../../course/chapter-06.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [annuleren](words/VOC-3e81c0991b7b.md) | to cancel | needs-review |

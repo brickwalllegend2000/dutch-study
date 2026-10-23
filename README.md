@@ -6,12 +6,13 @@ Your canonical Dutch study library. This repository is also an Obsidian vault: c
 
 **Hosted on GitHub:** this vault now lives in the private repository `brickwalllegend2000/dutch-study`. Clone it and open the folder in Obsidian. Starter tasks and labels exist as GitHub Issues; milestones and the optional Project board are not created yet, see [publishing instructions](docs/PUBLISH.md).
 
+- [What was imported](START-HERE.md) — first-run notes and import summary.
 - [First-time setup](docs/SETUP.md) — GitHub Desktop, Obsidian and synchronization.
 - [Daily workflow](WORKFLOW.md) — capture, process, review and save.
 - [Vocabulary](wiki/vocabulary/VOCABULARY.md) · [Perfectum study list](wiki/vocabulary/PERFECTUM-STUDY-LIST.md) · [All perfectum verbs](wiki/vocabulary/PERFECTUM.md) · [Irregular verbs](wiki/vocabulary/IRREGULAR-VERBS.md) · [Needs review](wiki/vocabulary/NEEDS-REVIEW.md).
 - [Grammar](wiki/grammar/README.md) · [Chapters](course/README.md) · [Practice tests](course/exams/README.md).
 - [Study journal](journal/README.md) · [Inbox](inbox/README.md).
-- [Prepared project backlog](docs/TASKS.md) · [Publish to GitHub](docs/PUBLISH.md).
+- [Prepared project backlog](docs/TASKS.md) · [Publish to GitHub](docs/PUBLISH.md) · [Changelog](CHANGELOG.md).
 
 ## Layout
 
@@ -40,7 +41,7 @@ Imported material is marked **needs-review**. Migration checks establish extract
 
 ## Use an agent
 
-Give the agent repository access or a local checkout, then say:
+Agent rules are in [AGENTS.md](AGENTS.md). Give the agent repository access or a local checkout, then say:
 
 > Read AGENTS.md and WORKFLOW.md. Use this repository as the canonical Dutch study library. Search the relevant files before answering, cite record IDs and file paths, and distinguish imported material from reviewed facts.
 

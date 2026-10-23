@@ -1,5 +1,7 @@
 # Chapter 4 vocabulary
 
+[Chapter 4 guide](../../course/chapter-04.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [appartement](words/VOC-dc2015ab66f9.md) | apartment, flat | needs-review |

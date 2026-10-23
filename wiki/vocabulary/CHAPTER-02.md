@@ -1,5 +1,7 @@
 # Chapter 2 vocabulary
 
+[Chapter 2 guide](../../course/chapter-02.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [activiteit](words/VOC-47069dadee3f.md) | activity | needs-review |
