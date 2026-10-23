@@ -13,6 +13,8 @@ review_status: needs-review
 
 **Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 6](../../course/review/chapter-06.md)
 
+**Practice:** [Giving instructions (Chapter 3)](../../course/instructies-geven.md)
+
 *Modale verba + infinitief*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)
