@@ -2,6 +2,26 @@
 
 [Vocabulary](../views/CHAPTER-06.md) · [Exercises and preserved chapter text](../sources/pages/401f89e5e0fc8123a771c4658330b3eb.md) · [Home](../README.md)
 
+**Track:** schriftelijk — lezen en schrijven. **Profile:** administrator, consument, cursist, opvoeder, vrijetijdsbesteder en werkende. Coursebook p. 139. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
+
+## Skills and tasks (lezen / schrijven)
+
+- Informatie in e-mails en berichten begrijpen — lezen
+- E-mails en berichten schrijven om informatie te geven en/of te vragen — schrijven
+- België beter bekeken: Schrijven of typen? — lezen
+
+## Vocabulary topics
+
+- Woordenschat in verband met de taalhandelingen van het deel
+
+## Spelling
+
+- Enkele en dubbele klinkers en medeklinkers
+
+## Oral counterpart
+
+Suggested listening and speaking themes (pairing by topic, not stated in the course): [Modeling 6](modeling-06.md).
+
 ## Grammar
 
 - [Modal verbs: can, must, may and want](../grammar/modal-verbs-can-must-may-and-want.md)
