@@ -179,7 +179,7 @@ scripts/library.py        # path constants + link depths
 
 | Risk | Mitigation |
 | --- | --- |
-| Broken relative links / orphan pages after grammar move | `validate` link + orphan checks; rewrite course/wiki/journal/docs links in the same commit as `git mv` |
+| Broken relative links / orphan pages after grammar move | `validate` link + orphan checks; rewrite inbound *and* grammar-outbound wiki peer links (`../cheat-sheets`, `../vocabulary` → `../wiki/...`) in the same commit as `git mv` |
 | Generated views still point at old `../../vocabulary.csv` depth | Regenerate via `build`; assert fixture paths in tests |
 | Stacking on unmerged #25 | KTD5 — base on merged `main` or rebase first |
 | Agents keep editing root `vocabulary.csv` | AGENTS.md + OVERVIEW + README path table; optional stub note only if needed (prefer clean move, no stub file) |
@@ -239,10 +239,11 @@ scripts/library.py        # path constants + link depths
 - **Files:** `data/vocabulary.csv`, `data/grammar/**`, `wiki/grammar/` (removed), root `vocabulary.csv` (removed), maintained Markdown under `course/`, `wiki/`, `journal/`, `docs/`, `README.md`, `AGENTS.md`, `WORKFLOW.md`, `START-HERE.md`, link targets in `sources/pages/**` as needed, `scripts/import_notion.py` (refuse path only), regenerated `wiki/vocabulary/**`
 - **Approach:**
   1. `git mv vocabulary.csv data/vocabulary.csv`; `git mv wiki/grammar data/grammar`.
-  2. Rewrite relative links to the new paths (course → `../data/grammar/...`, wiki README, journal, docs).
-  3. Run `python scripts/library.py build` and commit regenerated views with corrected CSV link depths.
-  4. Update orphan validation globs already pointed at `data/grammar` in U2.
-  5. Adjust `import_notion.py` existence check to `data/vocabulary.csv` only; do not re-run import.
+  2. Rewrite inbound links (course, journal, docs, wiki README, cheat-sheets) from `wiki/grammar/` to `data/grammar/` (from `wiki/cheat-sheets/` that is typically `../../data/grammar/...`).
+  3. Rewrite outbound links *inside* moved grammar notes: same-depth peers under `wiki/` were `../cheat-sheets/` and `../vocabulary/` — after the move those must become `../wiki/cheat-sheets/` and `../wiki/vocabulary/`. Links to `../../course/`, `../../sources/`, and `../../README.md` keep the same depth (`data/grammar` is still one level under repo root).
+  4. Run `python scripts/library.py build` and commit regenerated views with corrected CSV link depths (`../../data/vocabulary.csv` from list pages; `../../../data/vocabulary.csv` from `words/`).
+  5. Update orphan validation globs already pointed at `data/grammar` in U2.
+  6. Adjust `import_notion.py` existence check to `data/vocabulary.csv` only; do not re-run import.
 - **Patterns to follow:** CHANGELOG migration that rewrote links when moving into `wiki/`.
 - **Test scenarios:**
   - Happy path: full-tree `validate` returns `[]` / exit 0 after move + build.
