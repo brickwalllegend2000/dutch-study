@@ -14,6 +14,8 @@ import unicodedata
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
+DATA_CSV = 'data/vocabulary.csv'
+GRAMMAR_DIR = 'data/grammar'
 VIEWS = 'wiki/vocabulary'
 FIELDS = ['id','dutch','english','article','word_type','forms','auxiliary','participle','examples','chapters','categories','notes','source_ids','occurrence_ids','review_status','reviewed_on']
 
@@ -126,9 +128,9 @@ def to_markdown(text, mapping, current_path):
 
 
 def read_rows(root=ROOT):
-    with (root/'vocabulary.csv').open(encoding='utf-8',newline='') as f:
+    with (root/DATA_CSV).open(encoding='utf-8',newline='') as f:
         reader=csv.DictReader(f)
-        if reader.fieldnames!=FIELDS: raise ValueError('vocabulary.csv schema differs from documented FIELDS')
+        if reader.fieldnames!=FIELDS: raise ValueError(f'{DATA_CSV} schema differs from documented FIELDS')
         return list(reader)
 
 
@@ -170,10 +172,10 @@ def listing(selected, columns=('dutch','english','review_status')):
 
 
 def rendered(root=ROOT):
-    rows=read_rows(root); pages={}; index=['# Vocabulary','', '> Generated from [vocabulary.csv](../../vocabulary.csv). Edit the CSV, then run `python scripts/library.py build`.','']
+    rows=read_rows(root); pages={}; index=['# Vocabulary','', f'> Generated from [vocabulary.csv](../../{DATA_CSV}). Edit the CSV, then run `python scripts/library.py build`.','']
     verb_cols=('dutch','english','auxiliary','participle','review_status')
     for r in rows:
-        lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', '> Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).','']
+        lines=['---',f"id: {r['id']}",f"title: {json.dumps(r['dutch'],ensure_ascii=False)}",'generated: true',f"review_status: {r['review_status']}",'---',f"# {r['dutch']}",'', f'> Generated reading view. Edit the matching row in [vocabulary.csv](../../../{DATA_CSV}).','']
         for field in FIELDS[2:12]:
             if r[field]: lines += ['## '+field.replace('_',' ').title(),'',r[field],'']
         lines+=['## Sources','']+[f'- [{sid}](../../../sources/pages/{sid}.md)' for sid in r['source_ids'].split(';')]
@@ -201,10 +203,10 @@ def build(root=ROOT):
 
 def _csv_width_errors(root):
     """Reject rows whose cell count does not match the header (DictReader would silently drop extras)."""
-    errors=[]; path=root/'vocabulary.csv'
+    errors=[]; path=root/DATA_CSV
     with path.open(encoding='utf-8',newline='') as f:
         reader=csv.reader(f); header=next(reader,None)
-        if header!=FIELDS: return [f'vocabulary.csv schema differs from documented FIELDS']
+        if header!=FIELDS: return [f'{DATA_CSV} schema differs from documented FIELDS']
         for n,row in enumerate(reader,2):
             if len(row)!=len(FIELDS):
                 errors.append(f'row {n}: expected {len(FIELDS)} cells, found {len(row)}')
@@ -215,7 +217,7 @@ def _grammar_frontmatter_errors(root):
     """Check maintained grammar notes for review_status and known source_ids when present."""
     errors=[]; manifest=json.loads((root/'sources/manifest.json').read_text(encoding='utf-8'))
     known={s['id'] for s in manifest['pages']}
-    for path in sorted((root/'wiki/grammar').glob('*.md')):
+    for path in sorted((root/GRAMMAR_DIR).glob('*.md')):
         if path.name=='README.md': continue
         text=path.read_text(encoding='utf-8')
         if not text.startswith('---'):
@@ -310,12 +312,12 @@ def validate(root=ROOT):
             if target and not (p.parent/target).exists(): errors.append(f'{p.relative_to(root)}: broken link {target}')
             elif target and (p.parent/target).resolve()!=p.resolve(): linked.add((p.parent/target).resolve())
     # Hand-maintained course, grammar and cheat-sheet pages must be reachable from another page.
-    for p in sorted([*root.glob('course/**/*.md'),*root.glob('wiki/grammar/*.md'),*root.glob('wiki/cheat-sheets/*.md')]):
+    for p in sorted([*root.glob('course/**/*.md'),*root.glob(f'{GRAMMAR_DIR}/*.md'),*root.glob('wiki/cheat-sheets/*.md')]):
         if p.resolve() not in linked: errors.append(f'{p.relative_to(root)}: orphan page (no other page links to it)')
     return errors
 
 
-TEXT_DIRS = ['wiki/grammar','wiki/cheat-sheets','course','journal','inbox']
+TEXT_DIRS = [GRAMMAR_DIR,'wiki/cheat-sheets','course','journal','inbox']
 SOURCE_DIRS = ['sources/pages']
 
 
