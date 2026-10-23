@@ -2,6 +2,10 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Data architecture and information flow (`cursor/data-architecture-flow-2c41`)
+
+- Expanded `docs/OVERVIEW.md` with entity model (ER), write/read paths, consolidation rules, and provenance audit steps. Links from handoff.
+
 ## 2026-10-23 — Overview, status, handoff; defer inbox (`cursor/overview-status-handoff-2c41`)
 
 - Added `docs/OVERVIEW.md` (architecture mermaid diagrams, ownership, live status) and `docs/HANDOFF.md` for the next session.
