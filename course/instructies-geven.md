@@ -19,6 +19,22 @@ Learn the difference between **moeten**, **mogen** and **kunnen**, then practise
 
 **Do not confuse:** “Je mag niet komen” means you are not allowed to come. “Je hoeft niet te komen” means coming is not necessary. Matches the wiki distinction between prohibition (*niet mogen*) and lack of necessity.
 
+### Examples from the course (wiki grammar + chapter 3 exercises)
+
+- Mijn dochter kan zwemmen. — ability
+- Je kan je oude kleding in een zak op straat zetten. — possibility
+- Maria krijgt bezoek. Ze moet boodschappen doen. — necessity
+- Het licht is rood, je moet stoppen. — obligation
+- Het licht is groen, je mag oversteken. — permission
+- Je mag hier niet parkeren. — prohibition
+- Maria wil naar het buurtfeest gaan. — wish
+- Let op! Helm dragen verplicht! → Je moet een helm dragen.
+- Verboden te parkeren → Je mag hier niet parkeren.
+- Picknicken toegelaten! → Je mag hier picknicken.
+- Eten en drinken verboden → Je mag niet eten in de klas.
+- Ramen sluiten voor vertrek → Je moet de ramen sluiten voor je vertrekt.
+- Wil je onze school bezoeken? Maak dan een afspraak. Bel naar 09 123 45 67.
+
 ### Word order
 
 The conjugated modal verb is in the second position; the infinitive goes at the end. See [modal verbs](../wiki/grammar/modal-verbs-can-must-may-and-want.md).
