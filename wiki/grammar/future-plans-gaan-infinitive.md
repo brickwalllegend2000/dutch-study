@@ -13,6 +13,8 @@ review_status: needs-review
 
 **Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
 
+**Practice:** [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md)
+
 *Gaan + infinitief*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)
