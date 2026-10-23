@@ -16,3 +16,4 @@
 - [🧥 Project B: A day out that went wrong](project-b-a-day-out-that-went-wrong.md)
 - [🏖️ Project C: Booking a weekend at the coast](project-c-booking-a-weekend-at-the-coast.md)
 - [📝 Zo gezegd 1.2 — Practice Test](zo-gezegd-1-2-practice-test.md)
+- [Practice tests: extra exercises, CVO writing test and Schrijven A2 material](practice-tests.md)
