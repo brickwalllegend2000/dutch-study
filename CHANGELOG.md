@@ -7,6 +7,14 @@ Dated record of merged changes to the library, newest first. Each entry names th
 - `python scripts/library.py search --all TERM` searches vocabulary plus the Markdown in `wiki/grammar/`, `course/`, `journal/` and `sources/pages/`, printing matching lines grouped by file. Plain `search` is unchanged (vocabulary only).
 - Piping search output into another command (for example `head`) no longer prints a BrokenPipeError.
 
+## 2026-10-23 — Internal links and chapter homepages (`claude/project-thread-bb64in`)
+
+- Chapter guides 1–8 now list the course's own grammar points from the table of contents (as the oral guides already did) above the maintained grammar notes, and add the missing notes: perfectum (chapters 1, 3, 4, 5, 6, 8) and modal verbs (chapter 2, *kunnen + infinitief*). Chapters 1–6 gain their *Dit kan ik!* can-do goals; chapters 7–8 say none were imported.
+- Previous/next navigation and a Chapters link on every chapter and oral guide; links to the journal, study-session template and practice tests.
+- Each grammar topic links back to the chapters and oral guides that use it, and the grammar index lists them. Generated chapter vocabulary pages link back to their chapter guide.
+- `course/README.md` lists the practice tests; README links START-HERE, AGENTS and the changelog.
+- `python scripts/library.py validate` now also fails when a page in `course/` or `wiki/grammar/` has no inbound link.
+
 ## 2026-10-23 — Course and wiki layout (`claude/project-thread-c3lipk`)
 
 - Moved `chapters/` to `course/` (oral guides in `course/oral/`), `practice/` to `course/exams/`, `grammar/` and `views/` to `wiki/grammar/` and `wiki/vocabulary/`, and `study/` to `journal/`, with `git mv` so history follows. Added `wiki/README.md` and a layout table in the README.

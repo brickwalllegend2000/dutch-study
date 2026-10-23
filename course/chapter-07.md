@@ -1,6 +1,8 @@
 # Chapter 7: I’ve forgotten my umbrella!
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-07.md) · [Exercises and preserved chapter text](../sources/pages/401f89e5e0fc81ecaa69c24bbe4cfc39.md) · [Home](../README.md)
+[Home](../README.md) · [Chapters](README.md) · [← Chapter 6](chapter-06.md) · Chapter 7 · [Chapter 8 →](chapter-08.md)
+
+[Vocabulary](../wiki/vocabulary/CHAPTER-07.md) · [Exercises and preserved chapter text](../sources/pages/401f89e5e0fc81ecaa69c24bbe4cfc39.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** administrator en vrijetijdsbesteder. Coursebook p. 173. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -26,13 +28,26 @@ No oral theme is paired with this chapter.
 
 ## Grammar
 
+Course grammar (from the table of contents):
+
+- Adjectief met of zonder **-e**
+- Pluralis van regelmatige substantieven
+- Presens van separabele verba
+- Perfectum
+
+Maintained grammar notes:
+
 - [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
+
+## Can-do goals (Dit kan ik!)
+
+The imported material has no *Dit kan ik!* self-evaluation for this chapter.
 
 ## Study session
 
 1. Review vocabulary and choose five terms.
 2. Read the linked grammar topic.
 3. Complete an exercise from the preserved chapter text.
-4. Save your attempt in `journal/` using the study-session template.
+4. Save your attempt in the [journal](../journal/README.md) using the [study-session template](../templates/Study-Session.md).
 5. Open a correction issue for uncertain material.

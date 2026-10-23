@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc8187919ec0ded3bbae0e.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc8187919ec0ded3bbae0e.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 4](../../course/chapter-04.md) — **Oral:** [Modeling 2](../../course/oral/modeling-02.md)
 
 *Negatie: geen / niet*
 

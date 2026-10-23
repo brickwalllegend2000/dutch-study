@@ -1,5 +1,7 @@
 # Chapter 1 vocabulary
 
+[Chapter 1 guide](../../course/chapter-01.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [beige](words/VOC-b4f0534e651a.md) | beige | needs-review |

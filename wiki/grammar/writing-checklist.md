@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc812a9f40e476f71d211b.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc812a9f40e476f71d211b.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 2](../../course/chapter-02.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 6](../../course/chapter-06.md)
 
 *Stappenplan schrijven*
 

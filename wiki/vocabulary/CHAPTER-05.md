@@ -1,5 +1,7 @@
 # Chapter 5 vocabulary
 
+[Chapter 5 guide](../../course/chapter-05.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [(staande) lamp](words/VOC-ac283c97687c.md) | (floor) lamp ⟐ (standard) lamp | needs-review |

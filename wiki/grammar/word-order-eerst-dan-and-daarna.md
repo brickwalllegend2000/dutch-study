@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc81c68ac9ed0f2909da1c.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc81c68ac9ed0f2909da1c.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 2](../../course/chapter-02.md)
 
 *Inversie: eerst, dan, daarna*
 
