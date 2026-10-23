@@ -19,6 +19,7 @@ print('needs-review',sum(1 for r in rows if r['review_status']=='needs-review'))
 print('manifest pages',len(m['pages']))
 print('attachments',len(m['attachments']))
 print('archived',sum(1 for a in m['attachments'] if a.get('status')=='archived'))
+print('unavailable',sum(1 for a in m['attachments'] if a.get('status')=='unavailable'))
 print('reference-only',sum(1 for a in m['attachments'] if a.get('status')=='reference-only'))
 print('withheld-public',sum(1 for a in m['attachments'] if a.get('status')=='withheld-public'))
 print('occurrences',len(occ))
@@ -35,7 +36,7 @@ python scripts/library.py validate
 | Reviewed / needs-review | 108 / 412 | `reviewed` is not proof of textbook-page fidelity for oral-enriched items |
 | Source occurrences | 911 | `sources/vocabulary-occurrences.json` |
 | Manifest sources | 43 | Includes oral grouping + redacted agenda source |
-| Attachments | 68 | 26 archived oral PNGs; 41 reference-only Notion originals; 1 withheld agenda PDF |
+| Attachments | 68 | 26 archived oral PNGs; 41 unavailable Notion originals (24 filenames); 1 withheld agenda PDF |
 | Grammar topic notes | 14 | Plus `wiki/grammar/README.md` |
 | Generated vocabulary views | 533 | Rebuild with `python scripts/library.py build` |
 
@@ -44,7 +45,8 @@ python scripts/library.py validate
 | Status | Meaning |
 | --- | --- |
 | archived | Local binary present; SHA-256 recorded and checked |
-| reference-only | Filename known; bytes not in this vault |
+| reference-only | Filename known; bytes not yet retrieved (temporary import state) |
+| unavailable | Confirmed not retrievable; listed in `sources/originals/UNAVAILABLE.md` |
 | withheld-public | Binary intentionally omitted from the public tree (agenda credentials) |
 | redacted-public | Study transcription without sensitive values |
 | provisional / enriched snapshot | Readable text mixes transcription and editorial additions |

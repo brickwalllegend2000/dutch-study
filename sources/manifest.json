@@ -445,288 +445,370 @@
       "source_id": "401f89e5e0fc8113b4facf9a197eabed",
       "name": "BetterShot_2026-10-22-05-36-30.png",
       "reference": "notion-file-block://5ec6a6e1-4fd6-4221-8391-a0cdc34a1aec/f7574a0a-a06b-4edd-b2b9-50a8f0f79f6e?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-36-30.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8113b4facf9a197eabed",
       "name": "BetterShot_2026-10-22-05-36-40.png",
       "reference": "notion-file-block://55df13a7-b933-4cdf-b9eb-2f16a0c2e406/065f18fd-7d1d-44e3-b132-69854b5e599f?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-36-40.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8113b4facf9a197eabed",
       "name": "BetterShot_2026-10-22-05-36-46.png",
       "reference": "notion-file-block://064e57c5-a3e7-48ae-9557-63fa32952a31/969745bd-ca1b-497c-8655-45a0ff0a3364?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-36-46.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8136967bea7232a7e938",
       "name": "BetterShot_2026-10-22-04-43-37.png",
       "reference": "notion-file-block://5df013f8-35f2-4859-931f-27bf147d1157/d668600e-4eb6-4f99-a15d-205a9affd625?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-04-43-37.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8136967bea7232a7e938",
       "name": "BetterShot_2026-10-22-04-44-21.png",
       "reference": "notion-file-block://5eaeb85c-768a-4c20-91ab-063322a94d8d/5891eb67-85de-40e2-aff4-e107e4295ef5?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-04-44-21.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-34-38.png",
       "reference": "notion-file-block://c9df89e5-e0fc-82e5-9fa0-817fc43f1e9f/33c4c88f-d146-47ab-a689-4aa5e970cd06?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-38.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-34-29.png",
       "reference": "notion-file-block://572f89e5-e0fc-828b-912f-81461542b332/573eac7e-6c52-4652-ab16-ce76b8911ab9?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-29.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-34-34.png",
       "reference": "notion-file-block://fbcf89e5-e0fc-832c-92a0-8143cd4e01cb/c4ef271b-8a20-44aa-9701-e4d5ca422817?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-34.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-34-25.png",
       "reference": "notion-file-block://e12f89e5-e0fc-835f-bb1f-01f163bde089/4da70af2-c50a-4633-b7c7-3d10b9f71290?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-25.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-36-30.png",
       "reference": "notion-file-block://600f89e5-e0fc-8321-a4a1-018ff37df40b/f7574a0a-a06b-4edd-b2b9-50a8f0f79f6e?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-36-30.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-36-40.png",
       "reference": "notion-file-block://88cf89e5-e0fc-82a6-8cbd-01c926b212cb/065f18fd-7d1d-44e3-b132-69854b5e599f?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-36-40.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-36-46.png",
       "reference": "notion-file-block://926f89e5-e0fc-8287-b7d2-01dcb5d303db/969745bd-ca1b-497c-8655-45a0ff0a3364?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-36-46.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-37-24.png",
       "reference": "notion-file-block://b54f89e5-e0fc-8318-9180-81f686735631/1bd09816-c22c-4b55-aff5-d25f992474ff?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-37-24.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-37-37.png",
       "reference": "notion-file-block://444f89e5-e0fc-8314-bc29-8168d63373f0/832ce856-7543-44b9-8a7d-fc53d9373428?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-37-37.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-38-18.png",
       "reference": "notion-file-block://754f89e5-e0fc-8336-af25-8193d0abd967/62a6c279-10b9-4bdc-8613-4c83f53a7f54?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-38-18.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-38-26.png",
       "reference": "notion-file-block://9b3f89e5-e0fc-834c-a732-01fcf54139ee/7b660343-de8f-456b-82e2-f48075754644?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-38-26.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-39-24.png",
       "reference": "notion-file-block://a29f89e5-e0fc-835f-95f6-0167e7bffa1f/7452c197-bd8e-4541-b421-0993bad4b66e?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-24.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-39-14.png",
       "reference": "notion-file-block://439f89e5-e0fc-8328-b550-01413b3c9dc5/ab2fbef4-16ff-4248-a888-6412d0b7fdc9?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-14.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-39-03.png",
       "reference": "notion-file-block://f9ff89e5-e0fc-832c-938d-818fa8dc1255/76e2fbb3-f65a-4b8e-92e6-9fadd9d399f1?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-03.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-05-39-07.png",
       "reference": "notion-file-block://c18f89e5-e0fc-8232-b4ba-8158434aa0dd/913a9ec6-4e33-4259-88f7-b01c38d29f62?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-07.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-04-43-37.png",
       "reference": "notion-file-block://3aff89e5-e0fc-830b-8dec-01a9344b6bdb/d668600e-4eb6-4f99-a15d-205a9affd625?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-04-43-37.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8154aee9df0d5f933c33",
       "name": "BetterShot_2026-10-22-04-44-21.png",
       "reference": "notion-file-block://6e6f89e5-e0fc-82d5-a95e-01a17a6f1c5d/5891eb67-85de-40e2-aff4-e107e4295ef5?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-04-44-21.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc815880d4fe91f60dbdfc",
       "name": "BetterShot_2026-10-22-05-37-24.png",
       "reference": "notion-file-block://0d6d9b6d-e792-449c-8898-0779469a0104/1bd09816-c22c-4b55-aff5-d25f992474ff?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-37-24.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc815880d4fe91f60dbdfc",
       "name": "BetterShot_2026-10-22-05-37-37.png",
       "reference": "notion-file-block://c3a5c8fc-d456-48e9-8c4b-48fbeadc9152/832ce856-7543-44b9-8a7d-fc53d9373428?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-37-37.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8161a272c77ca72ea0ae",
       "name": "BetterShot_2026-10-22-05-38-18.png",
       "reference": "notion-file-block://4c11adae-c140-4388-b85e-16e5c6fa9439/62a6c279-10b9-4bdc-8613-4c83f53a7f54?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-38-18.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc8161a272c77ca72ea0ae",
       "name": "BetterShot_2026-10-22-05-38-26.png",
       "reference": "notion-file-block://9bf9a8fd-4b07-4b0e-9470-2f1b15c6d89e/7b660343-de8f-456b-82e2-f48075754644?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-38-26.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81b1a557e81e5e3f1e64",
       "name": "BetterShot_2026-10-22-05-39-24.png",
       "reference": "notion-file-block://65d467a0-0e06-4faa-8a8e-1e69727587f5/7452c197-bd8e-4541-b421-0993bad4b66e?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-24.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81b1a557e81e5e3f1e64",
       "name": "BetterShot_2026-10-22-05-39-14.png",
       "reference": "notion-file-block://cd7f8e80-eedb-4d4a-80b0-200851c0a008/ab2fbef4-16ff-4248-a888-6412d0b7fdc9?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-14.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81b1a557e81e5e3f1e64",
       "name": "BetterShot_2026-10-22-05-39-03.png",
       "reference": "notion-file-block://747738d7-6294-49ac-a70b-3f814f624d70/76e2fbb3-f65a-4b8e-92e6-9fadd9d399f1?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-03.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81b1a557e81e5e3f1e64",
       "name": "BetterShot_2026-10-22-05-39-07.png",
       "reference": "notion-file-block://933ea29f-014f-4fc0-888c-5b6c1b503a37/913a9ec6-4e33-4259-88f7-b01c38d29f62?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-39-07.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81f595c3f15218f426c8",
       "name": "BetterShot_2026-10-22-05-34-38.png",
       "reference": "notion-file-block://3dbcbc29-a4af-490a-b4c7-f38602613c3f/33c4c88f-d146-47ab-a689-4aa5e970cd06?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-38.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81f595c3f15218f426c8",
       "name": "BetterShot_2026-10-22-05-34-29.png",
       "reference": "notion-file-block://0d0c0cf2-4fc0-4744-8cb4-1b78ce001641/573eac7e-6c52-4652-ab16-ce76b8911ab9?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-29.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81f595c3f15218f426c8",
       "name": "BetterShot_2026-10-22-05-34-34.png",
       "reference": "notion-file-block://82f99678-c11a-4792-8dce-ddc70b937641/c4ef271b-8a20-44aa-9701-e4d5ca422817?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-34.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc81f595c3f15218f426c8",
       "name": "BetterShot_2026-10-22-05-34-25.png",
       "reference": "notion-file-block://3d8cbc04-ac64-4dac-8b9a-189b09e1ec0d/4da70af2-c50a-4633-b7c7-3d10b9f71290?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-22-05-34-25.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80f29352c76d2b8204b7",
       "name": "IMG_1279.jpg",
       "reference": "Cited in perfectum source record",
-      "status": "reference-only",
-      "reason": "Original photo bytes are not attached to the fetched task page."
+      "status": "unavailable",
+      "reason": "Original photo bytes are not attached to the fetched task page.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Original photo bytes are not attached to the fetched task page. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80f29352c76d2b8204b7",
       "name": "IMG_1280.jpeg",
       "reference": "Cited in perfectum source record",
-      "status": "reference-only",
-      "reason": "Original photo bytes are not attached to the fetched task page."
+      "status": "unavailable",
+      "reason": "Original photo bytes are not attached to the fetched task page.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Original photo bytes are not attached to the fetched task page. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80f29352c76d2b8204b7",
       "name": "IMG_524C65CB-D2F7-437A-85E8-12C901727869.jpeg",
       "reference": "Cited in perfectum source record",
-      "status": "reference-only",
-      "reason": "Original photo bytes are not attached to the fetched task page."
+      "status": "unavailable",
+      "reason": "Original photo bytes are not attached to the fetched task page.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Original photo bytes are not attached to the fetched task page. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80f29352c76d2b8204b7",
       "name": "IMG_A1AE6AA3-BC8A-4DB2-936E-13D56B700D6F.jpeg",
       "reference": "Cited in perfectum source record",
-      "status": "reference-only",
-      "reason": "Original photo bytes are not attached to the fetched task page."
+      "status": "unavailable",
+      "reason": "Original photo bytes are not attached to the fetched task page.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Original photo bytes are not attached to the fetched task page. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80d68f96f8ba4fa251d8",
       "name": "BetterShot_2026-10-23-00-14-15.png",
       "reference": "notion-file-block://401f89e5-e0fc-8017-b622-f794aff93e33/75bacd11-63b4-413d-bae0-77fcca367e33?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-15.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80d68f96f8ba4fa251d8",
       "name": "BetterShot_2026-10-23-00-14-18.png",
       "reference": "notion-file-block://401f89e5-e0fc-8058-960d-eb140a57fa2b/7bf8f188-7607-4f73-9d4c-91b8cce0560e?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-18.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "401f89e5e0fc80d68f96f8ba4fa251d8",
       "name": "BetterShot_2026-10-23-00-14-20.png",
       "reference": "notion-file-block://401f89e5-e0fc-804d-aab4-c8dcdcd97c24/056a2b0e-1d46-4eb4-91f4-4da432a418f3?space_id=16ef89e5-e0fc-8132-9ed2-00035f027dcd&name=BetterShot_2026-10-23-00-14-20.png",
-      "status": "reference-only",
-      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs."
+      "status": "unavailable",
+      "reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs.",
+      "unavailable_on": "2026-10-23",
+      "unavailable_reason": "Notion fetch returned notion-file-block URIs, not downloadable binary URLs. Confirmed unavailable for archival in this vault on 2026-10-23: no local export was supplied and notion-file-block URIs are not downloadable. Transcriptions in sources/pages remain the study evidence; uncertainty markers retained."
     },
     {
       "source_id": "SRC-ZG12M-20261023",
