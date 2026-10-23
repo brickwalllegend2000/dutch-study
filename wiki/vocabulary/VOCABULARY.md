@@ -1,6 +1,6 @@
 # Vocabulary
 
-> Generated from [vocabulary.csv](../../vocabulary.csv). Edit the CSV, then run `python scripts/library.py build`.
+> Generated from [vocabulary.csv](../../data/vocabulary.csv). Edit the CSV, then run `python scripts/library.py build`.
 | Dutch | English | Review |
 | --- | --- | --- |
 | [(staande) lamp](words/VOC-ac283c97687c.md) | (floor) lamp ⟐ (standard) lamp | reviewed |

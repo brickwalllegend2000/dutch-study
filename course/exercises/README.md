@@ -4,7 +4,7 @@
 
 Exercises, tasks and writing instructions for the written chapters, extracted from the Notion chapter pages (preserved in `sources/`). Each page keeps the Dutch workbook wording, marks practice that was written for the study page rather than taken from the workbook, and lists what is missing. Nothing here has been reviewed yet.
 
-For every writing task, use the [writing checklist](../../wiki/grammar/writing-checklist.md) (*Stappenplan schrijven*) and save your attempt in the [journal](../../journal/README.md).
+For every writing task, use the [writing checklist](../../data/grammar/writing-checklist.md) (*Stappenplan schrijven*) and save your attempt in the [journal](../../journal/README.md).
 
 | Chapter | Workbook exercises | Adapted practice | Answers | Missing |
 | --- | --- | --- | --- | --- |

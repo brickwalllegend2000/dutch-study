@@ -17,14 +17,14 @@ Full list with forms and sources: [chapter 6 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **omdat:** the conjugated verb goes to the end of the *omdat* clause. *Ik kan niet naar de les komen, omdat ik hoofdpijn heb.* With two verbs, keep them together at the end: *Ik kan morgen niet komen, omdat ik moet werken.* — [Omdat](../../wiki/grammar/because-omdat-and-subordinate-clauses.md)
-- **want vs omdat:** *Ik kan niet komen, want ik heb hoofdpijn.* / *Ik kan niet komen, omdat ik hoofdpijn heb.* — [Joining sentences](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
-- **zal / zullen + infinitive** for a promise or future action: ik zal, jij/u zal or zult, wij zullen. *Dat zal ik doen! Ik zal wat later zijn.* — [Using zal](../../wiki/grammar/using-zal.md)
-- **Modal verbs** for asking and telling: *Wat moet ik doen? Kan jij dit bericht doorgeven? Kunnen we onze afspraak verzetten?* — [Modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md)
-- **Perfectum question:** auxiliary first. *Heb je mijn bericht al gelezen?* — [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+- **omdat:** the conjugated verb goes to the end of the *omdat* clause. *Ik kan niet naar de les komen, omdat ik hoofdpijn heb.* With two verbs, keep them together at the end: *Ik kan morgen niet komen, omdat ik moet werken.* — [Omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md)
+- **want vs omdat:** *Ik kan niet komen, want ik heb hoofdpijn.* / *Ik kan niet komen, omdat ik hoofdpijn heb.* — [Joining sentences](../../data/grammar/joining-sentences-want-en-maar-and-of.md)
+- **zal / zullen + infinitive** for a promise or future action: ik zal, jij/u zal or zult, wij zullen. *Dat zal ik doen! Ik zal wat later zijn.* — [Using zal](../../data/grammar/using-zal.md)
+- **Modal verbs** for asking and telling: *Wat moet ik doen? Kan jij dit bericht doorgeven? Kunnen we onze afspraak verzetten?* — [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md)
+- **Perfectum question:** auxiliary first. *Heb je mijn bericht al gelezen?* — [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
 - **E-mail shape:** *Dag* or *Beste* + name; the information; your question; a closing (*Met vriendelijke groeten / Vriendelijke groeten / Groetjes*); your name. Choose informal (*jij/je, jouw*) or formal (*u, uw*).
 
-Cheat sheets: [Word order](../../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Writing checklist](../../wiki/grammar/writing-checklist.md)
+Cheat sheets: [Word order](../../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Writing checklist](../../data/grammar/writing-checklist.md)
 
 ## Watch out
 

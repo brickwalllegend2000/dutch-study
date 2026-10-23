@@ -6,7 +6,7 @@
 
 **Start here:** do parts A and B, then write your own comparisons (part C).
 
-Grammar: [comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md).
+Grammar: [comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md).
 
 ## Adapted practice
 

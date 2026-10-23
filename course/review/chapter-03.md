@@ -13,7 +13,7 @@ The chapter has only seven vocabulary entries; the sign words in [exercise 1](..
 
 ## Grammar to know
 
-- **Modal verb + infinitive:** subject + modal verb + … + infinitive at the end. *Maria wil naar het buurtfeest gaan.* — [Modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md)
+- **Modal verb + infinitive:** subject + modal verb + … + infinitive at the end. *Maria wil naar het buurtfeest gaan.* — [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md)
 - **Forms:** ik kan, moet, mag, wil · jij/u kan or kunt, moet, mag, wil or wilt · hij/zij kan, moet, mag, wil · wij/jullie/zij kunnen, moeten, mogen, willen.
 - **Meanings:** *mogen* = permission (*Het licht is groen, je mag oversteken.*); *moeten* = obligation or necessity (*Het licht is rood, je moet stoppen.*); *niet mogen* = prohibition (*Je mag hier niet parkeren.*); *kunnen* = ability or possibility; *willen* = wish.
 - **Planning a text:** *Voor wie schrijf je? Waarom schrijf je? Wat voor tekst?*

@@ -82,7 +82,7 @@ After content changes: build, validate, tests; open a PR.
 | [wiki/README.md](../wiki/README.md) | Reference layer index |
 | [docs/DATA-SCHEMA.md](DATA-SCHEMA.md) | Column and ID rules |
 | [journal/my-study-view.md](../journal/my-study-view.md) | Learner entry |
-| [vocabulary.csv](../vocabulary.csv) | Lexicon |
+| [vocabulary.csv](../data/vocabulary.csv) | Lexicon |
 | [sources/pages/zo-gezegd-1-2-mondeling.md](../sources/pages/zo-gezegd-1-2-mondeling.md) | Oral evidence (enriched) |
 | [inbox/README.md](../inbox/README.md) | Deferred captures |
 | [docs/INVENTORY.md](INVENTORY.md) | Refresh counts |

@@ -13,7 +13,7 @@ How this library is structured, what is authoritative, and the live status as of
 | Role | Location |
 | --- | --- |
 | Learn | [course/](../course/README.md), [wiki/](../wiki/README.md), [journal/my-study-view.md](../journal/my-study-view.md) |
-| Edit facts | [vocabulary.csv](../vocabulary.csv), [wiki/grammar/](../wiki/grammar/README.md) |
+| Edit facts | [vocabulary.csv](../data/vocabulary.csv), [data/grammar/](../data/grammar/README.md) |
 | Prove facts | [sources/](../sources/README.md) (manifest, snapshots, originals) |
 | Capture later | [inbox/](../inbox/README.md) |
 | Automate | [scripts/library.py](../scripts/library.py), CI *Library checks* |
@@ -28,7 +28,7 @@ The repository is **public**. Do not commit course passwords or private drafts. 
 flowchart TB
   subgraph maintain["Maintained knowledge"]
     CSV["vocabulary.csv"]
-    GRAM["wiki/grammar/*.md"]
+    GRAM["data/grammar/*.md"]
     COURSE["course/**"]
   end
   subgraph generate["Generated views"]
@@ -98,7 +98,7 @@ erDiagram
 | **Occurrence** | `sources/vocabulary-occurrences.json` | `OCC-` + 16 hex | Import; append-only for new evidence |
 | **Vocabulary record** | `vocabulary.csv` | `VOC-` + 12 hex (hash of normalized Dutch) | Curator / controlled reconciliation |
 | **Generated word/list view** | `wiki/vocabulary/**` | derived from `VOC-` | `library.py build` only |
-| **Grammar note** | `wiki/grammar/*.md` | `GRAM-…` in YAML | Curator |
+| **Grammar note** | `data/grammar/*.md` | `GRAM-…` in YAML | Curator |
 | **Course / summary pages** | `course/**`, cheat sheets, review sheets | path | Curator (summaries must not invent facts) |
 
 **Cardinality that matters:** many occurrences → one vocabulary row (exact normalized term). One row lists many `occurrence_ids` and `source_ids`. Validation requires every listed OCC/SRC to exist and to point back at that row.
@@ -173,7 +173,7 @@ flowchart LR
 
 ## Wiki versus the rest of the library
 
-`wiki/` is a **folder inside this Git repository**. It is **not** the GitHub Wiki feature (that remote wiki is unused / disabled). Links like `wiki/grammar/…` always mean paths in the clone or on GitHub’s file browser.
+`wiki/` is a **folder inside this Git repository**. It is **not** the GitHub Wiki feature (that remote wiki is unused / disabled). Links like `data/grammar/…` always mean paths in the clone or on GitHub’s file browser.
 
 ### What each top-level area is for
 
@@ -186,7 +186,7 @@ flowchart LR
   end
   subgraph facts["Shared facts"]
     CSV["vocabulary.csv"]
-    GRAM["wiki/grammar/"]
+    GRAM["data/grammar/"]
   end
   subgraph views["Derived / summary"]
     WV["wiki/vocabulary/ generated"]
@@ -213,7 +213,7 @@ flowchart LR
 
 | Area | Role relative to `wiki/` | Edit rule |
 | --- | --- | --- |
-| **`wiki/grammar/`** | Canonical **explanations** (maintained Markdown) | Edit here; cite sources in frontmatter |
+| **`data/grammar/`** | Canonical **explanations** (maintained Markdown) | Edit here; cite sources in frontmatter |
 | **`wiki/vocabulary/`** | **Reading views** of the lexicon | Never hand-edit — change `vocabulary.csv`, run `build` |
 | **`wiki/cheat-sheets/`** | Compact **summaries** of grammar/CSV | Update when those change; no new facts; † for constructed examples |
 | **`course/`** | **Study order**, exercises, oral guides, exams, chapter review sheets | Narrative + practice; links into wiki for lookup |
@@ -227,18 +227,18 @@ flowchart LR
 | Need | Open |
 | --- | --- |
 | “What do I study next?” / exercises / oral dialogues | [course/](../course/README.md) |
-| “How does perfectum / word order / *er* work?” | [wiki/grammar/](../wiki/grammar/README.md) |
+| “How does perfectum / word order / *er* work?” | [data/grammar/](../data/grammar/README.md) |
 | “What does this word mean / which chapter?” | [wiki/vocabulary/](../wiki/vocabulary/VOCABULARY.md) (or search CSV) |
 | “Quick exam checklist” | [cheat sheets](../wiki/cheat-sheets/README.md) + [exam prep](../course/exams/exam-preparation.md) |
 | “What did the textbook / Notion page actually say?” | [sources/pages/](../sources/README.md) |
 
-**Rule of thumb:** course = path through the material; wiki = lookup while on that path. Both can link to the same VOC-/GRAM- facts; only CSV and `wiki/grammar/` are authoritative for those facts.
+**Rule of thumb:** course = path through the material; wiki = lookup while on that path. Both can link to the same VOC-/GRAM- facts; only CSV and `data/grammar/` are authoritative for those facts.
 
 ### Inside `wiki/` (maintained vs generated)
 
 | Path | Kind | Source of truth |
 | --- | --- | --- |
-| `wiki/grammar/*.md` | Maintained | The note itself |
+| `data/grammar/*.md` | Maintained | The note itself |
 | `wiki/cheat-sheets/*.md` | Hand-written summary | Must track CSV + grammar |
 | `wiki/vocabulary/**` | Generated | `vocabulary.csv` via `library.py build` |
 | `wiki/README.md` | Index | Points at the above |
@@ -355,7 +355,7 @@ Chapter 3’s short list is expected: it reuses verbs/phrases from other chapter
 | Path | Edit? | Purpose |
 | --- | --- | --- |
 | `vocabulary.csv` | Yes | Canonical lexicon |
-| `wiki/grammar/` | Yes | Canonical explanations |
+| `data/grammar/` | Yes | Canonical explanations |
 | `course/` | Yes | Study order, exercises, oral, exams |
 | `wiki/vocabulary/` | No — regenerate | Reading views from CSV |
 | `wiki/cheat-sheets/`, `course/review/` | Yes, carefully | Summaries of CSV/grammar only |

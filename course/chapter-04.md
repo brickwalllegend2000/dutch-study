@@ -41,12 +41,12 @@ Course grammar (from the table of contents):
 
 Maintained grammar notes:
 
-- [Comparisons: equal, comparative and superlative](../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
-- [Using er: there is / there are](../wiki/grammar/using-er-there-is-there-are.md)
-- [Joining sentences: want, en, maar and of](../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
-- [Negation: geen and niet](../wiki/grammar/negation-geen-and-niet.md)
-- [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
+- [Comparisons: equal, comparative and superlative](../data/grammar/comparisons-equal-comparative-and-superlative.md)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
+- [Using er: there is / there are](../data/grammar/using-er-there-is-there-are.md)
+- [Joining sentences: want, en, maar and of](../data/grammar/joining-sentences-want-en-maar-and-of.md)
+- [Negation: geen and niet](../data/grammar/negation-geen-and-niet.md)
+- [Adjective endings: with or without -e](../data/grammar/adjective-endings-with-or-without-e.md)
 
 Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) · [Descriptions, positions & room layout](../wiki/cheat-sheets/descriptions.md) · [Word order](../wiki/cheat-sheets/word-order.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 

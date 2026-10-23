@@ -12,9 +12,9 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 7](../../course/chapter-07.md) — **Oral:** [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 5](../../course/oral/modeling-05.md)
 
-**Cheat sheet:** [Adjectives and comparisons](../cheat-sheets/adjectives.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 7](../../course/review/chapter-07.md)
+**Cheat sheet:** [Adjectives and comparisons](../../wiki/cheat-sheets/adjectives.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 7](../../course/review/chapter-07.md)
 
-**Exercises & practice:** [Chapter 1 exercises (kleren & adjectieven)](../../course/exercises/chapter-01.md) · [Chapter 5 exercises (materialen & meubels)](../../course/exercises/chapter-05.md) · [Cheat sheet: descriptions](../cheat-sheets/descriptions.md) · [Exam preparation (prompts 1, 2, 5)](../../course/exams/exam-preparation.md)
+**Exercises & practice:** [Chapter 1 exercises (kleren & adjectieven)](../../course/exercises/chapter-01.md) · [Chapter 5 exercises (materialen & meubels)](../../course/exercises/chapter-05.md) · [Cheat sheet: descriptions](../../wiki/cheat-sheets/descriptions.md) · [Exam preparation (prompts 1, 2, 5)](../../course/exams/exam-preparation.md)
 
 *Adjectief: met of zonder -e*
 

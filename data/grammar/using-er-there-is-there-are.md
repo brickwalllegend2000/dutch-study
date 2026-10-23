@@ -12,9 +12,9 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) — **Oral:** [Modeling 5](../../course/oral/modeling-05.md)
 
-**Cheat sheet:** [Negation and er](../cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md)
+**Cheat sheet:** [Negation and er](../../wiki/cheat-sheets/negation-and-er.md) — **Review sheets:** [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md)
 
-**Exercises & practice:** [Chapter 4 exercises (appartement)](../../course/exercises/chapter-04.md) · [Chapter 5 exercises (favoriete kamer)](../../course/exercises/chapter-05.md) · [Cheat sheet: descriptions & room layout](../cheat-sheets/descriptions.md) · [Exam preparation (Prompt 2: woning)](../../course/exams/exam-preparation.md#2-describe-a-home-or-room-woning--favoriete-kamer)
+**Exercises & practice:** [Chapter 4 exercises (appartement)](../../course/exercises/chapter-04.md) · [Chapter 5 exercises (favoriete kamer)](../../course/exercises/chapter-05.md) · [Cheat sheet: descriptions & room layout](../../wiki/cheat-sheets/descriptions.md) · [Exam preparation (Prompt 2: woning)](../../course/exams/exam-preparation.md#2-describe-a-home-or-room-woning--favoriete-kamer)
 
 *Er als voorlopig subject*
 

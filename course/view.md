@@ -27,14 +27,14 @@ Single page for the course and reference material. Open this file on GitHub to b
 
 ## Wiki — grammar and vocabulary
 
-- [Grammar topics](../wiki/grammar/README.md)
+- [Grammar topics](../data/grammar/README.md)
 - [Cheat sheets](../wiki/cheat-sheets/README.md)
 - [Vocabulary](../wiki/vocabulary/VOCABULARY.md)
-- [Adjective endings](../wiki/grammar/adjective-endings-with-or-without-e.md)
-- [Comparisons](../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
-- [Modal verbs](../wiki/grammar/modal-verbs-can-must-may-and-want.md)
-- [Perfectum](../wiki/grammar/the-perfect-tense-perfectum.md)
-- [Using er](../wiki/grammar/using-er-there-is-there-are.md)
+- [Adjective endings](../data/grammar/adjective-endings-with-or-without-e.md)
+- [Comparisons](../data/grammar/comparisons-equal-comparative-and-superlative.md)
+- [Modal verbs](../data/grammar/modal-verbs-can-must-may-and-want.md)
+- [Perfectum](../data/grammar/the-perfect-tense-perfectum.md)
+- [Using er](../data/grammar/using-er-there-is-there-are.md)
 
 ## Review and practice
 

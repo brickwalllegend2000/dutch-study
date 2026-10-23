@@ -18,11 +18,11 @@ Full list with forms and sources: [chapter 8 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **Superlative:** *de/het* + adjective + *-ste*: *de oudste cursist, het oudste kind, de duurste tunnel, de zwaarste pompoen.* Irregular: *het meest, het best, het liefst, het minst.* — [Comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
+- **Superlative:** *de/het* + adjective + *-ste*: *de oudste cursist, het oudste kind, de duurste tunnel, de zwaarste pompoen.* Irregular: *het meest, het best, het liefst, het minst.* — [Comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md)
 - **Full pattern:** *oud – even oud als – ouder (dan) – de oudste*; *klein – kleiner – kleinst*; *lang – langer – langst*.
 - **Adjectives ending in -r** add -d- in the comparative: *duur → duurder → de duurste*, *zwaar → zwaarder → de zwaarste*, *ver → verder → de verste*.
 - **Irregular:** *goed – beter – het best*, *veel – meer – het meest*, *graag – liever – het liefst*, *weinig – minder – het minst*.
-- **Perfectum:** *Hij heeft vorig jaar de Lotto gewonnen.* — [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+- **Perfectum:** *Hij heeft vorig jaar de Lotto gewonnen.* — [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
 
 Cheat sheets: [Adjectives and comparisons](../../wiki/cheat-sheets/adjectives.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md)
 

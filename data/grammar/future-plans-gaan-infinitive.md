@@ -12,7 +12,7 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 2](../../course/chapter-02.md)
 
-**Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
+**Cheat sheet:** [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md)
 
 **Practice:** [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md)
 

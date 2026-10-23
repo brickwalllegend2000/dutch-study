@@ -36,12 +36,12 @@ Course grammar (from the table of contents):
 
 Maintained grammar notes:
 
-- [Modal verbs: can, must, may and want](../wiki/grammar/modal-verbs-can-must-may-and-want.md)
-- [Using zal](../wiki/grammar/using-zal.md)
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
-- [Because: omdat and subordinate clauses](../wiki/grammar/because-omdat-and-subordinate-clauses.md)
-- [Joining sentences: want, en, maar and of](../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
-- [Writing checklist](../wiki/grammar/writing-checklist.md)
+- [Modal verbs: can, must, may and want](../data/grammar/modal-verbs-can-must-may-and-want.md)
+- [Using zal](../data/grammar/using-zal.md)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
+- [Because: omdat and subordinate clauses](../data/grammar/because-omdat-and-subordinate-clauses.md)
+- [Joining sentences: want, en, maar and of](../data/grammar/joining-sentences-want-en-maar-and-of.md)
+- [Writing checklist](../data/grammar/writing-checklist.md)
 
 Cheat sheets: [Word order](../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../wiki/cheat-sheets/verb-plus-infinitive.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 

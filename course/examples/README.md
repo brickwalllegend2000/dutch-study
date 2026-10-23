@@ -4,7 +4,7 @@
 
 Completed model texts that combine several chapters into one longer piece of writing. They follow the plan on the Notion page *Example ideas* (a sub-task of the *Dutch Study* task, read through the Notion connector on 2026-10-23). That page is not in `sources/`.
 
-> **Generated examples, not course material.** Written by Claude from the course vocabulary (`vocabulary.csv`) and the [grammar notes](../../wiki/grammar/README.md). Not checked by a native speaker or a teacher. Personal details are invented; replace them with your own. Words used that are not in the course vocabulary are listed in each part.
+> **Generated examples, not course material.** Written by Claude from the course vocabulary (`vocabulary.csv`) and the [grammar notes](../../data/grammar/README.md). Not checked by a native speaker or a teacher. Personal details are invented; replace them with your own. Words used that are not in the course vocabulary are listed in each part.
 
 | Example | Parts | Chapters | Grammar |
 | --- | --- | --- | --- |
@@ -14,7 +14,7 @@ Completed model texts that combine several chapters into one longer piece of wri
 ## How to use them
 
 1. Read the task of one part and write your own text first.
-2. Check it with the list at the end of the example and the [writing checklist](../../wiki/grammar/writing-checklist.md).
+2. Check it with the list at the end of the example and the [writing checklist](../../data/grammar/writing-checklist.md).
 3. Compare with the model text, then save your version in the [journal](../../journal/README.md).
 
 ## How the plan was read

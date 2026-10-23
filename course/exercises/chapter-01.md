@@ -6,7 +6,7 @@
 
 **Start here:** write at least four sentences describing a photo (opdracht 13).
 
-Before you write, follow the [writing checklist](../../wiki/grammar/writing-checklist.md) (*Stappenplan schrijven*). Grammar: [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md).
+Before you write, follow the [writing checklist](../../data/grammar/writing-checklist.md) (*Stappenplan schrijven*). Grammar: [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md).
 
 ## Workbook exercises
 

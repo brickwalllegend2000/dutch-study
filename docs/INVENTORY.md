@@ -23,7 +23,7 @@ print('unavailable',sum(1 for a in m['attachments'] if a.get('status')=='unavail
 print('reference-only',sum(1 for a in m['attachments'] if a.get('status')=='reference-only'))
 print('withheld-public',sum(1 for a in m['attachments'] if a.get('status')=='withheld-public'))
 print('occurrences',len(occ))
-print('grammar notes',len(list(Path('wiki/grammar').glob('*.md')))-1)
+print('grammar notes',len(list(Path('data/grammar').glob('*.md')))-1)
 PY
 python scripts/library.py validate
 ```

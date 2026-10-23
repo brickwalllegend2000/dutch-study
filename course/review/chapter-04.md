@@ -19,11 +19,11 @@ Full list with forms and sources: [chapter 4 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **Comparative:** *even … als* (equal), adjective + *-er dan* (more). Adjectives ending in -r add -d-: *duur → duurder*, *ver → verder*. Irregular: *goed → beter*, *veel → meer*, *weinig → minder*, *graag → liever*. *Mijn appartement is duurder dan jouw appartement. Het nieuwe appartement is beter dan het oude.* — [Comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
-- **Er is / er zijn:** start with *er* when the subject is not specific (with *een*, *geen*, a number or no article). *Er is een badkamer met douche. Er zijn twee slaapkamers.* — [Using er](../../wiki/grammar/using-er-there-is-there-are.md)
-- **want, en, maar (of):** the word order after them does not change. *Wij gaan verhuizen, want ons appartement is te klein. Wij wonen ver van het werk, maar we hebben een auto.* — [Joining sentences](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
-- **geen / niet:** *een* + noun or a noun without article → *geen* (*Er is geen lift.*). Before *elke dag*, *graag* or a preposition → *niet* (*Ik woon niet op de derde verdieping.*). — [Negation](../../wiki/grammar/negation-geen-and-niet.md)
-- **Perfectum:** *verhuizen → zijn verhuisd*, *thuisblijven → zijn thuisgebleven*. — [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+- **Comparative:** *even … als* (equal), adjective + *-er dan* (more). Adjectives ending in -r add -d-: *duur → duurder*, *ver → verder*. Irregular: *goed → beter*, *veel → meer*, *weinig → minder*, *graag → liever*. *Mijn appartement is duurder dan jouw appartement. Het nieuwe appartement is beter dan het oude.* — [Comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md)
+- **Er is / er zijn:** start with *er* when the subject is not specific (with *een*, *geen*, a number or no article). *Er is een badkamer met douche. Er zijn twee slaapkamers.* — [Using er](../../data/grammar/using-er-there-is-there-are.md)
+- **want, en, maar (of):** the word order after them does not change. *Wij gaan verhuizen, want ons appartement is te klein. Wij wonen ver van het werk, maar we hebben een auto.* — [Joining sentences](../../data/grammar/joining-sentences-want-en-maar-and-of.md)
+- **geen / niet:** *een* + noun or a noun without article → *geen* (*Er is geen lift.*). Before *elke dag*, *graag* or a preposition → *niet* (*Ik woon niet op de derde verdieping.*). — [Negation](../../data/grammar/negation-geen-and-niet.md)
+- **Perfectum:** *verhuizen → zijn verhuisd*, *thuisblijven → zijn thuisgebleven*. — [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
 
 Cheat sheets: [Adjectives and comparisons](../../wiki/cheat-sheets/adjectives.md) · [Negation and er](../../wiki/cheat-sheets/negation-and-er.md) · [Word order](../../wiki/cheat-sheets/word-order.md) · [Perfectum](../../wiki/cheat-sheets/perfectum.md)
 

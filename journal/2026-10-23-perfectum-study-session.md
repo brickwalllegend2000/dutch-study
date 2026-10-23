@@ -14,7 +14,7 @@ vocabulary_ids:
   - VOC-439e6f43fdd7
   - VOC-68706276c621
 grammar_topics:
-  - wiki/grammar/the-perfect-tense-perfectum.md
+  - data/grammar/the-perfect-tense-perfectum.md
 ---
 # Study session — 2026-10-23 (perfectum)
 
@@ -27,7 +27,7 @@ Practise 10 verbs from the perfectum study list: one original sentence each; che
 ## Material used
 
 - [Perfectum study list](../wiki/vocabulary/PERFECTUM-STUDY-LIST.md)
-- [The perfect tense](../wiki/grammar/the-perfect-tense-perfectum.md)
+- [The perfect tense](../data/grammar/the-perfect-tense-perfectum.md)
 - Vocabulary IDs in frontmatter
 
 ## My answers
@@ -66,7 +66,7 @@ Practise 10 verbs from the perfectum study list: one original sentence each; che
 
 | Risk | Correction | Source |
 | --- | --- | --- |
-| *hebben* with *beginnen/blijven/gaan* | These take **zijn** on the study list | CSV; [perfectum](../wiki/grammar/the-perfect-tense-perfectum.md) |
+| *hebben* with *beginnen/blijven/gaan* | These take **zijn** on the study list | CSV; [perfectum](../data/grammar/the-perfect-tense-perfectum.md) |
 | *fietsen* / *breken* always one auxiliary | Rows keep **hebben / zijn**; destination or result often *zijn* | CSV auxiliary variants |
 | *aandoen* → *geaandoen* | Participle is **aangedaan** | CSV participle |
 

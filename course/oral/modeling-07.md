@@ -93,7 +93,7 @@
    - **Separabele werkwoorden:** `partikel + ge- + stam + t/d` (*opruimen* → *opgeruimd*).
    - **Werkwoorden met onscheidbaar voorvoegsel (*be-, ver-, ont-, her-, ge-*):** géén extra `ge-` (*betalen* → *betaald*, *bestellen* → *besteld*, *vergeten* → *vergeten*).
    - **Onregelmatig:** klinkerwissel en uitgang `-en` (*krijgen* → *gekregen*, *eten* → *gegeten*, *drinken* → *gedronken*).
-3. **Grammar referentie:** [The perfect tense (perfectum)](../../wiki/grammar/the-perfect-tense-perfectum.md)
+3. **Grammar referentie:** [The perfect tense (perfectum)](../../data/grammar/the-perfect-tense-perfectum.md)
 
 ---
 
@@ -124,7 +124,7 @@
 
 - **Written counterpart:** [Chapter 2: Did you have a good city trip?](../chapter-02.md) (eating out, leisure) and [Chapter 7: I’ve forgotten my umbrella!](../chapter-07.md) (reporting mistakes and lost property).
 - **Cheat sheets & grammar:**
-  - [The perfect tense (perfectum)](../../wiki/grammar/the-perfect-tense-perfectum.md) · [Perfectum cheat sheet](../../wiki/cheat-sheets/perfectum.md) · [80 core verbs list](../../wiki/vocabulary/PERFECTUM-STUDY-LIST.md).
-  - [Word order: eerst, dan, daarna](../../wiki/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
+  - [The perfect tense (perfectum)](../../data/grammar/the-perfect-tense-perfectum.md) · [Perfectum cheat sheet](../../wiki/cheat-sheets/perfectum.md) · [80 core verbs list](../../wiki/vocabulary/PERFECTUM-STUDY-LIST.md).
+  - [Word order: eerst, dan, daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
 - **Exam practice:** [Exam preparation — Prompt 4: Write about a trip or vacation](../exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip-vakantiekaartje) (restaurant experiences, leisure activities) & [Prompt 5: Describe a lost object](../exams/exam-preparation.md#5-describe-a-lost-object-verloren-voorwerp).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

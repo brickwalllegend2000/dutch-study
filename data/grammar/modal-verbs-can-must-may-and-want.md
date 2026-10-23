@@ -12,7 +12,7 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 2](../../course/chapter-02.md) · [Chapter 3](../../course/chapter-03.md) · [Chapter 6](../../course/chapter-06.md) — **Oral:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 5](../../course/oral/modeling-05.md) · [Modeling 6](../../course/oral/modeling-06.md)
 
-**Cheat sheet:** [Verb + infinitive](../cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 6](../../course/review/chapter-06.md)
+**Cheat sheet:** [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) — **Review sheets:** [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 6](../../course/review/chapter-06.md)
 
 **Exercises & practice:** [Chapter 3 exercises (pictogrammen & regels)](../../course/exercises/chapter-03.md) · [Giving instructions (Chapter 3)](../../course/instructies-geven.md) · [Chapter 6 exercises (persoonlijke berichten)](../../course/exercises/chapter-06.md) · [Exam preparation (Prompt 3 & checklist)](../../course/exams/exam-preparation.md)
 

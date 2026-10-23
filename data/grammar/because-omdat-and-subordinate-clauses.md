@@ -12,7 +12,7 @@ reviewed_on: 2026-10-23
 
 **Written chapters:** [Chapter 6](../../course/chapter-06.md) — **Oral:** [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 6](../../course/oral/modeling-06.md)
 
-**Cheat sheet:** [Word order](../cheat-sheets/word-order.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
+**Cheat sheet:** [Word order](../../wiki/cheat-sheets/word-order.md) — **Review sheets:** [Chapter 6](../../course/review/chapter-06.md)
 
 **Exercises & practice:** [Chapter 6 exercises (e-mails with want/omdat)](../../course/exercises/chapter-06.md) · [Exam preparation (Prompt 3: personal message)](../../course/exams/exam-preparation.md#3-write-a-personal-message-or-email-persoonlijk-berichtje)
 

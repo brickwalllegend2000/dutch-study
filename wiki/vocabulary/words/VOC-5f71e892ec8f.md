@@ -6,7 +6,7 @@ review_status: reviewed
 ---
 # fietsroute
 
-> Generated reading view. Edit the matching row in [vocabulary.csv](../../../vocabulary.csv).
+> Generated reading view. Edit the matching row in [vocabulary.csv](../../../data/vocabulary.csv).
 
 ## English
 

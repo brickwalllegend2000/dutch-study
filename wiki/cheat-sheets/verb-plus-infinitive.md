@@ -1,8 +1,8 @@
 # Cheat sheet: verb + infinitive
 
-[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
+[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../../data/grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md)
 
-> One-page summary of [Modal verbs](../grammar/modal-verbs-can-must-may-and-want.md), [Future plans: gaan + infinitive](../grammar/future-plans-gaan-infinitive.md), [Using zal](../grammar/using-zal.md), [Infinitive clauses: om te + infinitief](../grammar/infinitive-clauses-om-te.md) and [Continuous aspect: zijn + aan het + infinitief](../grammar/continuous-aspect-aan-het.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
+> One-page summary of [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md), [Future plans: gaan + infinitive](../../data/grammar/future-plans-gaan-infinitive.md), [Using zal](../../data/grammar/using-zal.md), [Infinitive clauses: om te + infinitief](../../data/grammar/infinitive-clauses-om-te.md) and [Continuous aspect: zijn + aan het + infinitief](../../data/grammar/continuous-aspect-aan-het.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
 
 **Review sheets:** [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 6](../../course/review/chapter-06.md) · **Oral modules:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 6](../../course/oral/modeling-06.md)
 
@@ -48,8 +48,8 @@ Both verbs go together at the end: *Ik kan morgen niet komen, omdat ik moet werk
 
 ## Continuous & purpose constructions
 
-- **Continuous aspect (aan het + infinitief):** [zijn + aan het + infinitief](../grammar/continuous-aspect-aan-het.md) expresses actions happening right now: *Ik ben aan het koken.* · *Wat ben je aan het doen?*
-- **Purpose / goal (om te + infinitief):** [om te + infinitief](../grammar/infinitive-clauses-om-te.md) expresses intention or purpose: *Ik bel om een afspraak te verzetten.* · *Het is belangrijk om de dokter te verwittigen.*
+- **Continuous aspect (aan het + infinitief):** [zijn + aan het + infinitief](../../data/grammar/continuous-aspect-aan-het.md) expresses actions happening right now: *Ik ben aan het koken.* · *Wat ben je aan het doen?*
+- **Purpose / goal (om te + infinitief):** [om te + infinitief](../../data/grammar/infinitive-clauses-om-te.md) expresses intention or purpose: *Ik bel om een afspraak te verzetten.* · *Het is belangrijk om de dokter te verwittigen.*
 
 ## Watch out
 

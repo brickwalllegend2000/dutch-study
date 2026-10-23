@@ -7,7 +7,7 @@ Obsidian is **not** configured in this tree right now. Study and maintain the li
 ## First steps
 
 1. Open [Study home](journal/my-study-view.md) or [README](README.md) on GitHub (or after clone).
-2. Follow a [chapter](course/README.md) or look up [vocabulary](wiki/vocabulary/VOCABULARY.md) / [grammar](wiki/grammar/README.md).
+2. Follow a [chapter](course/README.md) or look up [vocabulary](wiki/vocabulary/VOCABULARY.md) / [grammar](data/grammar/README.md).
 3. Log personal practice under [journal/](journal/README.md); copy from [templates/Study-Session.md](templates/Study-Session.md) if useful.
 
 No Python is required just to read the course. Python 3.11+ is for `build` / `validate` / `search` after CSV edits.

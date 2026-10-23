@@ -83,15 +83,15 @@
    - Standaard: `+ -en` (*banaan* → *bananen*, *tomaat* → *tomaten*).
    - Uitgang op `-el, -em, -en, -er, -je`: `+ -s` (*wortel* → *wortels*, *gebakje* → *gebakjes*).
    - Uitgang op lange klinkers *a, i, o, u, y*: `+ -'s` (*paprika* → *paprika's*, *kiwi* → *kiwi's*).
-2. **Negatie: geen vs. niet:** [Negation: geen and niet](../../wiki/grammar/negation-geen-and-niet.md)
+2. **Negatie: geen vs. niet:** [Negation: geen and niet](../../data/grammar/negation-geen-and-niet.md)
    - **geen:** bij onbepaalde substantieven ("Ik wil **geen** plastic zakje").
    - **niet:** bij werkwoorden, adjectieven en bepaalde lidwoorden ("Ik betaal **niet** contant", "De kaas is **niet** duur").
 3. **Zinsverbindingen: want vs. omdat:**
-   - **want** (nevenschikking, gewone volgorde): [Joining sentences](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md)
+   - **want** (nevenschikking, gewone volgorde): [Joining sentences](../../data/grammar/joining-sentences-want-en-maar-and-of.md)
      - "Ik koop appels, **want** ze **zijn** in reclame."
-   - **omdat** (onderschikking, werkwoordkicker): [Because: omdat](../../wiki/grammar/because-omdat-and-subordinate-clauses.md)
+   - **omdat** (onderschikking, werkwoordkicker): [Because: omdat](../../data/grammar/because-omdat-and-subordinate-clauses.md)
      - "Ik koop appels, **omdat** ze in reclame **zijn**."
-4. **Het perfectum:** [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+4. **Het perfectum:** [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
 
 ---
 
@@ -116,9 +116,9 @@
 
 - **Written counterpart:** [Chapter 2: Did you have a good city trip?](../chapter-02.md) (food, prices, daily routines) and [daily routines practice](../wat-doe-jij-elke-dag.md).
 - **Cheat sheets & grammar:**
-  - [Word order: eerst, dan, daarna](../../wiki/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
-  - [The perfect tense (perfectum)](../../wiki/grammar/the-perfect-tense-perfectum.md) · [Perfectum cheat sheet](../../wiki/cheat-sheets/perfectum.md).
-  - [Modal verbs: can, must, may and want](../../wiki/grammar/modal-verbs-can-must-may-and-want.md) (*mag het wat meer zijn*).
-  - [Negation: geen and niet](../../wiki/grammar/negation-geen-and-niet.md) · [Negation cheat sheet](../../wiki/cheat-sheets/negation-and-er.md).
+  - [Word order: eerst, dan, daarna](../../data/grammar/word-order-eerst-dan-and-daarna.md) · [Word order cheat sheet](../../wiki/cheat-sheets/word-order.md).
+  - [The perfect tense (perfectum)](../../data/grammar/the-perfect-tense-perfectum.md) · [Perfectum cheat sheet](../../wiki/cheat-sheets/perfectum.md).
+  - [Modal verbs: can, must, may and want](../../data/grammar/modal-verbs-can-must-may-and-want.md) (*mag het wat meer zijn*).
+  - [Negation: geen and niet](../../data/grammar/negation-geen-and-niet.md) · [Negation cheat sheet](../../wiki/cheat-sheets/negation-and-er.md).
 - **Exam practice:** [Exam preparation — Prompt 4: Write about a trip or vacation](../exams/exam-preparation.md#4-write-about-a-trip-or-vacation-citytrip-vakantiekaartje) (ordering, buying food, daily activities).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

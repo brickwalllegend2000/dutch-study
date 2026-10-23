@@ -6,7 +6,7 @@
 
 **Plan (from the Notion page *Example ideas*):** EXAMPLE #1 → where I live. T4, T5 → describe each room. T3 → apartment rules / obligations. T1 → describe my closet + clothing. "T" is read here as the chapter number (*thema*); the page does not say so.
 
-Each part below has a task in the style of the workbook, a completed model text, its meaning in English and the points it practises. Before you write your own version, follow the [writing checklist](../../wiki/grammar/writing-checklist.md) (*Stappenplan schrijven*), then save it in the [journal](../../journal/README.md).
+Each part below has a task in the style of the workbook, a completed model text, its meaning in English and the points it practises. Before you write your own version, follow the [writing checklist](../../data/grammar/writing-checklist.md) (*Stappenplan schrijven*), then save it in the [journal](../../journal/README.md).
 
 ## Part 1 — Mijn appartement (chapter 4)
 
@@ -20,11 +20,11 @@ Each part below has a task in the style of the workbook, a completed model text,
 
 **What it practises.**
 
-- **Er is / er zijn**: *Er is een lift. Er zijn twee slaapkamers.* See [using er](../../wiki/grammar/using-er-there-is-there-are.md).
-- **Geen** with a noun: *Er is geen tuin.* See [negation: geen and niet](../../wiki/grammar/negation-geen-and-niet.md).
-- **Maar** and **want** keep normal word order: *…, want de buurt is rustig.* See [joining sentences](../../wiki/grammar/joining-sentences-want-en-maar-and-of.md).
-- **Comparatives with dan**: *groter en lichter dan …, ook duurder.* See [comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md).
-- **Adjective endings**: *een klein balkon* (het-word, no -e), *een ingerichte keuken* (de-word, -e). See [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md).
+- **Er is / er zijn**: *Er is een lift. Er zijn twee slaapkamers.* See [using er](../../data/grammar/using-er-there-is-there-are.md).
+- **Geen** with a noun: *Er is geen tuin.* See [negation: geen and niet](../../data/grammar/negation-geen-and-niet.md).
+- **Maar** and **want** keep normal word order: *…, want de buurt is rustig.* See [joining sentences](../../data/grammar/joining-sentences-want-en-maar-and-of.md).
+- **Comparatives with dan**: *groter en lichter dan …, ook duurder.* See [comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md).
+- **Adjective endings**: *een klein balkon* (het-word, no -e), *een ingerichte keuken* (de-word, -e). See [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md).
 - Chapter 2 and 7 words reused: *het centrum*, *gezellig*, *de bushalte*.
 
 **Course vocabulary used** (all `needs-review`):
@@ -80,9 +80,9 @@ This follows workbook opdracht 13 of [chapter 5](../exercises/chapter-05.md), wi
 **What it practises.**
 
 - **Position verbs**: things that stand upright *staan* (de driezit, de kast, de stoelen), flat things *liggen* (het tapijt, de kussens), things on a wall or at a window *hangen* (het schilderij, de spiegel, de gordijnen). Plural subject, plural verb: *Op de driezit liggen drie kussens.*
-- **Inversion after a place phrase**: *Tegen de muur **staat** een grijze driezit.* The verb stays in second position. See [word order](../../wiki/grammar/word-order-eerst-dan-and-daarna.md).
-- **Er + position verb**: *Er staat een tweepersoonsbed tegen de muur.* See [using er](../../wiki/grammar/using-er-there-is-there-are.md).
-- **Adjective endings with materials**: *houten*, *ijzeren*, *wollen* and *plastic* never take an extra -e; *oranje* does not either. *een groot schilderij*, *een rechthoekig tapijt* (het-words, no -e) next to *een grijze driezit*, *een ronde spiegel* (de-words, -e). See [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md).
+- **Inversion after a place phrase**: *Tegen de muur **staat** een grijze driezit.* The verb stays in second position. See [word order](../../data/grammar/word-order-eerst-dan-and-daarna.md).
+- **Er + position verb**: *Er staat een tweepersoonsbed tegen de muur.* See [using er](../../data/grammar/using-er-there-is-there-are.md).
+- **Adjective endings with materials**: *houten*, *ijzeren*, *wollen* and *plastic* never take an extra -e; *oranje* does not either. *een groot schilderij*, *een rechthoekig tapijt* (het-words, no -e) next to *een grijze driezit*, *een ronde spiegel* (de-words, -e). See [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md).
 - **Prepositions of place**: tegen, op, voor, onder, boven, naast, aan.
 - Words not in the course list: *het raam*, *de muur*, *de vloer*, *het midden*, *de wastafel*. The course examples use *het raam* and *de muur*; check the others.
 
@@ -154,8 +154,8 @@ This follows workbook opdracht 13 of [chapter 5](../exercises/chapter-05.md), wi
 
 **What it practises.**
 
-- **Moeten / mogen / niet mogen**: the three columns of chapter 3, exercise 1 (*Dit moet je doen! Dit mag je doen! Dit mag je niet doen!*). The conjugated modal comes second, the infinitive goes last: *Je mag je fiets niet in de hal **zetten**.* See [modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md).
-- **Niet** and **geen**: *niet parkeren*, *geen lawaai*. See [negation](../../wiki/grammar/negation-geen-and-niet.md).
+- **Moeten / mogen / niet mogen**: the three columns of chapter 3, exercise 1 (*Dit moet je doen! Dit mag je doen! Dit mag je niet doen!*). The conjugated modal comes second, the infinitive goes last: *Je mag je fiets niet in de hal **zetten**.* See [modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md).
+- **Niet** and **geen**: *niet parkeren*, *geen lawaai*. See [negation](../../data/grammar/negation-geen-and-niet.md).
 - The rules come from the signs in [chapter 3, exercise 1](../exercises/chapter-03.md): a (*Verboden te parkeren*), d (*Sorteerbak / afval*), f (*Verboden fietsen te plaatsen*), o (*Garagepoorten*), q (*Ramen sluiten voor vertrek*), r (*Picknicken toegelaten*) and b (*Maak dan een afspraak. Bel naar …*). Sign b also shows the direct instruction (imperative): *Maak …, Bel …, Zet …, Lees …*.
 - Chapter 4 rooms reused: *de berging*, *de kelder*, *het terras*, *de lift*; *verhuizen* from chapter 4.
 - Words not in the course list: *het afval*, *de hal*, *de garagepoort*, *het lawaai*, *de eigenaar*, *gebruiken*.
@@ -188,7 +188,7 @@ This follows workbook opdracht 13 of [chapter 5](../exercises/chapter-05.md), wi
 
 **What it practises.**
 
-- **Adjective endings** (the main grammar of chapter 1): *een lange zwarte jas* and *een gebloemde jurk* (de-words, -e) next to *een gestreept hemd* and *een wit T-shirt* (het-words after *een*, no -e). Plural: *witte sneakers*, *bruine laarzen*. *Wollen* and *houten* stay unchanged. See [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md).
+- **Adjective endings** (the main grammar of chapter 1): *een lange zwarte jas* and *een gebloemde jurk* (de-words, -e) next to *een gestreept hemd* and *een wit T-shirt* (het-words after *een*, no -e). Plural: *witte sneakers*, *bruine laarzen*. *Wollen* and *houten* stay unchanged. See [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md).
 - **Clothing, colours and patterns**: the three vocabulary topics of [chapter 1](../chapter-01.md).
 - **Dragen** in the present: *Vandaag draag ik …* (inversion after *Vandaag*).
 - **Position verbs** from chapter 5 again: jackets *hangen*, jumpers *liggen*, shoes *staan*.

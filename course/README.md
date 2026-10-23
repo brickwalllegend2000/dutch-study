@@ -62,4 +62,4 @@ For a detailed analysis of overlapping structures, communicative goals, and exam
 | Chapter 7 | Modeling 3, Modeling 7 | Lost items, restaurant complaints, descriptions of materials/colors, *perfectum* |
 | Chapter 8 | Modeling 4 | Comparisons, superlatives, transport choices, leisure preferences |
 
-Oral-track vocabulary and knowledge summaries are fully integrated into the library, with terms cataloged in [vocabulary.csv](../vocabulary.csv) and cross-referenced in [wiki/vocabulary](../wiki/vocabulary/VOCABULARY.md). Pairings reflect shared communicative tasks and grammar in *Zo Gezegd 1.2*.
+Oral-track vocabulary and knowledge summaries are fully integrated into the library, with terms cataloged in [vocabulary.csv](../data/vocabulary.csv) and cross-referenced in [wiki/vocabulary](../wiki/vocabulary/VOCABULARY.md). Pairings reflect shared communicative tasks and grammar in *Zo Gezegd 1.2*.

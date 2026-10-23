@@ -1,8 +1,8 @@
 # Cheat sheet: adjectives and comparisons
 
-[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md) · [Descriptions cheat sheet](descriptions.md)
+[Home](../../README.md) · [Cheat sheets](README.md) · [Grammar](../../data/grammar/README.md) · [Exam preparation](../../course/exams/exam-preparation.md) · [Descriptions cheat sheet](descriptions.md)
 
-> One-page summary of [Adjective endings: with or without -e](../grammar/adjective-endings-with-or-without-e.md), [Comparisons](../grammar/comparisons-equal-comparative-and-superlative.md) and the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
+> One-page summary of [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md), [Comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md) and the [master grammar reference](../../sources/pages/401f89e5e0fc810ba4aff82d2143b580.md), compiled on 2026-10-23. It adds no new facts and is **needs-review**. Examples marked † were written for this sheet; they are not from the course and are unverified.
 
 **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 7](../../course/review/chapter-07.md) · [Chapter 8](../../course/review/chapter-08.md) · **Oral modules:** [Modeling 1](../../course/oral/modeling-01.md) · [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 5](../../course/oral/modeling-05.md)
 

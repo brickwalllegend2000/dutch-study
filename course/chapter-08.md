@@ -34,8 +34,8 @@ Course grammar (from the table of contents):
 
 Maintained grammar notes:
 
-- [Comparisons: equal, comparative and superlative](../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
-- [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
+- [Comparisons: equal, comparative and superlative](../data/grammar/comparisons-equal-comparative-and-superlative.md)
+- [The perfect tense (perfectum)](../data/grammar/the-perfect-tense-perfectum.md)
 
 Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 

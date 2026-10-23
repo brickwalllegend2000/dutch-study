@@ -6,7 +6,7 @@
 
 **Start here:** write the three lost-property descriptions (adapted practice, exercises 9–11).
 
-Grammar: [adjective endings](../../wiki/grammar/adjective-endings-with-or-without-e.md) · [the perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md).
+Grammar: [adjective endings](../../data/grammar/adjective-endings-with-or-without-e.md) · [the perfect tense](../../data/grammar/the-perfect-tense-perfectum.md).
 
 ## Workbook exercises
 

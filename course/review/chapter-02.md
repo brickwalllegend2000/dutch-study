@@ -20,13 +20,13 @@ Full list with forms and sources: [chapter 2 vocabulary](../../wiki/vocabulary/C
 
 ## Grammar to know
 
-- **Perfectum:** subject + *hebben/zijn* + … + participle at the end. *We hebben gewinkeld. We hebben mosselen gegeten. We zijn naar het museum geweest.* — [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
-- **Inversion (eerst, dan, daarna):** when a time word comes first, the conjugated verb comes next, then the subject. *Eerst zijn we naar het museum geweest. Daarna hebben we gewinkeld. Dan hebben we mosselen gegeten.* — [Word order](../../wiki/grammar/word-order-eerst-dan-and-daarna.md)
-- **gaan + infinitive for plans:** ik ga, jij/je gaat, wij gaan + infinitive at the end. *Morgen gaan we winkelen.* In a question with *je*, drop the -t: *Ga je winkelen?* — [Future plans](../../wiki/grammar/future-plans-gaan-infinitive.md)
-- **kunnen + infinitive** (saying what you can do in a city): the infinitive goes to the end. — [Modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md)
+- **Perfectum:** subject + *hebben/zijn* + … + participle at the end. *We hebben gewinkeld. We hebben mosselen gegeten. We zijn naar het museum geweest.* — [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
+- **Inversion (eerst, dan, daarna):** when a time word comes first, the conjugated verb comes next, then the subject. *Eerst zijn we naar het museum geweest. Daarna hebben we gewinkeld. Dan hebben we mosselen gegeten.* — [Word order](../../data/grammar/word-order-eerst-dan-and-daarna.md)
+- **gaan + infinitive for plans:** ik ga, jij/je gaat, wij gaan + infinitive at the end. *Morgen gaan we winkelen.* In a question with *je*, drop the -t: *Ga je winkelen?* — [Future plans](../../data/grammar/future-plans-gaan-infinitive.md)
+- **kunnen + infinitive** (saying what you can do in a city): the infinitive goes to the end. — [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md)
 - **Weather phrases:** *Het waait (hard). Het sneeuwt. Er is (niet) veel wind.*
 
-Cheat sheets: [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Word order](../../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) · [Writing checklist](../../wiki/grammar/writing-checklist.md)
+Cheat sheets: [Perfectum](../../wiki/cheat-sheets/perfectum.md) · [Word order](../../wiki/cheat-sheets/word-order.md) · [Verb + infinitive](../../wiki/cheat-sheets/verb-plus-infinitive.md) · [Writing checklist](../../data/grammar/writing-checklist.md)
 
 ## Watch out
 

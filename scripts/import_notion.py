@@ -18,7 +18,7 @@ def slug(title):
 
 
 def main():
-    if (ROOT/'vocabulary.csv').exists(): raise SystemExit('Refusing to overwrite vocabulary.csv. Migration is one-time; use the normal workflow for edits.')
+    if (ROOT/'data/vocabulary.csv').exists(): raise SystemExit('Refusing to overwrite data/vocabulary.csv. Migration is one-time; use the normal workflow for edits.')
     pages={p.stem:json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'sources/notion').glob('*.json'))}
     cfg=json.loads((ROOT/'sources/import-config.json').read_text())
     chapters={sid:n for n,sid in enumerate(cfg['chapter_ids'],1)}

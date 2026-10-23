@@ -93,18 +93,18 @@ Modeling 1 · [Modeling 2 →](modeling-02.md)
 
 ## 3. Grammar Focus (Grammatica, pp. 32–35)
 
-1. **Continuatief aspect:** [zijn + aan het + infinitief](../../wiki/grammar/continuous-aspect-aan-het.md)
+1. **Continuatief aspect:** [zijn + aan het + infinitief](../../data/grammar/continuous-aspect-aan-het.md)
    - "Wat **ben** je **aan het doen**?" — "Ik **ben** oude foto's **aan het bekijken**."
 2. **Inversie in het presens:**
    - Normaal: *Ik woon in Gent.*
    - Inversie bij tijdsbepaling: *Nu **woon** ik in Gent.* (Let op bij *je/jij*: *Woon je in Gent?* — geen extra `-t`).
 3. **Separabele verba:** persoonsvorm op positie 2, partikel achteraan:
    - *opgroeien*: "Ik **groei** in een rustige buurt **op**."
-4. **Modaal verbum kunnen:** [Modal verbs](../../wiki/grammar/modal-verbs-can-must-may-and-want.md)
+4. **Modaal verbum kunnen:** [Modal verbs](../../data/grammar/modal-verbs-can-must-may-and-want.md)
    - "Ik **kan** heel goed met mijn zus **opschieten**."
-5. **Superlatief van jong en oud:** [Comparisons](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md)
+5. **Superlatief van jong en oud:** [Comparisons](../../data/grammar/comparisons-equal-comparative-and-superlative.md)
    - *jong* → *jonger* → **de jongste** / *oud* → *ouder* → **de oudste**.
-6. **Het perfectum:** [The perfect tense](../../wiki/grammar/the-perfect-tense-perfectum.md)
+6. **Het perfectum:** [The perfect tense](../../data/grammar/the-perfect-tense-perfectum.md)
    - Vervoegd met *hebben* of *zijn* (*is opgegroeid*, *is overleden*, *is getrouwd*).
 
 ---
@@ -134,8 +134,8 @@ Modeling 1 · [Modeling 2 →](modeling-02.md)
 - **Written counterpart:** [Chapter 1: Who is who?](../chapter-01.md) — shares vocabulary for family members, personal attributes, and descriptions.
 - **Cheat sheets & grammar:**
   - [Descriptions, positions and room layout](../../wiki/cheat-sheets/descriptions.md) (personal appearance, clothing, and characteristics).
-  - [Adjective endings: with or without -e](../../wiki/grammar/adjective-endings-with-or-without-e.md) · [Adjectives cheat sheet](../../wiki/cheat-sheets/adjectives.md).
-  - [Continuous aspect: zijn + aan het + infinitief](../../wiki/grammar/continuous-aspect-aan-het.md).
-  - [Comparisons: equal, comparative and superlative](../../wiki/grammar/comparisons-equal-comparative-and-superlative.md) (*de oudste / de jongste*).
+  - [Adjective endings: with or without -e](../../data/grammar/adjective-endings-with-or-without-e.md) · [Adjectives cheat sheet](../../wiki/cheat-sheets/adjectives.md).
+  - [Continuous aspect: zijn + aan het + infinitief](../../data/grammar/continuous-aspect-aan-het.md).
+  - [Comparisons: equal, comparative and superlative](../../data/grammar/comparisons-equal-comparative-and-superlative.md) (*de oudste / de jongste*).
 - **Exam practice:** [Exam preparation — Prompt 1: Describe a person](../exams/exam-preparation.md#1-describe-a-person-persoonsbeschrijving).
 - **Course resources:** [Oral track overview](README.md) · [Course agenda (PDF)](../../sources/pages/agenda-sept-okt-26.md) · Oral evaluation: 26–27 October 2026.

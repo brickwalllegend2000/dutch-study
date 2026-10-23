@@ -10,9 +10,9 @@ Course-wide overview drawn from chapters 3–5, 7 and 8, Modeling 5, and the mai
 | --- | --- |
 | Describing a home or room | [Chapter 4](chapter-04.md) · [Chapter 5](chapter-05.md) · [Modeling 5](oral/modeling-05.md) |
 | Describing objects | [Chapter 7](chapter-07.md) |
-| Adjectives and comparisons | [Adjective endings](../wiki/grammar/adjective-endings-with-or-without-e.md) · [Comparisons](../wiki/grammar/comparisons-equal-comparative-and-superlative.md) · [Cheat sheet](../wiki/cheat-sheets/adjectives.md) |
-| Locations and *er* | [Using er](../wiki/grammar/using-er-there-is-there-are.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) |
-| Giving instructions | [Chapter 3](chapter-03.md) · [Giving instructions](instructies-geven.md) · [Modal verbs](../wiki/grammar/modal-verbs-can-must-may-and-want.md) |
+| Adjectives and comparisons | [Adjective endings](../data/grammar/adjective-endings-with-or-without-e.md) · [Comparisons](../data/grammar/comparisons-equal-comparative-and-superlative.md) · [Cheat sheet](../wiki/cheat-sheets/adjectives.md) |
+| Locations and *er* | [Using er](../data/grammar/using-er-there-is-there-are.md) · [Negation and er](../wiki/cheat-sheets/negation-and-er.md) |
+| Giving instructions | [Chapter 3](chapter-03.md) · [Giving instructions](instructies-geven.md) · [Modal verbs](../data/grammar/modal-verbs-can-must-may-and-want.md) |
 
 ## 1. Describing things
 
@@ -41,11 +41,11 @@ Chapter 7: describe objects (colour, size, material, what is inside a bag). Use 
 
 Never *-e*: adjectives ending in *-en* (*het effen tapijt*), materials (*de houten stoel*, *de glazen salontafel*, *het ijzeren bed*), or *-e* (*de roze zetel*). Exception: *plastic* (*de plastic stoel*).
 
-Full rules: [Adjective endings](../wiki/grammar/adjective-endings-with-or-without-e.md).
+Full rules: [Adjective endings](../data/grammar/adjective-endings-with-or-without-e.md).
 
 ### Comparisons
 
-From [Chapter 4](chapter-04.md) (comparative) and [Chapter 8](chapter-08.md) (superlative). Canonical note: [Comparisons](../wiki/grammar/comparisons-equal-comparative-and-superlative.md).
+From [Chapter 4](chapter-04.md) (comparative) and [Chapter 8](chapter-08.md) (superlative). Canonical note: [Comparisons](../data/grammar/comparisons-equal-comparative-and-superlative.md).
 
 **Patterns**
 
@@ -103,7 +103,7 @@ Use when the subject is not specific (*een*, *geen*, number, no article).
 - **Er is geen berging.**
 - **Er zijn twee slaapkamers.**
 
-Canonical note: [Using er](../wiki/grammar/using-er-there-is-there-are.md).
+Canonical note: [Using er](../data/grammar/using-er-there-is-there-are.md).
 
 ### Position verbs
 
@@ -132,7 +132,7 @@ From [Chapter 3](chapter-03.md) and [Modeling 5](oral/modeling-05.md) (*Waar moe
 - **Je mag het schilderij aan de muur hangen.** — You may hang the painting on the wall.
 - **Je mag hier niet parkeren.** — You must not park here.
 
-Infinitive at the end. Full forms: [Modal verbs](../wiki/grammar/modal-verbs-can-must-may-and-want.md) · [Giving instructions](instructies-geven.md).
+Infinitive at the end. Full forms: [Modal verbs](../data/grammar/modal-verbs-can-must-may-and-want.md) · [Giving instructions](instructies-geven.md).
 
 ### Imperative (direct)
 
