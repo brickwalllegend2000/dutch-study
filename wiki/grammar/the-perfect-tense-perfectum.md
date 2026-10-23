@@ -13,6 +13,8 @@ review_status: needs-review
 
 **Cheat sheet:** [Perfectum](../cheat-sheets/perfectum.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 2](../../course/review/chapter-02.md) · [Chapter 3](../../course/review/chapter-03.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 6](../../course/review/chapter-06.md) · [Chapter 7](../../course/review/chapter-07.md) · [Chapter 8](../../course/review/chapter-08.md)
 
+**Practice:** [Daily routines (Chapter 2)](../../course/wat-doe-jij-elke-dag.md)
+
 *Perfectum*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)
