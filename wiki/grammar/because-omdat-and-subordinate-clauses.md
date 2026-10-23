@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc819ea03de0f86f574a0b.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc819ea03de0f86f574a0b.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 6](../../course/chapter-06.md) — **Oral:** [Modeling 2](../../course/oral/modeling-02.md) · [Modeling 4](../../course/oral/modeling-04.md) · [Modeling 6](../../course/oral/modeling-06.md)
 
 *Omdat / bijzin*
 

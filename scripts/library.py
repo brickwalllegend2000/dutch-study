@@ -171,7 +171,7 @@ def rendered(root=ROOT):
     pages[f'{VIEWS}/PERFECTUM-STUDY-LIST.md']='# Perfectum study list — 80 verbs\n\n[Source transcription and usage notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md)\n\n'+listing([r for r in rows if 'Perfectum study list' in r['categories'].split(';')])
     pages[f'{VIEWS}/NEEDS-REVIEW.md']='# Vocabulary needing review\n\n'+listing([r for r in rows if r['review_status']=='needs-review'])
     for n in range(1,9):
-        pages[f'{VIEWS}/CHAPTER-{n:02}.md']=f'# Chapter {n} vocabulary\n\n'+listing([r for r in rows if str(n) in r['chapters'].split(';')])
+        pages[f'{VIEWS}/CHAPTER-{n:02}.md']=f'# Chapter {n} vocabulary\n\n[Chapter {n} guide](../../course/chapter-{n:02}.md) · [All vocabulary](VOCABULARY.md)\n\n'+listing([r for r in rows if str(n) in r['chapters'].split(';')])
     return pages
 
 
@@ -222,6 +222,7 @@ def validate(root=ROOT):
     for name,body in rendered(root).items():
         p=root/name
         if not p.is_file() or p.read_text(encoding='utf-8')!=body: errors.append(f'stale generated file: {name}')
+    linked=set()
     for p in root.rglob('*.md'):
         if any(x.startswith('.') for x in p.relative_to(root).parts): continue
         text=p.read_text(encoding='utf-8')
@@ -230,6 +231,10 @@ def validate(root=ROOT):
             if re.match(r'^[a-zA-Z][\w+.-]*:',target) or target.startswith('#'): continue
             target=unquote(target.split('#')[0])
             if target and not (p.parent/target).exists(): errors.append(f'{p.relative_to(root)}: broken link {target}')
+            elif target and (p.parent/target).resolve()!=p.resolve(): linked.add((p.parent/target).resolve())
+    # Hand-maintained course and grammar pages must be reachable from another page.
+    for p in sorted([*root.glob('course/**/*.md'),*root.glob('wiki/grammar/*.md')]):
+        if p.resolve() not in linked: errors.append(f'{p.relative_to(root)}: orphan page (no other page links to it)')
     return errors
 
 

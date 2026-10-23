@@ -7,7 +7,9 @@ review_status: needs-review
 
 > Imported course material; linguistic review pending.
 
-[Source snapshot](../../sources/pages/401f89e5e0fc815bb7a8cd2d3d522186.md) · [Home](../../README.md)
+[Source snapshot](../../sources/pages/401f89e5e0fc815bb7a8cd2d3d522186.md) · [Home](../../README.md) · [Grammar](README.md)
+
+**Written chapters:** [Chapter 2](../../course/chapter-02.md)
 
 *Gaan + infinitief*
 

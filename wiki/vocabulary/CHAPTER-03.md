@@ -1,5 +1,7 @@
 # Chapter 3 vocabulary
 
+[Chapter 3 guide](../../course/chapter-03.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [kunnen](words/VOC-bc00acbadd2d.md) |  | needs-review |

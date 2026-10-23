@@ -89,6 +89,13 @@ class CorpusValidationTests(CorpusFixture):
         from library import validate
         (self.root/'README.md').write_text('[Missing](missing.md)')
         self.assertTrue(any('broken link' in e for e in validate(self.root)))
+    def test_unlinked_course_page_fails(self):
+        from library import validate
+        (self.root/'course').mkdir()
+        (self.root/'course/chapter-09.md').write_text('# Chapter 9\n\n[Home](../README.md)')
+        self.assertTrue(any('course/chapter-09.md: orphan page' in e for e in validate(self.root)))
+        (self.root/'README.md').write_text('[Chapter 9](course/chapter-09.md)')
+        self.assertFalse(any('orphan page' in e for e in validate(self.root)))
 
 class CompleteProvenanceTests(CorpusFixture):
     def test_every_source_occurrence_requires_a_reverse_record_link(self):

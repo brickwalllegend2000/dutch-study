@@ -4,6 +4,8 @@
 
 [Home](../../README.md) · [Chapters](../README.md) · [Course table of contents](../../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md) · Oral coursebook p. 79
 
+[← Modeling 2](modeling-02.md) · Modeling 3 · [Modeling 4 →](modeling-04.md)
+
 **Track:** mondeling — luisteren en spreken. **Profile:** consument, cursist en vrijetijdsbesteder
 
 ## Skills and tasks (luisteren / spreken)
@@ -51,7 +53,7 @@ Closest written chapter by theme: [Chapter 1](../chapter-01.md). This pairing is
 2. Read the linked grammar topics.
 3. Practise the pronunciation points; record yourself and listen back.
 4. Do each speaking task aloud or as a voice message, then note what was hard.
-5. Save your notes in `journal/` using the study-session template.
+5. Save your notes in the [journal](../../journal/README.md) using the [study-session template](../../templates/Study-Session.md).
 6. Open a correction issue for uncertain material.
 
 Audio recordings are not part of this repository; listening practice uses the course materials you own.

@@ -1,5 +1,7 @@
 # Chapter 8 vocabulary
 
+[Chapter 8 guide](../../course/chapter-08.md) · [All vocabulary](VOCABULARY.md)
+
 | Dutch | English | Review |
 | --- | --- | --- |
 | [diep](words/VOC-c980168d0b3c.md) | deep | needs-review |
