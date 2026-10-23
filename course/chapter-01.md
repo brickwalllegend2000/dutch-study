@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Chapters](README.md) · Chapter 1 · [Chapter 2 →](chapter-02.md)
 
-[Vocabulary](../wiki/vocabulary/CHAPTER-01.md) · [Exercises](exercises/chapter-01.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc81f595c3f15218f426c8.md) · [Practice tests](exams/README.md)
+[Vocabulary](../wiki/vocabulary/CHAPTER-01.md) · [Exercises](exercises/chapter-01.md) · [Review sheet](review/chapter-01.md) · [Preserved chapter text](../sources/pages/401f89e5e0fc81f595c3f15218f426c8.md) · [Practice tests](exams/README.md)
 
 **Track:** schriftelijk — lezen en schrijven. **Profile:** cursist en vrijetijdsbesteder. Coursebook p. 11. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -45,6 +45,8 @@ Maintained grammar notes:
 - [Adjective endings: with or without -e](../wiki/grammar/adjective-endings-with-or-without-e.md)
 - [The perfect tense (perfectum)](../wiki/grammar/the-perfect-tense-perfectum.md)
 - [Writing checklist](../wiki/grammar/writing-checklist.md)
+
+Cheat sheets: [Adjectives and comparisons](../wiki/cheat-sheets/adjectives.md) · [Perfectum](../wiki/cheat-sheets/perfectum.md)
 
 ## Can-do goals (Dit kan ik!)
 

@@ -11,6 +11,8 @@ review_status: needs-review
 
 **Written chapters:** [Chapter 1](../../course/chapter-01.md) · [Chapter 4](../../course/chapter-04.md) · [Chapter 5](../../course/chapter-05.md) · [Chapter 7](../../course/chapter-07.md) — **Oral:** [Modeling 3](../../course/oral/modeling-03.md) · [Modeling 5](../../course/oral/modeling-05.md)
 
+**Cheat sheet:** [Adjectives and comparisons](../cheat-sheets/adjectives.md) — **Review sheets:** [Chapter 1](../../course/review/chapter-01.md) · [Chapter 4](../../course/review/chapter-04.md) · [Chapter 5](../../course/review/chapter-05.md) · [Chapter 7](../../course/review/chapter-07.md)
+
 *Adjectief: met of zonder -e*
 
 [Grammar guide](../../sources/pages/401f89e5e0fc819da383d5825749b371.md)

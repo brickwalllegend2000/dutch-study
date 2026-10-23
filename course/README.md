@@ -1,6 +1,6 @@
 # Chapters
 
-[Home](../README.md) · [Wiki](../wiki/README.md) · [Exercises](exercises/README.md) · [Practice tests](exams/README.md)
+[Home](../README.md) · [Wiki](../wiki/README.md) · [Exercises](exercises/README.md) · [Review sheets](review/README.md) · [Practice tests](exams/README.md)
 
 The course has two tracks. Work through both for each topic: the written track trains reading and writing, the oral track trains listening and speaking. Source: [course table of contents](../sources/pages/401f89e5e0fc8109a7fce9d6ce0656e9.md).
 
@@ -28,6 +28,10 @@ The course has two tracks. Work through both for each topic: the written track t
 ## Exercises
 
 - [Chapter exercises](exercises/README.md): workbook tasks, writing tips and adapted practice for chapters 1–8, with what is missing per chapter.
+
+## Review sheets
+
+- [Chapter review sheets](review/README.md): key vocabulary, grammar to know, what to watch out for and the can-do goals for chapters 1–8. Grammar [cheat sheets](../wiki/cheat-sheets/README.md) are in the wiki.
 
 ## Practice tests and exams
 
