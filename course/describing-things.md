@@ -75,12 +75,17 @@ From [Chapter 4](chapter-04.md) (comparative) and [Chapter 8](chapter-08.md) (su
 | graag | even graag als | liever (dan) | het liefst |
 | weinig | even weinig als | minder (dan) | het minst |
 
-**Examples**
+**Examples from the course** (chapters 4 and 8 exercises / cheat sheet)
 
 - Ons appartement is even duur als jouw appartement.
 - Mijn appartement is duurder dan jouw appartement.
+- Ons nieuwe appartement ligt verder van het centrum dan het oude appartement.
+- Onze woonkamer is nu ruimer dan in het vorige appartement.
+- We hebben meer slaapkamers dan in het oude appartement.
 - Het nieuwe appartement is beter dan het oude.
-- Dit is de ruimste woonkamer.
+- Dit is de zwaarste pompoen.
+- Ik ga graag naar het museum, maar ik ga liever winkelen.
+- Ons appartement is even duur als jouw appartement. Onze woonkamer is ruimer dan de slaapkamer. (chapter 8 model pair)
 
 **Watch out**
 
