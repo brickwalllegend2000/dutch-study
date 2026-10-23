@@ -1,23 +1,33 @@
 # Start here
 
-This folder is your Dutch study vault. It works locally before GitHub publication.
+This folder is your Dutch study vault. It works locally in Obsidian and as a GitHub repository.
 
-## Open in Obsidian now
+## Open in Obsidian
 
-1. Extract the complete ZIP, retaining the hidden `.obsidian` folder.
-2. Install Obsidian, choose **Open folder as vault**, and select this `dutch-study` folder.
-3. Open README. Use global search or the vocabulary, grammar and chapter links.
+1. Clone or extract the folder (keep `.obsidian`).
+2. Install Obsidian → **Open folder as vault** → select this `dutch-study` folder.
+3. Open [Study home](journal/my-study-view.md) or [README](README.md).
 
-No community plugins or Python are needed just to study.
+No community plugins or Python are required just to study.
 
-## Finish GitHub setup
+## Orient yourself
 
-The vault is published at `brickwalllegend2000/dutch-study` and is **public** on GitHub (as of 2026-10-23). Do not commit course passwords or private personal drafts. The five starter tasks exist as GitHub Issues with their status/type labels. The three milestones and a Project board may still need [publishing instructions](docs/PUBLISH.md) (optional). The Actions workflow validates the library on each push.
+| Doc | Purpose |
+| --- | --- |
+| [docs/OVERVIEW.md](docs/OVERVIEW.md) | Architecture diagrams, ownership, **status** |
+| [docs/HANDOFF.md](docs/HANDOFF.md) | What the last session left for the next |
+| [docs/INVENTORY.md](docs/INVENTORY.md) | Refreshable counts |
+| [WORKFLOW.md](WORKFLOW.md) | Capture → process → review → push |
+| [docs/SETUP.md](docs/SETUP.md) | GitHub Desktop + sync |
+
+## GitHub
+
+The vault is at `brickwalllegend2000/dutch-study` (**public**). Do not commit passwords or private drafts. Actions run *Library checks* on push. There are currently **no open Issues**; closed starters are summarized in [docs/TASKS.md](docs/TASKS.md).
 
 ## What was imported
 
-See the live [current inventory](docs/INVENTORY.md) for counts. Historically the Notion migration started at 412 vocabulary records and 12 grammar topics; the vault now also includes oral Modeling guides, additional vocabulary from the oral import, archived oral screenshots, and a study-safe agenda transcription (original agenda PDF withheld because it contained Moodle login instructions). Imported material still needs linguistic review unless a note explicitly documents what was checked.
+Live counts: [docs/INVENTORY.md](docs/INVENTORY.md). Historically the Notion migration started smaller; oral material and reviews expanded the library. Imported / `[added]` material still needs human judgment where labeled. Oral textbook screenshots (26) are archived; older Notion image attachments are **unavailable**. Agenda PDF is withheld; use the [study-safe transcription](sources/pages/agenda-sept-okt-26.md).
 
-41 Notion attachment references (24 distinct original filenames) are recorded as **unavailable** (no downloadable bytes). Separately, 26 oral textbook screenshots are archived with hashes. See [UNAVAILABLE.md](sources/originals/UNAVAILABLE.md) and the [current inventory](docs/INVENTORY.md).
+[Inbox class notes](inbox/2026-10-23-class-notes-schriftelijk.md) are **deferred** — not for canonical import until requested.
 
-[Open the library](README.md) · [Study home](journal/my-study-view.md) · [Daily workflow](WORKFLOW.md) · [Desktop setup](docs/SETUP.md) · [Prepared tasks](docs/TASKS.md)
+[Open the library](README.md) · [Study home](journal/my-study-view.md) · [Overview](docs/OVERVIEW.md)

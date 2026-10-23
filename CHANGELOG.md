@@ -2,6 +2,12 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-23 — Overview, status, handoff; defer inbox (`cursor/overview-status-handoff-2c41`)
+
+- Added `docs/OVERVIEW.md` (architecture mermaid diagrams, ownership, live status) and `docs/HANDOFF.md` for the next session.
+- Deferred inbox class notes; updated README, START-HERE, TASKS, INVENTORY, AGENTS.
+- No open GitHub Issues; suggested future work listed in TASKS/HANDOFF only.
+
 ## 2026-10-23 — Clear completed task inventory (`cursor/clear-completed-tasks-2c41`)
 
 - Updated `docs/TASKS.md` and `.github/bootstrap.json`: no open starter issues remain; bootstrap no longer re-creates the five closed starters on publish.

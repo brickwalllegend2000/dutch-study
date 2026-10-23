@@ -1,6 +1,10 @@
 # Project work
 
-There are **no open GitHub Issues** as of 2026-10-23. The five starter tasks from `.github/bootstrap.json` were completed and closed:
+There are **no open GitHub Issues** as of 2026-10-23.
+
+Orientation: [OVERVIEW.md](OVERVIEW.md) · Next session: [HANDOFF.md](HANDOFF.md)
+
+## Completed starters
 
 | Former issue | Outcome |
 | --- | --- |
@@ -10,12 +14,21 @@ There are **no open GitHub Issues** as of 2026-10-23. The five starter tasks fro
 | #4 Obsidian sync cycle | Cloud checks done; desktop Obsidian remains optional |
 | #5 First perfectum session | `journal/2026-10-23-perfectum-study-session.md` |
 
-Closed issues still appear in GitHub’s closed filter. Deleting them requires repo admin `delete_issue` permission; the agent integration cannot remove them.
+Closed issues remain in GitHub’s closed filter. Deleting them needs admin `delete_issue` permission.
 
-## Optional leftover (not a GitHub Issue)
+## Deferred (not an Issue)
 
-- [Inbox class notes](../inbox/2026-10-23-class-notes-schriftelijk.md) — captured, not yet processed into canonical course/vocabulary files.
+| Item | Status |
+| --- | --- |
+| [Inbox class notes (schriftelijk)](../inbox/2026-10-23-class-notes-schriftelijk.md) | **Deferred** — process only when explicitly requested |
 
-New work: open a GitHub Issue (use the templates), keep one `status:*` label, close when done.
+## Suggested future Issues (create when ready)
+
+1. Faithful oral page-level re-transcription vs 26 archived screenshots.
+2. Human/teacher review of 19 `[added]` English glosses.
+3. Process deferred inbox capture into journal corrections only or (carefully) course material.
+4. Optional: make repository private + purge credential-bearing history.
+
+New work: open a GitHub Issue (templates under `.github/ISSUE_TEMPLATE/`), keep one `status:*` label, close when done.
 
 [Open issues](https://github.com/brickwalllegend2000/dutch-study/issues) · [Closed](https://github.com/brickwalllegend2000/dutch-study/issues?q=is%3Aissue+is%3Aclosed) · [Home](../README.md) · [Workflow](../WORKFLOW.md)
