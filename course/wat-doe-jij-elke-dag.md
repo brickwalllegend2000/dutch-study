@@ -63,6 +63,21 @@ The conjugated verb stays in the second position. A whole phrase such as “Om z
 
 **Incorrect:** Daarna ik maak huiswerk.
 
+### Examples from the course (chapter 2 exercises + wiki grammar)
+
+- Eerst zijn we naar het museum geweest.
+- Daarna hebben we gewinkeld.
+- Dan hebben we mosselen gegeten.
+- Morgen gaan we winkelen.
+- We zijn op citytrip in Oostende! Het is … weer.
+- Ik ben op citytrip in Oostende.
+- Gisteren hebben we gewinkeld.
+- Eerst zijn we naar het museum geweest.
+- We hebben mosselen gegeten.
+- We zijn naar het museum geweest.
+- Ik ga winkelen. / Wij gaan winkelen.
+- Ga je winkelen?
+
 | Question | English | Sample answer |
 | --- | --- | --- |
 | Wat doe jij elke dag? | What do you do every day? | Ik ga naar de les. |
