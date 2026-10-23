@@ -18,7 +18,7 @@ Status canvas (Cursor session artifact): [Dutch study vault — status](https://
 3. Closed GitHub Issues **cannot be deleted** by this integration (`deleteIssue` FORBIDDEN).
 4. Starter bootstrap cleared; [TASKS.md](TASKS.md) shows no open Issues.
 5. Inbox class notes **deferred** (do not process unless asked).
-6. Orientation docs expanded: this handoff + [OVERVIEW.md](OVERVIEW.md) (architecture diagrams + status).
+6. Orientation docs expanded: this handoff + [OVERVIEW.md](OVERVIEW.md) (architecture, data flow, **wiki vs vault**, **setup**).
 
 ---
 
@@ -75,7 +75,9 @@ After content changes: build, validate, tests; open a PR.
 
 | Path | Why |
 | --- | --- |
-| [docs/OVERVIEW.md](OVERVIEW.md) | Architecture, **data/information flow**, status |
+| [docs/OVERVIEW.md](OVERVIEW.md) | Architecture, data flow, **wiki vs vault**, **setup**, status |
+| [docs/SETUP.md](SETUP.md) | Desktop Obsidian + Git |
+| [wiki/README.md](../wiki/README.md) | Reference layer index |
 | [docs/DATA-SCHEMA.md](DATA-SCHEMA.md) | Column and ID rules |
 | [journal/my-study-view.md](../journal/my-study-view.md) | Learner entry |
 | [vocabulary.csv](../vocabulary.csv) | Lexicon |
