@@ -62,6 +62,13 @@ button{cursor:pointer}button:disabled{opacity:.4}
  .drawer{left:auto;top:0;width:360px;max-height:none;border-radius:0;border-top:0;border-left:1px solid var(--bd)}}
 .hide{display:none!important}
 #writing textarea{width:100%;min-height:200px;font-size:16px}
+.wh{font-size:15px;margin:14px 0 6px}.fields{display:grid;gap:6px}.fld{display:flex;flex-wrap:wrap;align-items:center;gap:6px}.fld span{color:var(--mut)}.fld input{flex:1 1 140px}
+.fixed{margin:2px 0;padding:6px 10px;border-left:3px solid var(--bd);color:var(--mut);font-style:italic}.sp{height:6px}
+#wbar{height:100%;width:0;background:var(--ac)}#wbar.met{background:var(--ok)}
+.bank{border:1px dashed var(--bd);border-radius:12px;padding:10px;margin:12px 0}
+.model{background:var(--card2);border-left:4px solid var(--ac);border-radius:10px;padding:12px;margin:10px 0}.mtext{white-space:pre-wrap;margin:8px 0}.model summary{cursor:pointer;min-height:44px;display:flex;align-items:center}
+.rule{background:var(--card2);border-radius:10px;padding:10px 12px}.pat{font-family:ui-monospace,Menlo,monospace;font-size:15px;background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:6px 10px}
+.back li.ex{list-style:none;margin-left:-18px}.back li.ex::before{content:"✓ ";color:var(--ok);font-weight:700}.back{min-width:0;max-width:100%}
 .prompt{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;margin-bottom:10px;white-space:pre-wrap}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.chips button{padding:4px 10px;font-size:14px;border-radius:999px}
 .check{display:block;margin:4px 0;font-size:14px}.count{font-weight:600}.count.met{color:var(--ok)}
@@ -110,14 +117,14 @@ button{cursor:pointer}button:disabled{opacity:.4}
 <section id="writing" class="hide">
  <div class="ctl"><label class="full">Task<select id="wsel"></select></label></div>
  <div class="prompt" id="wprompt"></div>
- <label class="tiny" style="display:block">Word bank (theme)</label>
- <select id="wtheme" style="width:100%"></select>
- <div class="chips" id="wchips"></div>
- <textarea id="wtext" placeholder="Schrijf hier je antwoord…"></textarea>
- <p class="count" id="wcount"></p>
+ <h3 class="wh">Your answer</h3>
+ <div class="fields" id="wfields"></div>
+ <textarea id="wtext" placeholder="Schrijf hier je antwoord…" aria-label="Your answer"></textarea>
+ <div class="prog"><div class="track"><div id="wbar"></div></div><span class="count" id="wcount"></span></div>
+ <div class="bank"><label class="tiny" for="wtheme">Word bank (theme)</label><select id="wtheme" style="width:100%"></select><div class="chips" id="wchips"></div></div>
  <div id="wcheck"></div>
  <div class="bar"><button id="wmodelbtn">Show model answer</button></div>
- <div class="prompt hide" id="wmodel"></div>
+ <div class="model hide" id="wmodel"></div>
  <div class="bar"><button id="wcopy">Copy as journal note</button><button id="wdl">Download .md</button><button id="wclear">Clear</button></div>
  <p class="tiny">Drafts are saved in this browser. Save the note under journal/ and ask for corrections; your answers stay personal and are not course facts.</p>
 </section>
@@ -178,7 +185,7 @@ const KINDS={
    back:`<div class="big">${c.b}</div><div class="gl">${c.sub}</div><div class="tiny">${c.id}</div>`+flag(c.r),ans:[c.b.replace(/<[^>]+>/g,'')]}}},
  grammar:{label:'Grammar rules',src:()=>D.cards.filter(c=>c.k==='grammar'),filters:()=>one().concat([...new Set(D.cards.filter(c=>c.k==='grammar').map(c=>c.f))].sort().map(t=>[t,t])),tags:c=>[c.f],
   make(c){return {key:'G:'+c.src+c.sub,r:c.r,label:'grammar',front:`<div class="mid">${esc(c.sub)}</div><div class="gl">${esc(c.f)}</div>`,
-   back:`<div class="back">${c.b}</div><div class="tiny">${c.src}</div>`}}},
+   back:`<div class="back rule">${c.b}</div><div class="tiny">${c.src}</div>`}}},
  dehet:{label:'de or het',src:()=>D.dehet,filters:one,tags:()=>[],make:c=>choiceCard('D:'+c.id,'de / het',`<div class="big">${esc(c.w)}</div><div class="gl">${esc(c.en)}</div>`,['de','het'],c.art==='het'?1:0,`${tok(c.art)} ${esc(c.w)}`)},
  aux:{label:'heeft or is',src:()=>D.aux,filters:one,tags:()=>[],make:c=>choiceCard('A:'+c.id,'heeft / is',`<div class="big">${esc(c.w)}</div><div class="gl">${esc(c.en)}</div><div class="tiny">hij … ${esc(c.part)}</div>`,['heeft','is'],c.aux==='is'?1:0,`${tok(c.aux)} ${esc(c.part)}`)},
  adj:{label:'Adjective -e',src:()=>D.adj,filters:()=>one().concat([['Never takes -e','never'],['Regular adjectives','reg']]),tags:c=>[c.never?'never':'reg'],
@@ -328,8 +335,18 @@ $('exp').onclick=()=>download('dutch-progress.json',JSON.stringify({srs:P,writin
 $('imp').onclick=()=>$('file').click();
 $('file').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{const j=JSON.parse(t);P=j.srs||{};W=j.writing||{};N=j.notes||{};save();saveW();saveN();setKind()}).catch(()=>alert('Not a progress file'))};
 $('rst').onclick=()=>{if(confirm('Delete all saved progress, notes and writing drafts?')){P={};W={};N={};save();saveW();saveN();setKind()}};
-let wp=null;
+let wp=null,lastField=null;
 function sentences(t){return t.split(/[.!?]+(?:\s|$)/).filter(s=>s.trim().length>1).length}
+const hasFields=p=>p.skeleton.includes('...');
+function compose(sk,vals){let i=0;return sk.replace(/\.\.\./g,()=>(vals[i++]||'').trim()||'...')}
+function recover(sk,text){const m=new RegExp('^'+sk.split('...').map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('([^\\n]*)')+'$').exec(text||'');return m?m.slice(1).map(v=>v==='...'?'':v):[]}
+function fieldsHtml(sk){let n=0;
+ return sk.split('\n').map(line=>{if(!line.includes('...'))return line.trim()?`<p class="fixed">${esc(line)}</p>`:'<div class="sp"></div>';
+  const parts=line.split('...'),lab=parts[0].replace(/[:,]?\s*$/,'').trim()||'line';
+  return '<div class="fld">'+parts.map((t,j)=>(t?`<span>${esc(t)}</span>`:'')+(j<parts.length-1?`<input data-f="${n++}" aria-label="${esc(lab)}">`:'')).join('')+'</div>'}).join('')}
+const fieldVals=()=>[...$('wfields').querySelectorAll('input')].map(i=>i.value);
+const answerText=()=>hasFields(wp)?compose(wp.skeleton,fieldVals()):$('wtext').value;
+function saveDraft(){const st=W[wp.id]=W[wp.id]||{};st.text=answerText();if(hasFields(wp))st.fields=fieldVals();saveW();counter()}
 function showWriting(){
  if(!D.writing.length){$('writing').innerHTML='<p>No writing tasks found (course/exercises/schrijfopdrachten.md).</p>';return}
  if(!$('wsel').options.length){
@@ -337,21 +354,25 @@ function showWriting(){
   const themes=[...new Set(D.cards.filter(c=>c.k==='vocab').flatMap(c=>c.tags).filter(t=>!vocabTypes.includes(t)&&!t.startsWith('Chapter ')))].sort();
   $('wtheme').add(new Option('(none)',''));themes.forEach(t=>$('wtheme').add(new Option(t,t)));
   $('wsel').onchange=loadW;$('wtheme').onchange=chips;
-  $('wtext').oninput=()=>{W[wp.id]=Object.assign(W[wp.id]||{},{text:$('wtext').value});saveW();counter()};
+  $('wtext').oninput=saveDraft;$('wtext').onfocus=e=>lastField=e.target;
+  $('wfields').oninput=saveDraft;$('wfields').addEventListener('focusin',e=>{if(e.target.tagName==='INPUT')lastField=e.target});
   $('wmodelbtn').onclick=()=>{const m=$('wmodel');if(!m.classList.contains('hide')){m.classList.add('hide');$('wmodelbtn').textContent='Show model answer';return}
-   const mine=$('wtext').value.trim().length-(wp.skeleton||'').trim().length;
+   const mine=answerText().replace(/\.\.\./g,'').trim().length-wp.skeleton.replace(/\.\.\./g,'').trim().length;
    if(mine<20&&!confirm('Write your own answer first. Show the model answer anyway?'))return;
-   m.innerHTML=`<b>Model answer</b> <span class="tiny">(AI-written practice text, not teacher-checked)</span>\n\n${esc(wp.model.nl)}\n\n<i>English:</i> ${esc(wp.model.en)}`;m.classList.remove('hide');$('wmodelbtn').textContent='Hide model answer'};
-  $('wclear').onclick=()=>{if(confirm('Clear this draft?')){$('wtext').value='';delete W[wp.id];saveW();loadW()}};
+   m.innerHTML=`<b>Model answer</b> <span class="tiny">(AI-written practice text, not teacher-checked)</span><div class="mtext">${esc(wp.model.nl)}</div><details><summary>English translation</summary><div class="mtext">${esc(wp.model.en)}</div></details>`;m.classList.remove('hide');$('wmodelbtn').textContent='Hide model answer'};
+  $('wclear').onclick=()=>{if(confirm('Clear this draft?')){delete W[wp.id];saveW();loadW()}};
   $('wcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(note()).then(()=>{$('wcopy').textContent='Copied';setTimeout(()=>$('wcopy').textContent='Copy as journal note',1500)});
   $('wdl').onclick=()=>download(`${new Date().toISOString().slice(0,10)}-schrijfopdracht-${wp.id.slice(1)}.md`,note(),'text/markdown');
  }
  loadW();
 }
 function loadW(){
- wp=D.writing[+$('wsel').value];const s=W[wp.id]||{};
+ wp=D.writing[+$('wsel').value];const s=W[wp.id]||{},f=hasFields(wp);lastField=null;
  $('wprompt').innerHTML=`<b>${esc(wp.instr.join(' '))}</b>\n\n${esc(wp.text)}`;
- $('wtext').value=s.text!==undefined?s.text:(wp.skeleton||'');$('wmodel').classList.add('hide');$('wmodelbtn').textContent='Show model answer';$('wtheme').value=wp.theme&&[...$('wtheme').options].some(o=>o.value===wp.theme)?wp.theme:'';
+ $('wfields').classList.toggle('hide',!f);$('wtext').classList.toggle('hide',f);
+ if(f){$('wfields').innerHTML=fieldsHtml(wp.skeleton);const vals=s.fields||recover(wp.skeleton,s.text);$('wfields').querySelectorAll('input').forEach((i,n)=>i.value=vals[n]||'')}
+ else{$('wfields').innerHTML='';$('wtext').value=s.text!==undefined?s.text:wp.skeleton}
+ $('wmodel').classList.add('hide');$('wmodelbtn').textContent='Show model answer';$('wtheme').value=wp.theme&&[...$('wtheme').options].some(o=>o.value===wp.theme)?wp.theme:'';
  const items=[];wp.questions.forEach(q=>items.push('Answered: '+q));wp.bullets.forEach(b=>items.push('Included: '+b));
  if(wp.photo)items.push('Gave colour, material or place for each thing');
  items.push('Checked word order (verb in second place; after omdat at the end)','Checked adjective endings (met of zonder -e)','Read it aloud once');
@@ -363,15 +384,17 @@ function chips(){
  const th=$('wtheme').value,box=$('wchips');box.innerHTML='';if(!th)return;
  D.cards.filter(c=>c.k==='vocab'&&c.tags.includes(th)&&(c.r!=='needs-review')).slice(0,40).forEach(c=>{
   const b=document.createElement('button');b.innerHTML=withArt(c);if(c.art)b.className='t-'+c.art;b.title=c.en;
-  b.onclick=()=>{const t=$('wtext');t.value+=(t.value&&!/\s$/.test(t.value)?' ':'')+c.nl;t.dispatchEvent(new Event('input'));t.focus()};box.appendChild(b)});
+  b.onclick=()=>{const t=lastField||(hasFields(wp)?$('wfields').querySelector('input'):$('wtext'));t.value+=(t.value&&!/\s$/.test(t.value)?' ':'')+c.nl;t.dispatchEvent(new Event('input',{bubbles:true}));t.focus()};box.appendChild(b)});
 }
 function counter(){
- const n=sentences($('wtext').value),m=wp.min,el=$('wcount');
- el.textContent=m?`${n} sentence${n===1?'':'s'} — ${wp.exact?'target':'minimum'} ${m}`:`${n} sentences`;
- el.classList.toggle('met',m&&(wp.exact?n===m:n>=m));
+ const el=$('wcount');let done,goal,label;
+ if(hasFields(wp)){const v=fieldVals();goal=v.length;done=v.filter(x=>x.trim()).length;label=`${done} of ${goal} fields filled`}
+ else{done=sentences($('wtext').value);goal=wp.min;label=goal?`${done} sentence${done===1?'':'s'} — ${wp.exact?'target':'minimum'} ${goal}`:`${done} sentences`}
+ const met=!!goal&&(wp.exact?done===goal:done>=goal);
+ el.textContent=label;el.classList.toggle('met',met);$('wbar').style.width=goal?Math.min(done/goal,1)*100+'%':'0';$('wbar').classList.toggle('met',met);
 }
 function note(){
- return `# Schrijfopdracht ${wp.id.slice(1)} — ${wp.title}\n\nDate: ${new Date().toISOString().slice(0,10)}\n\n## Task\n\n${wp.instr.join('\n')}\n\n${wp.text.split('\n').map(l=>'> '+l).join('\n')}\n\n## My answer\n\n${$('wtext').value}\n\n## Checked\n\n`+
+ return `# Schrijfopdracht ${wp.id.slice(1)} — ${wp.title}\n\nDate: ${new Date().toISOString().slice(0,10)}\n\n## Task\n\n${wp.instr.join('\n')}\n\n${wp.text.split('\n').map(l=>'> '+l).join('\n')}\n\n## My answer\n\n${answerText()}\n\n## Checked\n\n`+
   [...$('wcheck').querySelectorAll('label')].map(l=>`- [${l.querySelector('input').checked?'x':' '}] ${l.textContent.trim()}`).join('\n')+'\n\n## Corrections\n\n_Not yet reviewed._\n';
 }
 (()=>{const s=load(SKEY);SET.forEach(i=>{if(s[i]!==undefined)$(i).value=s[i]});$('nr').checked=!!s.nr})();

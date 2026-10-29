@@ -53,12 +53,15 @@ def md_to_html(md):
         if re.match(r'\s*[-*] ', line):
             items = []
             while i < len(lines) and re.match(r'\s*[-*] ', lines[i]):
-                items.append('<li>' + _inline(re.sub(r'^\s*[-*] ', '', lines[i])) + '</li>')
+                item = re.sub(r'^\s*[-*] ', '', lines[i])
+                tag = '<li class="ex">' if re.match(r'\*\*[^*]+\*\* \u2014 ', item) else '<li>'
+                items.append(tag + _inline(item) + '</li>')
                 i += 1
             out.append('<ul>' + ''.join(items) + '</ul>')
             continue
         if line.strip() and not line.startswith('>'):
-            out.append('<p>' + _inline(line) + '</p>')
+            pattern = re.fullmatch(r'\*\*[^*]+ \+ [^*]+\*\*', line.strip())
+            out.append(('<p class="pat">' if pattern else '<p>') + _inline(line) + '</p>')
         i += 1
     return ''.join(out)
 

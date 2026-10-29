@@ -146,6 +146,11 @@ class FlashcardTests(unittest.TestCase):
     def test_markdown_is_escaped(self):
         self.assertEqual(flashcards.md_to_html('- <b>x</b> **y**'), '<ul><li>&lt;b&gt;x&lt;/b&gt; <b>y</b></li></ul>')
 
+    def test_grammar_markup_marks_patterns_and_examples(self):
+        html = flashcards.md_to_html('**Subject + verb.**\n\n- **Ik ga.** — I go.\n- plain item\n\n**Used in**')
+        self.assertEqual(html, '<p class="pat"><b>Subject + verb.</b></p><ul><li class="ex"><b>Ik ga.</b> — I go.</li>'
+                               '<li>plain item</li></ul><p><b>Used in</b></p>')
+
     def test_generated_page_is_current(self):
         page = (ROOT / 'views/vocabulary/flashcards.html').read_text(encoding='utf-8')
         self.assertEqual(page, flashcards.render(library.read_rows(), ROOT))
