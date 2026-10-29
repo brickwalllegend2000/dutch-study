@@ -96,7 +96,11 @@ def verb_cards(rows):
             continue
         aux = {'hebben': 'heeft', 'heeft': 'heeft', 'zijn': 'is', 'is': 'is'}.get(r['auxiliary'], r['auxiliary'])
         base = {'r': r['review_status'], 'id': r['id'], 'en': r['english']}
+        raw = r['auxiliary'].lower()
+        auxs = [a for a, w in (('heeft', 'hebben heeft'), ('is', 'zijn is')) if any(x in raw.split() or x in raw.replace('/', ' ').replace(';', ' ').split() for x in w.split())]
+        parts = [p.strip() for p in re.split(r'[;/,]', r['participle']) if p.strip()]
         perfectum.append({**base, 'k': 'perfectum', 'tags': [], 'f': r['dutch'],
+                          'ans': parts + [a + ' ' + p for a in auxs for p in parts],
                           'b': f"<b>{html.escape(aux)} {html.escape(r['participle'])}</b>"})
         forms = r['forms']
         # Only simple "present, past" pairs are safe to read as imperfectum.
@@ -123,112 +127,129 @@ def vocab_cards(rows):
         tags += ['Chapter ' + c for c in r['chapters'].split(';') if c]
         cards.append({'k': 'vocab', 'tags': tags, 'id': r['id'], 'r': r['review_status'],
                       'art': r['article'], 'nl': r['dutch'], 'en': r['english'],
-                      'ex': r['examples'].replace('«', '').replace('»', '').strip(),
+                      'ex': r['examples'].replace('\u00ab', '').replace('\u00bb', '').strip(),
                       'forms': r['forms']})
     return cards
 
 
+def cloze_cards(rows):
+    """Blank the whole word that contains the headword in the example sentence."""
+    cards = []
+    for r in rows:
+        ex = r['examples'].replace('\u00ab', '').replace('\u00bb', '').strip()
+        head = re.sub(r'\(.*?\)', '', r['dutch']).strip().lower()
+        if not ex or not head or r['word_type'].lower().startswith(('zin', 'functionele')):
+            continue
+        m = re.search(r'\b(\w*' + re.escape(head.split(' ')[-1]) + r'\w*)\b', ex, re.I) if ' ' in head else \
+            re.search(r'\b(\w*' + re.escape(head) + r'\w*)\b', ex, re.I)
+        if not m or len(m.group(1)) < 3:
+            continue
+        cards.append({'id': r['id'], 'r': r['review_status'], 'tags': [word_group(r)],
+                      'f': ex[:m.start()] + '_____' + ex[m.end():], 'ans': m.group(1),
+                      'hint': r['dutch'], 'en': r['english'], 'full': ex})
+    return cards
+
+
+def drill_cards(rows):
+    reviewed = [r for r in rows if r['review_status'] == 'reviewed']
+    seen, dehet = set(), []
+    for r in reviewed:
+        w = r['dutch']
+        if r['article'] in ('de', 'het') and w not in seen and ' ' not in w and '(' not in w:
+            seen.add(w)
+            dehet.append({'id': r['id'], 'w': w, 'art': r['article'], 'en': r['english']})
+    aux = []
+    for r in reviewed:
+        a = {'hebben': 'heeft', 'heeft': 'heeft', 'zijn': 'is', 'is': 'is'}.get(r['auxiliary'])
+        if r['participle'] and a:
+            aux.append({'id': r['id'], 'w': r['dutch'], 'aux': a, 'part': r['participle'], 'en': r['english']})
+    return dehet, aux
+
+
+# Hand-checked inflections (adjective before a de-word, plural or definite noun).
+ADJ_E = {'blauw': 'blauwe', 'bruin': 'bruine', 'diep': 'diepe', 'dik': 'dikke', 'geel': 'gele',
+         'grijs': 'grijze', 'groen': 'groene', 'paars': 'paarse', 'rond': 'ronde', 'rood': 'rode',
+         'wit': 'witte', 'zwart': 'zwarte', 'zwaar': 'zware', 'ruim': 'ruime', 'mooi': 'mooie',
+         'modern': 'moderne', 'vierkant': 'vierkante', 'rechthoekig': 'rechthoekige',
+         'gezellig': 'gezellige', 'prachtig': 'prachtige', 'rustig': 'rustige', 'ovaal': 'ovale',
+         'vuil': 'vuile', 'lichtblauw': 'lichtblauwe', 'donkergroen': 'donkergroene',
+         'gestreept': 'gestreepte', 'geruit': 'geruite', 'gebloemd': 'gebloemde'}
+NEVER_E = ('effen', 'glazen', 'houten', 'ijzeren', 'katoenen', 'leren', 'stenen', 'stoffen', 'wollen',
+           'roze', 'oranje', 'beige', 'plastic')
+
+
+def adjective_cards(rows):
+    import random
+    rnd = random.Random(7)
+    nouns = [r for r in rows if r['review_status'] == 'reviewed' and r['article'] in ('de', 'het')
+             and ' ' not in r['dutch'] and '(' not in r['dutch'] and r['dutch'][0].islower()]
+    present = {p.strip() for r in rows if 'adject' in r['word_type'].lower() for p in re.split(r'\s*[\u2194/]\s*', r['dutch'])}
+    cards = []
+    for adj in list(ADJ_E) + list(NEVER_E):
+        if adj not in present:
+            continue
+        never = adj in NEVER_E
+        for n in rnd.sample(nouns, 3):
+            art, noun = n['article'], n['dutch']
+            infl = adj if never else ADJ_E[adj]
+            # (frame, takes -e?, article shown in the full sentence)
+            frames = [(f'Een ___ {noun}', art == 'de' or never, f'Een {{a}} {noun}'),
+                      (f'{art.capitalize()} ___ {noun}', True, f'{art.capitalize()} {{a}} {noun}'),
+                      (f'{art.capitalize()} {noun} is ___.', False, f'{art.capitalize()} {noun} is {adj}.')]
+            for fr, with_e, full in frames:
+                if never:
+                    with_e = False
+                cards.append({'id': f'{adj}-{noun}-{len(cards)}', 'adj': adj, 'f': fr, 'e': with_e,
+                              'full': full.format(a=infl if with_e else adj), 'never': never})
+    rnd.shuffle(cards)
+    return cards[:180]
+
+
+def quiz_items(root):
+    path = Path(root) / 'data/grammar-quiz.json'
+    if not path.exists():
+        return []
+    items = json.loads(path.read_text(encoding='utf-8'))['items']
+    titles = {}
+    for p in (Path(root) / 'data/grammar').glob('*.md'):
+        m = re.search(r'^# (.+)$', p.read_text(encoding='utf-8'), re.M)
+        if m:
+            titles[p.relative_to(root).as_posix()] = m.group(1).strip()
+    for it in items:
+        it['topic'] = titles.get(it['note'], 'Imperfectum (past tense)' if it['note'] == 'imperfectum' else it['note'])
+    return items
+
+
+def writing_prompts(root):
+    path = Path(root) / 'course/exercises/schrijfopdrachten.md'
+    if not path.exists():
+        return []
+    prompts = []
+    for block in re.split(r'^## Oefening ', path.read_text(encoding='utf-8'), flags=re.M)[1:]:
+        head, _, body = block.partition('\n')
+        num, _, title = head.partition(' \u2014 ')
+        body = body.split('> Geef hier')[0].replace('\n---', '')
+        instr = [re.sub(r'\*+', '', l).strip() for l in body.splitlines() if l.startswith('**')]
+        m = re.search(r'(minimum|in) (\d+) zinnen', ' '.join(instr))
+        rest = [l for l in body.splitlines() if l.strip() and not l.startswith('**')]
+        text = '\n'.join(re.sub(r'^> ?', '', l).replace('\\', '') for l in rest)
+        text = re.sub(r'\*\*|^\*|\*$', '', text, flags=re.M)
+        low = (title + body).lower()
+        theme = ('Meubels & Inrichting' if 'woonkamer' in low else 'Kleuren' if 'foto' in low
+                 else 'Stad, Toerisme & Reizen' if 'trein' in low else '')
+        prompts.append({'id': 'W' + num.strip(), 'title': title.strip(), 'instr': instr, 'min': int(m.group(2)) if m else 0,
+                        'exact': bool(m and m.group(1) == 'in'), 'text': text,
+                        'questions': [l.strip() for l in text.splitlines() if l.strip().endswith('?')],
+                        'photo': 'foto' in low, 'theme': theme})
+    return prompts
+
+
 def render(rows, root):
-    cards = vocab_cards(rows) + verb_cards(rows) + grammar_cards(Path(root))
-    data = json.dumps(cards, ensure_ascii=False).replace('</', '<\\/')
-    return TEMPLATE.replace('__DATA__', data)
-
-
-TEMPLATE = r'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dutch flashcards</title>
-<!-- Generated by scripts/flashcards.py via `python scripts/library.py build`. Do not edit. -->
-<style>
-:root{--bg:#fafaf7;--fg:#1d1d1b;--mut:#6b6b66;--card:#fff;--bd:#d9d9d2;--ac:#e8590c;--ok:#2b8a3e;--no:#c92a2a}
-@media(prefers-color-scheme:dark){:root{--bg:#161615;--fg:#eee;--mut:#9a9a94;--card:#212120;--bd:#383835}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
-main{max-width:640px;margin:0 auto;padding:16px}
-h1{font-size:20px;margin:0 0 12px}
-.ctl{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
-.ctl label{font-size:12px;color:var(--mut);display:flex;flex-direction:column;gap:2px}
-select,button,input{font:inherit;padding:8px;border-radius:8px;border:1px solid var(--bd);background:var(--card);color:var(--fg)}
-.full{grid-column:1/-1}.chk{flex-direction:row!important;align-items:center;gap:6px!important;font-size:13px!important}
-.card{min-height:230px;background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;cursor:pointer}
-.big{font-size:30px;font-weight:650}.sub{color:var(--mut);margin-top:10px}.tiny{font-size:12px;color:var(--mut);margin-top:12px}
-.back{width:100%;text-align:left}.back table{border-collapse:collapse;margin:8px 0;font-size:14px}.back td,.back th{border:1px solid var(--bd);padding:4px 8px}
-.back ul{padding-left:20px;margin:6px 0}.back p{margin:6px 0}
-.bar{display:flex;gap:8px;margin-top:12px;align-items:center}.bar .st{flex:1;color:var(--mut);font-size:13px}
-.no{background:var(--no);color:#fff;border:0}.ok{background:var(--ok);color:#fff;border:0}.pri{background:var(--ac);color:#fff;border:0}
-.flag{color:#b8860b}
-</style></head><body><main>
-<h1>Dutch flashcards</h1>
-<div class="ctl">
- <label>Practise<select id="kind">
-  <option value="vocab">Vocabulary</option>
-  <option value="perfectum">Perfectum (verb → heeft/is + participle)</option>
-  <option value="imperfectum">Imperfectum (verb → past form)</option>
-  <option value="grammar">Grammar rules</option></select></label>
- <label>Filter<select id="filter"></select></label>
- <label id="dirL">Direction<select id="dir"><option value="nl">Dutch → English</option><option value="en">English → Dutch</option></select></label>
- <label>Order<select id="ord"><option value="r">Shuffled</option><option value="o">In order</option></select></label>
- <label class="chk full"><input type="checkbox" id="nr"> Include cards not yet linguistically reviewed</label>
-</div>
-<div class="card" id="card" tabindex="0"></div>
-<div class="bar"><span class="st" id="st"></span>
- <button id="flip">Flip</button><button class="no" id="again">Again</button><button class="ok" id="got">Got it</button></div>
-<p class="tiny">Space = flip · ← again · → got it. Progress is not saved; reload to restart. Facts come from data/vocabulary.csv and data/grammar/.</p>
-</main>
-<script>
-const ALL=__DATA__;
-const $=id=>document.getElementById(id);
-const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
-let deck=[],known=0,shown=false;
-function opts(){
- const k=$('kind').value,f=$('filter');f.innerHTML='';
- const add=(v,t)=>f.add(new Option(t,v));
- add('','All');
- if(k==='vocab'){
-  const tags={};ALL.filter(c=>c.k==='vocab').forEach(c=>c.tags.forEach(t=>tags[t]=(tags[t]||0)+1));
-  const types=['Nouns','Verbs','Adjectives','Prepositions','Phrases','Other'];
-  const g1=document.createElement('optgroup');g1.label='By word type';
-  types.filter(t=>tags[t]).forEach(t=>g1.appendChild(new Option(t+' ('+tags[t]+')',t)));f.appendChild(g1);
-  const g2=document.createElement('optgroup');g2.label='By chapter';
-  Object.keys(tags).filter(t=>t.startsWith('Chapter ')).sort().forEach(t=>g2.appendChild(new Option(t+' ('+tags[t]+')',t)));f.appendChild(g2);
-  const g3=document.createElement('optgroup');g3.label='By theme';
-  Object.keys(tags).filter(t=>!types.includes(t)&&!t.startsWith('Chapter ')).sort().forEach(t=>g3.appendChild(new Option(t+' ('+tags[t]+')',t)));f.appendChild(g3);
- }else if(k==='grammar'){
-  [...new Set(ALL.filter(c=>c.k==='grammar').map(c=>c.f))].sort().forEach(t=>add(t,t));
- }
- $('dirL').style.display=k==='vocab'?'':'none';
- f.style.display=(k==='perfectum'||k==='imperfectum')?'none':'';
- start();
-}
-function start(){
- const k=$('kind').value,flt=$('filter').value,nr=$('nr').checked;
- deck=ALL.filter(c=>c.k===k&&(nr||c.r!=='needs-review')&&(!flt||c.tags.includes(flt)));
- if($('ord').value==='r')for(let i=deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]];}
- known=0;shown=false;draw();
-}
-function faces(c){
- const k=c.k,flag=c.r==='needs-review'?'<div class="tiny flag">not yet reviewed</div>':'';
- if(k==='vocab'){
-  const nl=(c.art?c.art+' ':'')+c.nl,rev=$('dir').value==='en';
-  const front=rev?c.en:nl,back=rev?nl:c.en;
-  return [`<div class="big">${esc(front)}</div>`,
-   `<div class="big">${esc(back)}</div>`+(rev?'':'')+(c.ex?`<div class="sub">${esc(c.ex)}</div>`:'')+(c.forms?`<div class="sub">${esc(c.forms)}</div>`:'')+`<div class="tiny">${c.id}</div>`+flag];
- }
- if(k==='perfectum'||k==='imperfectum')
-  return [`<div class="big">${esc(c.f)}</div><div class="sub">${esc(c.en)}</div><div class="tiny">${k==='perfectum'?'perfectum: heeft/is + participle':'imperfectum (singular)'}</div>`,
-   `<div class="big">${c.b}</div>${c.sub?`<div class="sub">${c.sub}</div>`:''}<div class="sub">${esc(c.f)} — ${esc(c.en)}</div><div class="tiny">${c.id}</div>`+flag];
- return [`<div class="big">${esc(c.sub)}</div><div class="sub">${esc(c.f)}</div>`,
-  `<div class="back">${c.b}</div><div class="tiny">${c.src}</div>`+flag];
-}
-function draw(){
- const card=$('card');
- if(!deck.length){card.innerHTML=known?`<div class="big">Done 🎉</div><div class="sub">${known} cards known</div>`:'<div class="sub">No cards for this selection.</div>';$('st').textContent='';return}
- const f=faces(deck[0]);card.innerHTML=shown?f[1]:f[0]+'<div class="tiny">tap to flip</div>';
- $('st').textContent=deck.length+' left · '+known+' known';
-}
-const flip=()=>{if(deck.length){shown=!shown;draw()}};
-function next(ok){if(!deck.length)return;const c=deck.shift();if(ok)known++;else deck.push(c);shown=false;draw()}
-$('card').onclick=$('flip').onclick=flip;$('got').onclick=()=>next(1);$('again').onclick=()=>next(0);
-['filter','dir','ord','nr'].forEach(i=>$(i).onchange=start);$('kind').onchange=opts;
-document.onkeydown=e=>{if(e.target.tagName==='SELECT')return;if(e.key===' '){e.preventDefault();flip()}else if(e.key==='ArrowRight')next(1);else if(e.key==='ArrowLeft')next(0)};
-opts();
-</script></body></html>
-'''
+    dehet, aux = drill_cards(rows)
+    data = {'cards': vocab_cards(rows) + verb_cards(rows) + grammar_cards(Path(root)),
+            'cloze': cloze_cards(rows), 'dehet': dehet, 'aux': aux,
+            'adj': adjective_cards(rows), 'quiz': quiz_items(root),
+            'writing': writing_prompts(root)}
+    blob = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
+    template = (Path(__file__).resolve().parent / 'flashcards_template.html').read_text(encoding='utf-8')
+    return template.replace('__DATA__', blob)

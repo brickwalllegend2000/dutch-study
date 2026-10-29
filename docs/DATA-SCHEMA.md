@@ -53,3 +53,7 @@ A source URL is a reference, not a backup.
 Grammar topics use YAML Properties: `id`, `source_ids`, `review_status`, and `reviewed_on` when reviewed. Explain scope and exceptions in the note body. Cite source snapshots using relative links.
 
 Personal answers belong in study notes, separate from canonical rules. Study templates can reference vocabulary IDs and grammar paths. Exercises in course/exams/ retain imported course material and must keep their review status visible.
+
+## Grammar quiz items
+
+[`data/grammar-quiz.json`](../data/grammar-quiz.json) holds authored practice questions for the flashcard page. Each item has `id` (`GQ-NNN`), `note` (path of the grammar note it practises, or `imperfectum`), `question`, `choices`, `answer` (index), `why`, `origin` and `review_status`. `origin` is `course` (restates a rule or example from the note), `constructed` (new example, shown with †), `course-forms` (verb form from the CSV, explained with an external rule) or `external` (standard Dutch the course does not teach; hidden unless unreviewed items are included). Items are AI-drafted and stay `needs-review` until checked.

@@ -33,7 +33,7 @@ After any content change, run build, validate and the tests. Commit regenerated 
 
 Flow: sources → occurrences → CSV (curated) → `build` → `views/`. Correct a fact in `data/` and keep the original wording in sources.
 
-`scripts/library.py` contains everything for build, validate and search. `scripts/import_notion.py` is a one-time import and must not be rerun (it refuses to overwrite the CSV). `scripts/publish_github.py` is tested in `tests/test_publish.py`.
+`scripts/library.py` contains everything for build, validate and search. `scripts/import_notion.py` is a one-time import and must not be rerun (it refuses to overwrite the CSV). `scripts/flashcards.py` + `scripts/flashcards_template.html` render the self-contained practice page `views/vocabulary/flashcards.html` (called from `rendered()`; edit the generator or template, never the HTML). Practice decks come from the CSV, grammar notes, `data/grammar-quiz.json` and `course/exercises/schrijfopdrachten.md`; progress lives in browser localStorage only. `scripts/publish_github.py` is tested in `tests/test_publish.py`.
 
 ## Working conventions
 

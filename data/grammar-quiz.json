@@ -1,0 +1,645 @@
+{
+ "_comment": "Authored practice questions. note = grammar note the item practises (or 'imperfectum'). origin: course = restates a rule/example from that note; constructed = new example (†); external = standard Dutch not taught in the course, needs review; course-forms = verb form taken from data/vocabulary.csv, with an external explanation.",
+ "items": [
+  {
+   "id": "GQ-001",
+   "note": "data/grammar/negation-geen-and-niet.md",
+   "question": "Make negative: Er is een lift.",
+   "choices": [
+    "Er is niet een lift.",
+    "Er is geen lift.",
+    "Er is lift niet."
+   ],
+   "answer": 1,
+   "why": "een + noun becomes geen.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-002",
+   "note": "data/grammar/negation-geen-and-niet.md",
+   "question": "Make negative: Er is centrale verwarming.",
+   "choices": [
+    "Er is geen centrale verwarming.",
+    "Er is niet centrale verwarming.",
+    "Er geen is centrale verwarming."
+   ],
+   "answer": 0,
+   "why": "A noun without an article also takes geen.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-003",
+   "note": "data/grammar/negation-geen-and-niet.md",
+   "question": "Make negative: Ik woon op de derde verdieping.",
+   "choices": [
+    "Ik woon geen op de derde verdieping.",
+    "Ik woon niet op de derde verdieping.",
+    "Ik niet woon op de derde verdieping."
+   ],
+   "answer": 1,
+   "why": "niet goes before a preposition phrase.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-004",
+   "note": "data/grammar/negation-geen-and-niet.md",
+   "question": "Make negative: Ik neem elke dag de bus.",
+   "choices": [
+    "Ik neem geen elke dag de bus.",
+    "Ik neem elke dag niet de bus.",
+    "Ik neem niet elke dag de bus."
+   ],
+   "answer": 2,
+   "why": "niet goes before elke dag.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-005",
+   "note": "data/grammar/because-omdat-and-subordinate-clauses.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Ik kan niet komen, omdat ik hoofdpijn heb.",
+    "Ik kan niet komen, omdat ik heb hoofdpijn.",
+    "Ik kan niet komen, omdat heb ik hoofdpijn."
+   ],
+   "answer": 0,
+   "why": "After omdat the conjugated verb moves to the end of the clause.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-006",
+   "note": "data/grammar/because-omdat-and-subordinate-clauses.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Ik kan morgen niet komen, omdat moet ik werken.",
+    "Ik kan morgen niet komen, omdat ik moet werken.",
+    "Ik kan morgen niet komen, omdat ik werk moet."
+   ],
+   "answer": 1,
+   "why": "The verb group (moet werken) stays together at the end.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-007",
+   "note": "data/grammar/because-omdat-and-subordinate-clauses.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Ik kan niet komen, want ik heb hoofdpijn.",
+    "Ik kan niet komen, want ik hoofdpijn heb.",
+    "Ik kan niet komen, want heb ik hoofdpijn."
+   ],
+   "answer": 0,
+   "why": "want keeps normal word order; only omdat sends the verb to the end.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-008",
+   "note": "data/grammar/joining-sentences-want-en-maar-and-of.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Wij gaan verhuizen, want ons appartement te klein is.",
+    "Wij gaan verhuizen, want ons appartement is te klein.",
+    "Wij gaan verhuizen, want is ons appartement te klein."
+   ],
+   "answer": 1,
+   "why": "After want the word order does not change.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-009",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "De tafel is ___.",
+   "choices": [
+    "rond",
+    "ronde"
+   ],
+   "answer": 0,
+   "why": "After zijn (adjective after the noun): never -e. De tafel is rond.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-010",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "Een ___ tafel (de-woord).",
+   "choices": [
+    "rond",
+    "ronde"
+   ],
+   "answer": 1,
+   "why": "de-word before the noun: always -e. Een ronde tafel.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-011",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "Een ___ tapijt (het-woord).",
+   "choices": [
+    "rond",
+    "ronde"
+   ],
+   "answer": 0,
+   "why": "het-word after een: no -e. Een rond tapijt.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-012",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "Het ___ tapijt.",
+   "choices": [
+    "rond",
+    "ronde"
+   ],
+   "answer": 1,
+   "why": "het-word after het: -e. Het ronde tapijt.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-013",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "___ tapijten (plural).",
+   "choices": [
+    "Rond",
+    "Ronde"
+   ],
+   "answer": 1,
+   "why": "Plural: always -e. Ronde tapijten.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-014",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "De ___ stoel (hout).",
+   "choices": [
+    "houten",
+    "houtene",
+    "hout"
+   ],
+   "answer": 0,
+   "why": "Material adjectives (mostly on -en) never get an extra -e: de houten stoel.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-015",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "Het ___ tapijt (effen).",
+   "choices": [
+    "effen",
+    "effene"
+   ],
+   "answer": 0,
+   "why": "Adjectives ending on -en never get -e: het effen tapijt.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-016",
+   "note": "data/grammar/adjective-endings-with-or-without-e.md",
+   "question": "De ___ zetel (roze).",
+   "choices": [
+    "roze",
+    "rozee"
+   ],
+   "answer": 0,
+   "why": "Adjectives ending on -e never change: de roze zetel.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-017",
+   "note": "data/grammar/comparisons-equal-comparative-and-superlative.md",
+   "question": "oud → comparative",
+   "choices": [
+    "oudere",
+    "ouder",
+    "meer oud"
+   ],
+   "answer": 1,
+   "why": "oud – ouder (dan) – de oudste.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-018",
+   "note": "data/grammar/comparisons-equal-comparative-and-superlative.md",
+   "question": "zwaar → superlative: de ___ pompoen",
+   "choices": [
+    "zwaarste",
+    "zwaarder",
+    "zwaartste"
+   ],
+   "answer": 0,
+   "why": "zwaar – zwaarder (dan) – de zwaarste.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-019",
+   "note": "data/grammar/comparisons-equal-comparative-and-superlative.md",
+   "question": "goed → comparative",
+   "choices": [
+    "gooder",
+    "beter",
+    "meer goed"
+   ],
+   "answer": 1,
+   "why": "Irregular: goed – beter – het best.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-020",
+   "note": "data/grammar/comparisons-equal-comparative-and-superlative.md",
+   "question": "graag → comparative",
+   "choices": [
+    "liever",
+    "gragger",
+    "beter"
+   ],
+   "answer": 0,
+   "why": "Irregular: graag – liever – het liefst.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-021",
+   "note": "data/grammar/comparisons-equal-comparative-and-superlative.md",
+   "question": "Mijn huis is even ruim ___ jouw huis.",
+   "choices": [
+    "dan",
+    "als"
+   ],
+   "answer": 1,
+   "why": "Equal comparison: even ... als. (Comparative uses dan.)",
+   "origin": "constructed",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-022",
+   "note": "data/grammar/continuous-aspect-aan-het.md",
+   "question": "Ik ben ___ koken.",
+   "choices": [
+    "aan het",
+    "te",
+    "om te"
+   ],
+   "answer": 0,
+   "why": "zijn + aan het + infinitive = action in progress.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-023",
+   "note": "data/grammar/continuous-aspect-aan-het.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Ik kan nu niet bellen, omdat ik aan het rijden ben.",
+    "Ik kan nu niet bellen, omdat ik ben aan het rijden.",
+    "Ik kan nu niet bellen, omdat ik aan het ben rijden."
+   ],
+   "answer": 0,
+   "why": "In a subordinate clause aan het + infinitive comes before the conjugated is/ben/zijn.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-024",
+   "note": "data/grammar/continuous-aspect-aan-het.md",
+   "question": "___ je aan het koken?",
+   "choices": [
+    "Ben",
+    "Bent",
+    "Is"
+   ],
+   "answer": 0,
+   "why": "In a question with je, the verb is ben: Ben je aan het koken?",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-025",
+   "note": "data/grammar/future-plans-gaan-infinitive.md",
+   "question": "Wij ___ morgen winkelen.",
+   "choices": [
+    "ga",
+    "gaat",
+    "gaan"
+   ],
+   "answer": 2,
+   "why": "wij gaan.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-026",
+   "note": "data/grammar/future-plans-gaan-infinitive.md",
+   "question": "___ je winkelen?",
+   "choices": [
+    "Gaat",
+    "Ga",
+    "Gaan"
+   ],
+   "answer": 1,
+   "why": "With je after the verb, drop the -t: Ga je winkelen?",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-027",
+   "note": "data/grammar/future-plans-gaan-infinitive.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Morgen we gaan winkelen.",
+    "Morgen gaan we winkelen."
+   ],
+   "answer": 1,
+   "why": "Time first, so verb then subject.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-028",
+   "note": "data/grammar/infinitive-clauses-om-te.md",
+   "question": "Ik bel om mijn afspraak ___.",
+   "choices": [
+    "te verzetten",
+    "verzetten te",
+    "te verzet"
+   ],
+   "answer": 0,
+   "why": "om ... te + infinitive closes the clause.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-029",
+   "note": "data/grammar/infinitive-clauses-om-te.md",
+   "question": "Het is handig om een herbruikbare zak ___.",
+   "choices": [
+    "mee te nemen",
+    "te meenemen",
+    "meenemen te"
+   ],
+   "answer": 0,
+   "why": "Separable verb: te goes between particle and verb: mee te nemen.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-030",
+   "note": "data/grammar/modal-verbs-can-must-may-and-want.md",
+   "question": "Maria wil naar het buurtfeest ___.",
+   "choices": [
+    "gaan",
+    "gaat",
+    "gegaan"
+   ],
+   "answer": 0,
+   "why": "Modal + infinitive at the end.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-031",
+   "note": "data/grammar/modal-verbs-can-must-may-and-want.md",
+   "question": "Je ___ hier niet parkeren. (verbod)",
+   "choices": [
+    "mag",
+    "moet",
+    "wil"
+   ],
+   "answer": 0,
+   "why": "(niet) mogen = prohibition.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-032",
+   "note": "data/grammar/modal-verbs-can-must-may-and-want.md",
+   "question": "Het licht is rood, je ___ stoppen.",
+   "choices": [
+    "mag",
+    "moet",
+    "wil"
+   ],
+   "answer": 1,
+   "why": "moeten = obligation.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-033",
+   "note": "data/grammar/modal-verbs-can-must-may-and-want.md",
+   "question": "Mijn dochter ___ zwemmen.",
+   "choices": [
+    "kan",
+    "kunnen",
+    "kunt"
+   ],
+   "answer": 0,
+   "why": "kunnen = ability; hij/zij kan.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-034",
+   "note": "data/grammar/the-perfect-tense-perfectum.md",
+   "question": "We ___ mosselen gegeten.",
+   "choices": [
+    "hebben",
+    "zijn",
+    "worden"
+   ],
+   "answer": 0,
+   "why": "eten → hebben gegeten.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-035",
+   "note": "data/grammar/the-perfect-tense-perfectum.md",
+   "question": "We ___ naar het museum geweest.",
+   "choices": [
+    "hebben",
+    "zijn"
+   ],
+   "answer": 1,
+   "why": "zijn geweest.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-036",
+   "note": "data/grammar/the-perfect-tense-perfectum.md",
+   "question": "___ je mijn bericht al gelezen?",
+   "choices": [
+    "Heb",
+    "Hebt",
+    "Ben"
+   ],
+   "answer": 0,
+   "why": "Question: auxiliary first; je takes heb.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-037",
+   "note": "data/grammar/the-perfect-tense-perfectum.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Gisteren we hebben gewinkeld.",
+    "Gisteren hebben we gewinkeld."
+   ],
+   "answer": 1,
+   "why": "Time phrase first: auxiliary then subject; participle at the end.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-038",
+   "note": "data/grammar/word-order-eerst-dan-and-daarna.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Daarna we hebben gewinkeld.",
+    "Daarna hebben we gewinkeld."
+   ],
+   "answer": 1,
+   "why": "Inversion after daarna.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-039",
+   "note": "data/grammar/word-order-eerst-dan-and-daarna.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Eerst zijn we naar het museum geweest.",
+    "Eerst we zijn naar het museum geweest."
+   ],
+   "answer": 0,
+   "why": "Inversion after eerst.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-040",
+   "note": "data/grammar/using-er-there-is-there-are.md",
+   "question": "___ zijn twee slaapkamers.",
+   "choices": [
+    "Er",
+    "Ze",
+    "Wij"
+   ],
+   "answer": 0,
+   "why": "Er + zijn + non-specific subject.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-041",
+   "note": "data/grammar/using-er-there-is-there-are.md",
+   "question": "Er ___ boeken op het nachtkastje.",
+   "choices": [
+    "ligt",
+    "liggen"
+   ],
+   "answer": 1,
+   "why": "Plural subject: liggen.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-042",
+   "note": "data/grammar/using-zal.md",
+   "question": "Which sentence is correct?",
+   "choices": [
+    "Dat zal ik doen!",
+    "Dat ik zal doen!"
+   ],
+   "answer": 0,
+   "why": "Dat first, so zal comes before ik.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-043",
+   "note": "data/grammar/using-zal.md",
+   "question": "Wij ___ dat doen.",
+   "choices": [
+    "zal",
+    "zullen",
+    "zult"
+   ],
+   "answer": 1,
+   "why": "wij zullen.",
+   "origin": "course",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-044",
+   "note": "imperfectum",
+   "question": "Past tense (imperfectum, singular) of bestellen",
+   "choices": [
+    "bestelde",
+    "bestelte"
+   ],
+   "answer": 0,
+   "why": "Course form from the CSV: bestelt, bestelde. Stem bestel- ends in l, which is not in 't kofschip, so -de.",
+   "origin": "course-forms",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-045",
+   "note": "imperfectum",
+   "question": "Past tense (imperfectum, singular) of leggen",
+   "choices": [
+    "legde",
+    "legte"
+   ],
+   "answer": 0,
+   "why": "Course form from the CSV: legt, legde. The stem leg- ends in g (not in 't kofschip), so -de.",
+   "origin": "course-forms",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-046",
+   "note": "imperfectum",
+   "question": "Past tense (imperfectum, singular) of krijgen",
+   "choices": [
+    "krijgde",
+    "kreeg",
+    "krijgte"
+   ],
+   "answer": 1,
+   "why": "Irregular; course form from the CSV: krijgt, kreeg.",
+   "origin": "course-forms",
+   "review_status": "needs-review"
+  },
+  {
+   "id": "GQ-047",
+   "note": "imperfectum",
+   "question": "Past tense (imperfectum, singular) of werken (stem werk-)",
+   "choices": [
+    "werkde",
+    "werkte"
+   ],
+   "answer": 1,
+   "why": "External rule ('t kofschip): a stem ending in t, k, f, s, c, h or p takes -te. Not taught in the course notes.",
+   "origin": "external",
+   "review_status": "needs-review"
+  }
+ ]
+}
