@@ -1,5 +1,7 @@
 import json
 import re
+import shutil
+import subprocess
 import sys
 import unittest
 from pathlib import Path
@@ -13,6 +15,45 @@ import library
 def data():
     page = flashcards.render(library.read_rows(), ROOT)
     return json.loads(re.search(r'const D=(.*);\nconst \$', page).group(1))
+
+
+def js(*names):
+    """Source of top-level declarations from the page script, for running under node."""
+    src = (ROOT / 'scripts/flashcards_template.html').read_text(encoding='utf-8')
+    out = []
+    for name in names:
+        start = re.search(r'^(?:function |const )' + re.escape(name) + r'\b', src, re.M).start()
+        depth, i = 0, src.index('{', start)
+        while True:
+            depth += {'{': 1, '}': -1}.get(src[i], 0)
+            i += 1
+            if depth == 0:
+                break
+        out.append(src[start:src.index('\n', i)])
+    return '\n'.join(out)
+
+
+def node(code):
+    return json.loads(subprocess.run(['node', '-e', code], capture_output=True, text=True, check=True).stdout)
+
+
+@unittest.skipUnless(shutil.which('node'), 'node not installed')
+class PageLogicTests(unittest.TestCase):
+    def test_session_state_machine(self):
+        out = node(js('IDLE', 'reduce') + """
+const a={key:'a',input:'typed'},b={key:'b',input:'flip'};
+let s=reduce(IDLE,{type:'start',queue:[a,b]});const log=[s.status];
+s=reduce(s,{type:'reveal'});log.push(s.status);
+s=reduce(s,{type:'answer',ok:false,input:'x'});log.push(s.status+':'+s.result);
+s=reduce(s,{type:'answer',ok:true});log.push(s.result);
+s=reduce(s,{type:'next'});log.push(s.cur.key,s.queue.map(c=>c.key).join());
+s=reduce(s,{type:'reveal'});log.push(s.status);
+s=reduce(s,{type:'answer',ok:true});s=reduce(s,{type:'next'});log.push(s.cur.key);
+s=reduce(s,{type:'answer',ok:false});s=reduce(s,{type:'override'});log.push(s.result,s.missed.length);
+s=reduce(s,{type:'next'});log.push(s.status,s.done,s.total);
+console.log(JSON.stringify(log))""")
+        self.assertEqual(out, ['asking', 'asking', 'answered:wrong', 'wrong', 'b', 'a', 'revealed', 'a',
+                               'right', 0, 'idle', 2, 2])
 
 
 class FlashcardTests(unittest.TestCase):
