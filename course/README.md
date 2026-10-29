@@ -37,7 +37,7 @@ This folder is the **authored study** layer (path, practice, review sheets). Lex
 ## Exercises
 
 - [Chapter exercises](exercises/README.md): workbook tasks, writing tips and adapted practice for chapters 1–8, with what is missing per chapter.
-- [Schrijfopdrachten](exercises/schrijfopdrachten.md): six writing tasks with model answers and English translations, plus the [oefenexamen](exams/schrijven-oefenexamen.md) (nine tasks); learner-supplied, model answers AI-written, needs-review.
+- [Schrijfopdrachten](exercises/schrijfopdrachten.md): six writing tasks with model answers and English translations, plus the [oefenexamen](exams/schrijven-oefenexamen.md) (nine tasks); learner-supplied, model answers AI-written, needs-review. See also the [spiekbriefje](exams/schrijven-spiekbriefje.md) (exam cheat sheet, imported from Notion, needs-review).
 - [Worked examples](examples/README.md): two completed model texts that combine chapters: where I live (chapters 1, 3, 4, 5) and a trip (chapters 2, 6, 7, 8). Generated, not reviewed.
 
 ## Review sheets

@@ -24,7 +24,7 @@ Closed issues remain in GitHub’s closed filter. Deleting them needs admin `del
 
 ## Suggested future Issues (create when ready)
 
-0. Teacher review of `data/grammar-quiz.json` and the writing-task model answers (see [HANDOFF.md](HANDOFF.md)); imperfectum facts from Zo gezegd 2.1; "Today" session and audio for the practice page.
+0. Teacher review of `data/grammar-quiz.json`, the writing-task model answers and the imported exam cheat sheet (see [HANDOFF.md](HANDOFF.md)); imperfectum facts from Zo gezegd 2.1; "Today" session and audio for the practice page.
 
 1. Faithful oral page-level re-transcription vs 26 archived screenshots.
 2. Human/teacher review of 19 `[added]` English glosses.

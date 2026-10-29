@@ -6,7 +6,7 @@ Doe alle opdrachten achter elkaar zonder hulp; kijk daarna pas naar de voorbeeld
 
 *Do all tasks in a row without help; only check the model answers afterwards. Instructions carry English glosses; the emails stay in Dutch because they are the exercise.*
 
-Practise these in the [flashcard page](../../views/vocabulary/flashcards.html) (Writing practice), which pre-fills each form or letter frame.
+Practise these in the [flashcard page](../../views/vocabulary/flashcards.html) (Writing practice), which pre-fills each form or letter frame. Cheat sheet: [spiekbriefje](schrijven-spiekbriefje.md).
 
 ---
 
@@ -100,6 +100,22 @@ met vriendelijke groeten,
 Emma Janssens
 
 English: Amsterdam, 28 October. Dear sir/teacher, my son Tim Janssens is ill today. He has a fever and must stay in bed all day. At night he coughs a lot. He is in class 3B. I think he will be better and back at school on Thursday. I will provide you with a medical certificate on Friday. Kind regards, Emma Janssens.
+
+
+### Uitleg (proef)
+
+> AI-written explanation, not from the course and not teacher-checked (needs-review). Trial on this task and Examen 9. The labels follow the structure in the [spiekbriefje](schrijven-spiekbriefje.md).
+
+- **Plaats + datum** — *Amsterdam, 28 oktober* — The note starts with place and date.
+- **Aanhef** — *Geachte meester,* — Formal greeting, because this is a note to a teacher.
+- **Punt 1 en 2: naam, ziek** — *Mijn zoon Tim Janssens is vandaag ziek.* — Plain main clause: subject, then the verb in second position.
+- **Punt 2: wat er is** — *Hij heeft koorts en hij moet de hele dag in bed blijven.* — *en* joins two main clauses. *moeten* sends the infinitive *blijven* to the end.
+- **Extra** — *'s Nachts hoest hij veel.* — A time expression comes first, so the verb stays second and the subject follows it (inversion).
+- **Punt 3: klas** — *Hij zit in klas 3B.* — Answers "which class".
+- **Punt 4: wanneer beter** — *Ik denk dat hij donderdag weer beter is en naar school komt.* — After *dat* the verbs go to the end, like after *omdat*. This pattern is not in the cheat sheet.
+- **Vaste zin** — *Ik bezorg u vrijdag een medisch attest.* — Fixed phrase from the cheat sheet.
+- **Afsluiting** — *met vriendelijke groeten,* — Formal closing.
+- **Volledige naam** — *Emma Janssens* — A formal note ends with the full name.
 
 ---
 
@@ -379,3 +395,19 @@ met vriendelijke groeten,
 Emma Janssens
 
 English: Dear seller, this morning I see your bike advertisement on Marktplaats, on my computer screen. I am looking for a second-hand bike for the cycling routes along the coast, and yours looks nice. How old is the bike? What colour is it? I would rather have a blue or black bike. Does it have handbrakes? Is everything in good condition, or is something broken? You can send me an email with a link to more photos. I hope to hear from you. Thanks for your time! Kind regards, Emma Janssens.
+
+### Uitleg (proef)
+
+> AI-written explanation, not from the course and not teacher-checked (needs-review). Trial on this task and Examen 2. The labels follow the structure in the [spiekbriefje](schrijven-spiekbriefje.md).
+
+- **Aanhef** — *Beste verkoper,* — Greeting. The task asks for it.
+- **Beginzin** — *Vanmorgen zie ik uw advertentie van de fiets op Marktplaats, op het scherm van mijn computer.* — Says why you write. The time comes first, so the verb *zie* stays second. *uw* is the formal "your".
+- **Inhoud** — *Ik zoek een tweedehands fiets voor de fietsroutes langs de kust, en uw fiets ziet er mooi uit.* — *en* joins two main clauses. *eruitzien* is separable: *ziet … uit*, with *uit* at the end.
+- **Punt 1: leeftijd** — *Hoe oud is de fiets?* — A question word first, then the verb, then the subject.
+- **Punt 2: kleur** — *Welke kleur heeft hij?* — Same order.
+- **Extra** — *Ik zoek liever een blauwe of zwarte fiets.* — *fiets* is a de-word, so *een blauwe fiets* takes -e.
+- **Punt 3: handremmen** — *Heeft de fiets handremmen?* — A yes/no question starts with the verb.
+- **Punt 4: staat** — *Is alles in goede staat, of is er iets kapot?* — *of* joins two questions. *staat* is a de-word, so *goede*.
+- **Extra** — *U kan me een e-mail sturen met een link naar meer foto's.* — *kan* in second position, infinitive *sturen* later in the sentence.
+- **Slotzin** — *Ik hoor graag van u. Bedankt voor uw tijd!* — Two fixed phrases from the cheat sheet.
+- **Afsluiting + naam** — *met vriendelijke groeten,* then *Emma Janssens* — Formal closing, then your name.
