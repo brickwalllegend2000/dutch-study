@@ -2,6 +2,12 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-29 — Practice page redesign (`task/practice-page-visuals`)
+
+- Redesigned `views/vocabulary/flashcards.html` (via `scripts/flashcards_template.html`) for phone first, laptop second: home screen with due and new counts per deck, settings drawer (left panel on laptop), progress bar, sticky action bar, de/het and heeft/is colour tokens, answer feedback with a letter diff, session summary with "Practise the missed ones", grammar cards with pattern and example styling, labelled fields for form and letter writing tasks, light/dark toggle, mastery bars by topic and a 14-day practice strip.
+- Concept capture: every miss shows the rule quoted from the grammar note or quiz item with a link. `scripts/flashcards.py` adds a `concept` field (documented in `docs/DATA-SCHEMA.md`); de/het says the notes give no rule. Personal card notes (`dutchstudy-notes-v1`), practice days (`dutchstudy-days-v1`) and a mistake log that downloads as a journal note. Existing `dutchstudy-srs-v1` and `dutchstudy-writing-v1` data stay compatible and export/import includes the new keys.
+- Added `tests/test_contrast.py` (all text at least 4.5:1 in both themes) and node-backed tests for the session state machine, letter diff and mastery counts; 48 tests pass, validation clean (520 vocabulary records). No vocabulary or grammar facts changed.
+
 ## 2026-10-29 — Practice page, writing tasks and practice exam (`task/refactor-views-layer-split`)
 
 - Added `views/vocabulary/flashcards.html`, a generated offline practice page (`scripts/flashcards.py` + `scripts/flashcards_template.html`, written by `build`). Decks: vocabulary (by word type, chapter, theme; either direction), fill-the-gap from example sentences, perfectum, imperfectum (19 verbs with simple present/past pairs in the CSV), grammar rules, drills (de/het, heeft/is, adjective with/without -e) and a grammar quiz. Typed answers, Leitner-style spaced repetition in browser localStorage, export/import of progress.

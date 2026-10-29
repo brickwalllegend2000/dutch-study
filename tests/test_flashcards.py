@@ -66,6 +66,13 @@ console.log(JSON.stringify({json.dumps(cases)}.map(([a,b])=>{{const d=letterDiff
                                ['Gegeten', 'gegeten'], ['', '[i][s]'], ['[h][e][e][f][t][ ]gegeten', 'gegeten']])
 
 
+    def test_mastery_counts_cards_per_box_and_practice_days(self):
+        out = node(js('boxCounts', 'dayStrip') + """
+const P={a:{b:0},b:{b:6},c:{b:2},d:{b:2}};
+console.log(JSON.stringify([boxCounts(['a','b','c','d','e','f'],P),dayStrip({100:3,95:1,80:9},100).filter(([,n])=>n),dayStrip({},100).length]))""")
+        self.assertEqual(out, [[2, 1, 0, 2, 0, 0, 0, 1], [[95, 1], [100, 3]], 14])
+
+
 class FlashcardTests(unittest.TestCase):
     def test_every_deck_is_present(self):
         d = data()

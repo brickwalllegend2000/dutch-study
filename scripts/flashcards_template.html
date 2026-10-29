@@ -55,6 +55,9 @@ a{color:inherit;text-underline-offset:2px}
 #log h3{font-size:16px;margin:14px 0 4px}#log ul{padding-left:18px;margin:0}#log li{margin:4px 0}
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}.tile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;padding:14px;min-height:76px;border-radius:12px}.tile span{font-size:13px;color:var(--mut)}
 .missed{text-align:left;width:100%;padding-left:18px;margin:8px 0 0}
+.days{margin:14px 0 8px}.strip{display:grid;grid-template-columns:repeat(14,1fr);gap:4px;margin-top:4px}.strip span{height:14px;border-radius:3px;background:var(--bd)}.strip span.on{background:var(--ok)}
+.mrow{margin:12px 0}.mt{display:flex;justify-content:space-between;gap:8px}.mbar{display:flex;height:12px;border-radius:6px;overflow:hidden;background:var(--bd);margin:4px 0}
+.m0{background:var(--bd)}.m1{background:var(--no)}.m2,.m3{background:var(--is)}.m4,.m5{background:var(--heeft)}.m6,.m7{background:var(--ok)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .actions{position:fixed;left:0;right:0;bottom:0;z-index:5;display:flex;gap:8px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--bd)}
 .actions:empty{display:none}.actions button{flex:1;min-height:48px;font-size:17px}
@@ -115,7 +118,8 @@ button.no{background:var(--no);color:var(--onfill);border:0}button.ok{background
  <input type="file" id="file" class="hide" accept="application/json">
  <p class="tiny">Progress (spaced repetition) is stored in this browser only. Facts come from data/vocabulary.csv, data/grammar/ and data/grammar-quiz.json. Items marked † are constructed examples.</p>
 </aside>
-<section id="home" class="hide"><div class="tiles" id="tiles"></div></section>
+<section id="home" class="hide"><div class="tiles" id="tiles"></div><div class="days" id="days"></div><div class="row"><button id="mastb">Mastery by topic</button><button id="logh">Mistake log</button></div></section>
+<section id="mastery" class="hide"><h2 class="mid">Mastery by topic</h2><p class="tiny">How many cards sit in each review box (0 = just missed, 6 = longest interval), from the progress in this browser.</p><div id="mastlist"></div></section>
 <section id="trainer">
  <div class="prog"><div class="track"><div id="pbar"></div></div><span id="pnum"></span></div>
  <div class="card" id="card"></div>
@@ -144,13 +148,13 @@ button.no{background:var(--no);color:var(--onfill);border:0}button.ok{background
 const D=__DATA__;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const KEY='dutchstudy-srs-v1',WKEY='dutchstudy-writing-v1',NKEY='dutchstudy-notes-v1',SKEY='dutchstudy-settings-v1',STEPS=[0,1,2,4,8,16,32];
+const KEY='dutchstudy-srs-v1',WKEY='dutchstudy-writing-v1',NKEY='dutchstudy-notes-v1',DKEY='dutchstudy-days-v1',SKEY='dutchstudy-settings-v1',STEPS=[0,1,2,4,8,16,32];
 const today=Math.floor((Date.now()-new Date().getTimezoneOffset()*6e4)/864e5);
 const load=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}};
 const store=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
-let P=load(KEY),W=load(WKEY),N=load(NKEY);
-const save=()=>store(KEY,P),saveW=()=>store(WKEY,W),saveN=()=>store(NKEY,N);
-function grade(key,ok){const e=P[key]||{b:0,n:0,m:0};e.n++;if(ok)e.b=Math.min(e.b+1,6);else{e.b=0;e.m++}e.due=today+STEPS[e.b];P[key]=e;save()}
+let P=load(KEY),W=load(WKEY),N=load(NKEY),DAYS=load(DKEY);
+const save=()=>{store(KEY,P);store(DKEY,DAYS)},saveW=()=>store(WKEY,W),saveN=()=>store(NKEY,N);
+function grade(key,ok){DAYS[today]=(DAYS[today]||0)+1;const e=P[key]||{b:0,n:0,m:0};e.n++;if(ok)e.b=Math.min(e.b+1,6);else{e.b=0;e.m++}e.due=today+STEPS[e.b];P[key]=e;save()}
 const isDue=k=>P[k]&&P[k].due<=today,isNew=k=>!P[k],isWeak=k=>P[k]&&P[k].m>0&&P[k].b<=1;
 const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 \-]/g,' ').replace(/\s+/g,' ').trim().replace(/^(de|het|een) /,'');
 function variants(s){const out=new Set();String(s).split(/\s*(?:⟐|\/|↔|;|,)\s*/).forEach(p=>{p=p.trim();if(!p)return;out.add(norm(p));out.add(norm(p.replace(/\(.*?\)/g,'')));out.add(norm(p.replace(/[()]/g,'')))});out.delete('');return out}
@@ -228,7 +232,7 @@ let S=IDLE,kind='vocab',pool=[];
 function dispatch(a){
  const c=S.cur;
  if(a.type==='answer'&&c&&(S.status==='asking'||S.status==='revealed')){a.prev=P[c.key]?{...P[c.key]}:null;grade(c.key,a.ok)}
- if(a.type==='override'&&S.status==='answered'&&S.result==='wrong'){if(S.prev)P[c.key]=S.prev;else delete P[c.key];grade(c.key,true)}
+ if(a.type==='override'&&S.status==='answered'&&S.result==='wrong'){if(S.prev)P[c.key]=S.prev;else delete P[c.key];DAYS[today]--;grade(c.key,true)}
  S=reduce(S,a);draw();
 }
 function toCard(k,c,o){const K=KINDS[k],card=K.make(c,o);card.kind=k;card.concept=c.concept||null;card.ref=c.src||(/^(VOC|GQ)-/.test(c.id)?c.id:'');
@@ -297,7 +301,7 @@ function mistakes(){const o={dir:'nl',ans:'flip'},groups={};
  Object.keys(KINDS).flatMap(k=>KINDS[k].src().map(c=>toCard(k,c,o))).filter(c=>P[c.key]&&P[c.key].m>0).sort((a,b)=>P[b.key].m-P[a.key].m)
   .forEach(c=>{const t=sourceOf(c,'').topic;(groups[t]=groups[t]||[]).push(c)});
  return Object.entries(groups).sort((a,b)=>P[b[1][0].key].m-P[a[1][0].key].m)}
-function showLog(){openSettings(false);const g=mistakes();$('kind').value='';show('log');bar([['lback','','Back'],['lcopy','','Copy note'],['ldl','pri','Download .md']]);
+function showLog(){openSettings(false);const g=mistakes();$('kind').value='home';show('log');bar([['lback','','Back'],['lcopy','','Copy note'],['ldl','pri','Download .md']]);
  $('loglist').innerHTML=g.length?g.map(([t,cs])=>{const s=sourceOf(cs[0],'../../');return `<h3>${esc(t)}${s.link?` <span class="tiny">${s.link}</span>`:''}</h3><ul>`+cs.map(c=>`<li><b>${esc(promptOf(c))}</b> → ${esc(answerOf(c))} <span class="tiny">missed ${P[c.key].m}× ${esc(sourceOf(c,'').id)}</span>${N[c.key]?`<div class="mine"><span class="k">My note</span> ${esc(N[c.key])}</div>`:''}</li>`).join('')+'</ul>'}).join(''):'<p class="sub">No missed cards yet.</p>';
  $('lback').onclick=()=>{$('log').classList.add('hide');$('kind').value=kind;setKind()};
  $('lcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(missedNote());$('ldl').onclick=()=>download(`${new Date().toISOString().slice(0,10)}-missed-cards.md`,missedNote(),'text/markdown')}
@@ -322,9 +326,18 @@ function setKind(){
  $('fltL').classList.toggle('hide',fl.length<2);$('dirL').classList.toggle('hide',kind!=='vocab');$('ansL').classList.toggle('hide',!K.typable);
  build();
 }
-const VIEWS=['home','trainer','writing','log'];
+const VIEWS=['home','trainer','writing','log','mastery'];
 function show(v){VIEWS.forEach(x=>$(x).classList.toggle('hide',x!==v));$('summary').classList.toggle('hide',v!=='trainer');bar([])}
-function showHome(){const saved=load(SKEY).filter||{};
+function boxCounts(keys,P){const n=new Array(8).fill(0);keys.forEach(k=>P[k]?n[1+P[k].b]++:n[0]++);return n}
+function dayStrip(days,today){return Array.from({length:14},(_,i)=>today-13+i).map(d=>[d,days[d]||0])}
+function showMastery(){show('mastery');$('kind').value='home';const o={dir:'nl',ans:'flip'},groups={};
+ Object.keys(KINDS).forEach(k=>KINDS[k].src().forEach(c=>{const card=toCard(k,c,o),topics=k==='vocab'?c.tags.filter(t=>!vocabTypes.includes(t)&&!t.startsWith('Chapter ')):[k==='grammar'?c.f:sourceOf(card,'').topic];topics.forEach(t=>(groups[t]=groups[t]||[]).push(card.key))}));
+ const names=['new','box 0','box 1','box 2','box 3','box 4','box 5','box 6'];
+ $('mastlist').innerHTML=Object.keys(groups).sort().map(t=>{const n=boxCounts(groups[t],P),tot=groups[t].length;
+  return `<div class="mrow"><div class="mt"><b>${esc(t)}</b><span class="tiny">${tot-n[0]} of ${tot} practised</span></div><div class="mbar" role="img" aria-label="${n.map((x,i)=>names[i]+' '+x).join(', ')}">${n.map((x,i)=>x?`<span class="m${i}" style="flex:${x}" title="${names[i]}: ${x}"></span>`:'').join('')}</div><div class="tiny">${n.map((x,i)=>x?names[i]+' '+x:'').filter(Boolean).join(' · ')}</div></div>`}).join('');
+ bar([['mback','pri','Back home']]);$('mback').onclick=()=>{$('kind').value='home';setKind()}}
+function showHome(){const saved=load(SKEY).filter||{},strip=dayStrip(DAYS,today);
+ $('days').innerHTML=`<span class="tiny">Practised ${strip.filter(([,n])=>n).length} of the last 14 days</span><div class="strip">${strip.map(([d,n])=>`<span class="${n?'on':''}" title="${new Date(d*864e5).toISOString().slice(0,10)}: ${n} answers"></span>`).join('')}</div>`;
  $('tiles').innerHTML=Object.keys(KINDS).map(k=>{const ks=deckPool(k,saved[k]).map(c=>c.key);return `<button class="tile" data-k="${k}"><b>${KINDS[k].label}</b><span>${ks.filter(isDue).length} due · ${ks.filter(isNew).length} new</span></button>`}).join('')+
   `<button class="tile" data-k="writing"><b>Writing</b><span>${Object.keys(W).length} drafts · ${D.writing.length} tasks</span></button>`;
  $('tiles').querySelectorAll('.tile').forEach(b=>b.onclick=()=>{$('kind').value=b.dataset.k;setKind()})}
@@ -333,7 +346,7 @@ const THEMES=['auto','light','dark'];
 function applyTheme(t){if(t==='auto')delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=t;$('themeb').setAttribute('aria-label','Colour theme: '+t);$('themeb').title='Theme: '+t}
 $('themeb').onclick=()=>{const t=THEMES[(THEMES.indexOf(load(SKEY).theme||'auto')+1)%3];store(SKEY,Object.assign(load(SKEY),{theme:t}));applyTheme(t)};
 applyTheme(load(SKEY).theme||'auto');
-$('logb').onclick=showLog;
+$('logb').onclick=showLog;$('logh').onclick=showLog;$('mastb').onclick=showMastery;
 $('setb').onclick=()=>openSettings($('settings').hidden);$('setx').onclick=()=>openSettings(false);
 SET.concat(['filter','nr']).forEach(i=>$(i).onchange=build);$('kind').onchange=setKind;
 document.addEventListener('keydown',e=>{
@@ -344,10 +357,10 @@ document.addEventListener('keydown',e=>{
  else if(S.status==='asking'&&c.input==='choice'&&c.choices[+e.key-1]!==undefined)dispatch({type:'answer',choice:+e.key-1,ok:+e.key-1===c.answer});
 });
 const download=(name,text,type)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click()};
-$('exp').onclick=()=>download('dutch-progress.json',JSON.stringify({srs:P,writing:W,notes:N},null,1),'application/json');
+$('exp').onclick=()=>download('dutch-progress.json',JSON.stringify({srs:P,writing:W,notes:N,days:DAYS},null,1),'application/json');
 $('imp').onclick=()=>$('file').click();
-$('file').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{const j=JSON.parse(t);P=j.srs||{};W=j.writing||{};N=j.notes||{};save();saveW();saveN();setKind()}).catch(()=>alert('Not a progress file'))};
-$('rst').onclick=()=>{if(confirm('Delete all saved progress, notes and writing drafts?')){P={};W={};N={};save();saveW();saveN();setKind()}};
+$('file').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{const j=JSON.parse(t);P=j.srs||{};W=j.writing||{};N=j.notes||{};DAYS=j.days||{};save();saveW();saveN();setKind()}).catch(()=>alert('Not a progress file'))};
+$('rst').onclick=()=>{if(confirm('Delete all saved progress, notes and writing drafts?')){P={};W={};N={};DAYS={};save();saveW();saveN();setKind()}};
 let wp=null,lastField=null;
 function sentences(t){return t.split(/[.!?]+(?:\s|$)/).filter(s=>s.trim().length>1).length}
 const hasFields=p=>p.skeleton.includes('...');
