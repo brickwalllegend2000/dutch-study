@@ -21,7 +21,9 @@ class FlashcardTests(unittest.TestCase):
         self.assertEqual({c['k'] for c in d['cards']}, {'vocab', 'perfectum', 'imperfectum', 'grammar'})
         for deck in ('cloze', 'dehet', 'aux', 'adj', 'quiz', 'writing'):
             self.assertTrue(d[deck], deck)
-        self.assertEqual(len(d['writing']), 6)
+        self.assertEqual(len(d['writing']), 15)
+        for w in d['writing']:
+            self.assertTrue(w['model']['nl'] and w['model']['en'], w['id'])
 
     def test_vocab_cards_cover_every_row(self):
         d = data()

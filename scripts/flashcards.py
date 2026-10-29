@@ -220,27 +220,50 @@ def quiz_items(root):
     return items
 
 
+WRITING_FILES = (('course/exercises/schrijfopdrachten.md', 'Oefening', 'W', 'Schrijfopdrachten'),
+                 ('course/exams/schrijven-oefenexamen.md', 'Examen', 'E', 'Oefenexamen'))
+THEME_HINTS = (('woonkamer', 'Meubels & Inrichting'), ('foto', 'Kleuren'), ('trein', 'Stad, Toerisme & Reizen'),
+               ('oude huis', 'Ruimtes & Onderdelen van het Huis'), ('raam', 'Ruimtes & Onderdelen van het Huis'),
+               ('boodschappen', 'Voeding'), ('avondeten', 'Voeding'), ('fiets', 'Transport'),
+               ('wandelen', 'Stad, Toerisme & Reizen'))
+
+
+def _plain(text):
+    text = text.replace('\\', '')
+    return re.sub(r'\*\*|^\*|\*$', '', text, flags=re.M)
+
+
 def writing_prompts(root):
-    path = Path(root) / 'course/exercises/schrijfopdrachten.md'
-    if not path.exists():
-        return []
     prompts = []
-    for block in re.split(r'^## Oefening ', path.read_text(encoding='utf-8'), flags=re.M)[1:]:
-        head, _, body = block.partition('\n')
-        num, _, title = head.partition(' \u2014 ')
-        body = body.split('> Geef hier')[0].replace('\n---', '')
-        instr = [re.sub(r'\*+', '', l).strip() for l in body.splitlines() if l.startswith('**')]
-        m = re.search(r'(minimum|in) (\d+) zinnen', ' '.join(instr))
-        rest = [l for l in body.splitlines() if l.strip() and not l.startswith('**')]
-        text = '\n'.join(re.sub(r'^> ?', '', l).replace('\\', '') for l in rest)
-        text = re.sub(r'\*\*|^\*|\*$', '', text, flags=re.M)
-        low = (title + body).lower()
-        theme = ('Meubels & Inrichting' if 'woonkamer' in low else 'Kleuren' if 'foto' in low
-                 else 'Stad, Toerisme & Reizen' if 'trein' in low else '')
-        prompts.append({'id': 'W' + num.strip(), 'title': title.strip(), 'instr': instr, 'min': int(m.group(2)) if m else 0,
-                        'exact': bool(m and m.group(1) == 'in'), 'text': text,
-                        'questions': [l.strip() for l in text.splitlines() if l.strip().endswith('?')],
-                        'photo': 'foto' in low, 'theme': theme})
+    for rel, word, prefix, group in WRITING_FILES:
+        path = Path(root) / rel
+        if not path.exists():
+            continue
+        for block in re.split(r'^## ' + word + ' ', path.read_text(encoding='utf-8'), flags=re.M)[1:]:
+            head, _, body = block.partition('\n')
+            num, _, title = head.partition(' \u2014 ')
+            pre, _, model = body.partition('### Voorbeeldantwoord')
+            pre = pre.replace('\n---', '')
+            skeleton = ''
+            fence = re.search(r'```text\n(.*?)```', pre, re.S)
+            if fence:
+                skeleton = fence.group(1).rstrip('\n')
+                pre = pre.replace(fence.group(0), '')
+            instr = [_plain(l).strip() for l in pre.splitlines() if l.startswith('**') and not l.startswith('**Verband')]
+            m = re.search(r'(minimum|in) (\d+) zinnen', ' '.join(instr))
+            rest = [l for l in pre.splitlines() if l.strip() and not l.startswith('**')]
+            text = _plain('\n'.join(re.sub(r'^> ?', '', l) for l in rest))
+            bullets = [re.split(r' \u2014 ', re.sub(r'^- ', '', l))[0].replace('**', '') for l in rest if l.startswith('- ')]
+            model = model.partition('\n')[2].strip()
+            nl, _, en = model.partition('English:')
+            low = (title + pre).lower()
+            theme = next((t for k, t in THEME_HINTS if k in low), '')
+            prompts.append({'id': prefix + num.strip(), 'group': group, 'title': title.strip(), 'instr': instr,
+                            'min': int(m.group(2)) if m else 0, 'exact': bool(m and m.group(1) == 'in'),
+                            'text': text.strip(), 'skeleton': skeleton, 'bullets': bullets,
+                            'questions': [l.strip() for l in text.splitlines() if l.strip().endswith('?')],
+                            'photo': 'foto' in low, 'theme': theme,
+                            'model': {'nl': nl.strip(), 'en': en.strip()}})
     return prompts
 
 

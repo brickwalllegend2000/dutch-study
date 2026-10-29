@@ -74,6 +74,8 @@ button{cursor:pointer}button:disabled{opacity:.4}
  <textarea id="wtext" placeholder="Schrijf hier je antwoord…"></textarea>
  <p class="count" id="wcount"></p>
  <div id="wcheck"></div>
+ <div class="bar"><button id="wmodelbtn">Show model answer</button></div>
+ <div class="prompt hide" id="wmodel"></div>
  <div class="bar"><button id="wcopy">Copy as journal note</button><button id="wdl">Download .md</button><button id="wclear">Clear</button></div>
  <p class="tiny">Drafts are saved in this browser. Save the note under journal/ and ask for corrections; your answers stay personal and are not course facts.</p>
 </section>
@@ -228,12 +230,16 @@ function sentences(t){return t.split(/[.!?]+(?:\s|$)/).filter(s=>s.trim().length
 function showWriting(){
  if(!D.writing.length){$('writing').innerHTML='<p>No writing tasks found (course/exercises/schrijfopdrachten.md).</p>';return}
  if(!$('wsel').options.length){
-  D.writing.forEach((p,i)=>$('wsel').add(new Option(`${p.id.slice(1)}. ${p.title}`,i)));
+  const groups={};D.writing.forEach((p,i)=>{if(!groups[p.group]){groups[p.group]=document.createElement('optgroup');groups[p.group].label=p.group;$('wsel').appendChild(groups[p.group])}groups[p.group].appendChild(new Option(`${p.id.slice(1)}. ${p.title}`,i))});
   const themes=[...new Set(D.cards.filter(c=>c.k==='vocab').flatMap(c=>c.tags).filter(t=>!['Nouns','Verbs','Adjectives','Prepositions','Phrases','Other'].includes(t)&&!t.startsWith('Chapter ')))].sort();
   $('wtheme').add(new Option('(none)',''));themes.forEach(t=>$('wtheme').add(new Option(t,t)));
   $('wsel').onchange=loadW;$('wtheme').onchange=chips;
   $('wtext').oninput=()=>{W[wp.id]=Object.assign(W[wp.id]||{},{text:$('wtext').value});saveW();counter()};
-  $('wclear').onclick=()=>{if(confirm('Clear this draft?')){$('wtext').value='';W[wp.id]={};saveW();loadW()}};
+  $('wmodelbtn').onclick=()=>{const m=$('wmodel');if(!m.classList.contains('hide')){m.classList.add('hide');$('wmodelbtn').textContent='Show model answer';return}
+   const mine=$('wtext').value.trim().length-(wp.skeleton||'').trim().length;
+   if(mine<20&&!confirm('Write your own answer first. Show the model answer anyway?'))return;
+   m.innerHTML=`<b>Model answer</b> <span class="tiny">(AI-written practice text, not teacher-checked)</span>\n\n${esc(wp.model.nl)}\n\n<i>English:</i> ${esc(wp.model.en)}`;m.classList.remove('hide');$('wmodelbtn').textContent='Hide model answer'};
+  $('wclear').onclick=()=>{if(confirm('Clear this draft?')){$('wtext').value='';delete W[wp.id];saveW();loadW()}};
   $('wcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(note()).then(()=>{$('wcopy').textContent='Copied';setTimeout(()=>$('wcopy').textContent='Copy as journal note',1500)});
   $('wdl').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([note()],{type:'text/markdown'}));a.download=`${new Date().toISOString().slice(0,10)}-schrijfopdracht-${wp.id.slice(1)}.md`;a.click()};
  }
@@ -242,8 +248,8 @@ function showWriting(){
 function loadW(){
  wp=D.writing[+$('wsel').value];const s=W[wp.id]||{};
  $('wprompt').innerHTML=`<b>${esc(wp.instr.join(' '))}</b>\n\n${esc(wp.text)}`;
- $('wtext').value=s.text||'';$('wtheme').value=wp.theme&&[...$('wtheme').options].some(o=>o.value===wp.theme)?wp.theme:'';
- const items=[];wp.questions.forEach(q=>items.push('Answered: '+q));
+ $('wtext').value=s.text!==undefined?s.text:(wp.skeleton||'');$('wmodel').classList.add('hide');$('wmodelbtn').textContent='Show model answer';$('wtheme').value=wp.theme&&[...$('wtheme').options].some(o=>o.value===wp.theme)?wp.theme:'';
+ const items=[];wp.questions.forEach(q=>items.push('Answered: '+q));wp.bullets.forEach(b=>items.push('Included: '+b));
  if(wp.photo)items.push('Gave colour, material or place for each thing');
  items.push('Checked word order (verb in second place; after omdat at the end)','Checked adjective endings (met of zonder -e)','Read it aloud once');
  $('wcheck').innerHTML=items.map((t,i)=>`<label class="check"><input type="checkbox" data-i="${i}" ${(s.chk||[])[i]?'checked':''}> ${esc(t)}</label>`).join('');
