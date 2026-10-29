@@ -49,6 +49,8 @@ button{cursor:pointer}button:disabled{opacity:.4}
 .mine{width:100%;text-align:left;margin-top:8px;font-size:15px}.mine .k,.cmp .k{font-size:13px;color:var(--mut);margin-right:6px}
 .notebox{display:flex;gap:8px;margin-top:8px}.notebox input{flex:1}.notebox button{font-size:14px}
 #log h3{font-size:16px;margin:14px 0 4px}#log ul{padding-left:18px;margin:0}#log li{margin:4px 0}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}.tile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;padding:14px;min-height:76px;border-radius:12px}.tile span{font-size:13px;color:var(--mut)}
+.missed{text-align:left;width:100%;padding-left:18px;margin:8px 0 0}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .actions{position:fixed;left:0;right:0;bottom:0;z-index:5;display:flex;gap:8px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--bd)}
 .actions:empty{display:none}.actions button{flex:1;min-height:48px;font-size:17px}
@@ -66,6 +68,7 @@ button{cursor:pointer}button:disabled{opacity:.4}
 </style></head><body><main>
 <div class="top">
  <select id="kind" aria-label="Practise">
+  <option value="home">Home</option>
   <optgroup label="Cards">
    <option value="vocab">Vocabulary</option>
    <option value="cloze">Fill the gap</option>
@@ -97,6 +100,7 @@ button{cursor:pointer}button:disabled{opacity:.4}
  <input type="file" id="file" class="hide" accept="application/json">
  <p class="tiny">Progress (spaced repetition) is stored in this browser only. Facts come from data/vocabulary.csv, data/grammar/ and data/grammar-quiz.json. Items marked † are constructed examples.</p>
 </aside>
+<section id="home" class="hide"><div class="tiles" id="tiles"></div></section>
 <section id="trainer">
  <div class="prog"><div class="track"><div id="pbar"></div></div><span id="pnum"></span></div>
  <div class="card" id="card"></div>
@@ -216,9 +220,11 @@ function toCard(k,c,o){const K=KINDS[k],card=K.make(c,o);card.kind=k;card.concep
  card.input=card.choices?'choice':card.ans&&K.typable&&o.ans==='type'?'typed':'flip';return card}
 const opts=()=>({dir:$('dir').value,ans:$('ans').value});
 const unreviewed=c=>c.origin?c.origin==='external':(c.r==='needs-review');
+function deckPool(k,flt){const K=KINDS[k],nr=$('nr').checked,o=opts();
+ return K.src().filter(c=>(nr||!unreviewed(c))&&(!flt||flt==='#'||K.tags(c).includes(flt))).map(c=>toCard(k,c,o))}
 function build(){
- const K=KINDS[kind],flt=$('filter').value,nr=$('nr').checked,which=$('which').value,o=opts();
- pool=K.src().filter(c=>(nr||!unreviewed(c))&&(!flt||flt==='#'||K.tags(c).includes(flt))).map(c=>toCard(kind,c,o));
+ const which=$('which').value;
+ pool=deckPool(kind,$('filter').value);
  const list=pool.filter(c=>which==='all'||(which==='weak'?isWeak(c.key):(isDue(c.key)||isNew(c.key))));
  if(which==='study')list.sort((a,b)=>(isDue(b.key)?1:0)-(isDue(a.key)?1:0));
  if($('ord').value==='r'){const due=list.filter(c=>isDue(c.key)),rest=list.filter(c=>!isDue(c.key));[due,rest].forEach(a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}});list.splice(0,list.length,...due,...rest)}
@@ -234,8 +240,10 @@ function draw(){
  const card=$('card'),c=S.cur;card.className='card';card.onclick=null;bar([]);noteBox(c);
  summary();$('stats').textContent=counts();
  $('pnum').textContent=S.total?`${S.done} / ${S.total}`:'';$('pbar').style.width=S.total?S.done/S.total*100+'%':'0';
- if(!c){card.innerHTML=S.total?`<div class="big">Session done</div><div class="sub">${S.total-S.missed.length} right · ${S.missed.length} missed first time</div>`:'<div class="sub">Nothing to practise here (no due or new cards). Try “All” or another filter in Settings.</div>';
-  bar([['again','pri','New session']]);$('again').onclick=build;return}
+ if(!c){const m=S.missed;
+  card.innerHTML=S.total?`<div class="mid">Session done</div><div class="res ok"><span class="mk" aria-hidden="true">✓</span> ${S.total-m.length} right</div><div class="res no"><span class="mk" aria-hidden="true">✗</span> ${m.length} missed</div>`+(m.length?'<ul class="missed">'+m.map(x=>`<li><b>${esc(promptOf(x))}</b> → ${esc(answerOf(x))}</li>`).join('')+'</ul>':''):'<div class="sub">Nothing to practise here (no due or new cards). Try “All” or another filter in Settings.</div>';
+  bar([['hb','','Back home']].concat(m.length?[['pm','pri','Practise the missed ones']]:[['again','pri','New session']]));
+  $('hb').onclick=()=>{$('kind').value='home';setKind()};if($('pm'))$('pm').onclick=()=>dispatch({type:'start',queue:m.slice()});else $('again').onclick=build;return}
  const done=S.status==='answered',ok=S.result==='right',lab=`<div class="lab">${c.label}</div>`;
  if(c.input==='choice'){
   const st=i=>!done?'':i===c.answer?'right':i===S.choice?'wrong':'';
@@ -274,7 +282,7 @@ function mistakes(){const o={dir:'nl',ans:'flip'},groups={};
  Object.keys(KINDS).flatMap(k=>KINDS[k].src().map(c=>toCard(k,c,o))).filter(c=>P[c.key]&&P[c.key].m>0).sort((a,b)=>P[b.key].m-P[a.key].m)
   .forEach(c=>{const t=sourceOf(c,'').topic;(groups[t]=groups[t]||[]).push(c)});
  return Object.entries(groups).sort((a,b)=>P[b[1][0].key].m-P[a[1][0].key].m)}
-function showLog(){openSettings(false);const g=mistakes();$('kind').value='';$('trainer').classList.add('hide');$('writing').classList.add('hide');$('summary').classList.add('hide');$('log').classList.remove('hide');bar([['lback','','Back'],['lcopy','','Copy note'],['ldl','pri','Download .md']]);
+function showLog(){openSettings(false);const g=mistakes();$('kind').value='';show('log');bar([['lback','','Back'],['lcopy','','Copy note'],['ldl','pri','Download .md']]);
  $('loglist').innerHTML=g.length?g.map(([t,cs])=>{const s=sourceOf(cs[0],'../../');return `<h3>${esc(t)}${s.link?` <span class="tiny">${s.link}</span>`:''}</h3><ul>`+cs.map(c=>`<li><b>${esc(promptOf(c))}</b> → ${esc(answerOf(c))} <span class="tiny">missed ${P[c.key].m}× ${esc(sourceOf(c,'').id)}</span>${N[c.key]?`<div class="mine"><span class="k">My note</span> ${esc(N[c.key])}</div>`:''}</li>`).join('')+'</ul>'}).join(''):'<p class="sub">No missed cards yet.</p>';
  $('lback').onclick=()=>{$('log').classList.add('hide');$('kind').value=kind;setKind()};
  $('lcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(missedNote());$('ldl').onclick=()=>download(`${new Date().toISOString().slice(0,10)}-missed-cards.md`,missedNote(),'text/markdown')}
@@ -287,17 +295,24 @@ function answered(){
  $('nx').onclick=()=>dispatch({type:'next'});if($('ov'))$('ov').onclick=()=>dispatch({type:'override'});$('nx').focus();
 }
 const SET=['dir','ans','which','size','ord'];
-function saveSettings(){const s=load(SKEY);SET.forEach(i=>s[i]=$(i).value);s.nr=$('nr').checked;s.kind=kind;s.filter=Object.assign(s.filter||{},{[kind]:$('filter').value});store(SKEY,s)}
+function saveSettings(){const s=load(SKEY);SET.forEach(i=>s[i]=$(i).value);s.nr=$('nr').checked;s.filter=Object.assign(s.filter||{},{[kind]:$('filter').value});store(SKEY,s)}
 function setKind(){
- kind=$('kind').value;const w=kind==='writing';
- $('trainer').classList.toggle('hide',w);$('writing').classList.toggle('hide',!w);$('summary').classList.toggle('hide',w);
- if(w){bar([]);store(SKEY,Object.assign(load(SKEY),{kind}));showWriting();return}
+ kind=$('kind').value;
+ if(kind==='home'){show('home');S=IDLE;noteBox(null);showHome();return}
+ if(kind==='writing'){show('writing');showWriting();return}
+ show('trainer');
  const K=KINDS[kind],f=$('filter'),fl=K.filters(),saved=(load(SKEY).filter||{})[kind];f.innerHTML='';
  fl.forEach(([t,v])=>{const o=new Option(t,v);if(v==='#')o.disabled=true;f.add(o)});
  if(saved&&fl.some(([,v])=>v===saved))f.value=saved;
  $('fltL').classList.toggle('hide',fl.length<2);$('dirL').classList.toggle('hide',kind!=='vocab');$('ansL').classList.toggle('hide',!K.typable);
  build();
 }
+const VIEWS=['home','trainer','writing','log'];
+function show(v){VIEWS.forEach(x=>$(x).classList.toggle('hide',x!==v));$('summary').classList.toggle('hide',v!=='trainer');bar([])}
+function showHome(){const saved=load(SKEY).filter||{};
+ $('tiles').innerHTML=Object.keys(KINDS).map(k=>{const ks=deckPool(k,saved[k]).map(c=>c.key);return `<button class="tile" data-k="${k}"><b>${KINDS[k].label}</b><span>${ks.filter(isDue).length} due · ${ks.filter(isNew).length} new</span></button>`}).join('')+
+  `<button class="tile" data-k="writing"><b>Writing</b><span>${Object.keys(W).length} drafts · ${D.writing.length} tasks</span></button>`;
+ $('tiles').querySelectorAll('.tile').forEach(b=>b.onclick=()=>{$('kind').value=b.dataset.k;setKind()})}
 function openSettings(open){$('settings').hidden=!open;$('setb').setAttribute('aria-expanded',open);(open?$('setx'):$('setb')).focus()}
 $('logb').onclick=showLog;
 $('setb').onclick=()=>openSettings($('settings').hidden);$('setx').onclick=()=>openSettings(false);
@@ -359,6 +374,6 @@ function note(){
  return `# Schrijfopdracht ${wp.id.slice(1)} — ${wp.title}\n\nDate: ${new Date().toISOString().slice(0,10)}\n\n## Task\n\n${wp.instr.join('\n')}\n\n${wp.text.split('\n').map(l=>'> '+l).join('\n')}\n\n## My answer\n\n${$('wtext').value}\n\n## Checked\n\n`+
   [...$('wcheck').querySelectorAll('label')].map(l=>`- [${l.querySelector('input').checked?'x':' '}] ${l.textContent.trim()}`).join('\n')+'\n\n## Corrections\n\n_Not yet reviewed._\n';
 }
-(()=>{const s=load(SKEY);SET.forEach(i=>{if(s[i]!==undefined)$(i).value=s[i]});$('nr').checked=!!s.nr;if(s.kind&&$('kind').querySelector(`option[value="${s.kind}"]`))$('kind').value=s.kind})();
+(()=>{const s=load(SKEY);SET.forEach(i=>{if(s[i]!==undefined)$(i).value=s[i]});$('nr').checked=!!s.nr})();
 setKind();
 </script></body></html>
