@@ -79,7 +79,7 @@ button.no{background:var(--no);color:var(--onfill);border:0}button.ok{background
 .model{background:var(--card2);border-left:4px solid var(--ac);border-radius:10px;padding:12px;margin:10px 0}.mtext{white-space:pre-wrap;margin:8px 0}.model summary{cursor:pointer;min-height:44px;display:flex;align-items:center}
 .rule{background:var(--card2);border-radius:10px;padding:10px 12px}.pat{font-family:ui-monospace,Menlo,monospace;font-size:15px;background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:6px 10px}
 .back li.ex{list-style:none;margin-left:-18px}.back li.ex::before{content:"✓ ";color:var(--ok);font-weight:700}.back{min-width:0;max-width:100%}
-.prompt{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;margin-bottom:10px;white-space:pre-wrap}
+.wtype{font-size:14px;margin:-4px 0 10px;color:var(--mut,var(--fg))}.why ol{padding-left:20px;margin:6px 0}.why li{margin:6px 0}.bank summary,.why summary{cursor:pointer;font-size:14px}.prompt{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;margin-bottom:10px;white-space:pre-wrap}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.chips button{padding:4px 10px;font-size:14px;border-radius:999px}
 .check{margin:0;font-size:14px}.count{font-weight:600}.count.met{color:var(--ok)}
 </style></head><body><main>
@@ -91,7 +91,8 @@ button.no{background:var(--no);color:var(--onfill);border:0}button.ok{background
    <option value="cloze">Fill the gap</option>
    <option value="perfectum">Perfectum</option>
    <option value="imperfectum">Imperfectum</option>
-   <option value="grammar">Grammar rules</option></optgroup>
+   <option value="grammar">Grammar rules</option>
+   <option value="phrase">Fixed phrases</option></optgroup>
   <optgroup label="Drills">
    <option value="dehet">de or het?</option>
    <option value="aux">heeft or is?</option>
@@ -109,7 +110,7 @@ button.no{background:var(--no);color:var(--onfill);border:0}button.ok{background
   <label id="dirL">Direction<select id="dir"><option value="nl">Dutch → English</option><option value="en">English → Dutch</option></select></label>
   <label id="ansL">Answer by<select id="ans"><option value="type">Typing</option><option value="flip">Flip and self-grade</option></select></label>
   <label>Which cards<select id="which"><option value="study">Study: due + new</option><option value="weak">Weak ones</option><option value="all">All</option></select></label>
-  <label>Session size<select id="size"><option>10</option><option selected>20</option><option>50</option><option value="9999">All</option></select></label>
+  <label>Session size<select id="size"><option>10</option><option>20</option><option>50</option><option value="9999" selected>All</option></select></label>
   <label>Order<select id="ord"><option value="r">Shuffled</option><option value="o">In order</option></select></label>
   <label class="full" style="flex-direction:row;align-items:center;gap:6px"><input type="checkbox" id="nr" style="min-height:0"> Include items not yet linguistically reviewed</label>
  </div>
@@ -129,10 +130,12 @@ button.no{background:var(--no);color:var(--onfill);border:0}button.ok{background
 <section id="writing" class="hide">
  <div class="ctl"><label class="full">Task<select id="wsel"></select></label></div>
  <div class="prompt" id="wprompt"></div>
+ <div class="wtype hide" id="wtype"></div>
  <h3 class="wh">Your answer</h3>
  <div class="fields" id="wfields"></div>
  <textarea id="wtext" placeholder="Schrijf hier je antwoord…" aria-label="Your answer"></textarea>
  <div class="prog"><div class="track"><div id="wbar"></div></div><span class="count" id="wcount"></span></div>
+ <details class="bank hide" id="wphrbox"><summary>Fixed phrases for this text type</summary><div class="chips" id="wphr"></div></details>
  <div class="bank"><label class="tiny" for="wtheme">Word bank (theme)</label><select id="wtheme" style="width:100%"></select><div class="chips" id="wchips"></div></div>
  <div id="wcheck"></div>
  <div class="bar"><button id="wmodelbtn">Show model answer</button></div>
@@ -202,6 +205,10 @@ const KINDS={
  aux:{label:'heeft or is',src:()=>D.aux,filters:one,tags:()=>[],make:c=>choiceCard('A:'+c.id,'heeft / is',`<div class="big">${esc(c.w)}</div><div class="gl">${esc(c.en)}</div><div class="tiny">hij … ${esc(c.part)}</div>`,['heeft','is'],c.aux==='is'?1:0,`${tok(c.aux)} ${esc(c.part)}`)},
  adj:{label:'Adjective -e',src:()=>D.adj,filters:()=>one().concat([['Never takes -e','never'],['Regular adjectives','reg']]),tags:c=>[c.never?'never':'reg'],
   make:c=>choiceCard('J:'+c.id,'adjective',`<div class="mid">${gap(c.f)}</div><div class="gl">adjective: ${esc(c.adj)} †</div>`,['no -e','+ -e'],c.e?1:0,esc(c.full+(c.never?' (never takes -e)':'')))},
+ phrase:{label:'Fixed phrases',typable:true,src:()=>D.phrases,filters:one,tags:()=>[],
+  make(c,o){const rev=o.dir==='en',nl=`<div class="mid">${esc(c.nl)}</div>`,en=`<div class="gl">${esc(c.en)}</div>`;
+   return {key:'Z:'+c.id,r:c.r,label:rev?'EN → NL':'NL → EN',front:rev?`<div class="mid">${esc(c.en)}</div>`:nl,
+    back:nl+en+`<div class="tiny">${c.id} · exam cheat sheet</div>`+flag(c.r),ans:rev?c.ans:null}}},
  quiz:{label:'Grammar quiz',src:()=>D.quiz,filters:()=>one().concat([...new Set(D.quiz.map(q=>q.topic))].sort().map(t=>[t,t])),tags:q=>[q.topic],
   make(q){const tag={external:'external explanation, not from the course',constructed:'constructed example †','course-forms':'verb form from the course vocabulary; the rule is an external explanation'}[q.origin]||'AI-drafted practice item restating a rule from the course note';
    return choiceCard('Q:'+q.id,'quiz',`<div class="mid">${gap(q.question)}</div><div class="tiny">${esc(q.topic)}</div>`,q.choices,q.answer,esc(q.choices[q.answer]),tag,q.origin==='external'?'needs-review':'reviewed')}}
@@ -385,7 +392,7 @@ function showWriting(){
   $('wmodelbtn').onclick=()=>{const m=$('wmodel');if(!m.classList.contains('hide')){m.classList.add('hide');$('wmodelbtn').textContent='Show model answer';return}
    const mine=answerText().replace(/\.\.\./g,'').trim().length-wp.skeleton.replace(/\.\.\./g,'').trim().length;
    if(mine<20&&!confirm('Write your own answer first. Show the model answer anyway?'))return;
-   m.innerHTML=`<b>Model answer</b> <span class="tiny">(AI-written practice text, not teacher-checked)</span><div class="mtext">${esc(wp.model.nl)}</div><details><summary>English translation</summary><div class="mtext">${esc(wp.model.en)}</div></details>`;m.classList.remove('hide');$('wmodelbtn').textContent='Hide model answer'};
+   m.innerHTML=`<b>Model answer</b> <span class="tiny">(AI-written practice text, not teacher-checked)</span><div class="mtext">${esc(wp.model.nl)}</div><details><summary>English translation</summary><div class="mtext">${esc(wp.model.en)}</div></details>${whyHtml(wp.model.notes)}`;m.classList.remove('hide');$('wmodelbtn').textContent='Hide model answer'};
   $('wclear').onclick=()=>{if(confirm('Clear this draft?')){delete W[wp.id];saveW();loadW()}};
   $('wcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(note()).then(()=>{$('wcopy').textContent='Copied';setTimeout(()=>$('wcopy').textContent='Copy as journal note',1500)});
   $('wdl').onclick=()=>download(`${new Date().toISOString().slice(0,10)}-schrijfopdracht-${wp.id.slice(1)}.md`,note(),'text/markdown');
@@ -402,13 +409,31 @@ function loadW(){
  const items=[];wp.questions.forEach(q=>items.push('Answered: '+q));wp.bullets.forEach(b=>items.push('Included: '+b));
  if(wp.photo)items.push('Gave colour, material or place for each thing');
  items.push('Checked word order (verb in second place; after omdat at the end)','Checked adjective endings (met of zonder -e)','Read it aloud once');
+ wp.extra.forEach(t=>items.push(t));
+ typeInfo();
  $('wcheck').innerHTML=items.map((t,i)=>`<label class="check"><input type="checkbox" data-i="${i}" ${(s.chk||[])[i]?'checked':''}> ${esc(t)}</label>`).join('');
  $('wcheck').querySelectorAll('input').forEach(b=>b.onchange=()=>{const st=W[wp.id]=W[wp.id]||{};st.chk=st.chk||[];st.chk[+b.dataset.i]=b.checked;saveW()});
  chips();counter();
 }
+function whyHtml(n){
+ if(!n.length)return '';
+ return `<details class="why"><summary>Why this works</summary><div class="tiny">AI-written explanation, not teacher-checked.</div><ol>${n.map(x=>`<li><b>${esc(x.label)}</b> <i>${esc(x.nl)}</i><br>${esc(x.note)}</li>`).join('')}</ol></details>`}
+function typeInfo(){
+ const t=wp.type,el=$('wtype'),box=$('wphrbox'),ph=$('wphr');ph.innerHTML='';
+ el.classList.toggle('hide',!t);if(!t){box.classList.add('hide');box.open=false;return}
+ el.innerHTML=`<b>${esc(t.name)}</b> · ${esc(t.steps)}`;
+ box.classList.toggle('hide',!t.phrases.length);
+ t.phrases.forEach(p=>{const b=document.createElement('button');b.textContent=p;b.onclick=()=>putPhrase(p);ph.appendChild(b)});
+}
+function putPhrase(p){
+ const t=lastField||(hasFields(wp)?$('wfields').querySelector('input'):$('wtext'));
+ const at=t.value&&!/\s$/.test(t.value)?' ':'',start=t.value.length+at.length,gap=p.indexOf('\u2026');
+ t.value+=at+p;t.dispatchEvent(new Event('input',{bubbles:true}));t.focus();
+ if(gap>=0)t.setSelectionRange(start+gap,start+gap+1);
+}
 function chips(){
  const th=$('wtheme').value,box=$('wchips');box.innerHTML='';if(!th)return;
- D.cards.filter(c=>c.k==='vocab'&&c.tags.includes(th)&&(c.r!=='needs-review')).slice(0,40).forEach(c=>{
+ D.cards.filter(c=>c.k==='vocab'&&c.tags.includes(th)&&(c.r!=='needs-review')).forEach(c=>{
   const b=document.createElement('button');b.innerHTML=withArt(c);if(c.art)b.className='t-'+c.art;b.title=c.en;
   b.onclick=()=>{const t=lastField||(hasFields(wp)?$('wfields').querySelector('input'):$('wtext'));t.value+=(t.value&&!/\s$/.test(t.value)?' ':'')+c.nl;t.dispatchEvent(new Event('input',{bubbles:true}));t.focus()};box.appendChild(b)});
 }

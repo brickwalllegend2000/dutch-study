@@ -1,4 +1,5 @@
 """Generate the self-contained flashcard page from the CSV and grammar notes."""
+import hashlib
 import html
 import json
 import re
@@ -276,8 +277,72 @@ def _plain(text):
     return re.sub(r'\*\*|^\*|\*$', '', text, flags=re.M)
 
 
+CHEATSHEET = 'course/exams/schrijven-spiekbriefje.md'
+# Text type of each writing task (names match the first column of the cheat sheet's structure table).
+# Photo descriptions (W1, W5) and short advice answers (W3, W4) have no type there, so they get none.
+TASK_TYPES = {'W2': 'E-mail, informeel', 'W6': 'E-mail, informeel', 'E1': 'Formulier', 'E2': 'Briefje, formeel',
+              'E3': 'Briefje, informeel', 'E4': 'Briefje, informeel', 'E5': 'Briefje, informeel',
+              'E6': 'Briefje, informeel', 'E7': 'Tekst over vroeger', 'E8': 'Appje', 'E9': 'E-mail, formeel'}
+# Slash alternatives in the phrase bank, spelled out (the page's answer matcher splits on "/").
+PHRASE_ALTS = {
+    'Bedankt voor je/uw e-mail.': ['Bedankt voor je e-mail.', 'Bedankt voor uw e-mail.'],
+    'Sorry voor het lawaai / de vertraging.': ['Sorry voor het lawaai.', 'Sorry voor de vertraging.'],
+    'Tot snel / straks / morgen / vanavond.': ['Tot snel.', 'Tot straks.', 'Tot morgen.', 'Tot vanavond.']}
+
+
+def _gloss(cell):
+    """Dutch part of a table cell, without its italic English gloss in parentheses."""
+    return re.sub(r'\s*\*\(.*?\)\*', '', cell).strip()
+
+
+def _md_table(section):
+    rows = [[c.strip() for c in l.strip().strip('|').split('|')] for l in section.splitlines() if l.startswith('|')]
+    return [r for r in rows[1:] if not all(re.fullmatch(r':?-+:?', c) for c in r)]
+
+
+def cheatsheet(root):
+    """Parse the exam cheat sheet page: text types, phrase bank, spelling rules, final checks."""
+    path = Path(root) / CHEATSHEET
+    if not path.exists():
+        return {'types': {}, 'bank': [], 'spelling': [], 'final': []}
+    parts = re.split(r'^## ', path.read_text(encoding='utf-8'), flags=re.M)
+    sec = {p.split('\n', 1)[0][:2]: p.split('\n', 1)[1] for p in parts[1:] if p[:1].isdigit()}
+    bullets = lambda t: [_gloss(re.sub(r'^- ', '', l)) for l in t.splitlines() if l.startswith('- ')]
+    types = {}
+    for name, steps, phrases in _md_table(sec['1.']):
+        phrases = [] if phrases in ('', '\u2014') else [x.strip() for x in phrases.split(' / ')]
+        types[_gloss(name)] = {'name': _gloss(name), 'steps': steps, 'phrases': phrases}
+    bank = [{'nl': nl, 'en': en} for nl, en in _md_table(sec['2.'])]
+    return {'types': types, 'bank': bank, 'spelling': bullets(sec['4.']), 'final': bullets(sec['5.'])}
+
+
+def phrase_cards(root):
+    cards = []
+    for p in cheatsheet(root)['bank']:
+        alts = PHRASE_ALTS.get(p['nl'], [p['nl']])
+        cards.append({'k': 'phrase', 'id': 'ZIN-' + hashlib.sha1(p['nl'].encode()).hexdigest()[:8], 'nl': p['nl'],
+                      'en': p['en'], 'ans': alts, 'src': CHEATSHEET, 'r': 'needs-review', 'origin': 'imported',
+                      'concept': {'topic': 'Fixed phrases (exam cheat sheet)', 'path': CHEATSHEET,
+                                  'rule': 'Imported from the learner\'s Notion cheat sheet; not teacher-checked.'}})
+    return cards
+
+
+def type_checks(kind, minimum, cheat):
+    """Extra checklist lines for a text type, appended after the generic ones so saved ticks keep their place."""
+    if not kind:
+        return []
+    out = ['Followed the structure: ' + kind['steps']]
+    if kind['name'] == 'Formulier':
+        out += cheat['spelling']
+    out.append('Counted all the points from the task')
+    if minimum:
+        out.append('Reached the minimum number of sentences')
+    return out
+
+
 def writing_prompts(root):
     prompts = []
+    cheat = cheatsheet(root)
     for rel, word, prefix, group in WRITING_FILES:
         path = Path(root) / rel
         if not path.exists():
@@ -297,16 +362,23 @@ def writing_prompts(root):
             rest = [l for l in pre.splitlines() if l.strip() and not l.startswith('**')]
             text = _plain('\n'.join(re.sub(r'^> ?', '', l) for l in rest))
             bullets = [re.split(r' \u2014 ', re.sub(r'^- ', '', l))[0].replace('**', '') for l in rest if l.startswith('- ')]
-            model = model.partition('\n')[2].strip()
+            model = model.partition('\n')[2]
+            model, _, why = model.partition('### Uitleg')
+            model = model.replace('\n---', '').strip()
+            notes = [dict(zip(('label', 'nl', 'note'), re.split(r' \u2014 ', re.sub(r'^- ', '', l), maxsplit=2)))
+                     for l in why.splitlines() if l.startswith('- ')]
+            notes = [{k: v.replace('*', '').replace('\\', '') for k, v in n.items()} for n in notes]
             nl, _, en = model.partition('English:')
             low = (title + pre).lower()
             theme = next((t for k, t in THEME_HINTS if k in low), '')
-            prompts.append({'id': prefix + num.strip(), 'group': group, 'title': title.strip(), 'instr': instr,
+            pid = prefix + num.strip()
+            kind = cheat['types'].get(TASK_TYPES.get(pid, ''))
+            prompts.append({'id': pid, 'type': kind, 'extra': type_checks(kind, int(m.group(2)) if m else 0, cheat), 'group': group, 'title': title.strip(), 'instr': instr,
                             'min': int(m.group(2)) if m else 0, 'exact': bool(m and m.group(1) == 'in'),
                             'text': text.strip(), 'skeleton': skeleton, 'bullets': bullets,
                             'questions': [l.strip() for l in text.splitlines() if l.strip().endswith('?')],
                             'photo': 'foto' in low, 'theme': theme,
-                            'model': {'nl': nl.strip(), 'en': en.strip()}})
+                            'model': {'nl': nl.strip(), 'en': en.strip(), 'notes': notes}})
     return prompts
 
 
@@ -316,7 +388,7 @@ def render(rows, root):
     data = {'cards': vocab_cards(rows) + verb_cards(rows, rules) + grammar_cards(Path(root)),
             'cloze': cloze_cards(rows), 'dehet': dehet, 'aux': aux,
             'adj': adjective_cards(rows, rules), 'quiz': quiz_items(root),
-            'writing': writing_prompts(root)}
+            'writing': writing_prompts(root), 'phrases': phrase_cards(root)}
     blob = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
     template = (Path(__file__).resolve().parent / 'flashcards_template.html').read_text(encoding='utf-8')
     return template.replace('__DATA__', blob)

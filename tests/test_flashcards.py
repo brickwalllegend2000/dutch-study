@@ -158,6 +158,57 @@ class FlashcardTests(unittest.TestCase):
         self.assertEqual(html, '<p class="pat"><b>Subject + verb.</b></p><ul><li class="ex"><b>Ik ga.</b> — I go.</li>'
                                '<li>plain item</li></ul><p><b>Used in</b></p>')
 
+    def test_cheatsheet_tables_parse(self):
+        c = flashcards.cheatsheet(ROOT)
+        self.assertEqual(len(c['types']), 7)
+        self.assertTrue(all(t['steps'] for t in c['types'].values()))
+        self.assertEqual(len(c['spelling']), 5)
+        self.assertEqual(len(c['final']), 5)
+        self.assertGreaterEqual(len(c['bank']), 11)
+        self.assertEqual(c['types']['Formulier']['phrases'], [])
+        self.assertIn('met vriendelijke groeten,', c['types']['Briefje, formeel']['phrases'])
+
+    def test_every_task_type_exists_and_four_tasks_have_none(self):
+        types = flashcards.cheatsheet(ROOT)['types']
+        for tid, name in flashcards.TASK_TYPES.items():
+            self.assertIn(name, types, tid)
+        prompts = data()['writing']
+        self.assertEqual({p['id'] for p in prompts if not p['type']}, {'W1', 'W3', 'W4', 'W5'})
+        self.assertEqual(len([p for p in prompts if p['type']]), 11)
+
+    def test_checklists_add_type_items_after_the_generic_ones(self):
+        by_id = {p['id']: p for p in data()['writing']}
+        self.assertEqual(by_id['W1']['extra'], [])
+        form = by_id['E1']['extra']
+        self.assertTrue(form[0].startswith('Followed the structure'))
+        self.assertTrue(any('Postcode' in x for x in form))
+        self.assertFalse(any('minimum number' in x for x in form))
+        self.assertTrue(any('minimum number' in x for x in by_id['W2']['extra']))
+        self.assertFalse(any('Postcode' in x for x in by_id['W2']['extra']))
+
+    def test_phrase_deck_accepts_slash_alternatives_without_slashes(self):
+        cards = data()['phrases']
+        self.assertEqual(len(cards), len(flashcards.cheatsheet(ROOT)['bank']))
+        self.assertEqual(len({c['id'] for c in cards}), len(cards))
+        by_nl = {c['nl']: c for c in cards}
+        self.assertEqual(len(by_nl['Tot snel / straks / morgen / vanavond.']['ans']), 4)
+        self.assertIn('Bedankt voor uw e-mail.', by_nl['Bedankt voor je/uw e-mail.']['ans'])
+        for c in cards:
+            self.assertFalse(any('/' in a for a in c['ans']), c['id'])
+            self.assertEqual(c['origin'], 'imported')
+
+    def test_trial_explanations_cover_each_model_sentence_and_stay_apart(self):
+        by_id = {p['id']: p for p in data()['writing']}
+        self.assertEqual({k for k, p in by_id.items() if p['model']['notes']}, {'E2', 'E9'})
+        for tid in ('E2', 'E9'):
+            m = by_id[tid]['model']
+            self.assertNotIn('---', m['en'])
+            self.assertNotIn('Uitleg', m['nl'] + m['en'])
+            for n in m['notes']:
+                self.assertTrue(n['label'] and n['nl'] and n['note'], n)
+                self.assertNotIn('*', n['nl'] + n['note'])
+                self.assertIn(n['nl'].split(' ')[0].rstrip(',.!?'), m['nl'], n)
+
     def test_generated_page_is_current(self):
         page = (ROOT / 'views/vocabulary/flashcards.html').read_text(encoding='utf-8')
         self.assertEqual(page, flashcards.render(library.read_rows(), ROOT))

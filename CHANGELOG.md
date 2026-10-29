@@ -2,6 +2,14 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-29 — Exam cheat sheet and writing-page help (`task/exam-cheatsheet`)
+
+- Imported the learner's Notion cheat sheet as [course/exams/schrijven-spiekbriefje.md](course/exams/schrijven-spiekbriefje.md) (structure per text type, 11 fixed phrases, formulas, spelling rules, final checks); marked imported and needs-review, linked from the exams README, course README and oefenexamen.
+- `scripts/flashcards.py` now parses that page. 11 of the 15 writing tasks get a text type (the photo and advice tasks get none), a per-type checklist (appended after the old items so saved ticks keep their place; forms add the five spelling rules) and fixed-phrase chips. New "Fixed phrases" deck from the phrase bank (slash alternatives spelled out; cards labelled imported, needs-review).
+- Trial "Why this works" explanations for Examen 2 and 9 (AI-written, needs-review, kept apart from the model answers). Also fixed a stray `---` that showed at the end of the English model translation for tasks 1–8 of the exam.
+- Practice page defaults to session size All and the writing word bank no longer stops at 40 words.
+- 53 tests pass, validation clean (520 vocabulary records).
+
 ## 2026-10-29 — Practice page redesign (`task/practice-page-visuals`)
 
 - Redesigned `views/vocabulary/flashcards.html` (via `scripts/flashcards_template.html`) for phone first, laptop second: home screen with due and new counts per deck, settings drawer (left panel on laptop), progress bar, sticky action bar, de/het and heeft/is colour tokens, answer feedback with a letter diff, session summary with "Practise the missed ones", grammar cards with pattern and example styling, labelled fields for form and letter writing tasks, light/dark toggle, mastery bars by topic and a 14-day practice strip.
