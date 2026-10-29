@@ -13,6 +13,9 @@ import sys
 import unicodedata
 from urllib.parse import unquote
 
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+import flashcards
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_CSV = 'data/vocabulary.csv'
 GRAMMAR_DIR = 'data/grammar'
@@ -187,6 +190,7 @@ def rendered(root=ROOT):
     pages[f'{VIEWS}/IRREGULAR-VERBS.md']='# Irregular verbs\n\n'+listing([r for r in rows if 'Irregular verbs' in r['categories'].split(';')], verb_cols)
     pages[f'{VIEWS}/PERFECTUM-STUDY-LIST.md']='# Perfectum study list — 80 verbs\n\n[Source transcription and usage notes](../../sources/pages/401f89e5e0fc80f29352c76d2b8204b7.md)\n\n'+listing([r for r in rows if 'Perfectum study list' in r['categories'].split(';')], verb_cols)
     pages[f'{VIEWS}/NEEDS-REVIEW.md']='# Vocabulary needing review\n\n'+listing([r for r in rows if r['review_status']=='needs-review'])
+    pages[f'{VIEWS}/flashcards.html']=flashcards.render(rows,root)
     for n in range(1,9):
         pages[f'{VIEWS}/CHAPTER-{n:02}.md']=f'# Chapter {n} vocabulary\n\n[Chapter {n} guide](../../course/chapter-{n:02}.md) · [All vocabulary](VOCABULARY.md)\n\n'+listing([r for r in rows if str(n) in r['chapters'].split(';')])
     return pages

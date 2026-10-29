@@ -15,7 +15,7 @@ Canonical Dutch study library on GitHub. Study and maintain it here first (brows
 
 - [Study home](journal/my-study-view.md)
 - [Course and wiki view](course/view.md)
-- [Vocabulary](views/vocabulary/VOCABULARY.md) · [Perfectum study list](views/vocabulary/PERFECTUM-STUDY-LIST.md) · [Needs review](views/vocabulary/NEEDS-REVIEW.md)
+- [Flashcards (open in a browser)](views/vocabulary/flashcards.html) · [Vocabulary](views/vocabulary/VOCABULARY.md) · [Perfectum study list](views/vocabulary/PERFECTUM-STUDY-LIST.md) · [Needs review](views/vocabulary/NEEDS-REVIEW.md)
 - [Grammar](data/grammar/README.md) · [Chapters](course/README.md) · [Oral track](course/oral/README.md)
 - [Exam preparation](course/exams/exam-preparation.md) · [Practice tests](course/exams/README.md)
 - [Review sheets](course/review/README.md) · [Cheat sheets](wiki/cheat-sheets/README.md)
