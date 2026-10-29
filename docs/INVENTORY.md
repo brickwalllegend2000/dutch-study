@@ -2,7 +2,7 @@
 
 Generated for maintenance truthfulness. Prefer these figures over historical counts in [MIGRATION.md](MIGRATION.md) or [START-HERE.md](../START-HERE.md). Orientation and diagrams: [OVERVIEW.md](OVERVIEW.md).
 
-**As of:** 2026-10-23 (post starter-issue closure and overview handoff). Re-run the commands below after substantial imports.
+**As of:** 2026-10-29 (practice page, writing material and quiz added; vocabulary counts unchanged). Re-run the commands below after substantial imports.
 
 ## How to refresh
 

@@ -2,6 +2,13 @@
 
 Dated record of merged changes to the library, newest first. Each entry names the source branch.
 
+## 2026-10-29 — Practice page, writing tasks and practice exam (`task/refactor-views-layer-split`)
+
+- Added `views/vocabulary/flashcards.html`, a generated offline practice page (`scripts/flashcards.py` + `scripts/flashcards_template.html`, written by `build`). Decks: vocabulary (by word type, chapter, theme; either direction), fill-the-gap from example sentences, perfectum, imperfectum (19 verbs with simple present/past pairs in the CSV), grammar rules, drills (de/het, heeft/is, adjective with/without -e) and a grammar quiz. Typed answers, Leitner-style spaced repetition in browser localStorage, export/import of progress.
+- Added `data/grammar-quiz.json` (47 AI-drafted practice questions; `origin` labels course / constructed † / external; documented in `docs/DATA-SCHEMA.md`).
+- Added writing practice: [course/exercises/schrijfopdrachten.md](course/exercises/schrijfopdrachten.md) (6 tasks) and [course/exams/schrijven-oefenexamen.md](course/exams/schrijven-oefenexamen.md) (9 tasks), both with AI-written model answers and English translations, status needs-review. Tasks link to the matching chapters.
+- Added `CLAUDE.md` and `tests/test_flashcards.py`; 39 tests pass, validation clean (520 vocabulary records).
+
 ## 2026-10-23 — Reorganize generated vocabulary views to views/ (`task/refactor-views-layer-split`)
 
 - Moved `wiki/vocabulary/` → `views/vocabulary/` with `git mv` so `wiki/` contains only authored summaries and cheat sheets.
