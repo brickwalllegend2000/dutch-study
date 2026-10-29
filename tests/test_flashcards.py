@@ -56,6 +56,16 @@ console.log(JSON.stringify(log))""")
                                'right', 0, 'idle', 2, 2])
 
 
+    def test_letter_diff_marks_the_differing_letters(self):
+        cases = [['gegeeten', 'gegeten'], ['gegetn', 'gegeten'], ['gegaten', 'gegeten'],
+                 ['Gegeten', 'gegeten'], ['', 'is'], ['heeft gegeten', 'gegeten']]
+        out = node(js('letterDiff') + f"""
+const marks=p=>p.map(([c,ok])=>ok?c:'['+c+']').join('');
+console.log(JSON.stringify({json.dumps(cases)}.map(([a,b])=>{{const d=letterDiff(a,b);return [marks(d.typed),marks(d.answer)]}})))""")
+        self.assertEqual(out, [['gege[e]ten', 'gegeten'], ['gegetn', 'geget[e]n'], ['geg[a]ten', 'geg[e]ten'],
+                               ['Gegeten', 'gegeten'], ['', '[i][s]'], ['[h][e][e][f][t][ ]gegeten', 'gegeten']])
+
+
 class FlashcardTests(unittest.TestCase):
     def test_every_deck_is_present(self):
         d = data()
