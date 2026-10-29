@@ -1,6 +1,6 @@
 # Schrijven NT2 — A2: schrijfopdrachten
 
-> **Review status: needs-review.** The tasks are the learner-supplied writing exercises (original screenshot order). The model answers (*voorbeeldantwoord*) and their English translations are AI-written practice material, not course transcriptions and not teacher-checked. They deliberately recycle vocabulary from [data/vocabulary.csv](../../data/vocabulary.csv). The English glosses are added for study. Practice exam: [Schrijven A2: oefenexamen](../exams/schrijven-oefenexamen.md).
+> **Review status: needs-review.** The tasks are the learner-supplied writing exercises (original screenshot order). The model answers (*voorbeeldantwoord*) and their English translations are AI-written practice material, not course transcriptions and not teacher-checked. The chapter links in each *Verband* line were matched by grammar topic to the chapter list in the NT2 course guide (the chapter titles in the original handout did not match the library's chapters). They deliberately recycle vocabulary from [data/vocabulary.csv](../../data/vocabulary.csv). The English glosses are added for study. Practice exam: [Schrijven A2: oefenexamen](../exams/schrijven-oefenexamen.md).
 
 Zes schrijfopdrachten in de volgorde van de originele screenshots. Elke oefening vermeldt het hoofdstuk of de taken en de grammatica die je nodig hebt. Schrijf eerst je eigen antwoord; open daarna pas het voorbeeldantwoord.
 
@@ -18,7 +18,7 @@ Practise these in the [flashcard page](../../views/vocabulary/flashcards.html) (
 
 *Foto: een persoon met een groen-witte muts, een lichtblauwe spijkerjas, een rode paraplu en een bruine handtas, op een witte achtergrond.*
 
-**Verband:** H3: Hebt u een maat groter? — kleding benoemen · het adjectief met/zonder -e · kleuren en materialen
+**Verband:** [Chapter 1](../chapter-01.md) — kleding benoemen · het adjectief met/zonder -e · kleuren en materialen
 
 ### Voorbeeldantwoord (open pas na je eigen poging)
 
@@ -49,7 +49,7 @@ English: In the photo I see a person against a white background. The person is w
 > Groetjes
 > Kim
 
-**Verband:** H4: Mijn favoriete transportmiddel — transportmiddelen · *want* en *omdat* · het perfectum
+**Verband:** [Chapter 2](../chapter-02.md) · [Chapter 4](../chapter-04.md) · [Chapter 6](../chapter-06.md) — het perfectum (2) · *want* (4) · *omdat* (6) · vrije tijd en vervoer
 
 ### Voorbeeldantwoord (open pas na je eigen poging)
 
@@ -76,7 +76,7 @@ English: Hello Kim, thanks for your email! I love the sea too, because the coast
 
 Ik heb ruzie met mijn vriend. Wat moet ik doen?
 
-**Verband:** H6: Kan ik de afspraak verzetten? — *moeten/kunnen* + infinitief · advies geven
+**Verband:** [Chapter 3](../chapter-03.md) — *moeten/kunnen* + infinitief · advies geven
 
 ### Voorbeeldantwoord (open pas na je eigen poging)
 
@@ -96,7 +96,7 @@ English: That's a shame! You must talk calmly with your friend, because talking 
 
 Ik kan niet slapen. Wat moet ik doen?
 
-**Verband:** H6: Kan ik de afspraak verzetten? — *moeten/kunnen* + infinitief · *want/omdat* · negatie met *geen*
+**Verband:** [Chapter 3](../chapter-03.md) · [Chapter 4](../chapter-04.md) · [Chapter 6](../chapter-06.md) — *moeten/kunnen* + infinitief (3) · *want* en negatie met *geen* (4) · *omdat* (6)
 
 ### Voorbeeldantwoord (open pas na je eigen poging)
 
@@ -114,7 +114,7 @@ English: That's no fun! You must go to bed at the same time every day. Don't dri
 
 *Foto: een kleurrijke woonkamer/eetkamer met blauwe muren, een blauwe sofa, een paarse ronde tafel met houten stoelen, een houten koffietafel met bloemen en een raam met oranje gordijnen.*
 
-**Verband:** H5: Waar moet ik de lamp zetten? — woning beschrijven · *er*-constructie · staan/liggen/hangen · preposities · materialen
+**Verband:** [Chapter 4](../chapter-04.md) · [Chapter 5](../chapter-05.md) — woning beschrijven · *er*-constructie · staan/liggen/hangen · preposities · materialen
 
 ### Voorbeeldantwoord (open pas na je eigen poging)
 
@@ -145,7 +145,7 @@ English: In the photo I see a beautiful, cosy living room. The walls of the room
 > Groetjes
 > Maria
 
-**Verband:** H6: Kan ik de afspraak verzetten? — *want/omdat* · *moeten* + infinitief · je mening zeggen
+**Verband:** [Chapter 3](../chapter-03.md) · [Chapter 4](../chapter-04.md) · [Chapter 6](../chapter-06.md) — *moeten* + infinitief (3) · *want* (4) · *omdat* (6) · je mening zeggen
 
 ### Voorbeeldantwoord (open pas na je eigen poging)
 
