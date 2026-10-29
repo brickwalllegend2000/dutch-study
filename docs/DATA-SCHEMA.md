@@ -57,3 +57,7 @@ Personal answers belong in study notes, separate from canonical rules. Study tem
 ## Grammar quiz items
 
 [`data/grammar-quiz.json`](../data/grammar-quiz.json) holds authored practice questions for the flashcard page. Each item has `id` (`GQ-NNN`), `note` (path of the grammar note it practises, or `imperfectum`), `question`, `choices`, `answer` (index), `why`, `origin` and `review_status`. `origin` is `course` (restates a rule or example from the note), `constructed` (new example, shown with †), `course-forms` (verb form from the CSV, explained with an external rule) or `external` (standard Dutch the course does not teach; hidden unless unreviewed items are included). Items are AI-drafted and stay `needs-review` until checked.
+
+## Practice page concepts (generated)
+
+`scripts/flashcards.py` adds a `concept` field, `{topic, rule, path}`, to perfectum, heeft/is, adjective, de/het and quiz cards in the generated practice page. `rule` is quoted from the grammar note at `path` (adjective drills from the Rule section of the adjective note, perfectum and heeft/is from the perfectum note) or is the quiz item's `why`. de/het cards have `rule` and `path` set to null because the course notes give no rule; the page says to learn the article with the noun. Learner notes on cards are stored in the browser under `dutchstudy-notes-v1` and are personal, not course facts.
