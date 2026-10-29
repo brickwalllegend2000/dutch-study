@@ -109,6 +109,40 @@ class FlashcardTests(unittest.TestCase):
             if q['note'] != 'imperfectum':
                 self.assertTrue((ROOT / q['note']).exists(), q['id'])
 
+    def test_concept_rules_are_quoted_from_their_note(self):
+        d = data()
+        drills = [c for c in d['cards'] if c['k'] == 'perfectum'] + d['aux'] + d['adj'] + d['quiz']
+        notes = {}
+        for item in drills:
+            c = item['concept']
+            if c['path'] is None:
+                self.assertEqual(item.get('note'), 'imperfectum')
+                continue
+            if c['path'] not in notes:
+                text = (ROOT / c['path']).read_text(encoding='utf-8')
+                notes[c['path']] = ' '.join(flashcards.plain(l) for l in text.splitlines())
+            self.assertIn(c['rule'], notes[c['path']] if 'why' not in item else item['why'])
+            self.assertTrue(c['topic'])
+        quiz_paths = {q['concept']['path'] for q in d['quiz']}
+        self.assertTrue(all(p is None or (ROOT / p).exists() for p in quiz_paths))
+
+    def test_adjective_concept_matches_the_frame(self):
+        for c in data()['adj']:
+            rule = c['concept']['rule']
+            if c['never']:
+                expected = 'c. eindigend op -e' if c['adj'].endswith('e') else ('a. eindigend op -en', 'b. materiaal')
+            elif c['f'].endswith('___.'):
+                expected = 'a. Na het substantief'
+            elif c['f'].startswith('Een'):
+                expected = 'de-woord' if c['e'] else 'het-woord'
+            else:
+                expected = 'de-woord' if c['f'].startswith('De') else 'het-woord'
+            self.assertTrue(rule.startswith(expected), (c['f'], rule))
+
+    def test_article_drill_admits_there_is_no_rule(self):
+        for c in data()['dehet']:
+            self.assertEqual(c['concept'], {'topic': 'de or het', 'rule': None, 'path': None})
+
     def test_markdown_is_escaped(self):
         self.assertEqual(flashcards.md_to_html('- <b>x</b> **y**'), '<ul><li>&lt;b&gt;x&lt;/b&gt; <b>y</b></li></ul>')
 

@@ -45,6 +45,10 @@ button{cursor:pointer}button:disabled{opacity:.4}
 .answer{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:8px 12px;margin:6px 0;font-weight:600}
 .cmp{display:grid;gap:4px;margin:6px 0;text-align:left;font-size:18px}.cmp .k{display:inline-block;min-width:6.5em;font-size:13px;color:var(--mut)}.cmp .w{font-family:ui-monospace,Menlo,monospace}
 .dx{color:var(--no);text-decoration:line-through 2px}.dm{color:var(--ok);text-decoration:underline 2px;font-weight:700}
+.why{width:100%;text-align:left;background:var(--card);border-left:4px solid var(--ac);border-radius:8px;padding:8px 12px;margin:8px 0}.why a{color:inherit}
+.mine{width:100%;text-align:left;margin-top:8px;font-size:15px}.mine .k,.cmp .k{font-size:13px;color:var(--mut);margin-right:6px}
+.notebox{display:flex;gap:8px;margin-top:8px}.notebox input{flex:1}.notebox button{font-size:14px}
+#log h3{font-size:16px;margin:14px 0 4px}#log ul{padding-left:18px;margin:0}#log li{margin:4px 0}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .actions{position:fixed;left:0;right:0;bottom:0;z-index:5;display:flex;gap:8px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--bd)}
 .actions:empty{display:none}.actions button{flex:1;min-height:48px;font-size:17px}
@@ -88,13 +92,15 @@ button{cursor:pointer}button:disabled{opacity:.4}
   <label>Order<select id="ord"><option value="r">Shuffled</option><option value="o">In order</option></select></label>
   <label class="full" style="flex-direction:row;align-items:center;gap:6px"><input type="checkbox" id="nr" style="min-height:0"> Include items not yet linguistically reviewed</label>
  </div>
- <div class="row"><button id="exp">Export progress</button><button id="imp">Import progress</button><button id="rst">Reset progress</button></div>
+ <div class="row"><button id="logb">Mistake log</button></div>
+ <div class="row" style="margin-top:8px"><button id="exp">Export progress</button><button id="imp">Import progress</button><button id="rst">Reset progress</button></div>
  <input type="file" id="file" class="hide" accept="application/json">
  <p class="tiny">Progress (spaced repetition) is stored in this browser only. Facts come from data/vocabulary.csv, data/grammar/ and data/grammar-quiz.json. Items marked † are constructed examples.</p>
 </aside>
 <section id="trainer">
  <div class="prog"><div class="track"><div id="pbar"></div></div><span id="pnum"></span></div>
  <div class="card" id="card"></div>
+ <div class="notebox" id="notebox"></div>
  <p class="stats" id="stats"></p>
 </section>
 <section id="writing" class="hide">
@@ -111,6 +117,7 @@ button{cursor:pointer}button:disabled{opacity:.4}
  <div class="bar"><button id="wcopy">Copy as journal note</button><button id="wdl">Download .md</button><button id="wclear">Clear</button></div>
  <p class="tiny">Drafts are saved in this browser. Save the note under journal/ and ask for corrections; your answers stay personal and are not course facts.</p>
 </section>
+<section id="log" class="hide"><h2 class="mid">Mistake log</h2><p class="tiny">Most-missed cards by topic, from the progress in this browser. Download it as a journal note; it is personal, not course facts.</p><div id="loglist"></div></section>
 <p class="keys">Space flip / next · ← again · → got it · Enter check</p>
 </main>
 <div class="actions" id="bar"></div>
@@ -118,12 +125,12 @@ button{cursor:pointer}button:disabled{opacity:.4}
 const D=__DATA__;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const KEY='dutchstudy-srs-v1',WKEY='dutchstudy-writing-v1',SKEY='dutchstudy-settings-v1',STEPS=[0,1,2,4,8,16,32];
+const KEY='dutchstudy-srs-v1',WKEY='dutchstudy-writing-v1',NKEY='dutchstudy-notes-v1',SKEY='dutchstudy-settings-v1',STEPS=[0,1,2,4,8,16,32];
 const today=Math.floor((Date.now()-new Date().getTimezoneOffset()*6e4)/864e5);
 const load=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return {}}};
 const store=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
-let P=load(KEY),W=load(WKEY);
-const save=()=>store(KEY,P),saveW=()=>store(WKEY,W);
+let P=load(KEY),W=load(WKEY),N=load(NKEY);
+const save=()=>store(KEY,P),saveW=()=>store(WKEY,W),saveN=()=>store(NKEY,N);
 function grade(key,ok){const e=P[key]||{b:0,n:0,m:0};e.n++;if(ok)e.b=Math.min(e.b+1,6);else{e.b=0;e.m++}e.due=today+STEPS[e.b];P[key]=e;save()}
 const isDue=k=>P[k]&&P[k].due<=today,isNew=k=>!P[k],isWeak=k=>P[k]&&P[k].m>0&&P[k].b<=1;
 const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 \-]/g,' ').replace(/\s+/g,' ').trim().replace(/^(de|het|een) /,'');
@@ -174,7 +181,7 @@ const KINDS={
   make:c=>choiceCard('J:'+c.id,'adjective',`<div class="mid">${gap(c.f)}</div><div class="gl">adjective: ${esc(c.adj)} †</div>`,['no -e','+ -e'],c.e?1:0,esc(c.full+(c.never?' (never takes -e)':'')))},
  quiz:{label:'Grammar quiz',src:()=>D.quiz,filters:()=>one().concat([...new Set(D.quiz.map(q=>q.topic))].sort().map(t=>[t,t])),tags:q=>[q.topic],
   make(q){const tag={external:'external explanation, not from the course',constructed:'constructed example †','course-forms':'verb form from the course vocabulary; the rule is an external explanation'}[q.origin]||'AI-drafted practice item restating a rule from the course note';
-   return choiceCard('Q:'+q.id,'quiz',`<div class="mid">${gap(q.question)}</div><div class="tiny">${esc(q.topic)}</div>`,q.choices,q.answer,esc(q.why),tag,q.origin==='external'?'needs-review':'reviewed')}}
+   return choiceCard('Q:'+q.id,'quiz',`<div class="mid">${gap(q.question)}</div><div class="tiny">${esc(q.topic)}</div>`,q.choices,q.answer,esc(q.choices[q.answer]),tag,q.origin==='external'?'needs-review':'reviewed')}}
 };
 function choiceCard(key,label,front,choices,answer,why,tag,r){return {key,label,front,choices,answer,why,tag,r:r||'reviewed'}}
 function vocabFilters(){
@@ -205,12 +212,13 @@ function dispatch(a){
  if(a.type==='override'&&S.status==='answered'&&S.result==='wrong'){if(S.prev)P[c.key]=S.prev;else delete P[c.key];grade(c.key,true)}
  S=reduce(S,a);draw();
 }
+function toCard(k,c,o){const K=KINDS[k],card=K.make(c,o);card.kind=k;card.concept=c.concept||null;card.ref=c.src||(/^(VOC|GQ)-/.test(c.id)?c.id:'');
+ card.input=card.choices?'choice':card.ans&&K.typable&&o.ans==='type'?'typed':'flip';return card}
 const opts=()=>({dir:$('dir').value,ans:$('ans').value});
 const unreviewed=c=>c.origin?c.origin==='external':(c.r==='needs-review');
 function build(){
  const K=KINDS[kind],flt=$('filter').value,nr=$('nr').checked,which=$('which').value,o=opts();
- pool=K.src().filter(c=>(nr||!unreviewed(c))&&(!flt||flt==='#'||K.tags(c).includes(flt))).map(c=>{
-  const card=K.make(c,o);card.input=card.choices?'choice':card.ans&&K.typable&&o.ans==='type'?'typed':'flip';return card});
+ pool=K.src().filter(c=>(nr||!unreviewed(c))&&(!flt||flt==='#'||K.tags(c).includes(flt))).map(c=>toCard(kind,c,o));
  const list=pool.filter(c=>which==='all'||(which==='weak'?isWeak(c.key):(isDue(c.key)||isNew(c.key))));
  if(which==='study')list.sort((a,b)=>(isDue(b.key)?1:0)-(isDue(a.key)?1:0));
  if($('ord').value==='r'){const due=list.filter(c=>isDue(c.key)),rest=list.filter(c=>!isDue(c.key));[due,rest].forEach(a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}});list.splice(0,list.length,...due,...rest)}
@@ -223,7 +231,7 @@ function summary(){
 }
 function bar(buttons){$('bar').innerHTML=buttons.map(([id,cls,t])=>`<button id="${id}" class="${cls}">${t}</button>`).join('')}
 function draw(){
- const card=$('card'),c=S.cur;card.className='card';card.onclick=null;bar([]);
+ const card=$('card'),c=S.cur;card.className='card';card.onclick=null;bar([]);noteBox(c);
  summary();$('stats').textContent=counts();
  $('pnum').textContent=S.total?`${S.done} / ${S.total}`:'';$('pbar').style.width=S.total?S.done/S.total*100+'%':'0';
  if(!c){card.innerHTML=S.total?`<div class="big">Session done</div><div class="sub">${S.total-S.missed.length} right · ${S.missed.length} missed first time</div>`:'<div class="sub">Nothing to practise here (no due or new cards). Try “All” or another filter in Settings.</div>';
@@ -232,7 +240,7 @@ function draw(){
  if(c.input==='choice'){
   const st=i=>!done?'':i===c.answer?'right':i===S.choice?'wrong':'';
   let h=lab+c.front+'<div class="choices">'+c.choices.map((x,i)=>`<button data-i="${i}" class="${TOK.has(x)?'t-'+x:''} ${st(i)}" ${done?'disabled':''}>${st(i)==='right'?'✓ ':st(i)==='wrong'?'✗ ':''}${esc(x)}${st(i)==='right'?' <span class="sr">(right answer)</span>':st(i)==='wrong'?' <span class="sr">(your answer)</span>':''}</button>`).join('')+'</div>';
-  if(done){card.classList.add(ok?'good':'bad');h+=verdict(ok)+`<div class="answer">${c.why}</div>${c.tag?`<div class="tiny">${esc(c.tag)}</div>`:''}${flag(c.r)}`}
+  if(done){card.classList.add(ok?'good':'bad');h+=verdict(ok)+`<div class="answer">${c.why}</div>`+why(c,ok)+mine(c)+`${c.tag?`<div class="tiny">${esc(c.tag)}</div>`:''}${flag(c.r)}`}
   card.innerHTML=h;card.querySelectorAll('.choices button').forEach(b=>b.onclick=()=>dispatch({type:'answer',choice:+b.dataset.i,ok:+b.dataset.i===c.answer}));
   if(done)answered();return}
  if(c.input==='typed'){
@@ -242,12 +250,37 @@ function draw(){
   let fb=verdict(ok);
   if(!ok&&S.input.trim()){const [best,d]=closest(S.input.trim(),c.ans);fb+=`<div class="cmp"><div><span class="k">You typed</span> <span class="w">${diffHtml(d.typed,'dx')}</span></div><div><span class="k">Answer</span> <span class="w">${diffHtml(d.answer,'dm')}</span></div></div>`}
   else if(!ok)fb+=`<div class="answer">${esc(c.ans[0])}</div>`;
-  card.classList.add('backside',ok?'good':'bad');card.innerHTML=lab+fb+c.back;answered();return}
+  card.classList.add('backside',ok?'good':'bad');card.innerHTML=lab+fb+why(c,ok)+c.back+mine(c);answered();return}
  card.classList.add('flip');
  if(S.status==='asking'){card.innerHTML=lab+c.front+'<div class="tiny">tap to flip</div>';card.onclick=()=>dispatch({type:'reveal'});bar([['fl','pri','Flip']]);$('fl').onclick=card.onclick;return}
- card.classList.add('backside','turn');card.innerHTML=lab+c.back;bar([['ag','no','Again'],['gt','ok','Got it']]);
+ card.classList.add('backside','turn');card.innerHTML=lab+c.back+mine(c);bar([['ag','no','Again'],['gt','ok','Got it']]);
  $('ag').onclick=()=>selfGrade(false);$('gt').onclick=()=>selfGrade(true);
 }
+const text=h=>{const d=document.createElement('div');d.innerHTML=h;return d.textContent.replace(/\s+/g,' ').trim()};
+const promptOf=c=>{const d=document.createElement('div');d.innerHTML=c.front.replace(/<span class="gap"[^>]*><\/span>/g,'___');return text(d.firstElementChild.innerHTML)};
+function answerOf(c){if(c.choices)return c.choices[c.answer];if(c.ans)return c.ans[0];const d=document.createElement('div');d.innerHTML=c.back;return text((d.querySelector('.gl')||d.firstElementChild||d).innerHTML)}
+function sourceOf(c,base){const k=c.concept,path=k&&k.path||(c.ref.endsWith('.md')?c.ref:'');
+ return {path,topic:k?k.topic:KINDS[c.kind].label,id:c.ref.endsWith('.md')?'':c.ref,link:path?`<a href="${base}${path}">${esc(k?k.topic:path)}</a>`:''}}
+function why(c,ok){const k=c.concept;if(ok&&!(k&&k.rule))return '';
+ const rule=k&&k.rule?esc(k.rule):k?'No rule in the course notes: learn the article together with the noun. <span class="tiny">(page tip)</span>':'No grammar rule for this card; check the source entry.',s=sourceOf(c,'../../');
+ return `<div class="why"><b>Why</b> ${rule}<div class="tiny">${[s.link||(k?esc(k.topic):''),s.id].filter(Boolean).join(' · ')}</div></div>`}
+const mine=c=>N[c.key]?`<div class="mine"><span class="k">My note</span> ${esc(N[c.key])}</div>`:'';
+function noteBox(c,edit){const box=$('notebox');if(!c){box.innerHTML='';return}
+ if(!edit){box.innerHTML=`<button id="nb">${N[c.key]?'Edit my note':'My note'}</button>`;$('nb').onclick=()=>noteBox(c,true);return}
+ box.innerHTML=`<input id="ni" maxlength="200" placeholder="One-line trick or reminder (personal)" aria-label="My note"><button id="ns" class="pri">Save</button>`;
+ const ni=$('ni'),done=()=>{const v=ni.value.trim();if(v)N[c.key]=v;else delete N[c.key];saveN();S.status==='asking'?noteBox(c):draw()};
+ ni.value=N[c.key]||'';ni.focus();$('ns').onclick=done;ni.onkeydown=e=>{if(e.key==='Enter')done();if(e.key==='Escape')noteBox(c)}}
+function mistakes(){const o={dir:'nl',ans:'flip'},groups={};
+ Object.keys(KINDS).flatMap(k=>KINDS[k].src().map(c=>toCard(k,c,o))).filter(c=>P[c.key]&&P[c.key].m>0).sort((a,b)=>P[b.key].m-P[a.key].m)
+  .forEach(c=>{const t=sourceOf(c,'').topic;(groups[t]=groups[t]||[]).push(c)});
+ return Object.entries(groups).sort((a,b)=>P[b[1][0].key].m-P[a[1][0].key].m)}
+function showLog(){openSettings(false);const g=mistakes();$('kind').value='';$('trainer').classList.add('hide');$('writing').classList.add('hide');$('summary').classList.add('hide');$('log').classList.remove('hide');bar([['lback','','Back'],['lcopy','','Copy note'],['ldl','pri','Download .md']]);
+ $('loglist').innerHTML=g.length?g.map(([t,cs])=>{const s=sourceOf(cs[0],'../../');return `<h3>${esc(t)}${s.link?` <span class="tiny">${s.link}</span>`:''}</h3><ul>`+cs.map(c=>`<li><b>${esc(promptOf(c))}</b> → ${esc(answerOf(c))} <span class="tiny">missed ${P[c.key].m}× ${esc(sourceOf(c,'').id)}</span>${N[c.key]?`<div class="mine"><span class="k">My note</span> ${esc(N[c.key])}</div>`:''}</li>`).join('')+'</ul>'}).join(''):'<p class="sub">No missed cards yet.</p>';
+ $('lback').onclick=()=>{$('log').classList.add('hide');$('kind').value=kind;setKind()};
+ $('lcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(missedNote());$('ldl').onclick=()=>download(`${new Date().toISOString().slice(0,10)}-missed-cards.md`,missedNote(),'text/markdown')}
+function missedNote(){const day=new Date().toISOString().slice(0,10),g=mistakes(),ids=[...new Set(g.flatMap(([,cs])=>cs.map(c=>c.ref).filter(r=>r.startsWith('VOC-'))))];
+ return `---\ntype: study-session\ndate: ${day}\n`+(ids.length?'vocabulary_ids:\n'+ids.map(i=>'  - '+i).join('\n')+'\n':'')+`---\n# Missed practice cards ${day}\n\nExported from the practice page. Personal study note: my mistakes and my own notes, not course facts.\n\n`+
+  g.map(([t,cs])=>{const s=sourceOf(cs[0],'');return `## ${t}\n\n`+(s.path?`Grammar note: [${t}](../${s.path})\n\n`:'')+cs.map(c=>`- **${promptOf(c)}** → ${answerOf(c)} (missed ${P[c.key].m}×${sourceOf(c,'').id?', '+sourceOf(c,'').id:''})`+(N[c.key]?`\n  - My note: ${N[c.key]}`:'')).join('\n')}).join('\n\n')+'\n'}
 function selfGrade(ok){dispatch({type:'answer',ok});dispatch({type:'next'})}
 function answered(){
  bar((S.result==='right'?[]:[['ov','','I was right']]).concat([['nx','pri','Next']]));
@@ -266,6 +299,7 @@ function setKind(){
  build();
 }
 function openSettings(open){$('settings').hidden=!open;$('setb').setAttribute('aria-expanded',open);(open?$('setx'):$('setb')).focus()}
+$('logb').onclick=showLog;
 $('setb').onclick=()=>openSettings($('settings').hidden);$('setx').onclick=()=>openSettings(false);
 SET.concat(['filter','nr']).forEach(i=>$(i).onchange=build);$('kind').onchange=setKind;
 document.addEventListener('keydown',e=>{
@@ -274,10 +308,11 @@ document.addEventListener('keydown',e=>{
  if(e.key===' '){e.preventDefault();if(S.status==='asking')dispatch({type:'reveal'});else if(S.status==='answered')dispatch({type:'next'})}
  else if(S.status==='revealed'&&(e.key==='ArrowRight'||e.key==='ArrowLeft'))selfGrade(e.key==='ArrowRight');
 });
-$('exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify({srs:P,writing:W},null,1)],{type:'application/json'}));a.download='dutch-progress.json';a.click()};
+const download=(name,text,type)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click()};
+$('exp').onclick=()=>download('dutch-progress.json',JSON.stringify({srs:P,writing:W,notes:N},null,1),'application/json');
 $('imp').onclick=()=>$('file').click();
-$('file').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{const j=JSON.parse(t);P=j.srs||{};W=j.writing||{};save();saveW();setKind()}).catch(()=>alert('Not a progress file'))};
-$('rst').onclick=()=>{if(confirm('Delete all saved progress and writing drafts?')){P={};W={};save();saveW();setKind()}};
+$('file').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{const j=JSON.parse(t);P=j.srs||{};W=j.writing||{};N=j.notes||{};save();saveW();saveN();setKind()}).catch(()=>alert('Not a progress file'))};
+$('rst').onclick=()=>{if(confirm('Delete all saved progress, notes and writing drafts?')){P={};W={};N={};save();saveW();saveN();setKind()}};
 let wp=null;
 function sentences(t){return t.split(/[.!?]+(?:\s|$)/).filter(s=>s.trim().length>1).length}
 function showWriting(){
@@ -294,7 +329,7 @@ function showWriting(){
    m.innerHTML=`<b>Model answer</b> <span class="tiny">(AI-written practice text, not teacher-checked)</span>\n\n${esc(wp.model.nl)}\n\n<i>English:</i> ${esc(wp.model.en)}`;m.classList.remove('hide');$('wmodelbtn').textContent='Hide model answer'};
   $('wclear').onclick=()=>{if(confirm('Clear this draft?')){$('wtext').value='';delete W[wp.id];saveW();loadW()}};
   $('wcopy').onclick=()=>navigator.clipboard&&navigator.clipboard.writeText(note()).then(()=>{$('wcopy').textContent='Copied';setTimeout(()=>$('wcopy').textContent='Copy as journal note',1500)});
-  $('wdl').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([note()],{type:'text/markdown'}));a.download=`${new Date().toISOString().slice(0,10)}-schrijfopdracht-${wp.id.slice(1)}.md`;a.click()};
+  $('wdl').onclick=()=>download(`${new Date().toISOString().slice(0,10)}-schrijfopdracht-${wp.id.slice(1)}.md`,note(),'text/markdown');
  }
  loadW();
 }

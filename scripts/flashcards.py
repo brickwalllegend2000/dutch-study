@@ -2,6 +2,7 @@
 import html
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 
 SKIP_HEADINGS = ('sources', 'review note', 'try it', 'use it with', 'examples from the archive')
@@ -21,6 +22,10 @@ def word_group(row):
     if t.startswith(('subst', 'noun')) or row['article']:
         return 'Nouns'
     return 'Other'
+
+
+# The course notes give no de/het rule; the page says so instead of inventing one.
+NO_ARTICLE_RULE = {'topic': 'de or het', 'rule': None, 'path': None}
 
 
 def _inline(text):
@@ -58,6 +63,37 @@ def md_to_html(md):
     return ''.join(out)
 
 
+ADJ_NOTE = 'data/grammar/adjective-endings-with-or-without-e.md'
+PERF_NOTE = 'data/grammar/the-perfect-tense-perfectum.md'
+
+
+def plain(line):
+    return re.sub(r'^\s*[-*] |\*', '', line).strip()
+
+
+def note_rules(root):
+    """Rule wording quoted from the grammar notes, keyed by what a drill card tests."""
+    if not all((Path(root) / n).exists() for n in (ADJ_NOTE, PERF_NOTE)):
+        return defaultdict(type(None))
+
+    def note(rel):
+        text = (Path(root) / rel).read_text(encoding='utf-8')
+        return re.search(r'^# (.+)$', text, re.M).group(1).strip(), [plain(l) for l in text.splitlines()]
+
+    def line(lines, prefix):
+        return next(l for l in lines if l.startswith(prefix))
+
+    adj_title, adj = note(ADJ_NOTE)
+    perf_title, perf = note(PERF_NOTE)
+    a = lambda rule: {'topic': adj_title, 'rule': rule, 'path': ADJ_NOTE}
+    p = lambda rule: {'topic': perf_title, 'rule': rule, 'path': PERF_NOTE}
+    learn = re.search(r'Learn each verb together with its auxiliary and participle: [^.]*\.', ' '.join(perf)).group(0)
+    return {'after-zijn': a(line(adj, 'a. Na het substantief')), 'de': a(line(adj, 'de-woord of meervoud')),
+            'het': a(line(adj, 'het-woord →')), 'never-en': a(line(adj, 'a. eindigend op -en')),
+            'never-material': a(line(adj, 'b. materiaaladjectieven')), 'never-e': a(line(adj, 'c. eindigend op -e')),
+            'perfectum': p(line(perf, 'Subject + present tense')), 'aux': p(learn)}
+
+
 def grammar_cards(root):
     cards = []
     for path in sorted((root / 'data/grammar').glob('*.md')):
@@ -89,7 +125,7 @@ def grammar_cards(root):
     return cards
 
 
-def verb_cards(rows):
+def verb_cards(rows, rules):
     perfectum, imperfectum = [], []
     for r in rows:
         if not r['participle']:
@@ -100,7 +136,7 @@ def verb_cards(rows):
         auxs = [a for a, w in (('heeft', 'hebben heeft'), ('is', 'zijn is')) if any(x in raw.split() or x in raw.replace('/', ' ').replace(';', ' ').split() for x in w.split())]
         parts = [p.strip() for p in re.split(r'[;/,]', r['participle']) if p.strip()]
         perfectum.append({**base, 'k': 'perfectum', 'tags': [], 'f': r['dutch'],
-                          'ans': parts + [a + ' ' + p for a in auxs for p in parts],
+                          'ans': parts + [a + ' ' + p for a in auxs for p in parts], 'concept': rules['perfectum'],
                           'b': f"<b>{html.escape(aux)} {html.escape(r['participle'])}</b>"})
         forms = r['forms']
         # Only simple "present, past" pairs are safe to read as imperfectum.
@@ -150,19 +186,20 @@ def cloze_cards(rows):
     return cards
 
 
-def drill_cards(rows):
+def drill_cards(rows, rules):
     reviewed = [r for r in rows if r['review_status'] == 'reviewed']
     seen, dehet = set(), []
     for r in reviewed:
         w = r['dutch']
         if r['article'] in ('de', 'het') and w not in seen and ' ' not in w and '(' not in w:
             seen.add(w)
-            dehet.append({'id': r['id'], 'w': w, 'art': r['article'], 'en': r['english']})
+            dehet.append({'id': r['id'], 'w': w, 'art': r['article'], 'en': r['english'], 'concept': NO_ARTICLE_RULE})
     aux = []
     for r in reviewed:
         a = {'hebben': 'heeft', 'heeft': 'heeft', 'zijn': 'is', 'is': 'is'}.get(r['auxiliary'])
         if r['participle'] and a:
-            aux.append({'id': r['id'], 'w': r['dutch'], 'aux': a, 'part': r['participle'], 'en': r['english']})
+            aux.append({'id': r['id'], 'w': r['dutch'], 'aux': a, 'part': r['participle'], 'en': r['english'],
+                        'concept': rules['aux']})
     return dehet, aux
 
 
@@ -178,7 +215,7 @@ NEVER_E = ('effen', 'glazen', 'houten', 'ijzeren', 'katoenen', 'leren', 'stenen'
            'roze', 'oranje', 'beige', 'plastic')
 
 
-def adjective_cards(rows):
+def adjective_cards(rows, rules):
     import random
     rnd = random.Random(7)
     nouns = [r for r in rows if r['review_status'] == 'reviewed' and r['article'] in ('de', 'het')
@@ -189,6 +226,7 @@ def adjective_cards(rows):
         if adj not in present:
             continue
         never = adj in NEVER_E
+        never_rule = rules['never-e' if adj.endswith('e') else 'never-en' if adj == 'effen' else 'never-material']
         for n in rnd.sample(nouns, 3):
             art, noun = n['article'], n['dutch']
             infl = adj if never else ADJ_E[adj]
@@ -196,11 +234,12 @@ def adjective_cards(rows):
             frames = [(f'Een ___ {noun}', art == 'de' or never, f'Een {{a}} {noun}'),
                       (f'{art.capitalize()} ___ {noun}', True, f'{art.capitalize()} {{a}} {noun}'),
                       (f'{art.capitalize()} {noun} is ___.', False, f'{art.capitalize()} {noun} is {adj}.')]
-            for fr, with_e, full in frames:
+            for n_frame, (fr, with_e, full) in enumerate(frames):
                 if never:
                     with_e = False
                 cards.append({'id': f'{adj}-{noun}-{len(cards)}', 'adj': adj, 'f': fr, 'e': with_e,
-                              'full': full.format(a=infl if with_e else adj), 'never': never})
+                              'full': full.format(a=infl if with_e else adj), 'never': never,
+                              'concept': never_rule if never else rules['after-zijn' if n_frame == 2 else art]})
     rnd.shuffle(cards)
     return cards[:180]
 
@@ -217,6 +256,7 @@ def quiz_items(root):
             titles[p.relative_to(root).as_posix()] = m.group(1).strip()
     for it in items:
         it['topic'] = titles.get(it['note'], 'Imperfectum (past tense)' if it['note'] == 'imperfectum' else it['note'])
+        it['concept'] = {'topic': it['topic'], 'rule': it['why'], 'path': it['note'] if it['note'] in titles else None}
     return items
 
 
@@ -268,10 +308,11 @@ def writing_prompts(root):
 
 
 def render(rows, root):
-    dehet, aux = drill_cards(rows)
-    data = {'cards': vocab_cards(rows) + verb_cards(rows) + grammar_cards(Path(root)),
+    rules = note_rules(root)
+    dehet, aux = drill_cards(rows, rules)
+    data = {'cards': vocab_cards(rows) + verb_cards(rows, rules) + grammar_cards(Path(root)),
             'cloze': cloze_cards(rows), 'dehet': dehet, 'aux': aux,
-            'adj': adjective_cards(rows), 'quiz': quiz_items(root),
+            'adj': adjective_cards(rows, rules), 'quiz': quiz_items(root),
             'writing': writing_prompts(root)}
     blob = json.dumps(data, ensure_ascii=False).replace('</', '<\\/')
     template = (Path(__file__).resolve().parent / 'flashcards_template.html').read_text(encoding='utf-8')
